@@ -1,0 +1,39 @@
+Detailed Confidence Report
+========================
+
+Overall Transcription Confidence: 99.44%
+Total Segments: 10
+Minimum Confidence Threshold: 50.00%
+
+Segment-wise Confidence:
+----------------------
+Segment 1: 99.21%
+Text: As the stealth bombers rolled off the assembly line,
+
+Segment 2: 97.59%
+Text: rumors surfaced that the military was test-flying recovered alien craft
+
+Segment 3: 99.98%
+Text: at a secret government base known as Area 51.
+
+Segment 4: 99.94%
+Text: If the military was going to test-fly alien craft,
+
+Segment 5: 100.00%
+Text: Area 51 was the perfect place to do it.
+
+Segment 6: 100.00%
+Text: Located some 125 miles outside of Las Vegas,
+
+Segment 7: 99.93%
+Text: it is one of the least populated expanses in the United States.
+
+Segment 8: 98.40%
+Text: Area 51 is surrounded on three sides by military testing grounds
+
+Segment 9: 99.37%
+Text: and hidden from public view behind the Groom Mountain Range.
+
+Segment 10: 99.95%
+Text: This Russian satellite photo shows the base as it appeared in the 1960s.
+

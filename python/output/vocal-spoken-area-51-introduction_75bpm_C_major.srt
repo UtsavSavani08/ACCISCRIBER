@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:02,859
+As the stealth bombers rolled off the assembly line,
+[Confidence: 99.21%]
+2
+00:00:03,399 --> 00:00:07,860
+rumors surfaced that the military was test-flying recovered alien craft
+[Confidence: 97.59%]
+3
+00:00:08,460 --> 00:00:11,900
+at a secret government base known as Area 51.
+[Confidence: 99.98%]
+4
+00:00:13,199 --> 00:00:16,179
+If the military was going to test-fly alien craft,
+[Confidence: 99.94%]
+5
+00:00:16,199 --> 00:00:18,760
+Area 51 was the perfect place to do it.
+[Confidence: 100.00%]
+6
+00:00:19,300 --> 00:00:22,219
+Located some 125 miles outside of Las Vegas,
+[Confidence: 100.00%]
+7
+00:00:22,219 --> 00:00:26,719
+it is one of the least populated expanses in the United States.
+[Confidence: 99.93%]
+8
+00:00:26,920 --> 00:00:32,299
+Area 51 is surrounded on three sides by military testing grounds
+[Confidence: 98.40%]
+9
+00:00:32,780 --> 00:00:35,899
+and hidden from public view behind the Groom Mountain Range.
+[Confidence: 99.37%]
+10
+00:00:37,060 --> 00:00:41,780
+This Russian satellite photo shows the base as it appeared in the 1960s.
+[Confidence: 99.95%]

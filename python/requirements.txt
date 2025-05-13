@@ -1,0 +1,12 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+soundfile>=0.12.1
+jiwer>=3.0.3
+ffmpeg-python>=0.2.0
+openai-whisper>=20231117
+whisper-timestamped>=1.14.2
+numpy>=1.24.0
+tqdm>=4.65.0
+pydub>=0.25.1 
