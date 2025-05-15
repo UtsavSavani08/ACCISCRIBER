@@ -111,19 +111,28 @@ class VideoTranscriber:
     def process_video(self, video_path: str, output_dir: str, min_confidence: float = 0.5) -> Dict:
         try:
             print("Step 1: Checking video file existence")
-            if not os.path.exists(video_path):
-                raise FileNotFoundError(f"Video file not found: {video_path}")
+            # Add the prefix when checking for the file
+            dir_path = os.path.dirname(video_path)
+            base_name = os.path.basename(video_path)
+            if not base_name.startswith("DInternCappython"):
+                base_name = "DInternCappython" + base_name
+            full_path = os.path.join(dir_path, base_name)
+            
+            if not os.path.exists(full_path):
+                raise FileNotFoundError(f"Video file not found: {full_path}")
 
+            # Continue with the rest of the processing using the full_path
             print("Step 2: Creating output directory")
             os.makedirs(output_dir, exist_ok=True)
-            base_name = os.path.splitext(os.path.basename(video_path))[0]
+            base_name = os.path.splitext(os.path.basename(full_path))[0]
 
             print("Step 3: Creating temporary directory")
             with tempfile.TemporaryDirectory() as temp_dir:
                 print("Step 4: Extracting audio")
                 temp_audio = os.path.join(temp_dir, "temp_audio.wav")
                 try:
-                    metadata = self.extract_audio(video_path, temp_audio)
+                    # Use full_path instead of video_path here
+                    metadata = self.extract_audio(full_path, temp_audio)
                     print("Audio extraction completed successfully")
                 except Exception as e:
                     print(f"Audio extraction failed: {str(e)}")
@@ -139,7 +148,52 @@ class VideoTranscriber:
 
                 print("Step 6: Transcribing audio")
                 try:
-                    result = whisper_ts.transcribe(self.model, audio, language=None)
+                    # Process audio in smaller chunks with overlap for better accuracy
+                    chunk_duration = 15  # reduced from 30 to 15 seconds
+                    overlap_duration = 2  # seconds of overlap between chunks
+                    sample_rate = 16000
+                    all_segments = []
+                    last_text = None
+                    duplicate_threshold = 0.85  # similarity threshold for duplicate detection
+                    
+                    for i in range(0, len(audio), int((chunk_duration - overlap_duration) * sample_rate)):
+                        start_sample = i
+                        end_sample = min(i + chunk_duration * sample_rate, len(audio))
+                        audio_chunk = audio[start_sample:end_sample]
+                        
+                        # Use the same language for all chunks once detected
+                        if i == 0:
+                            chunk_result = whisper_ts.transcribe(self.model, audio_chunk)
+                            detected_language = chunk_result["language"]
+                        else:
+                            chunk_result = whisper_ts.transcribe(self.model, audio_chunk, language=detected_language)
+                        
+                        # Process segments and remove duplicates
+                        for segment in chunk_result["segments"]:
+                            # Adjust timestamps
+                            segment_start = segment["start"] + (i / sample_rate)
+                            segment_end = segment["end"] + (i / sample_rate)
+                            
+                            # Skip if this is a duplicate of the last segment
+                            current_text = " ".join(w["text"] for w in segment["words"])
+                            if last_text and self._text_similarity(current_text, last_text) > duplicate_threshold:
+                                continue
+                            
+                            # Update segment timestamps
+                            segment["start"] = segment_start
+                            segment["end"] = segment_end
+                            for word in segment["words"]:
+                                word["start"] += (i / sample_rate)
+                                word["end"] += (i / sample_rate)
+                            
+                            all_segments.append(segment)
+                            last_text = current_text
+                    
+                    result = {
+                        "segments": all_segments,
+                        "language": detected_language,
+                        "language_probability": chunk_result.get("language_probability", 0.0)
+                    }
                     print("Transcription completed successfully")
                 except Exception as e:
                     print(f"Transcription failed: {str(e)}")
@@ -252,3 +306,13 @@ class VideoTranscriber:
                 
         except Exception as e:
             raise RuntimeError(f"Failed to generate SRT file: {str(e)}")
+
+    def _text_similarity(self, text1: str, text2: str) -> float:
+        """Calculate similarity between two text segments."""
+        if not text1 or not text2:
+            return 0.0
+        words1 = set(text1.split())
+        words2 = set(text2.split())
+        intersection = words1.intersection(words2)
+        union = words1.union(words2)
+        return len(intersection) / len(union)

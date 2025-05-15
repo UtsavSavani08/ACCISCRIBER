@@ -31,8 +31,10 @@ class YouTubeTranscriber:
             
             # Get video title for filename
             video_title = yt.title
-            # Remove invalid characters from filename and add prefix
-            video_title = "DInternCappython" + "".join(c for c in video_title if c.isalnum() or c in (' ', '-', '_')).strip()
+            # Remove invalid characters from filename and add prefix only once
+            clean_title = "".join(c for c in video_title if c.isalnum() or c in (' ', '-', '_')).strip()
+            # Use a simple prefix without path components
+            video_title = "YT_" + clean_title
             
             if output_path is None:
                 # Create output in the current directory with proper path handling

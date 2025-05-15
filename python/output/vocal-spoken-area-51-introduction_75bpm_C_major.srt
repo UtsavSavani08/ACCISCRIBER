@@ -1,40 +1,36 @@
 1
-00:00:00,000 --> 00:00:02,859
-As the stealth bombers rolled off the assembly line,
-[Confidence: 99.21%]
+00:00:00,240 --> 00:00:05,480
+As the stealth bombers rolled off the assembly line, rumors surfaced that the military was
+[Confidence: 92.52%]
 2
-00:00:03,399 --> 00:00:07,860
-rumors surfaced that the military was test-flying recovered alien craft
-[Confidence: 97.59%]
+00:00:05,559 --> 00:00:12,039
+test-flying recovered alien craft at a secret government base known as Area 51.
+[Confidence: 96.55%]
 3
-00:00:08,460 --> 00:00:11,900
-at a secret government base known as Area 51.
-[Confidence: 99.98%]
+00:00:13,460 --> 00:00:18,589
+If the military was going to test-fly alien craft, Area 51 was the perfect place to do
+[Confidence: 98.86%]
 4
-00:00:13,199 --> 00:00:16,179
-If the military was going to test-fly alien craft,
-[Confidence: 99.94%]
+00:00:18,589 --> 00:00:18,820
+it.
+[Confidence: 99.90%]
 5
-00:00:16,199 --> 00:00:18,760
-Area 51 was the perfect place to do it.
-[Confidence: 100.00%]
+00:00:19,260 --> 00:00:25,640
+Located some 125 miles outside of Las Vegas, it is one of the least populated expanses
+[Confidence: 97.77%]
 6
-00:00:19,300 --> 00:00:22,219
-Located some 125 miles outside of Las Vegas,
-[Confidence: 100.00%]
+00:00:25,679 --> 00:00:26,780
+in the United States.
+[Confidence: 99.12%]
 7
-00:00:22,219 --> 00:00:26,719
-it is one of the least populated expanses in the United States.
-[Confidence: 99.93%]
+00:00:28,160 --> 00:00:34,140
+Area 51 is surrounded on three sides by military testing grounds and hidden from public view
+[Confidence: 97.76%]
 8
-00:00:26,920 --> 00:00:32,299
-Area 51 is surrounded on three sides by military testing grounds
-[Confidence: 98.40%]
+00:00:34,140 --> 00:00:36,060
+behind the Groom Mountain Range.
+[Confidence: 86.12%]
 9
-00:00:32,780 --> 00:00:35,899
-and hidden from public view behind the Groom Mountain Range.
-[Confidence: 99.37%]
-10
-00:00:37,060 --> 00:00:41,780
+00:00:37,179 --> 00:00:41,859
 This Russian satellite photo shows the base as it appeared in the 1960s.
-[Confidence: 99.95%]
+[Confidence: 98.42%]
