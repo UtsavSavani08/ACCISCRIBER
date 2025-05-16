@@ -68,28 +68,69 @@ class Transcriber:
             raise RuntimeError(f"Error during audio extraction: {str(e)}")
 
     def transcribe(self, audio_path: str, language: Optional[str] = None) -> Dict:
-        """
-        Transcribe audio file with word-level timestamps and confidence scores.
-        
-        Args:
-            audio_path (str): Path to audio file
-            language (Optional[str]): Language code if known, None for auto-detection
-            
-        Returns:
-            Dict: Transcription result with segments, words, and metadata
-        """
         try:
             if not os.path.exists(audio_path):
                 raise FileNotFoundError(f"Audio file not found: {audio_path}")
                 
             audio = self.load_audio(audio_path)
-            result = whisper_ts.transcribe(self.model, audio, language=language)
             
-            # Extract language information
-            detected_language = result.get("language", "unknown")
-            lang_confidence = result.get("language_probability", 0.0)
+            # Process audio in smaller chunks with better overlap handling
+            chunk_duration = 15  # Reduced from 15 to 10 seconds
+            overlap_duration = 1  # Reduced from 2 to 1 second
+            sample_rate = 16000
+            all_segments = []
+            last_end_time = 0
+            min_segment_length = 0.1  # Minimum segment length in seconds
+            max_repetition_count = 3  # Maximum times a character can repeat
             
-            print(f"Detected language: {detected_language} with confidence: {lang_confidence:.2f}")
+            # First detect language from a small sample
+            initial_chunk = audio[:min(len(audio), 30 * sample_rate)]
+            initial_result = whisper_ts.transcribe(self.model, initial_chunk)
+            detected_language = initial_result["language"]
+            lang_confidence = initial_result.get("language_probability", 0.0)
+            
+            # Process the full audio in chunks
+            for i in range(0, len(audio), int((chunk_duration - overlap_duration) * sample_rate)):
+                start_sample = i
+                end_sample = min(i + chunk_duration * sample_rate, len(audio))
+                audio_chunk = audio[start_sample:end_sample]
+                
+                chunk_result = whisper_ts.transcribe(
+                    self.model, 
+                    audio_chunk, 
+                    language=detected_language,
+                    condition_on_previous_text=True if i > 0 else False
+                )
+                
+                for segment in chunk_result["segments"]:
+                    # Adjust timestamps
+                    segment_start = max(segment["start"] + (i / sample_rate), last_end_time)
+                    segment_end = segment["end"] + (i / sample_rate)
+                    
+                    # Skip if segment is too short
+                    if segment_end - segment_start < min_segment_length:
+                        continue
+                    
+                    # Check for excessive repetition
+                    current_text = " ".join(w["text"] for w in segment["words"])
+                    if self._has_excessive_repetition(current_text, max_repetition_count):
+                        continue
+                    
+                    # Update segment timestamps
+                    segment["start"] = segment_start
+                    segment["end"] = segment_end
+                    for word in segment["words"]:
+                        word["start"] = max(word["start"] + (i / sample_rate), last_end_time)
+                        word["end"] = word["end"] + (i / sample_rate)
+                    
+                    all_segments.append(segment)
+                    last_end_time = segment_end
+            
+            result = {
+                "segments": all_segments,
+                "language": detected_language,
+                "language_probability": lang_confidence
+            }
             
             return {
                 "transcription": result,
@@ -98,6 +139,27 @@ class Transcriber:
             }
         except Exception as e:
             raise RuntimeError(f"Transcription failed: {str(e)}")
+
+    def _has_excessive_repetition(self, text: str, max_repeat: int) -> bool:
+        """Check if text has excessive character repetition."""
+        if not text:
+            return False
+        
+        # Convert text to list of characters
+        chars = list(text)
+        repeat_count = 1
+        prev_char = chars[0]
+        
+        for char in chars[1:]:
+            if char == prev_char:
+                repeat_count += 1
+                if repeat_count > max_repeat:
+                    return True
+            else:
+                repeat_count = 1
+                prev_char = char
+        
+        return False
 
     def generate_srt(self, transcription: Dict, output_path: str, min_confidence: float = 0.5) -> None:
         """
@@ -209,4 +271,4 @@ class Transcriber:
                 "language_confidence": result["language_confidence"]
             }
         except Exception as e:
-            raise RuntimeError(f"Media processing failed: {str(e)}") 
+            raise RuntimeError(f"Media processing failed: {str(e)}")
