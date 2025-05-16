@@ -1,6 +1,6 @@
 # High-Quality Audio/Video Transcription System
 
-This system provides high-quality transcription capabilities for audio and video files, with support for multiple languages, word-level timestamps, and confidence scores. It uses OpenAI's Whisper model through the whisper-timestamped package for accurate transcription and language detection.
+This system provides high-quality transcription capabilities for audio and video files, with support for multiple languages, word-level timestamps, and confidence scores. It uses OpenAI's Whisper model through the whisper-timestamped package and facebook/mms-lid-256 for accurate transcription and language detection.
 
 ## Features
 
@@ -11,6 +11,22 @@ This system provides high-quality transcription capabilities for audio and video
 - Detailed JSON output with full transcription data
 - Support for batch processing of multiple files
 - GPU acceleration when available
+
+## Complete Installation Guide
+
+### 1. Install Python
+
+1. Download Python 3.8 or higher:
+   - Visit [Python's official website](https://www.python.org/downloads/)
+   - Download the latest version for Windows
+   - Run the installer
+   - **Important**: Check "Add Python to PATH" during installation
+   - Check "Install pip" during installation
+
+2. Verify Python installation:
+   ```bash
+   python --version
+   pip --version```
 
 ## Prerequisites
 
