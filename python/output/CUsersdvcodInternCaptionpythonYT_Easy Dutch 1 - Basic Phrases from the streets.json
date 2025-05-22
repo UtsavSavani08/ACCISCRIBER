@@ -1,0 +1,2927 @@
+{
+  "video_metadata": {
+    "duration": 136.97,
+    "fps": 25.0,
+    "size": [
+      640,
+      360
+    ],
+    "audio_fps": 44100
+  },
+  "transcription_stats": {
+    "total_duration": 136.97,
+    "total_words": 226,
+    "avg_words_per_second": 1.6499963495655983,
+    "language": "nl",
+    "language_confidence": 0.0
+  },
+  "transcription": {
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.12,
+        "end": 1.28,
+        "text": " Hallo, goedemiddag.",
+        "tokens": [
+          50365,
+          21242,
+          11,
+          16987,
+          443,
+          14273,
+          559,
+          13,
+          50432
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.894,
+        "words": [
+          {
+            "text": "Hallo,",
+            "start": 0.12,
+            "end": 0.32,
+            "confidence": 0.995
+          },
+          {
+            "text": "goedemiddag.",
+            "start": 0.52,
+            "end": 1.28,
+            "confidence": 0.87
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 2.3,
+        "end": 2.68,
+        "text": " Hoi.",
+        "tokens": [
+          50469,
+          3631,
+          72,
+          13,
+          50501
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "Hoi.",
+            "start": 2.3,
+            "end": 2.68,
+            "confidence": 0.998
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 3.9,
+        "end": 4.54,
+        "text": " Goedemorgen.",
+        "tokens": [
+          50562,
+          1037,
+          292,
+          26357,
+          1766,
+          13,
+          50594
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.892,
+        "words": [
+          {
+            "text": "Goedemorgen.",
+            "start": 3.9,
+            "end": 4.54,
+            "confidence": 0.892
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 5.82,
+        "end": 8.08,
+        "text": " In het Nederlands zeg je ja, ja.",
+        "tokens": [
+          50658,
+          682,
+          3639,
+          29005,
+          10230,
+          23631,
+          1506,
+          2784,
+          11,
+          2784,
+          13,
+          50773
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "In",
+            "start": 5.82,
+            "end": 5.98,
+            "confidence": 1.0
+          },
+          {
+            "text": "het",
+            "start": 5.98,
+            "end": 6.1,
+            "confidence": 1.0
+          },
+          {
+            "text": "Nederlands",
+            "start": 6.1,
+            "end": 6.42,
+            "confidence": 0.999
+          },
+          {
+            "text": "zeg",
+            "start": 6.42,
+            "end": 6.64,
+            "confidence": 1.0
+          },
+          {
+            "text": "je",
+            "start": 6.64,
+            "end": 6.9,
+            "confidence": 1.0
+          },
+          {
+            "text": "ja,",
+            "start": 6.9,
+            "end": 7.4,
+            "confidence": 0.991
+          },
+          {
+            "text": "ja.",
+            "start": 7.76,
+            "end": 8.08,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 8.58,
+        "end": 10.24,
+        "text": " En in het Nederlands zeg je nee, nee.",
+        "tokens": [
+          50794,
+          2193,
+          294,
+          3639,
+          29005,
+          10230,
+          23631,
+          1506,
+          41694,
+          11,
+          41694,
+          13,
+          50883
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "En",
+            "start": 8.58,
+            "end": 8.74,
+            "confidence": 0.999
+          },
+          {
+            "text": "in",
+            "start": 8.74,
+            "end": 8.86,
+            "confidence": 1.0
+          },
+          {
+            "text": "het",
+            "start": 8.86,
+            "end": 8.9,
+            "confidence": 1.0
+          },
+          {
+            "text": "Nederlands",
+            "start": 8.9,
+            "end": 9.2,
+            "confidence": 1.0
+          },
+          {
+            "text": "zeg",
+            "start": 9.2,
+            "end": 9.36,
+            "confidence": 1.0
+          },
+          {
+            "text": "je",
+            "start": 9.36,
+            "end": 9.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "nee,",
+            "start": 9.52,
+            "end": 9.8,
+            "confidence": 0.995
+          },
+          {
+            "text": "nee.",
+            "start": 10.06,
+            "end": 10.24,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 11.24,
+        "end": 12.38,
+        "text": " Dit is heel goed.",
+        "tokens": [
+          50929,
+          25270,
+          307,
+          9430,
+          16987,
+          13,
+          50995
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "Dit",
+            "start": 11.24,
+            "end": 11.4,
+            "confidence": 0.994
+          },
+          {
+            "text": "is",
+            "start": 11.4,
+            "end": 11.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "heel",
+            "start": 11.66,
+            "end": 11.96,
+            "confidence": 0.998
+          },
+          {
+            "text": "goed.",
+            "start": 11.96,
+            "end": 12.38,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 13.8,
+        "end": 14.66,
+        "text": " Ja, dat is slecht.",
+        "tokens": [
+          51055,
+          3530,
+          11,
+          1137,
+          307,
+          2426,
+          4701,
+          13,
+          51098
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Ja,",
+            "start": 13.8,
+            "end": 13.94,
+            "confidence": 0.993
+          },
+          {
+            "text": "dat",
+            "start": 14.04,
+            "end": 14.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "is",
+            "start": 14.14,
+            "end": 14.28,
+            "confidence": 1.0
+          },
+          {
+            "text": "slecht.",
+            "start": 14.28,
+            "end": 14.66,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 16.0,
+        "end": 16.6,
+        "text": " Ik wil het.",
+        "tokens": [
+          51166,
+          8316,
+          20501,
+          3639,
+          13,
+          51196
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 16.0,
+            "end": 16.16,
+            "confidence": 1.0
+          },
+          {
+            "text": "wil",
+            "start": 16.16,
+            "end": 16.36,
+            "confidence": 1.0
+          },
+          {
+            "text": "het.",
+            "start": 16.36,
+            "end": 16.6,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 17.92,
+        "end": 18.62,
+        "text": " Ik wil het niet.",
+        "tokens": [
+          51246,
+          8316,
+          20501,
+          3639,
+          6899,
+          13,
+          51300
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 17.92,
+            "end": 18.12,
+            "confidence": 1.0
+          },
+          {
+            "text": "wil",
+            "start": 18.12,
+            "end": 18.3,
+            "confidence": 1.0
+          },
+          {
+            "text": "het",
+            "start": 18.3,
+            "end": 18.44,
+            "confidence": 1.0
+          },
+          {
+            "text": "niet.",
+            "start": 18.44,
+            "end": 18.62,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 19.7,
+        "end": 20.74,
+        "text": " Ik hou van het.",
+        "tokens": [
+          51340,
+          8316,
+          36621,
+          3161,
+          3639,
+          13,
+          51404
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.993,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 19.7,
+            "end": 19.88,
+            "confidence": 1.0
+          },
+          {
+            "text": "hou",
+            "start": 19.88,
+            "end": 20.14,
+            "confidence": 0.973
+          },
+          {
+            "text": "van",
+            "start": 20.14,
+            "end": 20.46,
+            "confidence": 1.0
+          },
+          {
+            "text": "het.",
+            "start": 20.46,
+            "end": 20.74,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "seek": 0,
+        "start": 21.08,
+        "end": 21.8,
+        "text": " Ik vind dat leuk.",
+        "tokens": [
+          51421,
+          8316,
+          20168,
+          1137,
+          32665,
+          13,
+          51459
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 21.08,
+            "end": 21.26,
+            "confidence": 1.0
+          },
+          {
+            "text": "vind",
+            "start": 21.26,
+            "end": 21.42,
+            "confidence": 0.998
+          },
+          {
+            "text": "dat",
+            "start": 21.42,
+            "end": 21.6,
+            "confidence": 0.993
+          },
+          {
+            "text": "leuk.",
+            "start": 21.6,
+            "end": 21.8,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "seek": 0,
+        "start": 23.02,
+        "end": 24.22,
+        "text": " Nee, bedankt.",
+        "tokens": [
+          51512,
+          22067,
+          11,
+          2901,
+          657,
+          83,
+          13,
+          51577
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Nee,",
+            "start": 23.02,
+            "end": 23.3,
+            "confidence": 1.0
+          },
+          {
+            "text": "bedankt.",
+            "start": 23.68,
+            "end": 24.22,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "seek": 0,
+        "start": 25.58,
+        "end": 26.58,
+        "text": " Ja, ik snap het.",
+        "tokens": [
+          51625,
+          3530,
+          11,
+          4320,
+          13650,
+          3639,
+          13,
+          51695
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Ja,",
+            "start": 25.58,
+            "end": 25.78,
+            "confidence": 1.0
+          },
+          {
+            "text": "ik",
+            "start": 25.92,
+            "end": 26.02,
+            "confidence": 1.0
+          },
+          {
+            "text": "snap",
+            "start": 26.02,
+            "end": 26.32,
+            "confidence": 0.999
+          },
+          {
+            "text": "het.",
+            "start": 26.32,
+            "end": 26.58,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "seek": 0,
+        "start": 27.66,
+        "end": 28.74,
+        "text": " Het is heel warm.",
+        "tokens": [
+          51745,
+          12045,
+          307,
+          9430,
+          4561,
+          13,
+          51802
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.27168133384303045,
+        "compression_ratio": 1.6369426751592357,
+        "no_speech_prob": 7.338261942546609e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Het",
+            "start": 27.66,
+            "end": 27.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "is",
+            "start": 27.94,
+            "end": 28.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "heel",
+            "start": 28.14,
+            "end": 28.38,
+            "confidence": 1.0
+          },
+          {
+            "text": "warm.",
+            "start": 28.38,
+            "end": 28.74,
+            "confidence": 0.996
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "seek": 2874,
+        "start": 29.76,
+        "end": 29.96,
+        "text": " Ja.",
+        "tokens": [
+          50365,
+          3530,
+          13,
+          50425
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.922447395324707,
+        "compression_ratio": 0.2727272727272727,
+        "no_speech_prob": 1.1879415506843571e-10,
+        "confidence": 0.362,
+        "words": [
+          {
+            "text": "Ja.",
+            "start": 29.76,
+            "end": 29.96,
+            "confidence": 0.362
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 29.72,
+        "end": 32.36,
+        "text": " Het is koud. Ik moet daarheen.",
+        "tokens": [
+          50365,
+          12045,
+          307,
+          350,
+          1861,
+          13,
+          8316,
+          12677,
+          12390,
+          42276,
+          13,
+          50535
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.929,
+        "words": [
+          {
+            "text": "Het",
+            "start": 29.72,
+            "end": 29.94,
+            "confidence": 0.994
+          },
+          {
+            "text": "is",
+            "start": 29.94,
+            "end": 30.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "koud.",
+            "start": 30.14,
+            "end": 30.5,
+            "confidence": 0.999
+          },
+          {
+            "text": "Ik",
+            "start": 30.74,
+            "end": 31.759999999999998,
+            "confidence": 0.921
+          },
+          {
+            "text": "moet",
+            "start": 31.759999999999998,
+            "end": 31.92,
+            "confidence": 1.0
+          },
+          {
+            "text": "daarheen.",
+            "start": 31.92,
+            "end": 32.36,
+            "confidence": 0.78
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 33.9,
+        "end": 34.92,
+        "text": " Wat moeten we nou zeggen dan?",
+        "tokens": [
+          50603,
+          12593,
+          26175,
+          321,
+          23641,
+          31633,
+          3277,
+          30,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.908,
+        "words": [
+          {
+            "text": "Wat",
+            "start": 33.9,
+            "end": 34.08,
+            "confidence": 0.989
+          },
+          {
+            "text": "moeten",
+            "start": 34.08,
+            "end": 34.3,
+            "confidence": 0.753
+          },
+          {
+            "text": "we",
+            "start": 34.3,
+            "end": 34.36,
+            "confidence": 0.995
+          },
+          {
+            "text": "nou",
+            "start": 34.36,
+            "end": 34.480000000000004,
+            "confidence": 0.76
+          },
+          {
+            "text": "zeggen",
+            "start": 34.480000000000004,
+            "end": 34.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "dan?",
+            "start": 34.66,
+            "end": 34.92,
+            "confidence": 0.995
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 35.66,
+        "end": 36.04,
+        "text": " Vandaag.",
+        "tokens": [
+          50691,
+          691,
+          37033,
+          13,
+          50722
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "Vandaag.",
+            "start": 35.66,
+            "end": 36.04,
+            "confidence": 0.998
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 36.980000000000004,
+        "end": 37.72,
+        "text": " Gisteren.",
+        "tokens": [
+          50759,
+          460,
+          1964,
+          268,
+          13,
+          50805
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Gisteren.",
+            "start": 36.980000000000004,
+            "end": 37.72,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 38.980000000000004,
+        "end": 39.46,
+        "text": " Altijd.",
+        "tokens": [
+          50846,
+          15992,
+          14675,
+          13,
+          50890
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.996,
+        "words": [
+          {
+            "text": "Altijd.",
+            "start": 38.980000000000004,
+            "end": 39.46,
+            "confidence": 0.996
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 40.42,
+        "end": 41.06,
+        "text": " Tot morgen.",
+        "tokens": [
+          50937,
+          11236,
+          36593,
+          13,
+          50974
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Tot",
+            "start": 40.42,
+            "end": 40.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "morgen.",
+            "start": 40.66,
+            "end": 41.06,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 42.019999999999996,
+        "end": 42.88,
+        "text": " Goedenavond.",
+        "tokens": [
+          51017,
+          1037,
+          6876,
+          706,
+          684,
+          13,
+          51060
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Goedenavond.",
+            "start": 42.019999999999996,
+            "end": 42.88,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 43.9,
+        "end": 44.92,
+        "text": " Ik begrijp het niet.",
+        "tokens": [
+          51112,
+          8316,
+          4612,
+          11105,
+          79,
+          3639,
+          6899,
+          13,
+          51163
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 43.9,
+            "end": 44.1,
+            "confidence": 1.0
+          },
+          {
+            "text": "begrijp",
+            "start": 44.1,
+            "end": 44.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "het",
+            "start": 44.6,
+            "end": 44.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "niet.",
+            "start": 44.72,
+            "end": 44.92,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 46.42,
+        "end": 47.72,
+        "text": " Sorry, excuseer mij.",
+        "tokens": [
+          51236,
+          4919,
+          11,
+          8960,
+          260,
+          22953,
+          13,
+          51304
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.993,
+        "words": [
+          {
+            "text": "Sorry,",
+            "start": 46.42,
+            "end": 46.94,
+            "confidence": 0.999
+          },
+          {
+            "text": "excuseer",
+            "start": 47.14,
+            "end": 47.56,
+            "confidence": 0.989
+          },
+          {
+            "text": "mij.",
+            "start": 47.56,
+            "end": 47.72,
+            "confidence": 0.995
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 48.54,
+        "end": 49.58,
+        "text": " Spreekt u Nederlands?",
+        "tokens": [
+          51344,
+          1738,
+          701,
+          2320,
+          344,
+          29005,
+          10230,
+          30,
+          51396
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "Spreekt",
+            "start": 48.54,
+            "end": 48.92,
+            "confidence": 0.999
+          },
+          {
+            "text": "u",
+            "start": 48.92,
+            "end": 49.04,
+            "confidence": 0.994
+          },
+          {
+            "text": "Nederlands?",
+            "start": 49.04,
+            "end": 49.58,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "seek": 0,
+        "start": 50.92,
+        "end": 51.78,
+        "text": " Begrijpt u mij?",
+        "tokens": [
+          51458,
+          879,
+          70,
+          11105,
+          662,
+          344,
+          22953,
+          30,
+          51506
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Begrijpt",
+            "start": 50.92,
+            "end": 51.44,
+            "confidence": 0.999
+          },
+          {
+            "text": "u",
+            "start": 51.44,
+            "end": 51.58,
+            "confidence": 1.0
+          },
+          {
+            "text": "mij?",
+            "start": 51.58,
+            "end": 51.78,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "seek": 0,
+        "start": 53.379999999999995,
+        "end": 54.08,
+        "text": " Wie ben jij?",
+        "tokens": [
+          51572,
+          9233,
+          3271,
+          28002,
+          30,
+          51624
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Wie",
+            "start": 53.379999999999995,
+            "end": 53.6,
+            "confidence": 0.999
+          },
+          {
+            "text": "ben",
+            "start": 53.6,
+            "end": 53.86,
+            "confidence": 0.998
+          },
+          {
+            "text": "jij?",
+            "start": 53.86,
+            "end": 54.08,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "seek": 0,
+        "start": 55.42,
+        "end": 56.260000000000005,
+        "text": " Ik ben een toerist.",
+        "tokens": [
+          51678,
+          8316,
+          3271,
+          3881,
+          281,
+          260,
+          468,
+          13,
+          51729
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3383047651536394,
+        "compression_ratio": 1.3888888888888888,
+        "no_speech_prob": 8.923081024070356e-12,
+        "confidence": 0.996,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 55.42,
+            "end": 55.58,
+            "confidence": 1.0
+          },
+          {
+            "text": "ben",
+            "start": 55.58,
+            "end": 55.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "een",
+            "start": 55.72,
+            "end": 55.86,
+            "confidence": 0.996
+          },
+          {
+            "text": "toerist.",
+            "start": 55.86,
+            "end": 56.260000000000005,
+            "confidence": 0.994
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "seek": 2728,
+        "start": 58.32,
+        "end": 58.980000000000004,
+        "text": " Spreekt u Nederlands?",
+        "tokens": [
+          50365,
+          1738,
+          701,
+          2320,
+          344,
+          29005,
+          10230,
+          30,
+          50502
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2614084482192993,
+        "compression_ratio": 0.7241379310344828,
+        "no_speech_prob": 1.1095626153978522e-11,
+        "confidence": 0.887,
+        "words": [
+          {
+            "text": "Spreekt",
+            "start": 58.32,
+            "end": 58.72,
+            "confidence": 0.983
+          },
+          {
+            "text": "u",
+            "start": 58.72,
+            "end": 58.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "Nederlands?",
+            "start": 58.82,
+            "end": 58.980000000000004,
+            "confidence": 0.717
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 58.3,
+        "end": 59.22,
+        "text": " Spreekt u Engels?",
+        "tokens": [
+          50365,
+          1738,
+          701,
+          2320,
+          344,
+          2469,
+          1625,
+          30,
+          50429
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.99,
+        "words": [
+          {
+            "text": "Spreekt",
+            "start": 58.3,
+            "end": 58.72,
+            "confidence": 0.989
+          },
+          {
+            "text": "u",
+            "start": 58.72,
+            "end": 58.84,
+            "confidence": 0.98
+          },
+          {
+            "text": "Engels?",
+            "start": 58.84,
+            "end": 59.22,
+            "confidence": 0.997
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 60.58,
+        "end": 61.52,
+        "text": " Welterusten.",
+        "tokens": [
+          50505,
+          3778,
+          391,
+          381,
+          268,
+          13,
+          50543
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.985,
+        "words": [
+          {
+            "text": "Welterusten.",
+            "start": 60.58,
+            "end": 61.52,
+            "confidence": 0.985
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 62.5,
+        "end": 63.24,
+        "text": " Ik kom uit Holland.",
+        "tokens": [
+          50591,
+          8316,
+          5207,
+          12528,
+          27201,
+          13,
+          50628
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.985,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 62.5,
+            "end": 62.7,
+            "confidence": 1.0
+          },
+          {
+            "text": "kom",
+            "start": 62.7,
+            "end": 62.84,
+            "confidence": 0.999
+          },
+          {
+            "text": "uit",
+            "start": 62.84,
+            "end": 63.0,
+            "confidence": 0.999
+          },
+          {
+            "text": "Holland.",
+            "start": 63.0,
+            "end": 63.24,
+            "confidence": 0.943
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 64.22,
+        "end": 64.36,
+        "text": " Ja?",
+        "tokens": [
+          50673,
+          3530,
+          30,
+          50685
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.988,
+        "words": [
+          {
+            "text": "Ja?",
+            "start": 64.22,
+            "end": 64.36,
+            "confidence": 0.988
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 65.42,
+        "end": 66.7,
+        "text": " Ja? Hoe gaat het met jou?",
+        "tokens": [
+          50733,
+          3530,
+          30,
+          33979,
+          17829,
+          3639,
+          1131,
+          11110,
+          30,
+          50802
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.959,
+        "words": [
+          {
+            "text": "Ja?",
+            "start": 65.42,
+            "end": 65.62,
+            "confidence": 0.941
+          },
+          {
+            "text": "Hoe",
+            "start": 65.74,
+            "end": 66.02,
+            "confidence": 0.897
+          },
+          {
+            "text": "gaat",
+            "start": 66.02,
+            "end": 66.26,
+            "confidence": 0.998
+          },
+          {
+            "text": "het",
+            "start": 66.26,
+            "end": 66.34,
+            "confidence": 0.98
+          },
+          {
+            "text": "met",
+            "start": 66.34,
+            "end": 66.46000000000001,
+            "confidence": 0.944
+          },
+          {
+            "text": "jou?",
+            "start": 66.46000000000001,
+            "end": 66.7,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 67.92,
+        "end": 68.42,
+        "text": " Alsjeblieft.",
+        "tokens": [
+          50858,
+          12948,
+          2884,
+          5199,
+          414,
+          844,
+          13,
+          50886
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.988,
+        "words": [
+          {
+            "text": "Alsjeblieft.",
+            "start": 67.92,
+            "end": 68.42,
+            "confidence": 0.988
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 69.82,
+        "end": 70.8,
+        "text": " Wat is uw naam?",
+        "tokens": [
+          50941,
+          12593,
+          307,
+          23147,
+          1667,
+          335,
+          30,
+          51005
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Wat",
+            "start": 69.82,
+            "end": 70.02,
+            "confidence": 0.999
+          },
+          {
+            "text": "is",
+            "start": 70.02,
+            "end": 70.2,
+            "confidence": 1.0
+          },
+          {
+            "text": "uw",
+            "start": 70.2,
+            "end": 70.4,
+            "confidence": 1.0
+          },
+          {
+            "text": "naam?",
+            "start": 70.4,
+            "end": 70.8,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 72.34,
+        "end": 73.34,
+        "text": " Mijn naam is Anneke.",
+        "tokens": [
+          51069,
+          376,
+          6041,
+          1667,
+          335,
+          307,
+          13706,
+          330,
+          13,
+          51135
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.989,
+        "words": [
+          {
+            "text": "Mijn",
+            "start": 72.34,
+            "end": 72.62,
+            "confidence": 0.999
+          },
+          {
+            "text": "naam",
+            "start": 72.62,
+            "end": 72.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "is",
+            "start": 72.82,
+            "end": 72.98,
+            "confidence": 1.0
+          },
+          {
+            "text": "Anneke.",
+            "start": 72.98,
+            "end": 73.34,
+            "confidence": 0.963
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 74.28,
+        "end": 75.06,
+        "text": " Het is mooi weer.",
+        "tokens": [
+          51179,
+          12045,
+          307,
+          38583,
+          19662,
+          13,
+          51219
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.997,
+        "words": [
+          {
+            "text": "Het",
+            "start": 74.28,
+            "end": 74.46000000000001,
+            "confidence": 1.0
+          },
+          {
+            "text": "is",
+            "start": 74.46000000000001,
+            "end": 74.62,
+            "confidence": 1.0
+          },
+          {
+            "text": "mooi",
+            "start": 74.62,
+            "end": 74.8,
+            "confidence": 0.998
+          },
+          {
+            "text": "weer.",
+            "start": 74.8,
+            "end": 75.06,
+            "confidence": 0.992
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 76.72,
+        "end": 78.18,
+        "text": " Het weer is niet zo mooi vandaag.",
+        "tokens": [
+          51285,
+          12045,
+          19662,
+          307,
+          6899,
+          5721,
+          38583,
+          41901,
+          13,
+          51384
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "Het",
+            "start": 76.72,
+            "end": 76.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "weer",
+            "start": 76.94,
+            "end": 77.16,
+            "confidence": 0.992
+          },
+          {
+            "text": "is",
+            "start": 77.16,
+            "end": 77.38,
+            "confidence": 0.999
+          },
+          {
+            "text": "niet",
+            "start": 77.38,
+            "end": 77.52,
+            "confidence": 0.998
+          },
+          {
+            "text": "zo",
+            "start": 77.52,
+            "end": 77.68,
+            "confidence": 0.999
+          },
+          {
+            "text": "mooi",
+            "start": 77.68,
+            "end": 77.92,
+            "confidence": 1.0
+          },
+          {
+            "text": "vandaag.",
+            "start": 77.92,
+            "end": 78.18,
+            "confidence": 0.997
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "seek": 0,
+        "start": 79.18,
+        "end": 79.76,
+        "text": " Wat is dit?",
+        "tokens": [
+          51423,
+          12593,
+          307,
+          6176,
+          30,
+          51454
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Wat",
+            "start": 79.18,
+            "end": 79.4,
+            "confidence": 1.0
+          },
+          {
+            "text": "is",
+            "start": 79.4,
+            "end": 79.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "dit?",
+            "start": 79.56,
+            "end": 79.76,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "seek": 0,
+        "start": 80.94,
+        "end": 81.72,
+        "text": " Waar is het?",
+        "tokens": [
+          51502,
+          43123,
+          307,
+          3639,
+          30,
+          51552
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Waar",
+            "start": 80.94,
+            "end": 81.24,
+            "confidence": 0.999
+          },
+          {
+            "text": "is",
+            "start": 81.24,
+            "end": 81.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "het?",
+            "start": 81.52,
+            "end": 81.72,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "seek": 0,
+        "start": 82.96000000000001,
+        "end": 83.18,
+        "text": " Hier?",
+        "tokens": [
+          51602,
+          10886,
+          30,
+          51628
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Hier?",
+            "start": 82.96000000000001,
+            "end": 83.18,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "seek": 0,
+        "start": 83.84,
+        "end": 84.14,
+        "text": " Daar?",
+        "tokens": [
+          51657,
+          29883,
+          30,
+          51678
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 0.987,
+        "words": [
+          {
+            "text": "Daar?",
+            "start": 83.84,
+            "end": 84.14,
+            "confidence": 0.987
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "seek": 0,
+        "start": 85.64,
+        "end": 86.6,
+        "text": " Dit is een man.",
+        "tokens": [
+          51734,
+          25270,
+          307,
+          3881,
+          587,
+          13,
+          51798
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3897677780291356,
+        "compression_ratio": 1.4156626506024097,
+        "no_speech_prob": 2.193875463241124e-11,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Dit",
+            "start": 85.64,
+            "end": 85.86,
+            "confidence": 0.999
+          },
+          {
+            "text": "is",
+            "start": 85.86,
+            "end": 86.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "een",
+            "start": 86.14,
+            "end": 86.36,
+            "confidence": 1.0
+          },
+          {
+            "text": "man.",
+            "start": 86.36,
+            "end": 86.6,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "seek": 2866,
+        "start": 87.42,
+        "end": 87.98,
+        "text": " Dit is een vrouw.",
+        "tokens": [
+          50365,
+          25270,
+          307,
+          3881,
+          371,
+          13122,
+          86,
+          13,
+          50431
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16363811492919922,
+        "compression_ratio": 0.68,
+        "no_speech_prob": 8.778850910107217e-12,
+        "confidence": 0.99,
+        "words": [
+          {
+            "text": "Dit",
+            "start": 87.42,
+            "end": 87.5,
+            "confidence": 0.955
+          },
+          {
+            "text": "is",
+            "start": 87.5,
+            "end": 87.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "een",
+            "start": 87.66,
+            "end": 87.76,
+            "confidence": 0.999
+          },
+          {
+            "text": "vrouw.",
+            "start": 87.76,
+            "end": 87.98,
+            "confidence": 0.995
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 88.96,
+        "end": 89.58,
+        "text": " Dit is een kind.",
+        "tokens": [
+          50454,
+          25270,
+          307,
+          3881,
+          733,
+          13,
+          50498
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Dit",
+            "start": 88.96,
+            "end": 89.12,
+            "confidence": 1.0
+          },
+          {
+            "text": "is",
+            "start": 89.12,
+            "end": 89.24,
+            "confidence": 1.0
+          },
+          {
+            "text": "een",
+            "start": 89.24,
+            "end": 89.38,
+            "confidence": 1.0
+          },
+          {
+            "text": "kind.",
+            "start": 89.38,
+            "end": 89.58,
+            "confidence": 0.998
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 90.62,
+        "end": 91.4,
+        "text": " Dat zijn de mensen.",
+        "tokens": [
+          50545,
+          9315,
+          8004,
+          368,
+          18062,
+          13,
+          50586
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "Dat",
+            "start": 90.62,
+            "end": 90.8,
+            "confidence": 0.991
+          },
+          {
+            "text": "zijn",
+            "start": 90.8,
+            "end": 90.98,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 90.98,
+            "end": 91.1,
+            "confidence": 1.0
+          },
+          {
+            "text": "mensen.",
+            "start": 91.1,
+            "end": 91.4,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 92.3,
+        "end": 93.16,
+        "text": " Dit is een boom.",
+        "tokens": [
+          50625,
+          25270,
+          307,
+          3881,
+          9351,
+          13,
+          50677
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Dit",
+            "start": 92.3,
+            "end": 92.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "is",
+            "start": 92.52,
+            "end": 92.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "een",
+            "start": 92.74,
+            "end": 92.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "boom.",
+            "start": 92.94,
+            "end": 93.16,
+            "confidence": 0.996
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 94.62,
+        "end": 96.18,
+        "text": " Hoe heet het in Nederlands?",
+        "tokens": [
+          50746,
+          33979,
+          415,
+          302,
+          3639,
+          294,
+          29005,
+          10230,
+          30,
+          50826
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.898,
+        "words": [
+          {
+            "text": "Hoe",
+            "start": 94.62,
+            "end": 95.02,
+            "confidence": 0.994
+          },
+          {
+            "text": "heet",
+            "start": 95.02,
+            "end": 95.22,
+            "confidence": 0.982
+          },
+          {
+            "text": "het",
+            "start": 95.22,
+            "end": 95.34,
+            "confidence": 0.973
+          },
+          {
+            "text": "in",
+            "start": 95.34,
+            "end": 95.5,
+            "confidence": 0.999
+          },
+          {
+            "text": "Nederlands?",
+            "start": 95.5,
+            "end": 96.18,
+            "confidence": 0.712
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 97.08,
+        "end": 97.58,
+        "text": " Dat bedoel je?",
+        "tokens": [
+          50869,
+          9315,
+          2901,
+          78,
+          338,
+          1506,
+          30,
+          50894
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.982,
+        "words": [
+          {
+            "text": "Dat",
+            "start": 97.08,
+            "end": 97.26,
+            "confidence": 0.92
+          },
+          {
+            "text": "bedoel",
+            "start": 97.26,
+            "end": 97.52,
+            "confidence": 0.999
+          },
+          {
+            "text": "je?",
+            "start": 97.52,
+            "end": 97.58,
+            "confidence": 0.996
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 98.2,
+        "end": 100.56,
+        "text": " Ja, waar is het toilet? Dat is het in het Nederlands.",
+        "tokens": [
+          50922,
+          3530,
+          11,
+          16618,
+          307,
+          3639,
+          11137,
+          30,
+          9315,
+          307,
+          3639,
+          294,
+          3639,
+          29005,
+          10230,
+          13,
+          51045
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.949,
+        "words": [
+          {
+            "text": "Ja,",
+            "start": 98.2,
+            "end": 98.34,
+            "confidence": 0.916
+          },
+          {
+            "text": "waar",
+            "start": 98.48,
+            "end": 98.68,
+            "confidence": 0.99
+          },
+          {
+            "text": "is",
+            "start": 98.68,
+            "end": 98.82,
+            "confidence": 0.999
+          },
+          {
+            "text": "het",
+            "start": 98.82,
+            "end": 98.94,
+            "confidence": 0.971
+          },
+          {
+            "text": "toilet?",
+            "start": 98.94,
+            "end": 99.18,
+            "confidence": 0.98
+          },
+          {
+            "text": "Dat",
+            "start": 99.42,
+            "end": 99.62,
+            "confidence": 0.634
+          },
+          {
+            "text": "is",
+            "start": 99.62,
+            "end": 99.78,
+            "confidence": 1.0
+          },
+          {
+            "text": "het",
+            "start": 99.78,
+            "end": 99.92,
+            "confidence": 1.0
+          },
+          {
+            "text": "in",
+            "start": 99.92,
+            "end": 100.03999999999999,
+            "confidence": 0.999
+          },
+          {
+            "text": "het",
+            "start": 100.03999999999999,
+            "end": 100.12,
+            "confidence": 0.973
+          },
+          {
+            "text": "Nederlands.",
+            "start": 100.12,
+            "end": 100.56,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 101.4,
+        "end": 102.1,
+        "text": " Hoeveel is het?",
+        "tokens": [
+          51087,
+          33979,
+          303,
+          338,
+          307,
+          3639,
+          30,
+          51121
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Hoeveel",
+            "start": 101.4,
+            "end": 101.78,
+            "confidence": 0.998
+          },
+          {
+            "text": "is",
+            "start": 101.78,
+            "end": 101.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "het?",
+            "start": 101.94,
+            "end": 102.1,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 103.36,
+        "end": 104.3,
+        "text": " Ik heb hulp nodig.",
+        "tokens": [
+          51174,
+          8316,
+          8007,
+          276,
+          39646,
+          43409,
+          13,
+          51234
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 103.36,
+            "end": 103.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "heb",
+            "start": 103.56,
+            "end": 103.7,
+            "confidence": 1.0
+          },
+          {
+            "text": "hulp",
+            "start": 103.7,
+            "end": 104.0,
+            "confidence": 1.0
+          },
+          {
+            "text": "nodig.",
+            "start": 104.0,
+            "end": 104.3,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "seek": 0,
+        "start": 105.36,
+        "end": 106.8,
+        "text": " Ik spreek geen Nederlands.",
+        "tokens": [
+          51274,
+          8316,
+          637,
+          15500,
+          21773,
+          29005,
+          10230,
+          13,
+          51358
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.979,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 105.36,
+            "end": 105.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "spreek",
+            "start": 105.56,
+            "end": 105.96000000000001,
+            "confidence": 0.937
+          },
+          {
+            "text": "geen",
+            "start": 105.96000000000001,
+            "end": 106.22,
+            "confidence": 0.999
+          },
+          {
+            "text": "Nederlands.",
+            "start": 106.22,
+            "end": 106.8,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "seek": 0,
+        "start": 107.86,
+        "end": 108.84,
+        "text": " Ik kom uit Duitsland.",
+        "tokens": [
+          51408,
+          8316,
+          5207,
+          12528,
+          5153,
+          1208,
+          1661,
+          13,
+          51459
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.965,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 107.86,
+            "end": 108.03999999999999,
+            "confidence": 1.0
+          },
+          {
+            "text": "kom",
+            "start": 108.03999999999999,
+            "end": 108.22,
+            "confidence": 0.999
+          },
+          {
+            "text": "uit",
+            "start": 108.22,
+            "end": 108.4,
+            "confidence": 1.0
+          },
+          {
+            "text": "Duitsland.",
+            "start": 108.4,
+            "end": 108.84,
+            "confidence": 0.931
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "seek": 0,
+        "start": 109.92,
+        "end": 110.38,
+        "text": " Pas op.",
+        "tokens": [
+          51513,
+          14199,
+          999,
+          13,
+          51535
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.996,
+        "words": [
+          {
+            "text": "Pas",
+            "start": 109.92,
+            "end": 110.16,
+            "confidence": 0.997
+          },
+          {
+            "text": "op.",
+            "start": 110.16,
+            "end": 110.38,
+            "confidence": 0.995
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "seek": 0,
+        "start": 111.88,
+        "end": 112.53999999999999,
+        "text": " Ik wil het.",
+        "tokens": [
+          51596,
+          8316,
+          20501,
+          3639,
+          13,
+          51643
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 111.88,
+            "end": 112.08,
+            "confidence": 1.0
+          },
+          {
+            "text": "wil",
+            "start": 112.08,
+            "end": 112.3,
+            "confidence": 0.999
+          },
+          {
+            "text": "het.",
+            "start": 112.3,
+            "end": 112.53999999999999,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "seek": 0,
+        "start": 113.4,
+        "end": 114.12,
+        "text": " Ik wil het niet.",
+        "tokens": [
+          51678,
+          8316,
+          20501,
+          3639,
+          6899,
+          13,
+          51724
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 113.4,
+            "end": 113.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "wil",
+            "start": 113.6,
+            "end": 113.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "het",
+            "start": 113.8,
+            "end": 113.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "niet.",
+            "start": 113.94,
+            "end": 114.12,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "seek": 0,
+        "start": 115.22,
+        "end": 115.82,
+        "text": " Ik kan het.",
+        "tokens": [
+          51759,
+          8316,
+          4608,
+          3639,
+          13,
+          51808
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2899208684121409,
+        "compression_ratio": 1.7102272727272727,
+        "no_speech_prob": 1.2711516735042228e-11,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 115.22,
+            "end": 115.4,
+            "confidence": 0.999
+          },
+          {
+            "text": "kan",
+            "start": 115.4,
+            "end": 115.62,
+            "confidence": 0.999
+          },
+          {
+            "text": "het.",
+            "start": 115.62,
+            "end": 115.82,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 117.0,
+        "end": 117.62,
+        "text": " Natuurlijk.",
+        "tokens": [
+          50415,
+          6821,
+          18470,
+          12416,
+          13,
+          50447
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2898374593482827,
+        "compression_ratio": 1.28125,
+        "no_speech_prob": 7.505052135314827e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Natuurlijk.",
+            "start": 117.0,
+            "end": 117.62,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 118.8,
+        "end": 119.66,
+        "text": " Heel erg bedankt.",
+        "tokens": [
+          50508,
+          634,
+          338,
+          26585,
+          2901,
+          657,
+          83,
+          13,
+          50550
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2898374593482827,
+        "compression_ratio": 1.28125,
+        "no_speech_prob": 7.505052135314827e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Heel",
+            "start": 118.8,
+            "end": 119.06,
+            "confidence": 0.999
+          },
+          {
+            "text": "erg",
+            "start": 119.06,
+            "end": 119.18,
+            "confidence": 1.0
+          },
+          {
+            "text": "bedankt.",
+            "start": 119.18,
+            "end": 119.66,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 120.7,
+        "end": 121.56,
+        "text": " Ik weet het niet.",
+        "tokens": [
+          50596,
+          8316,
+          28991,
+          3639,
+          6899,
+          13,
+          50647
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2898374593482827,
+        "compression_ratio": 1.28125,
+        "no_speech_prob": 7.505052135314827e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 120.7,
+            "end": 120.92,
+            "confidence": 1.0
+          },
+          {
+            "text": "weet",
+            "start": 120.92,
+            "end": 121.18,
+            "confidence": 1.0
+          },
+          {
+            "text": "het",
+            "start": 121.18,
+            "end": 121.36,
+            "confidence": 1.0
+          },
+          {
+            "text": "niet.",
+            "start": 121.36,
+            "end": 121.56,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 122.62,
+        "end": 123.78,
+        "text": " Ik spreek jullie taal niet.",
+        "tokens": [
+          50697,
+          8316,
+          637,
+          15500,
+          29633,
+          1846,
+          304,
+          6899,
+          13,
+          50758
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2898374593482827,
+        "compression_ratio": 1.28125,
+        "no_speech_prob": 7.505052135314827e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 122.62,
+            "end": 122.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "spreek",
+            "start": 122.82,
+            "end": 123.14,
+            "confidence": 0.999
+          },
+          {
+            "text": "jullie",
+            "start": 123.14,
+            "end": 123.32,
+            "confidence": 0.998
+          },
+          {
+            "text": "taal",
+            "start": 123.32,
+            "end": 123.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "niet.",
+            "start": 123.6,
+            "end": 123.78,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 124.94,
+        "end": 125.96000000000001,
+        "text": " Ik begrijp je niet.",
+        "tokens": [
+          50803,
+          8316,
+          4612,
+          11105,
+          79,
+          1506,
+          6899,
+          13,
+          50865
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2898374593482827,
+        "compression_ratio": 1.28125,
+        "no_speech_prob": 7.505052135314827e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 124.94,
+            "end": 125.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "begrijp",
+            "start": 125.14,
+            "end": 125.62,
+            "confidence": 1.0
+          },
+          {
+            "text": "je",
+            "start": 125.62,
+            "end": 125.76,
+            "confidence": 0.998
+          },
+          {
+            "text": "niet.",
+            "start": 125.76,
+            "end": 125.96000000000001,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 127.34,
+        "end": 129.14,
+        "text": " Ik zie je later. Tot ziens.",
+        "tokens": [
+          50925,
+          8316,
+          16503,
+          1506,
+          1780,
+          13,
+          11236,
+          710,
+          24594,
+          13,
+          51022
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2898374593482827,
+        "compression_ratio": 1.28125,
+        "no_speech_prob": 7.505052135314827e-12,
+        "confidence": 0.955,
+        "words": [
+          {
+            "text": "Ik",
+            "start": 127.34,
+            "end": 127.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "zie",
+            "start": 127.52,
+            "end": 127.7,
+            "confidence": 0.999
+          },
+          {
+            "text": "je",
+            "start": 127.7,
+            "end": 127.84,
+            "confidence": 0.999
+          },
+          {
+            "text": "later.",
+            "start": 127.84,
+            "end": 128.16,
+            "confidence": 0.983
+          },
+          {
+            "text": "Tot",
+            "start": 128.44,
+            "end": 128.84,
+            "confidence": 0.741
+          },
+          {
+            "text": "ziens.",
+            "start": 128.84,
+            "end": 129.14,
+            "confidence": 0.999
+          }
+        ]
+      }
+    ],
+    "language": "nl",
+    "language_probability": 0.0
+  },
+  "processing_time": "2025-05-22T10:51:55.514988"
+}

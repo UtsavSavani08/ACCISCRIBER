@@ -1,0 +1,212 @@
+1
+00:00:00,440 --> 00:00:05,620
+Oi, pessoal! Neste vídeo eu vou falar um pouco sobre a história da cidade de São Paulo
+[Confidence: 96.85%]
+2
+00:00:05,940 --> 00:00:10,140
+e lhes mostrar alguns lugares históricos nessa cidade. Vem comigo!
+[Confidence: 97.14%]
+3
+00:00:33,880 --> 00:00:38,780
+A região onde hoje se encontra São Paulo, assim como o restante do Brasil e das Américas,
+[Confidence: 96.54%]
+4
+00:00:39,140 --> 00:00:41,899
+era originalmente habitada por indígenas.
+[Confidence: 99.96%]
+5
+00:00:42,299 --> 00:00:50,200
+Em 1500, os portugueses chegaram ao Brasil e em 1554, os jesuítas chegaram a São Paulo
+[Confidence: 98.71%]
+6
+00:00:50,500 --> 00:00:54,480
+com o intuito de catequizar e alfabetizar os indígenas.
+[Confidence: 99.97%]
+7
+00:00:54,960 --> 00:00:58,840
+Agora eu estou em frente ao pátio do colégio no centro de São Paulo,
+[Confidence: 89.56%]
+8
+00:00:58,020 --> 00:01:02,820
+centro de São Paulo, foi exatamente neste local que os jesuítas fundaram o
+[Confidence: 92.84%]
+9
+00:01:02,820 --> 00:01:11,420
+Colégio Jesuíta no dia 25 de janeiro de 1554. E ao redor deste colégio se formou
+[Confidence: 89.30%]
+10
+00:01:11,659 --> 00:01:16,480
+a cidade de São Paulo, originalmente chamada de São Paulo de Piratininga.
+[Confidence: 98.46%]
+11
+00:01:16,680 --> 00:01:19,180
+Piratininga era como os índios chamavam essa região.
+[Confidence: 97.86%]
+12
+00:01:33,140 --> 00:01:38,379
+Agora em frente à famosa Catedral da Sé, que foi fundada em 1954.
+[Confidence: 94.93%]
+13
+00:01:39,939 --> 00:01:45,120
+E logo em frente à Catedral encontramos a Praça da Sé, que é o marco zero da cidade.
+[Confidence: 96.99%]
+14
+00:02:03,799 --> 00:02:10,639
+No século XVII, começaram as bandeiras, que tinham o objetivo de capturar e escravizar índios,
+[Confidence: 92.12%]
+15
+00:02:11,020 --> 00:02:16,219
+expandir o território brasileiro e procurar por ouro e pedras preciosas.
+[Confidence: 99.94%]
+16
+00:02:16,620 --> 00:02:22,620
+Agora, eu estou em frente ao Monumento às Bandeiras, que fica logo em frente ao Parque Ibirapuera.
+[Confidence: 98.79%]
+17
+00:02:24,500 --> 00:02:25,979
+Este monumento foi feito...
+[Confidence: 97.78%]
+18
+00:02:25,780 --> 00:02:29,039
+feito em homenagem às bandeiras e aos bandeirantes.
+[Confidence: 96.54%]
+19
+00:02:29,620 --> 00:02:32,349
+O Monumento às Bandeiras é muito criticado porque,
+[Confidence: 92.73%]
+20
+00:02:32,349 --> 00:02:36,800
+apesar deste monumento representar o desenvolvimento de São Paulo
+[Confidence: 98.82%]
+21
+00:02:37,099 --> 00:02:41,139
+através das bandeiras, o monumento também simboliza a escravidão
+[Confidence: 97.37%]
+22
+00:02:41,360 --> 00:02:45,219
+e o massacre dos povos indígenas durante o período colonial.
+[Confidence: 99.96%]
+23
+00:03:07,479 --> 00:03:12,340
+No início do século XIX, teve início o ciclo do café em São Paulo.
+[Confidence: 95.49%]
+24
+00:03:12,800 --> 00:03:18,479
+Durante muito tempo, o café foi a principal base econômica de São Paulo e do Brasil.
+[Confidence: 99.59%]
+25
+00:03:18,879 --> 00:03:23,539
+Para facilitar o transporte do café, em 1867,
+[Confidence: 99.94%]
+26
+00:03:23,020 --> 00:03:28,780
+1967 foi criada a São Paulo Railway, a primeira ferrovia paulista.
+[Confidence: 92.77%]
+27
+00:03:29,400 --> 00:03:35,580
+Agora eu estou em frente à Estação da Luz, uma das principais estações ferroviárias de São Paulo,
+[Confidence: 96.35%]
+28
+00:03:35,919 --> 00:03:37,580
+localizada no centro da cidade.
+[Confidence: 99.98%]
+29
+00:03:44,379 --> 00:03:48,639
+Inicialmente, a produção do café era feita com mão de obra escrava.
+[Confidence: 99.98%]
+30
+00:03:48,939 --> 00:03:52,979
+Com a abolição da escravatura no século XIX, os latifícios...
+[Confidence: 96.05%]
+31
+00:03:52,360 --> 00:03:58,500
+os latifundiários começaram a empregar imigrantes, especialmente da Europa e do Japão.
+[Confidence: 98.79%]
+32
+00:04:10,979 --> 00:04:15,500
+Agora eu estou na Avenida Paulista, uma das avenidas mais conhecidas de São Paulo.
+[Confidence: 99.53%]
+33
+00:04:15,900 --> 00:04:21,980
+Esta avenida foi inaugurada em 1891 e nesta avenida muitos barões...
+[Confidence: 91.28%]
+34
+00:04:21,000 --> 00:04:27,360
+muitos barões do café, os grandes produtores de café, construíram as suas mansões.
+[Confidence: 93.06%]
+35
+00:04:27,959 --> 00:04:32,160
+E um exemplo de uma mansão desta época é a Casa das Rosas.
+[Confidence: 99.82%]
+36
+00:04:32,699 --> 00:04:36,160
+A Casa das Rosas foi construída em 1935.
+[Confidence: 99.99%]
+37
+00:04:37,060 --> 00:04:42,860
+Hoje, a Casa das Rosas é um espaço cultural que recebe muitos eventos e exposições de arte.
+[Confidence: 99.89%]
+38
+00:04:52,860 --> 00:05:03,000
+Além da grande produção de café, em meados do século XX, São Paulo também recebeu muitas indústrias, especialmente automobilísticas,
+[Confidence: 93.80%]
+39
+00:05:03,300 --> 00:05:11,100
+o que estimulou a migração de brasileiros de outras regiões a São Paulo, especialmente nordestinos.
+[Confidence: 99.89%]
+40
+00:05:11,660 --> 00:05:18,939
+Este grande movimento de migração a São Paulo contribuiu para o crescimento e desenvolvimento da cidade.
+[Confidence: 99.94%]
+41
+00:05:19,980 --> 00:05:28,920
+No final do século XX, São Paulo se tornou o maior polo econômico e a maior cidade do Brasil e da América do Sul.
+[Confidence: 96.82%]
+42
+00:05:29,420 --> 00:05:36,120
+Hoje, São Paulo é uma das maiores cidades do mundo, com mais de 12 milhões de habitantes,
+[Confidence: 99.60%]
+43
+00:05:36,439 --> 00:05:41,740
+imigrantes de todos os cantos do mundo e um dos maiores PIBs do planeta.
+[Confidence: 99.74%]
+44
+00:05:42,500 --> 00:05:47,500
+É isso, pessoal. Espero que você tenha gostado de aprender um pouco sobre a história de São Paulo.
+[Confidence: 99.31%]
+45
+00:05:47,879 --> 00:05:48,980
+É importante que você saiba...
+[Confidence: 98.80%]
+46
+00:05:48,000 --> 00:05:55,310
+É importante que você saiba que eu não sou professora de história, então tudo que eu falei neste vídeo foi baseado em pesquisas que eu fiz.
+[Confidence: 92.24%]
+47
+00:05:55,310 --> 00:06:04,560
+O objetivo deste vídeo não é ensinar história e sim passar algumas informações interessantes sobre essa cidade maravilhosa.
+[Confidence: 98.06%]
+48
+00:06:04,980 --> 00:06:09,079
+Eu gostaria de saber se você gostou deste vídeo, o que você mais gostou.
+[Confidence: 99.96%]
+49
+00:06:09,519 --> 00:06:12,259
+Deixe um comentário abaixo com a sua resposta.
+[Confidence: 99.86%]
+50
+00:06:12,699 --> 00:06:17,300
+Se você gostou, lembre-se de dar um like e de se inscrever em meu canal.
+[Confidence: 97.57%]
+51
+00:06:17,819 --> 00:06:17,959
+Então...
+[Confidence: 74.40%]
+52
+00:06:17,000 --> 00:06:23,439
+canal. Todas as semanas eu posto um novo vídeo com dicas de gramática, vocabulário e pronúncia
+[Confidence: 92.24%]
+53
+00:06:23,439 --> 00:06:25,839
+do português brasileiro. Até a próxima!
+[Confidence: 98.05%]

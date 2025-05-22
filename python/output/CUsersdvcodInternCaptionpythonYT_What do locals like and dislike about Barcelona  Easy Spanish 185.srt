@@ -1,0 +1,640 @@
+1
+00:00:00,140 --> 00:00:03,240
+Hola chicos y chicas, bienvenidos a un nuevo vídeo de Easy Spanish.
+[Confidence: 96.44%]
+2
+00:00:03,940 --> 00:00:06,839
+Yo soy Carla y aunque no me conocéis os explico un poco sobre mí.
+[Confidence: 95.91%]
+3
+00:00:07,059 --> 00:00:10,380
+Vivo en Terrassa pero trabajo como profesora de español aquí en Barcelona.
+[Confidence: 95.88%]
+4
+00:00:10,939 --> 00:00:16,000
+Y hoy salimos precisamente aquí a la calle en Barcelona a preguntar a la gente qué es lo que más le gusta de la ciudad.
+[Confidence: 97.29%]
+5
+00:00:16,379 --> 00:00:16,719
+¡Vamos!
+[Confidence: 98.20%]
+6
+00:00:16,719 --> 00:00:29,980
+¿Qué es lo que más te gusta de Barcelona?
+[Confidence: 97.77%]
+7
+00:00:31,019 --> 00:00:31,899
+La diversidad cultural.
+[Confidence: 96.77%]
+8
+00:00:32,679 --> 00:00:33,219
+El ambiente.
+[Confidence: 98.60%]
+9
+00:00:34,500 --> 00:00:39,439
+Sí, no sé, los bares, las cosas para hacer por la calle, tiene mucha oferta.
+[Confidence: 90.38%]
+10
+00:00:40,159 --> 00:00:41,460
+soy de Barcelona, pues todo.
+[Confidence: 98.18%]
+11
+00:00:42,500 --> 00:00:45,219
+Claro, es nuestra ciudad, hemos nacido aquí.
+[Confidence: 91.60%]
+12
+00:00:45,219 --> 00:00:48,679
+Hemos nacido aquí, una ciudad aquí, pues todo nos gusta.
+[Confidence: 91.05%]
+13
+00:00:48,879 --> 00:00:50,100
+Con Barcelona no hay nada.
+[Confidence: 88.12%]
+14
+00:00:52,500 --> 00:00:53,519
+Es que justo has pillado que está hablando de esto.
+[Confidence: 84.72%]
+15
+00:00:54,299 --> 00:00:55,120
+Sí, hablando de eso.
+[Confidence: 91.65%]
+16
+00:00:55,120 --> 00:00:55,179
+Sí, el destino.
+[Confidence: 84.97%]
+17
+00:00:56,000 --> 00:00:58,140
+Y no nos gusta el centro ni el turismo.
+[Confidence: 90.53%]
+18
+00:00:58,560 --> 00:01:02,920
+gustan otros barrios. mí lo que más me gusta es la Filmoteca. ¿La Filmoteca qué?
+[Confidence: 87.69%]
+19
+00:01:03,480 --> 00:01:08,180
+Me gusta el cine y me gusta. sea, no ponen pelis convencionales ni nada está guay.
+[Confidence: 94.74%]
+20
+00:01:08,680 --> 00:01:12,989
+es como ir al cine. Y que es una ciudad muy cosmopolita, que hay gente de todos lados
+[Confidence: 88.98%]
+21
+00:01:12,989 --> 00:01:21,680
+del mundo, latinoamericanos, de Medio Oriente, europeos lógicamente, y bueno, creo que eso la
+[Confidence: 86.74%]
+22
+00:01:21,680 --> 00:01:27,500
+enriquece mucho culturalmente. Uy, que es como muy pluricultural, sobre todo me gusta la zona
+[Confidence: 89.22%]
+23
+00:01:27,519 --> 00:01:27,680
+del
+[Confidence: 93.20%]
+24
+00:01:27,000 --> 00:01:31,459
+Me gusta la zona del Raval, hay comida muy buena y yo creo que es lo que más me gusta.
+[Confidence: 94.31%]
+25
+00:01:31,859 --> 00:01:34,060
+¿Qué plato recomendarías que la gente probara allí?
+[Confidence: 98.88%]
+26
+00:01:34,920 --> 00:01:41,000
+Bueno, está el arroz con falafé y verduras y está muy bueno en un...
+[Confidence: 95.63%]
+27
+00:01:41,260 --> 00:01:42,799
+se llama bocadillo sultano o algo así.
+[Confidence: 88.97%]
+28
+00:01:43,700 --> 00:01:45,180
+Muy buena publicidad lugar.
+[Confidence: 99.72%]
+29
+00:01:45,939 --> 00:01:50,480
+Pues el ambiente, poder salir por la tarde e ir a un bar a tomar algo
+[Confidence: 97.10%]
+30
+00:01:51,560 --> 00:01:53,319
+y sobre todo el sol también, el tiempo.
+[Confidence: 98.46%]
+31
+00:01:54,180 --> 00:01:54,500
+¿Y a ti?
+[Confidence: 99.17%]
+32
+00:01:54,819 --> 00:01:56,680
+Sí, sí, lo mismo, el clima y la gente.
+[Confidence: 98.83%]
+33
+00:01:56,120 --> 00:01:57,819
+la gente, sí, eso.
+[Confidence: 94.15%]
+34
+00:01:58,760 --> 00:02:00,480
+No sé, hay mucha cultura, hay fiesta también,
+[Confidence: 98.12%]
+35
+00:02:00,640 --> 00:02:01,480
+o sea, hay un poco de todo.
+[Confidence: 96.76%]
+36
+00:02:01,760 --> 00:02:02,879
+La playa, no sé.
+[Confidence: 100.00%]
+37
+00:02:03,459 --> 00:02:07,060
+Lo que más me gusta de Barcelona, pues sus calles, sus edificios,
+[Confidence: 88.73%]
+38
+00:02:07,659 --> 00:02:08,599
+y que lo tiene todo.
+[Confidence: 100.00%]
+39
+00:02:08,699 --> 00:02:11,419
+Tiene montaña, tiene playa, tiene cultura.
+[Confidence: 99.87%]
+40
+00:02:11,879 --> 00:02:13,159
+Creo que es una ciudad que lo tiene todo.
+[Confidence: 100.00%]
+41
+00:02:13,659 --> 00:02:15,400
+Lo que más me gusta de Barcelona es el arte,
+[Confidence: 100.00%]
+42
+00:02:16,479 --> 00:02:19,280
+que está siendo bastante ofuscado el arte,
+[Confidence: 98.36%]
+43
+00:02:19,740 --> 00:02:23,699
+porque viene la policía y nos trata como criminales, vandalos,
+[Confidence: 99.51%]
+44
+00:02:24,240 --> 00:02:25,699
+y la verdad que sinceramente...
+[Confidence: 98.66%]
+45
+00:02:25,000 --> 00:02:27,680
+Sinceramente, Barcelona vive de eso y del turismo.
+[Confidence: 95.60%]
+46
+00:02:28,599 --> 00:02:31,259
+Todo, las zonas verdes sobre todo, los parques que tienen.
+[Confidence: 98.38%]
+47
+00:02:31,860 --> 00:02:32,860
+¿Qué parque te gusta más?
+[Confidence: 99.98%]
+48
+00:02:33,840 --> 00:02:40,740
+El de la Ciudadela me gusta mucho, y toda la zona de la costa, de la Rambla y todo eso, precioso.
+[Confidence: 97.79%]
+49
+00:02:40,939 --> 00:02:46,060
+Todo el ayuntamiento, todos saben perfectamente que Barcelona es una parte como Berlín, como Nueva York,
+[Confidence: 99.08%]
+50
+00:02:46,340 --> 00:02:51,199
+que tiene mucho arte por todos lados, Urban Street, que no es considerado arte,
+[Confidence: 99.58%]
+51
+00:02:51,300 --> 00:02:54,979
+que somos considerados como vándalos y que nos pintan a cada rato.
+[Confidence: 94.31%]
+52
+00:02:54,000 --> 00:02:59,840
+que nos pintan a cada rato, el ayuntamiento paga gente para que vuelvan a pintar sobre el arte de las personas.
+[Confidence: 94.98%]
+53
+00:03:00,280 --> 00:03:05,199
+Entonces los turistas vienen por el arte, pero se encuentran con que la policía multa a los artistas.
+[Confidence: 99.52%]
+54
+00:03:05,580 --> 00:03:10,759
+De Barcelona, pues que está hiper bien comunicada con todo, tiene aeropuerto, puerto y todo,
+[Confidence: 98.50%]
+55
+00:03:11,159 --> 00:03:12,840
+y encima tenemos mar y montaña.
+[Confidence: 99.85%]
+56
+00:03:13,460 --> 00:03:15,639
+¿Y cuál es tu lugar favorito de Barcelona?
+[Confidence: 99.80%]
+57
+00:03:17,479 --> 00:03:17,840
+Uy, difícil.
+[Confidence: 99.05%]
+58
+00:03:18,780 --> 00:03:20,780
+¿O el sitio que recomendarías?
+[Confidence: 96.24%]
+59
+00:03:21,400 --> 00:03:23,599
+Para visitar antipaturistas, pues que se
+[Confidence: 92.67%]
+60
+00:03:23,360 --> 00:03:25,580
+que se pasen por la sala de familia, que es muy bonito.
+[Confidence: 89.30%]
+61
+00:03:25,939 --> 00:03:28,819
+¿Qué le recomendaría a una persona que viene que visitara?
+[Confidence: 99.22%]
+62
+00:03:29,520 --> 00:03:34,099
+Ah, que visitara, bueno, todo lo de Gaudí, naturalmente, todos los museos,
+[Confidence: 98.16%]
+63
+00:03:34,840 --> 00:03:38,520
+que fuese, sí, hombre, claro, es que hay el Museo Picasso,
+[Confidence: 99.06%]
+64
+00:03:40,020 --> 00:03:43,520
+muchos museos ahí, solo hay que buscar por internet y ya está.
+[Confidence: 95.60%]
+65
+00:03:44,579 --> 00:03:50,340
+Bueno, a mí me gustan mucho los búnkers de Barcelona y arriba para ver el atardecer,
+[Confidence: 94.73%]
+66
+00:03:51,939 --> 00:03:52,979
+playas son muy lindas.
+[Confidence: 99.00%]
+67
+00:03:52,000 --> 00:03:56,780
+Las playas son muy lindas también, un poco más alejada en realidad de Barcelona ciudad, pero...
+[Confidence: 86.49%]
+68
+00:03:57,560 --> 00:03:59,639
+¿Porque la Barceloneta la recomendarías?
+[Confidence: 85.74%]
+69
+00:04:02,520 --> 00:04:10,120
+Bueno, sí, para ir una tarde, digamos, no sé si para ir recurrentemente, pero sí, es muy lindo, digamos, hay que aprovechar la playa.
+[Confidence: 96.00%]
+70
+00:04:10,740 --> 00:04:15,259
+Gracias quizás, que está como en el centro, pero está alejada del centro, no hay tanto turismo.
+[Confidence: 97.70%]
+71
+00:04:15,699 --> 00:04:21,839
+Así que es verdad que hay mucho ambiente de gente joven y tal, pero tiene sus rincones así más insueltos y más tranquilos.
+[Confidence: 97.23%]
+72
+00:04:21,000 --> 00:04:28,199
+más tranquilos y yo diría sanz zona de sanz me parece como que la gente que antes
+[Confidence: 81.09%]
+73
+00:04:28,199 --> 00:04:32,040
+barcelona del centro se un poquito más alejada del centro y sanz es un buen ejemplo
+[Confidence: 91.50%]
+74
+00:04:32,139 --> 00:04:36,899
+de cómo era antes barcelona y cómo puede estar el ideario de la gente en cuanto a cómo es barcelona
+[Confidence: 93.46%]
+75
+00:04:37,459 --> 00:04:42,500
+sin tanto lugar que no sé yo vengo de vez en cuando y siempre hay algo diferente para ver
+[Confidence: 88.47%]
+76
+00:04:43,019 --> 00:04:48,220
+de vacaciones en barcelona vacaciones tres días días que está de es gaudí
+[Confidence: 78.16%]
+77
+00:04:48,740 --> 00:04:49,079
+parque
+[Confidence: 67.10%]
+78
+00:04:53,220 --> 00:04:54,720
+Eixample me gusta bastante.
+[Confidence: 92.73%]
+79
+00:04:57,000 --> 00:05:00,160
+Una vez que te acostumbras a la ciudad así con cuadrados,
+[Confidence: 91.53%]
+80
+00:05:00,259 --> 00:05:03,600
+luego ya todas las demás ciudades te parecen que son caóticas.
+[Confidence: 95.64%]
+81
+00:05:04,339 --> 00:05:07,800
+Y la zona de arriba del Tibidabo y el Verde, que me gusta mucho hacer excursiones.
+[Confidence: 96.08%]
+82
+00:05:09,399 --> 00:05:14,199
+Pues todo la parte arquitectónica de Gaudí, sobre todo, es muy bonito.
+[Confidence: 93.97%]
+83
+00:05:15,319 --> 00:05:16,420
+La Sagrada Familia desde fuera.
+[Confidence: 90.74%]
+84
+00:05:16,420 --> 00:05:19,100
+Yo nunca he entrado, pero es muy bonito verlo de fuera.
+[Confidence: 97.59%]
+85
+00:05:19,279 --> 00:05:19,980
+Y sobre todo...
+[Confidence: 97.27%]
+86
+00:05:19,000 --> 00:05:22,180
+y sobre todo pasear por la calle porque vale la pena.
+[Confidence: 92.16%]
+87
+00:05:23,019 --> 00:05:24,819
+¿Cuál es vuestro lugar favorito de Barcelona?
+[Confidence: 99.89%]
+88
+00:05:26,800 --> 00:05:27,420
+Los Bunkers.
+[Confidence: 88.80%]
+89
+00:05:29,199 --> 00:05:29,740
+Poblenau.
+[Confidence: 74.90%]
+90
+00:05:30,699 --> 00:05:31,040
+¿Por qué?
+[Confidence: 100.00%]
+91
+00:05:32,100 --> 00:05:36,240
+Porque he vivido allí muchos años y me gusta mucho el ambiente del barrio y se vive muy bien.
+[Confidence: 97.86%]
+92
+00:05:36,939 --> 00:05:37,959
+¿Y tú por qué Los Bunkers?
+[Confidence: 95.07%]
+93
+00:05:38,819 --> 00:05:46,819
+Creo que puedes ver bastante bien cómo es la ciudad de grande y quieras o no tienes una perspectiva de dónde estás viviendo.
+[Confidence: 95.46%]
+94
+00:05:47,240 --> 00:05:48,980
+Por cierto, si quieres recibir más...
+[Confidence: 99.58%]
+95
+00:05:48,000 --> 00:05:53,079
+Si quieres recibir más ejercicios sobre este episodio invitamos a que formes parte de nuestra comunidad en Patreon.
+[Confidence: 91.11%]
+96
+00:05:53,740 --> 00:05:59,500
+Allí podrás descargarte estos episodios con o sin subtítulos, obtener las transcripciones de los episodios
+[Confidence: 98.53%]
+97
+00:06:00,019 --> 00:06:03,199
+y además muchísimos más ejercicios para continuar estudiando español.
+[Confidence: 99.54%]
+98
+00:06:03,920 --> 00:06:07,000
+Te dejamos toda la información aquí arriba y también abajo.
+[Confidence: 99.93%]
+99
+00:06:07,579 --> 00:06:10,699
+Y por último, ¿qué es lo que no le gusta de la ciudad?
+[Confidence: 99.87%]
+100
+00:06:11,819 --> 00:06:14,759
+Buena cosa, buena pregunta. No sé si lo puedo decir.
+[Confidence: 99.12%]
+101
+00:06:15,139 --> 00:06:15,740
+¿Y tanto que sí?
+[Confidence: 94.10%]
+102
+00:06:16,360 --> 00:06:17,980
+Bueno, lo que no me gusta es como...
+[Confidence: 96.81%]
+103
+00:06:17,199 --> 00:06:27,399
+gusta, es como están yendo las cosas ahora, que hay mucho desorden, la verdad que me da mucha pena y todo el problema político es una pena.
+[Confidence: 93.91%]
+104
+00:06:28,379 --> 00:06:32,699
+La verdad, la verdad, no tengo nada para objetarle en principio.
+[Confidence: 94.51%]
+105
+00:06:33,800 --> 00:06:36,459
+Perfecto, es que te encanta Barcelona. Buenas señales.
+[Confidence: 91.50%]
+106
+00:06:36,540 --> 00:06:39,439
+Sí, sí, la verdad es que no tengo nada así como en contra.
+[Confidence: 95.15%]
+107
+00:06:40,480 --> 00:06:46,839
+Bueno, es que ahora hay más delincuencia, igual, no sé, por la noche como que pasas más miedo.
+[Confidence: 95.67%]
+108
+00:06:46,000 --> 00:06:47,120
+que pasas más miedo igual.
+[Confidence: 87.38%]
+109
+00:06:48,500 --> 00:06:50,019
+Sí, yo lo he notado que, bueno, nosotras dos
+[Confidence: 86.22%]
+110
+00:06:50,019 --> 00:06:52,040
+somos las que vivimos en Barcelona, de nuestro grupo
+[Confidence: 97.92%]
+111
+00:06:52,540 --> 00:06:53,860
+y sí que siempre le decimos que
+[Confidence: 91.79%]
+112
+00:06:54,120 --> 00:06:55,680
+ya no estamos tan seguras como antes.
+[Confidence: 99.81%]
+113
+00:06:55,800 --> 00:06:57,920
+Yo antes iba por la calle y no tenía miedo y ahora sí.
+[Confidence: 98.52%]
+114
+00:06:58,680 --> 00:07:00,699
+¿Desde hace mucho tiempo notáis esa inseguridad?
+[Confidence: 91.79%]
+115
+00:07:00,879 --> 00:07:02,300
+No, el último año yo creo.
+[Confidence: 97.45%]
+116
+00:07:02,720 --> 00:07:03,879
+Sí, en verano y así.
+[Confidence: 88.84%]
+117
+00:07:04,339 --> 00:07:05,579
+O sea, igual, ahora yo qué sé, por ejemplo,
+[Confidence: 86.73%]
+118
+00:07:05,639 --> 00:07:08,110
+Vila Olímpica se ha convertido como en Lloret
+[Confidence: 95.14%]
+119
+00:07:08,110 --> 00:07:10,220
+o Salou, ¿sabes? Que, no sé,
+[Confidence: 89.70%]
+120
+00:07:10,220 --> 00:07:11,839
+es más peligroso en teoría allí, pues aquí
+[Confidence: 99.56%]
+121
+00:07:11,959 --> 00:07:13,420
+ahora ya casi que es lo mismo.
+[Confidence: 92.51%]
+122
+00:07:14,160 --> 00:07:14,699
+El turismo.
+[Confidence: 92.00%]
+123
+00:07:15,519 --> 00:07:15,860
+Más que nada.
+[Confidence: 95.20%]
+124
+00:07:15,500 --> 00:07:18,920
+Más que nada porque se está cargando la visión de la ciudad y todo.
+[Confidence: 89.92%]
+125
+00:07:19,680 --> 00:07:24,079
+Yo voy a la universidad y lo que le diciendo a él, hay turistas que entran dentro de las aulas.
+[Confidence: 91.25%]
+126
+00:07:24,639 --> 00:07:25,379
+¿Dentro de las clases?
+[Confidence: 97.78%]
+127
+00:07:25,600 --> 00:07:25,899
+Sí, aquí.
+[Confidence: 82.60%]
+128
+00:07:26,439 --> 00:07:29,259
+Y es bastante raro, se están haciendo fotos y tal.
+[Confidence: 93.28%]
+129
+00:07:30,199 --> 00:07:31,230
+Te molesta bastante, ¿no?
+[Confidence: 93.62%]
+130
+00:07:31,230 --> 00:07:35,879
+No es porque me moleste porque sean ellos, sino porque es que se cargan un poco lo que es el conjunto.
+[Confidence: 92.70%]
+131
+00:07:37,339 --> 00:07:42,000
+En general, del país, no de la ciudad, del país, la limpieza.
+[Confidence: 93.75%]
+132
+00:07:42,399 --> 00:07:44,800
+No hay suficiente limpieza si vas al extranjero.
+[Confidence: 91.76%]
+133
+00:07:44,040 --> 00:07:46,379
+al extranjero hay mucha más limpieza.
+[Confidence: 91.20%]
+134
+00:07:46,680 --> 00:07:50,439
+No en todos los países, pero falta limpieza para mi gusto.
+[Confidence: 91.58%]
+135
+00:07:51,160 --> 00:07:55,639
+O falta cultura de la gente que vive aquí de ser más limpios.
+[Confidence: 99.11%]
+136
+00:07:56,279 --> 00:08:00,000
+Porque no es cuestión de que limpies, es cuestión de que no ensucies.
+[Confidence: 96.49%]
+137
+00:08:00,899 --> 00:08:01,600
+¿Usted está de acuerdo?
+[Confidence: 99.95%]
+138
+00:08:02,060 --> 00:08:03,060
+Sí, tanto, sí.
+[Confidence: 91.93%]
+139
+00:08:03,500 --> 00:08:06,040
+Y por último, ¿qué es lo que no te gusta de la ciudad?
+[Confidence: 99.88%]
+140
+00:08:08,180 --> 00:08:13,459
+Que no tiene río y que se circula muy mal en coche.
+[Confidence: 98.50%]
+141
+00:08:13,000 --> 00:08:14,910
+en coche. Pero por otro lado
+[Confidence: 90.97%]
+142
+00:08:14,910 --> 00:08:16,980
+es verdad que tiene buen transporte público, así que
+[Confidence: 99.17%]
+143
+00:08:17,839 --> 00:08:18,980
+pero no sé, que no tenga
+[Confidence: 98.62%]
+144
+00:08:19,000 --> 00:08:20,529
+río, supongo. Que hay
+[Confidence: 97.22%]
+145
+00:08:20,529 --> 00:08:23,220
+muchísima gente, mucho ruido y nunca hay descanso
+[Confidence: 97.45%]
+146
+00:08:23,220 --> 00:08:24,839
+entonces es un poco agobiante
+[Confidence: 94.28%]
+147
+00:08:26,060 --> 00:08:26,519
+y demasiado.
+[Confidence: 99.95%]
+148
+00:08:27,839 --> 00:08:28,379
+Los precios.
+[Confidence: 99.85%]
+149
+00:08:29,699 --> 00:08:30,360
+¿En qué sentido?
+[Confidence: 99.93%]
+150
+00:08:30,860 --> 00:08:32,679
+En que es muy caro todo. Vivir, comer,
+[Confidence: 99.78%]
+151
+00:08:33,419 --> 00:08:34,379
+transporte, todo.
+[Confidence: 100.00%]
+152
+00:08:34,820 --> 00:08:37,019
+Y ahora te toca a ti. ¿Has visitado Barcelona?
+[Confidence: 98.07%]
+153
+00:08:37,600 --> 00:08:39,200
+¿Cuáles fueron tus lugares favoritos?
+[Confidence: 99.10%]
+154
+00:08:39,679 --> 00:08:41,320
+Y si aún no has venido a esta preciosa
+[Confidence: 97.77%]
+155
+00:08:41,340 --> 00:08:42,980
+ciudad, ¿qué lugares te gustaría visitar?
+[Confidence: 97.00%]
+156
+00:08:42,000 --> 00:08:46,639
+lugares te gustaría visitar? Deja tus opiniones en comentarios para que podamos leerte.
+[Confidence: 92.78%]
+157
+00:08:47,240 --> 00:08:52,960
+Muy importante, te invitamos a suscribirte en nuestro canal de Easy Spanish y además
+[Confidence: 91.84%]
+158
+00:08:53,059 --> 00:08:58,200
+a que formes parte de nuestra comunidad en Patreon. Así, además de potenciar tu aprendizaje
+[Confidence: 98.06%]
+159
+00:08:58,200 --> 00:09:03,299
+del español, nos ayudarás muchísimo a poder seguir creando episodios de Easy Spanish.
+[Confidence: 98.74%]
+160
+00:09:03,759 --> 00:09:05,059
+Muchas gracias y nos vemos pronto.
+[Confidence: 93.40%]

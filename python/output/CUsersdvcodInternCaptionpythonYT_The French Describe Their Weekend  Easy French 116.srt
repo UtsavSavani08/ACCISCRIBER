@@ -1,0 +1,480 @@
+1
+00:00:00,200 --> 00:00:03,459
+Bonjour les amis, bienvenue dans ce nouvel épisode d'Easy French.
+[Confidence: 97.66%]
+2
+00:00:03,899 --> 00:00:06,960
+Aujourd'hui, on se promène un peu entre les Halles et le Marais
+[Confidence: 98.32%]
+3
+00:00:07,040 --> 00:00:10,980
+et on demande aux gens de nous dire ce qu'ils aiment faire le week-end.
+[Confidence: 99.84%]
+4
+00:00:11,500 --> 00:00:12,080
+On y va ?
+[Confidence: 100.00%]
+5
+00:00:25,399 --> 00:00:29,100
+Vous voulez avoir accès à plus de matériel Easy French pour apprendre le français ?
+[Confidence: 97.78%]
+6
+00:00:29,359 --> 00:00:29,899
+Alors rendez-vous
+[Confidence: 94.60%]
+7
+00:00:29,280 --> 00:00:33,539
+Alors rendez-vous sur notre page www.patrion.com.e.
+[Confidence: 91.15%]
+8
+00:00:33,539 --> 00:00:37,100
+Vous y trouverez des exercices en lien avec nos épisodes,
+[Confidence: 99.05%]
+9
+00:00:37,500 --> 00:00:39,659
+les traductions et transcriptions des épisodes,
+[Confidence: 99.38%]
+10
+00:00:39,960 --> 00:00:41,119
+les vidéos à télécharger,
+[Confidence: 100.00%]
+11
+00:00:41,659 --> 00:00:44,259
+ainsi que notre groupe de discussion sur Slack.
+[Confidence: 98.90%]
+12
+00:00:44,740 --> 00:00:46,920
+Qu'est-ce que vous aimez faire le week-end habituellement ?
+[Confidence: 99.94%]
+13
+00:00:48,200 --> 00:00:48,820
+Où ça ?
+[Confidence: 95.30%]
+14
+00:00:49,399 --> 00:00:50,480
+Moi, qu'est-ce que je fais le week-end ?
+[Confidence: 99.91%]
+15
+00:00:52,079 --> 00:00:52,799
+Alors je joue au foot,
+[Confidence: 90.14%]
+16
+00:00:54,480 --> 00:00:55,700
+je suis avec mes enfants,
+[Confidence: 100.00%]
+17
+00:00:56,739 --> 00:00:57,899
+je profite avec la famille,
+[Confidence: 99.86%]
+18
+00:00:59,000 --> 00:00:59,060
+je remercie.
+[Confidence: 53.85%]
+19
+00:01:01,100 --> 00:01:02,700
+tout simplement ce que je fais le week-end.
+[Confidence: 89.74%]
+20
+00:01:03,619 --> 00:01:07,099
+Ben principalement ça en fait, très clairement on se balade,
+[Confidence: 92.78%]
+21
+00:01:07,480 --> 00:01:08,840
+je sais pas, on sur le roi Merlin,
+[Confidence: 74.26%]
+22
+00:01:09,700 --> 00:01:13,760
+des choses pas forcément ouf mais je sais pas, des musées, des trucs comme ça.
+[Confidence: 97.69%]
+23
+00:01:14,180 --> 00:01:16,539
+Le week-end, généralement je rentre chez mes parents à la campagne
+[Confidence: 99.57%]
+24
+00:01:16,539 --> 00:01:22,120
+et je suis plutôt tranquille, balade, faire à manger et voir des amis, voilà.
+[Confidence: 99.58%]
+25
+00:01:22,819 --> 00:01:24,519
+week-end, c'est là où j'ai le temps de jouer du piano,
+[Confidence: 99.05%]
+26
+00:01:25,439 --> 00:01:27,920
+de voir mes amis, de retourner un petit peu en province.
+[Confidence: 98.56%]
+27
+00:01:27,180 --> 00:01:32,829
+est un petit peu en province mes parents. Qu'est ce que vous aimez faire habituellement le
+[Confidence: 91.94%]
+28
+00:01:32,829 --> 00:01:42,879
+week-end ? Voir des amis, des activités culturelles, oui activités culturelles voir des amis principalement.
+[Confidence: 88.11%]
+29
+00:01:44,019 --> 00:01:49,539
+genre d'activités culturelles plus précisément ? J'aime bien trouver des expositions qui me
+[Confidence: 91.44%]
+30
+00:01:49,539 --> 00:01:56,980
+parlent bien, aller au cinéma, c'est principalement ça. Qu'est ce que vous avez vu ?
+[Confidence: 94.52%]
+31
+00:01:56,219 --> 00:01:58,620
+Qu'est-ce que vous avez vu comme expo dernièrement ?
+[Confidence: 98.61%]
+32
+00:01:59,780 --> 00:02:04,539
+Je suis allée au Panthéon notamment, donc je fais plutôt des sites à Paris.
+[Confidence: 95.78%]
+33
+00:02:05,120 --> 00:02:08,680
+J'ai été voir l'expo Matisse, quelques expos comme ça.
+[Confidence: 93.16%]
+34
+00:02:09,599 --> 00:02:11,139
+Plutôt des activités culturelles ?
+[Confidence: 98.78%]
+35
+00:02:11,539 --> 00:02:12,460
+Plutôt culturelles, oui.
+[Confidence: 83.50%]
+36
+00:02:13,199 --> 00:02:16,159
+Culturelles et puis sortir avec des amis aussi quand c'est possible.
+[Confidence: 97.81%]
+37
+00:02:17,240 --> 00:02:21,539
+J'ai vu Giacometti à l'Institut Giacometti.
+[Confidence: 94.92%]
+38
+00:02:21,759 --> 00:02:24,379
+J'ai vu Turner au Musée Jacques-Marant-André.
+[Confidence: 91.70%]
+39
+00:02:24,460 --> 00:02:25,719
+Très belles expos, toutes les deux.
+[Confidence: 91.05%]
+40
+00:02:25,419 --> 00:02:32,599
+les deux là je vais voir Matisse. Et vous est ce que vous aimez voyager ? Beaucoup,
+[Confidence: 86.10%]
+41
+00:02:33,180 --> 00:02:40,699
+je suis étrangère en plus, je voyage beaucoup, surtout ici en Europe y a plein d'endroits,
+[Confidence: 96.50%]
+42
+00:02:41,699 --> 00:02:46,699
+joli à connaître. Et avec vos amis qu'est ce que vous faites ? Vous allez dans les bars,
+[Confidence: 90.76%]
+43
+00:02:46,740 --> 00:02:52,990
+dans les restos, vous voyez à la maison ? Beaucoup de bars et restaurants principalement. Qu'est qu'on
+[Confidence: 93.23%]
+44
+00:02:52,990 --> 00:02:54,979
+fait ? Normalement il n'y a pas le confinement,
+[Confidence: 89.40%]
+45
+00:02:54,520 --> 00:02:55,879
+il n'y a pas le confinement, boire des verres.
+[Confidence: 94.64%]
+46
+00:02:56,800 --> 00:02:57,879
+C'est quelque chose de très sympa.
+[Confidence: 99.97%]
+47
+00:02:59,039 --> 00:03:01,759
+On se balade à Paris, dans les rues de Paris, parce qu'il y a pas mal de monuments à voir.
+[Confidence: 95.72%]
+48
+00:03:02,500 --> 00:03:04,840
+Moi, je dirais faire des petites expos, genre là, si je mets en feste
+[Confidence: 78.46%]
+49
+00:03:05,400 --> 00:03:08,879
+on va à l'Atelier des Lumières, qui est un super musée à faire pas très loin.
+[Confidence: 97.39%]
+50
+00:03:09,439 --> 00:03:11,340
+Et on va au théâtre, tant que c'est ouvert.
+[Confidence: 99.92%]
+51
+00:03:11,420 --> 00:03:14,199
+Là, ils ont un peu décalé, ils ont avancé les heures de début de théâtre.
+[Confidence: 95.72%]
+52
+00:03:14,439 --> 00:03:15,060
+Donc on peut encore y aller.
+[Confidence: 91.63%]
+53
+00:03:16,539 --> 00:03:19,139
+Qu'est-ce que vous aimez faire le week-end habituellement ?
+[Confidence: 98.72%]
+54
+00:03:19,639 --> 00:03:23,180
+Alors habituellement, on aime bien boire des coups avec des copains.
+[Confidence: 94.31%]
+55
+00:03:23,780 --> 00:03:27,400
+faire du sport faire du tennis faire du footing Rodolphe.
+[Confidence: 84.35%]
+56
+00:03:30,199 --> 00:03:36,919
+pas. ça qu'on fait. Parfois va au musée aussi.
+[Confidence: 92.73%]
+57
+00:03:41,379 --> 00:03:42,759
+famille surtout, voir la famille.
+[Confidence: 93.42%]
+58
+00:03:43,280 --> 00:03:45,439
+Comment vous restez à la maison ? Qu'est ce que vous aimez faire ?
+[Confidence: 91.54%]
+59
+00:03:46,240 --> 00:03:50,069
+Alors moi je cuisine pas mal. J'aime pas mal faire ça. On peut essayer des nouvelles choses
+[Confidence: 85.05%]
+60
+00:03:50,069 --> 00:03:52,319
+quand on cuisine parce que bon, c'est pour nous, soit
+[Confidence: 91.05%]
+61
+00:03:52,860 --> 00:03:57,379
+enfin on peut expérimenter et sinon moi je travaille c'est un petit peu de travail
+[Confidence: 82.83%]
+62
+00:03:57,939 --> 00:04:01,659
+et de travailler musique guitare cano très bien ça ukulélé
+[Confidence: 73.21%]
+63
+00:04:07,000 --> 00:04:11,539
+moi j'habite à 30 km de paris alors je viens très souvent ici à paris
+[Confidence: 91.49%]
+64
+00:04:11,539 --> 00:04:18,980
+juste à peu marcher oui connaître paris vous aimez vous promener ou dans paris
+[Confidence: 82.39%]
+65
+00:04:19,720 --> 00:04:21,660
+bah juste ici par exemple et dans les
+[Confidence: 86.79%]
+66
+00:04:21,759 --> 00:04:29,120
+quartiers latins, il y a aussi des marées, aussi proche de la tour Eiffel, la partie de Montmartre.
+[Confidence: 81.03%]
+67
+00:04:29,879 --> 00:04:34,439
+Il y a plusieurs endroits à Paris qui sont très bien se promener, bien sûr.
+[Confidence: 94.93%]
+68
+00:04:35,339 --> 00:04:37,980
+Et quand vous restez à la maison le week-end, qu'est-ce que vous aimez faire ?
+[Confidence: 99.67%]
+69
+00:04:37,980 --> 00:04:45,540
+Je suis étudiant d'ingénierie, donc j'ai passé beaucoup de temps à préparer les cours, mais aussi faire du sport et sortir.
+[Confidence: 95.74%]
+70
+00:04:47,500 --> 00:04:50,180
+me trouver avec des amis aussi.
+[Confidence: 91.03%]
+71
+00:04:50,779 --> 00:04:51,139
+C'est ça.
+[Confidence: 71.60%]
+72
+00:04:52,180 --> 00:04:53,180
+Quel sport vous faites ?
+[Confidence: 97.75%]
+73
+00:04:53,439 --> 00:04:53,959
+Tennis.
+[Confidence: 98.00%]
+74
+00:04:54,240 --> 00:04:57,300
+Tennis, c'est aussi du crossfit, cardio training.
+[Confidence: 96.79%]
+75
+00:04:58,759 --> 00:05:01,759
+J'essaie de voir mes amis, de me promener, de faire du sport.
+[Confidence: 98.62%]
+76
+00:05:03,300 --> 00:05:07,160
+J'aime bien aller manger dehors le soir, sinon rester chez moi le dimanche.
+[Confidence: 97.34%]
+77
+00:05:08,300 --> 00:05:10,259
+Qu'est-ce que vous faites le week-end habituellement ?
+[Confidence: 99.86%]
+78
+00:05:11,259 --> 00:05:13,060
+On sort, mais elle, elle vit pas ici.
+[Confidence: 94.59%]
+79
+00:05:13,920 --> 00:05:16,079
+Donc, on sort, ouais.
+[Confidence: 89.72%]
+80
+00:05:17,120 --> 00:05:17,839
+On travaille ?
+[Confidence: 99.55%]
+81
+00:05:17,939 --> 00:05:18,740
+Oui, on travaille ici.
+[Confidence: 78.83%]
+82
+00:05:19,959 --> 00:05:21,839
+travaillez, c'est-à-dire vous révisez vos cours ?
+[Confidence: 87.73%]
+83
+00:05:23,079 --> 00:05:23,839
+On révise.
+[Confidence: 91.25%]
+84
+00:05:24,000 --> 00:05:26,279
+Moi, le dimanche, je travaille dans un magasin.
+[Confidence: 98.34%]
+85
+00:05:27,660 --> 00:05:28,920
+Mais sinon, on travaille les cours.
+[Confidence: 93.60%]
+86
+00:05:29,240 --> 00:05:30,079
+De semaine, le soir, on sort.
+[Confidence: 77.10%]
+87
+00:05:31,360 --> 00:05:32,019
+Et toi ?
+[Confidence: 75.75%]
+88
+00:05:34,000 --> 00:05:34,500
+Pareil, pareil.
+[Confidence: 98.00%]
+89
+00:05:35,319 --> 00:05:36,319
+Moi, je ne travaille pas, par contre.
+[Confidence: 98.09%]
+90
+00:05:36,759 --> 00:05:37,740
+Juste, je révise.
+[Confidence: 98.87%]
+91
+00:05:39,680 --> 00:05:42,730
+quand vous sortez, qu'est-ce que vous faites avec vos amis particulièrement ?
+[Confidence: 97.35%]
+92
+00:05:42,730 --> 00:05:44,399
+Qu'est-ce que vous aimez faire habituellement ?
+[Confidence: 99.85%]
+93
+00:05:44,639 --> 00:05:45,779
+On va dans des cafés ?
+[Confidence: 96.86%]
+94
+00:05:45,779 --> 00:05:47,339
+On se pose ?
+[Confidence: 84.07%]
+95
+00:05:48,959 --> 00:05:50,620
+on allait en boîte maintenant c'est plus possible
+[Confidence: 85.50%]
+96
+00:05:53,220 --> 00:05:57,459
+on tranquille on parle on se retrouve entre copines ouais et quand
+[Confidence: 82.88%]
+97
+00:05:57,459 --> 00:05:59,019
+vous restez à la maison qu'est ce que vous faites
+[Confidence: 97.41%]
+98
+00:06:05,620 --> 00:06:09,060
+le week-end en ce moment je fais pas grand chose un peu comme la plupart des
+[Confidence: 96.16%]
+99
+00:06:09,060 --> 00:06:13,350
+français je pense donc je fais mes courses les trucs un peu quotidien et
+[Confidence: 93.81%]
+100
+00:06:13,350 --> 00:06:17,800
+puis après je me détends devant la télévision jeux vidéo voilà
+[Confidence: 91.71%]
+101
+00:06:18,839 --> 00:06:23,939
+regardez à la télé et quels jeux vidéo vous jouez alors je joue beaucoup un jeu de gestion
+[Confidence: 87.40%]
+102
+00:06:23,939 --> 00:06:30,370
+de football s'appelle football manager manage une équipe de foot le paris fc on est en
+[Confidence: 88.89%]
+103
+00:06:30,370 --> 00:06:35,100
+2029 là je crois j'ai gagné deux fois la ligue des champions donc c'est quand même un bel exploit
+[Confidence: 92.64%]
+104
+00:06:36,680 --> 00:06:42,300
+week end ça dépend je lis je regarde des films plein de trucs en vrai c'est je bosse en
+[Confidence: 88.76%]
+105
+00:06:42,319 --> 00:06:46,889
+fonction de ce que j'ai à faire et puis voilà qu'est ce que vous aimez lire ce que j'aime lire
+[Confidence: 91.38%]
+106
+00:06:46,420 --> 00:06:49,060
+Est-ce que j'aime lire ? En ce moment, j'adore la poésie.
+[Confidence: 91.12%]
+107
+00:06:49,560 --> 00:06:51,300
+Vraiment, je suis un peu sur du Baudelaire.
+[Confidence: 98.00%]
+108
+00:06:51,720 --> 00:06:53,240
+Vraiment, je revisite un peu, c'est cool.
+[Confidence: 98.43%]
+109
+00:06:54,040 --> 00:06:55,819
+Par exemple, là, on visitait des musées.
+[Confidence: 98.43%]
+110
+00:06:55,819 --> 00:06:57,120
+Bon, à cause du confinement, on ne pourra plus.
+[Confidence: 91.51%]
+111
+00:06:57,519 --> 00:06:58,779
+Mais c'est un truc aussi que j'aime bien faire le week-end.
+[Confidence: 99.71%]
+112
+00:06:58,819 --> 00:06:59,220
+En vrai, c'est cool.
+[Confidence: 97.58%]
+113
+00:07:00,180 --> 00:07:01,740
+Alors, nous, nous vivons en Bretagne.
+[Confidence: 99.67%]
+114
+00:07:02,720 --> 00:07:04,360
+Donc, quand il fait beau, on va à la plage.
+[Confidence: 99.90%]
+115
+00:07:05,360 --> 00:07:07,220
+On se balade sur les côtes.
+[Confidence: 99.90%]
+116
+00:07:07,519 --> 00:07:10,519
+Ou sinon, on trouve des activités pour les enfants
+[Confidence: 98.77%]
+117
+00:07:11,720 --> 00:07:12,699
+ou en forêt, éventuellement.
+[Confidence: 99.90%]
+118
+00:07:18,740 --> 00:07:43,379
+Sous-titrage Société Radio-Canada
+[Confidence: 80.50%]
+119
+00:07:45,360 --> 00:07:49,910
+les amis d'avoir regardé notre épisode. N'hésitez pas à nous écrire en commentaire ce
+[Confidence: 91.49%]
+120
+00:07:49,910 --> 00:07:56,399
+que vous, vous faites le week-end et surtout bien sûr liker la vidéo, abonnez-vous à la chaîne pour ne rien rater.
+[Confidence: 87.67%]

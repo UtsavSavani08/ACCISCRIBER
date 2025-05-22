@@ -1,0 +1,6067 @@
+{
+  "video_metadata": {
+    "duration": 404.93,
+    "fps": 24.0,
+    "size": [
+      640,
+      360
+    ],
+    "audio_fps": 44100
+  },
+  "transcription_stats": {
+    "total_duration": 404.93,
+    "total_words": 676,
+    "avg_words_per_second": 1.6694243449485096,
+    "language": "pt",
+    "language_confidence": 0.0
+  },
+  "transcription": {
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.44,
+        "end": 5.62,
+        "text": " Oi, pessoal! Neste vídeo eu vou falar um pouco sobre a história da cidade de São Paulo",
+        "tokens": [
+          50365,
+          31610,
+          11,
+          24811,
+          0,
+          426,
+          8887,
+          8071,
+          2228,
+          6008,
+          13536,
+          1105,
+          13920,
+          5473,
+          257,
+          20670,
+          1120,
+          27882,
+          368,
+          22401,
+          21801,
+          50649
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08618369335081519,
+        "compression_ratio": 1.236220472440945,
+        "no_speech_prob": 1.1627609682388074e-12,
+        "confidence": 0.965,
+        "words": [
+          {
+            "text": "Oi,",
+            "start": 0.44,
+            "end": 0.58,
+            "confidence": 0.97
+          },
+          {
+            "text": "pessoal!",
+            "start": 0.78,
+            "end": 0.94,
+            "confidence": 0.995
+          },
+          {
+            "text": "Neste",
+            "start": 1.36,
+            "end": 1.68,
+            "confidence": 0.971
+          },
+          {
+            "text": "vídeo",
+            "start": 1.68,
+            "end": 2.0,
+            "confidence": 0.999
+          },
+          {
+            "text": "eu",
+            "start": 2.0,
+            "end": 2.2,
+            "confidence": 0.681
+          },
+          {
+            "text": "vou",
+            "start": 2.2,
+            "end": 2.32,
+            "confidence": 1.0
+          },
+          {
+            "text": "falar",
+            "start": 2.32,
+            "end": 2.58,
+            "confidence": 0.999
+          },
+          {
+            "text": "um",
+            "start": 2.58,
+            "end": 2.78,
+            "confidence": 0.997
+          },
+          {
+            "text": "pouco",
+            "start": 2.78,
+            "end": 3.0,
+            "confidence": 0.997
+          },
+          {
+            "text": "sobre",
+            "start": 3.0,
+            "end": 3.34,
+            "confidence": 0.982
+          },
+          {
+            "text": "a",
+            "start": 3.34,
+            "end": 3.48,
+            "confidence": 0.997
+          },
+          {
+            "text": "história",
+            "start": 3.48,
+            "end": 4.0,
+            "confidence": 0.986
+          },
+          {
+            "text": "da",
+            "start": 4.0,
+            "end": 4.34,
+            "confidence": 0.991
+          },
+          {
+            "text": "cidade",
+            "start": 4.34,
+            "end": 4.78,
+            "confidence": 0.971
+          },
+          {
+            "text": "de",
+            "start": 4.78,
+            "end": 5.12,
+            "confidence": 0.995
+          },
+          {
+            "text": "São",
+            "start": 5.12,
+            "end": 5.3,
+            "confidence": 0.986
+          },
+          {
+            "text": "Paulo",
+            "start": 5.3,
+            "end": 5.62,
+            "confidence": 0.947
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 5.94,
+        "end": 10.14,
+        "text": " e lhes mostrar alguns lugares históricos nessa cidade. Vem comigo!",
+        "tokens": [
+          50649,
+          308,
+          287,
+          8076,
+          21487,
+          20210,
+          33105,
+          33196,
+          1341,
+          329,
+          23246,
+          27882,
+          13,
+          691,
+          443,
+          35696,
+          0,
+          50880
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.08618369335081519,
+        "compression_ratio": 1.236220472440945,
+        "no_speech_prob": 1.1627609682388074e-12,
+        "confidence": 0.966,
+        "words": [
+          {
+            "text": "e",
+            "start": 5.94,
+            "end": 6.06,
+            "confidence": 1.0
+          },
+          {
+            "text": "lhes",
+            "start": 6.06,
+            "end": 6.28,
+            "confidence": 0.999
+          },
+          {
+            "text": "mostrar",
+            "start": 6.28,
+            "end": 6.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "alguns",
+            "start": 6.74,
+            "end": 7.1,
+            "confidence": 1.0
+          },
+          {
+            "text": "lugares",
+            "start": 7.1,
+            "end": 7.5,
+            "confidence": 1.0
+          },
+          {
+            "text": "históricos",
+            "start": 7.5,
+            "end": 8.54,
+            "confidence": 1.0
+          },
+          {
+            "text": "nessa",
+            "start": 8.54,
+            "end": 8.82,
+            "confidence": 0.873
+          },
+          {
+            "text": "cidade.",
+            "start": 8.82,
+            "end": 9.36,
+            "confidence": 1.0
+          },
+          {
+            "text": "Vem",
+            "start": 9.56,
+            "end": 9.96,
+            "confidence": 0.842
+          },
+          {
+            "text": "comigo!",
+            "start": 9.96,
+            "end": 10.14,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 33.88,
+        "end": 38.78,
+        "text": " A região onde hoje se encontra São Paulo, assim como o restante do Brasil e das Américas,",
+        "tokens": [
+          50365,
+          316,
+          45697,
+          14396,
+          13458,
+          369,
+          43621,
+          22401,
+          21801,
+          11,
+          8249,
+          2617,
+          277,
+          1472,
+          2879,
+          360,
+          14861,
+          308,
+          1482,
+          2012,
+          27578,
+          296,
+          11,
+          50855
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09173673227292682,
+        "compression_ratio": 1.5619469026548674,
+        "no_speech_prob": 6.539385352666294e-12,
+        "confidence": 0.967,
+        "words": [
+          {
+            "text": "A",
+            "start": 33.88,
+            "end": 34.04,
+            "confidence": 0.794
+          },
+          {
+            "text": "região",
+            "start": 34.04,
+            "end": 34.36,
+            "confidence": 0.992
+          },
+          {
+            "text": "onde",
+            "start": 34.36,
+            "end": 34.68,
+            "confidence": 0.978
+          },
+          {
+            "text": "hoje",
+            "start": 34.68,
+            "end": 34.9,
+            "confidence": 0.991
+          },
+          {
+            "text": "se",
+            "start": 34.9,
+            "end": 35.1,
+            "confidence": 0.992
+          },
+          {
+            "text": "encontra",
+            "start": 35.1,
+            "end": 35.46,
+            "confidence": 0.997
+          },
+          {
+            "text": "São",
+            "start": 35.46,
+            "end": 35.78,
+            "confidence": 0.988
+          },
+          {
+            "text": "Paulo,",
+            "start": 35.78,
+            "end": 36.18,
+            "confidence": 0.992
+          },
+          {
+            "text": "assim",
+            "start": 36.28,
+            "end": 36.42,
+            "confidence": 0.937
+          },
+          {
+            "text": "como",
+            "start": 36.42,
+            "end": 36.62,
+            "confidence": 0.992
+          },
+          {
+            "text": "o",
+            "start": 36.62,
+            "end": 36.76,
+            "confidence": 0.904
+          },
+          {
+            "text": "restante",
+            "start": 36.76,
+            "end": 37.26,
+            "confidence": 0.99
+          },
+          {
+            "text": "do",
+            "start": 37.26,
+            "end": 37.4,
+            "confidence": 0.966
+          },
+          {
+            "text": "Brasil",
+            "start": 37.4,
+            "end": 37.74,
+            "confidence": 0.991
+          },
+          {
+            "text": "e",
+            "start": 37.74,
+            "end": 38.019999999999996,
+            "confidence": 0.954
+          },
+          {
+            "text": "das",
+            "start": 38.019999999999996,
+            "end": 38.18,
+            "confidence": 0.971
+          },
+          {
+            "text": "Américas,",
+            "start": 38.18,
+            "end": 38.78,
+            "confidence": 0.983
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 39.14,
+        "end": 41.9,
+        "text": " era originalmente habitada por indígenas.",
+        "tokens": [
+          50871,
+          4249,
+          3380,
+          4082,
+          7164,
+          1538,
+          1515,
+          1016,
+          36492,
+          296,
+          13,
+          51010
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09173673227292682,
+        "compression_ratio": 1.5619469026548674,
+        "no_speech_prob": 6.539385352666294e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "era",
+            "start": 39.14,
+            "end": 39.36,
+            "confidence": 1.0
+          },
+          {
+            "text": "originalmente",
+            "start": 39.36,
+            "end": 40.32,
+            "confidence": 0.998
+          },
+          {
+            "text": "habitada",
+            "start": 40.32,
+            "end": 40.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "por",
+            "start": 40.94,
+            "end": 41.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "indígenas.",
+            "start": 41.14,
+            "end": 41.9,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 42.3,
+        "end": 50.2,
+        "text": " Em 1500, os portugueses chegaram ao Brasil e em 1554, os jesuítas chegaram a São Paulo",
+        "tokens": [
+          51010,
+          3968,
+          22671,
+          11,
+          3003,
+          2436,
+          697,
+          1247,
+          279,
+          25512,
+          335,
+          8130,
+          14861,
+          308,
+          846,
+          2119,
+          19563,
+          11,
+          3003,
+          361,
+          279,
+          84,
+          6712,
+          296,
+          25512,
+          335,
+          257,
+          22401,
+          21801,
+          51427
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09173673227292682,
+        "compression_ratio": 1.5619469026548674,
+        "no_speech_prob": 6.539385352666294e-12,
+        "confidence": 0.991,
+        "words": [
+          {
+            "text": "Em",
+            "start": 42.3,
+            "end": 42.46,
+            "confidence": 0.999
+          },
+          {
+            "text": "1500,",
+            "start": 42.46,
+            "end": 42.78,
+            "confidence": 0.988
+          },
+          {
+            "text": "os",
+            "start": 43.22,
+            "end": 43.480000000000004,
+            "confidence": 1.0
+          },
+          {
+            "text": "portugueses",
+            "start": 43.480000000000004,
+            "end": 44.16,
+            "confidence": 0.999
+          },
+          {
+            "text": "chegaram",
+            "start": 44.16,
+            "end": 44.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "ao",
+            "start": 44.72,
+            "end": 44.86,
+            "confidence": 1.0
+          },
+          {
+            "text": "Brasil",
+            "start": 44.86,
+            "end": 45.16,
+            "confidence": 1.0
+          },
+          {
+            "text": "e",
+            "start": 45.16,
+            "end": 45.68,
+            "confidence": 0.889
+          },
+          {
+            "text": "em",
+            "start": 45.68,
+            "end": 45.86,
+            "confidence": 0.932
+          },
+          {
+            "text": "1554,",
+            "start": 45.86,
+            "end": 47.46,
+            "confidence": 0.998
+          },
+          {
+            "text": "os",
+            "start": 47.6,
+            "end": 48.08,
+            "confidence": 0.992
+          },
+          {
+            "text": "jesuítas",
+            "start": 48.08,
+            "end": 48.84,
+            "confidence": 0.999
+          },
+          {
+            "text": "chegaram",
+            "start": 48.84,
+            "end": 49.44,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 49.44,
+            "end": 49.6,
+            "confidence": 0.997
+          },
+          {
+            "text": "São",
+            "start": 49.6,
+            "end": 49.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "Paulo",
+            "start": 49.8,
+            "end": 50.2,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 50.5,
+        "end": 54.480000000000004,
+        "text": " com o intuito de catequizar e alfabetizar os indígenas.",
+        "tokens": [
+          51427,
+          395,
+          277,
+          16224,
+          78,
+          368,
+          269,
+          473,
+          358,
+          9736,
+          308,
+          419,
+          69,
+          9058,
+          9736,
+          3003,
+          1016,
+          36492,
+          296,
+          13,
+          51640
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09173673227292682,
+        "compression_ratio": 1.5619469026548674,
+        "no_speech_prob": 6.539385352666294e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "com",
+            "start": 50.5,
+            "end": 50.64,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 50.64,
+            "end": 50.760000000000005,
+            "confidence": 1.0
+          },
+          {
+            "text": "intuito",
+            "start": 50.760000000000005,
+            "end": 51.16,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 51.16,
+            "end": 51.3,
+            "confidence": 1.0
+          },
+          {
+            "text": "catequizar",
+            "start": 51.3,
+            "end": 52.18,
+            "confidence": 0.997
+          },
+          {
+            "text": "e",
+            "start": 52.18,
+            "end": 52.64,
+            "confidence": 1.0
+          },
+          {
+            "text": "alfabetizar",
+            "start": 52.64,
+            "end": 53.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "os",
+            "start": 53.6,
+            "end": 53.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "indígenas.",
+            "start": 53.8,
+            "end": 54.480000000000004,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 54.96,
+        "end": 58.84,
+        "text": " Agora eu estou em frente ao pátio do colégio no centro de São Paulo,",
+        "tokens": [
+          51663,
+          16023,
+          2228,
+          17660,
+          846,
+          19873,
+          8130,
+          280,
+          7656,
+          1004,
+          360,
+          1173,
+          9095,
+          1004,
+          572,
+          24607,
+          368,
+          22401,
+          21801,
+          11,
+          51858
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09173673227292682,
+        "compression_ratio": 1.5619469026548674,
+        "no_speech_prob": 6.539385352666294e-12,
+        "confidence": 0.891,
+        "words": [
+          {
+            "text": "Agora",
+            "start": 54.96,
+            "end": 55.239999999999995,
+            "confidence": 0.513
+          },
+          {
+            "text": "eu",
+            "start": 55.239999999999995,
+            "end": 55.480000000000004,
+            "confidence": 0.556
+          },
+          {
+            "text": "estou",
+            "start": 55.480000000000004,
+            "end": 55.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "em",
+            "start": 55.6,
+            "end": 55.760000000000005,
+            "confidence": 1.0
+          },
+          {
+            "text": "frente",
+            "start": 55.760000000000005,
+            "end": 56.2,
+            "confidence": 1.0
+          },
+          {
+            "text": "ao",
+            "start": 56.2,
+            "end": 56.4,
+            "confidence": 1.0
+          },
+          {
+            "text": "pátio",
+            "start": 56.4,
+            "end": 56.92,
+            "confidence": 0.994
+          },
+          {
+            "text": "do",
+            "start": 56.92,
+            "end": 57.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "colégio",
+            "start": 57.04,
+            "end": 57.56,
+            "confidence": 0.947
+          },
+          {
+            "text": "no",
+            "start": 57.56,
+            "end": 57.68,
+            "confidence": 0.53
+          },
+          {
+            "text": "centro",
+            "start": 57.68,
+            "end": 58.08,
+            "confidence": 0.999
+          },
+          {
+            "text": "de",
+            "start": 58.08,
+            "end": 58.32,
+            "confidence": 1.0
+          },
+          {
+            "text": "São",
+            "start": 58.32,
+            "end": 58.519999999999996,
+            "confidence": 1.0
+          },
+          {
+            "text": "Paulo,",
+            "start": 58.519999999999996,
+            "end": 58.84,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 58.0,
+        "end": 62.82,
+        "text": " no centro de São Paulo, foi exatamente neste local que os jesuítas fundaram o",
+        "tokens": [
+          50365,
+          572,
+          24607,
+          368,
+          22401,
+          21801,
+          11,
+          6901,
+          35937,
+          34739,
+          2654,
+          631,
+          3003,
+          361,
+          279,
+          84,
+          6712,
+          296,
+          2374,
+          12835,
+          277,
+          50629
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21186231530230978,
+        "compression_ratio": 1.5154639175257731,
+        "no_speech_prob": 8.95953537055627e-12,
+        "confidence": 0.863,
+        "words": [
+          {
+            "text": "no",
+            "start": 58.0,
+            "end": 58.02,
+            "confidence": 0.213
+          },
+          {
+            "text": "centro",
+            "start": 58.02,
+            "end": 58.16,
+            "confidence": 0.938
+          },
+          {
+            "text": "de",
+            "start": 58.16,
+            "end": 58.34,
+            "confidence": 0.992
+          },
+          {
+            "text": "São",
+            "start": 58.34,
+            "end": 58.54,
+            "confidence": 0.98
+          },
+          {
+            "text": "Paulo,",
+            "start": 58.54,
+            "end": 58.78,
+            "confidence": 0.998
+          },
+          {
+            "text": "foi",
+            "start": 59.0,
+            "end": 59.34,
+            "confidence": 0.932
+          },
+          {
+            "text": "exatamente",
+            "start": 59.34,
+            "end": 59.8,
+            "confidence": 0.981
+          },
+          {
+            "text": "neste",
+            "start": 59.8,
+            "end": 60.38,
+            "confidence": 0.91
+          },
+          {
+            "text": "local",
+            "start": 60.38,
+            "end": 60.78,
+            "confidence": 0.988
+          },
+          {
+            "text": "que",
+            "start": 60.78,
+            "end": 61.18,
+            "confidence": 0.748
+          },
+          {
+            "text": "os",
+            "start": 61.18,
+            "end": 61.36,
+            "confidence": 0.952
+          },
+          {
+            "text": "jesuítas",
+            "start": 61.36,
+            "end": 62.06,
+            "confidence": 0.973
+          },
+          {
+            "text": "fundaram",
+            "start": 62.06,
+            "end": 62.7,
+            "confidence": 0.882
+          },
+          {
+            "text": "o",
+            "start": 62.7,
+            "end": 62.82,
+            "confidence": 0.795
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 62.82,
+        "end": 71.42,
+        "text": " Colégio Jesuíta no dia 25 de janeiro de 1554. E ao redor deste colégio se formou",
+        "tokens": [
+          50629,
+          4004,
+          9095,
+          1004,
+          2547,
+          84,
+          870,
+          1328,
+          572,
+          6801,
+          3552,
+          368,
+          361,
+          1929,
+          5182,
+          368,
+          2119,
+          19563,
+          13,
+          462,
+          8130,
+          2182,
+          284,
+          38738,
+          1173,
+          9095,
+          1004,
+          369,
+          1254,
+          263,
+          51061
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21186231530230978,
+        "compression_ratio": 1.5154639175257731,
+        "no_speech_prob": 8.95953537055627e-12,
+        "confidence": 0.901,
+        "words": [
+          {
+            "text": "Colégio",
+            "start": 62.82,
+            "end": 63.56,
+            "confidence": 0.88
+          },
+          {
+            "text": "Jesuíta",
+            "start": 63.56,
+            "end": 64.26,
+            "confidence": 0.965
+          },
+          {
+            "text": "no",
+            "start": 64.26,
+            "end": 64.6,
+            "confidence": 0.532
+          },
+          {
+            "text": "dia",
+            "start": 64.6,
+            "end": 64.76,
+            "confidence": 0.998
+          },
+          {
+            "text": "25",
+            "start": 64.76,
+            "end": 65.24,
+            "confidence": 0.986
+          },
+          {
+            "text": "de",
+            "start": 65.24,
+            "end": 65.7,
+            "confidence": 0.997
+          },
+          {
+            "text": "janeiro",
+            "start": 65.7,
+            "end": 66.14,
+            "confidence": 0.91
+          },
+          {
+            "text": "de",
+            "start": 66.14,
+            "end": 66.58,
+            "confidence": 0.985
+          },
+          {
+            "text": "1554.",
+            "start": 66.58,
+            "end": 68.38,
+            "confidence": 0.979
+          },
+          {
+            "text": "E",
+            "start": 68.9,
+            "end": 69.12,
+            "confidence": 0.683
+          },
+          {
+            "text": "ao",
+            "start": 69.12,
+            "end": 69.26,
+            "confidence": 0.943
+          },
+          {
+            "text": "redor",
+            "start": 69.26,
+            "end": 69.96000000000001,
+            "confidence": 0.994
+          },
+          {
+            "text": "deste",
+            "start": 69.96000000000001,
+            "end": 70.28,
+            "confidence": 0.824
+          },
+          {
+            "text": "colégio",
+            "start": 70.28,
+            "end": 70.82,
+            "confidence": 0.97
+          },
+          {
+            "text": "se",
+            "start": 70.82,
+            "end": 70.96000000000001,
+            "confidence": 0.885
+          },
+          {
+            "text": "formou",
+            "start": 70.96000000000001,
+            "end": 71.42,
+            "confidence": 0.757
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 71.66,
+        "end": 76.48,
+        "text": " a cidade de São Paulo, originalmente chamada de São Paulo de Piratininga.",
+        "tokens": [
+          51061,
+          257,
+          27882,
+          368,
+          22401,
+          21801,
+          11,
+          3380,
+          4082,
+          8268,
+          1538,
+          368,
+          22401,
+          21801,
+          368,
+          24161,
+          267,
+          1760,
+          64,
+          13,
+          51316
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21186231530230978,
+        "compression_ratio": 1.5154639175257731,
+        "no_speech_prob": 8.95953537055627e-12,
+        "confidence": 0.987,
+        "words": [
+          {
+            "text": "a",
+            "start": 71.66,
+            "end": 71.84,
+            "confidence": 0.987
+          },
+          {
+            "text": "cidade",
+            "start": 71.84,
+            "end": 72.16,
+            "confidence": 0.9
+          },
+          {
+            "text": "de",
+            "start": 72.16,
+            "end": 72.53999999999999,
+            "confidence": 0.999
+          },
+          {
+            "text": "São",
+            "start": 72.53999999999999,
+            "end": 72.72,
+            "confidence": 0.997
+          },
+          {
+            "text": "Paulo,",
+            "start": 72.72,
+            "end": 72.98,
+            "confidence": 0.999
+          },
+          {
+            "text": "originalmente",
+            "start": 73.24,
+            "end": 74.12,
+            "confidence": 0.996
+          },
+          {
+            "text": "chamada",
+            "start": 74.12,
+            "end": 74.56,
+            "confidence": 0.998
+          },
+          {
+            "text": "de",
+            "start": 74.56,
+            "end": 74.72,
+            "confidence": 0.994
+          },
+          {
+            "text": "São",
+            "start": 74.72,
+            "end": 74.94,
+            "confidence": 0.987
+          },
+          {
+            "text": "Paulo",
+            "start": 74.94,
+            "end": 75.34,
+            "confidence": 0.997
+          },
+          {
+            "text": "de",
+            "start": 75.34,
+            "end": 75.53999999999999,
+            "confidence": 0.972
+          },
+          {
+            "text": "Piratininga.",
+            "start": 75.53999999999999,
+            "end": 76.48,
+            "confidence": 0.989
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 76.68,
+        "end": 79.18,
+        "text": " Piratininga era como os índios chamavam essa região.",
+        "tokens": [
+          51316,
+          24161,
+          267,
+          1760,
+          64,
+          4249,
+          2617,
+          3003,
+          18645,
+          273,
+          2717,
+          8268,
+          22561,
+          7208,
+          45697,
+          13,
+          51448
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21186231530230978,
+        "compression_ratio": 1.5154639175257731,
+        "no_speech_prob": 8.95953537055627e-12,
+        "confidence": 0.971,
+        "words": [
+          {
+            "text": "Piratininga",
+            "start": 76.68,
+            "end": 77.38,
+            "confidence": 0.928
+          },
+          {
+            "text": "era",
+            "start": 77.38,
+            "end": 77.5,
+            "confidence": 0.977
+          },
+          {
+            "text": "como",
+            "start": 77.5,
+            "end": 77.72,
+            "confidence": 0.993
+          },
+          {
+            "text": "os",
+            "start": 77.72,
+            "end": 77.92,
+            "confidence": 0.998
+          },
+          {
+            "text": "índios",
+            "start": 77.92,
+            "end": 78.16,
+            "confidence": 0.993
+          },
+          {
+            "text": "chamavam",
+            "start": 78.16,
+            "end": 78.64,
+            "confidence": 0.997
+          },
+          {
+            "text": "essa",
+            "start": 78.64,
+            "end": 78.86,
+            "confidence": 0.944
+          },
+          {
+            "text": "região.",
+            "start": 78.86,
+            "end": 79.18,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 93.14,
+        "end": 98.38,
+        "text": " Agora estou em frente à famosa Catedral da Sé, que foi fundada em 1954.",
+        "tokens": [
+          50365,
+          16023,
+          17660,
+          846,
+          19873,
+          1531,
+          1087,
+          6447,
+          383,
+          770,
+          2155,
+          1120,
+          49556,
+          11,
+          631,
+          6901,
+          2374,
+          1538,
+          846,
+          46590,
+          13,
+          50971
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1574534202108578,
+        "compression_ratio": 1.296,
+        "no_speech_prob": 2.9366975431294184e-12,
+        "confidence": 0.92,
+        "words": [
+          {
+            "text": "Agora",
+            "start": 93.14,
+            "end": 93.32,
+            "confidence": 0.734
+          },
+          {
+            "text": "estou",
+            "start": 93.32,
+            "end": 93.62,
+            "confidence": 0.493
+          },
+          {
+            "text": "em",
+            "start": 93.62,
+            "end": 93.8,
+            "confidence": 0.989
+          },
+          {
+            "text": "frente",
+            "start": 93.8,
+            "end": 94.06,
+            "confidence": 0.997
+          },
+          {
+            "text": "à",
+            "start": 94.06,
+            "end": 94.24,
+            "confidence": 0.841
+          },
+          {
+            "text": "famosa",
+            "start": 94.24,
+            "end": 95.06,
+            "confidence": 0.995
+          },
+          {
+            "text": "Catedral",
+            "start": 95.06,
+            "end": 95.92,
+            "confidence": 0.976
+          },
+          {
+            "text": "da",
+            "start": 95.92,
+            "end": 96.1,
+            "confidence": 0.989
+          },
+          {
+            "text": "Sé,",
+            "start": 96.1,
+            "end": 96.34,
+            "confidence": 0.992
+          },
+          {
+            "text": "que",
+            "start": 96.52,
+            "end": 96.58,
+            "confidence": 0.888
+          },
+          {
+            "text": "foi",
+            "start": 96.58,
+            "end": 96.74,
+            "confidence": 0.991
+          },
+          {
+            "text": "fundada",
+            "start": 96.74,
+            "end": 97.24,
+            "confidence": 0.988
+          },
+          {
+            "text": "em",
+            "start": 97.24,
+            "end": 97.38,
+            "confidence": 0.992
+          },
+          {
+            "text": "1954.",
+            "start": 97.38,
+            "end": 98.38,
+            "confidence": 0.969
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 99.94,
+        "end": 105.12,
+        "text": " E logo em frente à Catedral encontramos a Praça da Sé, que é o marco zero da cidade.",
+        "tokens": [
+          51014,
+          462,
+          9699,
+          846,
+          19873,
+          1531,
+          383,
+          770,
+          2155,
+          45049,
+          257,
+          12133,
+          5297,
+          1120,
+          49556,
+          11,
+          631,
+          1136,
+          277,
+          1849,
+          1291,
+          4018,
+          1120,
+          27882,
+          13,
+          51283
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1574534202108578,
+        "compression_ratio": 1.296,
+        "no_speech_prob": 2.9366975431294184e-12,
+        "confidence": 0.965,
+        "words": [
+          {
+            "text": "E",
+            "start": 99.94,
+            "end": 100.08,
+            "confidence": 0.972
+          },
+          {
+            "text": "logo",
+            "start": 100.08,
+            "end": 100.26,
+            "confidence": 0.986
+          },
+          {
+            "text": "em",
+            "start": 100.26,
+            "end": 100.46000000000001,
+            "confidence": 0.999
+          },
+          {
+            "text": "frente",
+            "start": 100.46000000000001,
+            "end": 100.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "à",
+            "start": 100.8,
+            "end": 100.96000000000001,
+            "confidence": 0.997
+          },
+          {
+            "text": "Catedral",
+            "start": 100.96000000000001,
+            "end": 101.46000000000001,
+            "confidence": 0.963
+          },
+          {
+            "text": "encontramos",
+            "start": 101.46000000000001,
+            "end": 101.9,
+            "confidence": 0.652
+          },
+          {
+            "text": "a",
+            "start": 101.9,
+            "end": 102.36,
+            "confidence": 0.999
+          },
+          {
+            "text": "Praça",
+            "start": 102.36,
+            "end": 102.92,
+            "confidence": 0.999
+          },
+          {
+            "text": "da",
+            "start": 102.92,
+            "end": 103.08,
+            "confidence": 1.0
+          },
+          {
+            "text": "Sé,",
+            "start": 103.08,
+            "end": 103.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "que",
+            "start": 103.46000000000001,
+            "end": 103.72,
+            "confidence": 0.97
+          },
+          {
+            "text": "é",
+            "start": 103.72,
+            "end": 103.86,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 103.86,
+            "end": 103.9,
+            "confidence": 1.0
+          },
+          {
+            "text": "marco",
+            "start": 103.9,
+            "end": 104.26,
+            "confidence": 0.93
+          },
+          {
+            "text": "zero",
+            "start": 104.26,
+            "end": 104.6,
+            "confidence": 0.992
+          },
+          {
+            "text": "da",
+            "start": 104.6,
+            "end": 104.86,
+            "confidence": 0.999
+          },
+          {
+            "text": "cidade.",
+            "start": 104.86,
+            "end": 105.12,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 123.8,
+        "end": 130.64,
+        "text": " No século XVII, começaram as bandeiras, que tinham o objetivo de capturar e escravizar índios,",
+        "tokens": [
+          50365,
+          883,
+          7910,
+          25436,
+          44707,
+          9503,
+          11,
+          14596,
+          12835,
+          382,
+          46836,
+          23342,
+          11,
+          631,
+          47257,
+          277,
+          29809,
+          368,
+          3770,
+          28586,
+          308,
+          4721,
+          13404,
+          9736,
+          18645,
+          273,
+          2717,
+          11,
+          51097
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.13724290756952195,
+        "compression_ratio": 1.4041450777202074,
+        "no_speech_prob": 3.963490126379643e-12,
+        "confidence": 0.918,
+        "words": [
+          {
+            "text": "No",
+            "start": 123.8,
+            "end": 123.92,
+            "confidence": 0.741
+          },
+          {
+            "text": "século",
+            "start": 123.92,
+            "end": 124.34,
+            "confidence": 0.993
+          },
+          {
+            "text": "XVII,",
+            "start": 124.34,
+            "end": 125.0,
+            "confidence": 0.754
+          },
+          {
+            "text": "começaram",
+            "start": 125.3,
+            "end": 125.72,
+            "confidence": 0.988
+          },
+          {
+            "text": "as",
+            "start": 125.72,
+            "end": 125.94,
+            "confidence": 0.985
+          },
+          {
+            "text": "bandeiras,",
+            "start": 125.94,
+            "end": 126.7,
+            "confidence": 0.867
+          },
+          {
+            "text": "que",
+            "start": 126.8,
+            "end": 127.18,
+            "confidence": 0.831
+          },
+          {
+            "text": "tinham",
+            "start": 127.18,
+            "end": 127.42,
+            "confidence": 0.964
+          },
+          {
+            "text": "o",
+            "start": 127.42,
+            "end": 127.62,
+            "confidence": 0.969
+          },
+          {
+            "text": "objetivo",
+            "start": 127.62,
+            "end": 128.04,
+            "confidence": 0.969
+          },
+          {
+            "text": "de",
+            "start": 128.04,
+            "end": 128.44,
+            "confidence": 0.947
+          },
+          {
+            "text": "capturar",
+            "start": 128.44,
+            "end": 129.08,
+            "confidence": 0.986
+          },
+          {
+            "text": "e",
+            "start": 129.08,
+            "end": 129.36,
+            "confidence": 0.964
+          },
+          {
+            "text": "escravizar",
+            "start": 129.36,
+            "end": 129.98,
+            "confidence": 0.984
+          },
+          {
+            "text": "índios,",
+            "start": 129.98,
+            "end": 130.64,
+            "confidence": 0.876
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 131.02,
+        "end": 136.22,
+        "text": " expandir o território brasileiro e procurar por ouro e pedras preciosas.",
+        "tokens": [
+          51118,
+          5268,
+          347,
+          277,
+          8673,
+          35052,
+          28435,
+          5182,
+          308,
+          9510,
+          28586,
+          1515,
+          2820,
+          340,
+          308,
+          5670,
+          3906,
+          659,
+          23132,
+          296,
+          13,
+          51376
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.13724290756952195,
+        "compression_ratio": 1.4041450777202074,
+        "no_speech_prob": 3.963490126379643e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "expandir",
+            "start": 131.02,
+            "end": 131.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 131.74,
+            "end": 131.9,
+            "confidence": 1.0
+          },
+          {
+            "text": "território",
+            "start": 131.9,
+            "end": 132.44,
+            "confidence": 1.0
+          },
+          {
+            "text": "brasileiro",
+            "start": 132.44,
+            "end": 133.06,
+            "confidence": 1.0
+          },
+          {
+            "text": "e",
+            "start": 133.06,
+            "end": 133.44,
+            "confidence": 0.997
+          },
+          {
+            "text": "procurar",
+            "start": 133.44,
+            "end": 133.96,
+            "confidence": 1.0
+          },
+          {
+            "text": "por",
+            "start": 133.96,
+            "end": 134.22,
+            "confidence": 1.0
+          },
+          {
+            "text": "ouro",
+            "start": 134.22,
+            "end": 134.7,
+            "confidence": 0.999
+          },
+          {
+            "text": "e",
+            "start": 134.7,
+            "end": 134.88,
+            "confidence": 1.0
+          },
+          {
+            "text": "pedras",
+            "start": 134.88,
+            "end": 135.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "preciosas.",
+            "start": 135.34,
+            "end": 136.22,
+            "confidence": 0.997
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 136.62,
+        "end": 142.62,
+        "text": " Agora, eu estou em frente ao Monumento às Bandeiras, que fica logo em frente ao Parque Ibirapuera.",
+        "tokens": [
+          51397,
+          16023,
+          11,
+          2228,
+          17660,
+          846,
+          19873,
+          8130,
+          4713,
+          2206,
+          78,
+          23763,
+          363,
+          11123,
+          23342,
+          11,
+          631,
+          16868,
+          9699,
+          846,
+          19873,
+          8130,
+          3457,
+          1077,
+          286,
+          10119,
+          569,
+          84,
+          1663,
+          13,
+          51696
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.13724290756952195,
+        "compression_ratio": 1.4041450777202074,
+        "no_speech_prob": 3.963490126379643e-12,
+        "confidence": 0.981,
+        "words": [
+          {
+            "text": "Agora,",
+            "start": 136.62,
+            "end": 136.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "eu",
+            "start": 136.94,
+            "end": 137.2,
+            "confidence": 0.982
+          },
+          {
+            "text": "estou",
+            "start": 137.2,
+            "end": 137.4,
+            "confidence": 1.0
+          },
+          {
+            "text": "em",
+            "start": 137.4,
+            "end": 137.56,
+            "confidence": 0.999
+          },
+          {
+            "text": "frente",
+            "start": 137.56,
+            "end": 137.88,
+            "confidence": 1.0
+          },
+          {
+            "text": "ao",
+            "start": 137.88,
+            "end": 138.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "Monumento",
+            "start": 138.14,
+            "end": 138.94,
+            "confidence": 0.88
+          },
+          {
+            "text": "às",
+            "start": 138.94,
+            "end": 139.16,
+            "confidence": 0.99
+          },
+          {
+            "text": "Bandeiras,",
+            "start": 139.16,
+            "end": 139.82,
+            "confidence": 0.999
+          },
+          {
+            "text": "que",
+            "start": 139.92000000000002,
+            "end": 140.24,
+            "confidence": 0.961
+          },
+          {
+            "text": "fica",
+            "start": 140.24,
+            "end": 140.6,
+            "confidence": 0.999
+          },
+          {
+            "text": "logo",
+            "start": 140.6,
+            "end": 140.8,
+            "confidence": 0.996
+          },
+          {
+            "text": "em",
+            "start": 140.8,
+            "end": 141.07999999999998,
+            "confidence": 0.999
+          },
+          {
+            "text": "frente",
+            "start": 141.07999999999998,
+            "end": 141.42000000000002,
+            "confidence": 0.999
+          },
+          {
+            "text": "ao",
+            "start": 141.42000000000002,
+            "end": 141.68,
+            "confidence": 1.0
+          },
+          {
+            "text": "Parque",
+            "start": 141.68,
+            "end": 142.04,
+            "confidence": 0.999
+          },
+          {
+            "text": "Ibirapuera.",
+            "start": 142.04,
+            "end": 142.62,
+            "confidence": 0.991
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 2662,
+        "start": 144.5,
+        "end": 145.98,
+        "text": " Este monumento foi feito...",
+        "tokens": [
+          50365,
+          16105,
+          20289,
+          78,
+          6901,
+          31243,
+          485,
+          50565
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2846655580732558,
+        "compression_ratio": 0.7714285714285715,
+        "no_speech_prob": 2.8050296460579993e-12,
+        "confidence": 0.979,
+        "words": [
+          {
+            "text": "Este",
+            "start": 144.5,
+            "end": 144.82,
+            "confidence": 0.953
+          },
+          {
+            "text": "monumento",
+            "start": 144.82,
+            "end": 145.54,
+            "confidence": 0.983
+          },
+          {
+            "text": "foi",
+            "start": 145.54,
+            "end": 145.78,
+            "confidence": 0.995
+          },
+          {
+            "text": "feito...",
+            "start": 145.78,
+            "end": 145.98,
+            "confidence": 0.98
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 145.58,
+        "end": 149.04,
+        "text": " foi feito em homenagem às bandeiras e aos bandeirantes.",
+        "tokens": [
+          50365,
+          6901,
+          31243,
+          846,
+          3655,
+          268,
+          14767,
+          23763,
+          46836,
+          23342,
+          308,
+          25458,
+          46836,
+          347,
+          9327,
+          13,
+          50570
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12878659793308803,
+        "compression_ratio": 1.5123152709359606,
+        "no_speech_prob": 1.0972177159895846e-11,
+        "confidence": 0.908,
+        "words": [
+          {
+            "text": "foi",
+            "start": 145.58,
+            "end": 145.78,
+            "confidence": 0.375
+          },
+          {
+            "text": "feito",
+            "start": 145.78,
+            "end": 146.1,
+            "confidence": 0.864
+          },
+          {
+            "text": "em",
+            "start": 146.1,
+            "end": 146.26,
+            "confidence": 0.998
+          },
+          {
+            "text": "homenagem",
+            "start": 146.26,
+            "end": 146.86,
+            "confidence": 0.999
+          },
+          {
+            "text": "às",
+            "start": 146.86,
+            "end": 147.08,
+            "confidence": 0.962
+          },
+          {
+            "text": "bandeiras",
+            "start": 147.08,
+            "end": 147.74,
+            "confidence": 0.946
+          },
+          {
+            "text": "e",
+            "start": 147.74,
+            "end": 148.12,
+            "confidence": 0.974
+          },
+          {
+            "text": "aos",
+            "start": 148.12,
+            "end": 148.32,
+            "confidence": 0.989
+          },
+          {
+            "text": "bandeirantes.",
+            "start": 148.32,
+            "end": 149.04,
+            "confidence": 0.991
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 149.62,
+        "end": 152.35,
+        "text": " O Monumento às Bandeiras é muito criticado porque,",
+        "tokens": [
+          50600,
+          422,
+          4713,
+          2206,
+          78,
+          23763,
+          363,
+          11123,
+          23342,
+          1136,
+          4945,
+          7850,
+          1573,
+          4021,
+          11,
+          50738
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12878659793308803,
+        "compression_ratio": 1.5123152709359606,
+        "no_speech_prob": 1.0972177159895846e-11,
+        "confidence": 0.925,
+        "words": [
+          {
+            "text": "O",
+            "start": 149.62,
+            "end": 149.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "Monumento",
+            "start": 149.74,
+            "end": 150.14,
+            "confidence": 0.873
+          },
+          {
+            "text": "às",
+            "start": 150.14,
+            "end": 150.24,
+            "confidence": 0.996
+          },
+          {
+            "text": "Bandeiras",
+            "start": 150.24,
+            "end": 150.7,
+            "confidence": 0.999
+          },
+          {
+            "text": "é",
+            "start": 150.7,
+            "end": 150.84,
+            "confidence": 0.999
+          },
+          {
+            "text": "muito",
+            "start": 150.84,
+            "end": 151.22,
+            "confidence": 1.0
+          },
+          {
+            "text": "criticado",
+            "start": 151.22,
+            "end": 152.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "porque,",
+            "start": 152.04,
+            "end": 152.35,
+            "confidence": 0.551
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 152.35,
+        "end": 156.8,
+        "text": " apesar deste monumento representar o desenvolvimento de São Paulo",
+        "tokens": [
+          50755,
+          1882,
+          18876,
+          38738,
+          20289,
+          78,
+          2906,
+          289,
+          277,
+          47835,
+          10030,
+          368,
+          22401,
+          21801,
+          50957
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12878659793308803,
+        "compression_ratio": 1.5123152709359606,
+        "no_speech_prob": 1.0972177159895846e-11,
+        "confidence": 0.991,
+        "words": [
+          {
+            "text": "apesar",
+            "start": 152.35,
+            "end": 153.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "deste",
+            "start": 153.14,
+            "end": 153.42,
+            "confidence": 0.97
+          },
+          {
+            "text": "monumento",
+            "start": 153.42,
+            "end": 153.98,
+            "confidence": 0.997
+          },
+          {
+            "text": "representar",
+            "start": 153.98,
+            "end": 154.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 154.8,
+            "end": 155.14,
+            "confidence": 0.961
+          },
+          {
+            "text": "desenvolvimento",
+            "start": 155.14,
+            "end": 156.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 156.04,
+            "end": 156.24,
+            "confidence": 0.967
+          },
+          {
+            "text": "São",
+            "start": 156.24,
+            "end": 156.44,
+            "confidence": 0.999
+          },
+          {
+            "text": "Paulo",
+            "start": 156.44,
+            "end": 156.8,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 157.1,
+        "end": 161.14,
+        "text": " através das bandeiras, o monumento também simboliza a escravidão",
+        "tokens": [
+          50957,
+          39941,
+          1482,
+          46836,
+          23342,
+          11,
+          277,
+          20289,
+          78,
+          6274,
+          1034,
+          17460,
+          13427,
+          257,
+          4721,
+          424,
+          6833,
+          1076,
+          51174
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12878659793308803,
+        "compression_ratio": 1.5123152709359606,
+        "no_speech_prob": 1.0972177159895846e-11,
+        "confidence": 0.984,
+        "words": [
+          {
+            "text": "através",
+            "start": 157.1,
+            "end": 157.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "das",
+            "start": 157.34,
+            "end": 157.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "bandeiras,",
+            "start": 157.66,
+            "end": 158.2,
+            "confidence": 0.999
+          },
+          {
+            "text": "o",
+            "start": 158.38,
+            "end": 158.6,
+            "confidence": 0.845
+          },
+          {
+            "text": "monumento",
+            "start": 158.6,
+            "end": 159.1,
+            "confidence": 0.999
+          },
+          {
+            "text": "também",
+            "start": 159.1,
+            "end": 159.4,
+            "confidence": 0.999
+          },
+          {
+            "text": "simboliza",
+            "start": 159.4,
+            "end": 160.24,
+            "confidence": 0.999
+          },
+          {
+            "text": "a",
+            "start": 160.24,
+            "end": 160.4,
+            "confidence": 0.922
+          },
+          {
+            "text": "escravidão",
+            "start": 160.4,
+            "end": 161.14,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 161.36,
+        "end": 165.22,
+        "text": " e o massacre dos povos indígenas durante o período colonial.",
+        "tokens": [
+          51174,
+          308,
+          277,
+          41076,
+          4491,
+          714,
+          19140,
+          1016,
+          36492,
+          296,
+          14427,
+          277,
+          44699,
+          19066,
+          13,
+          51383
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.12878659793308803,
+        "compression_ratio": 1.5123152709359606,
+        "no_speech_prob": 1.0972177159895846e-11,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "e",
+            "start": 161.36,
+            "end": 161.48,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 161.48,
+            "end": 161.62,
+            "confidence": 1.0
+          },
+          {
+            "text": "massacre",
+            "start": 161.62,
+            "end": 162.22,
+            "confidence": 1.0
+          },
+          {
+            "text": "dos",
+            "start": 162.22,
+            "end": 162.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "povos",
+            "start": 162.6,
+            "end": 163.06,
+            "confidence": 1.0
+          },
+          {
+            "text": "indígenas",
+            "start": 163.06,
+            "end": 163.76,
+            "confidence": 1.0
+          },
+          {
+            "text": "durante",
+            "start": 163.76,
+            "end": 164.28,
+            "confidence": 0.999
+          },
+          {
+            "text": "o",
+            "start": 164.28,
+            "end": 164.57999999999998,
+            "confidence": 1.0
+          },
+          {
+            "text": "período",
+            "start": 164.57999999999998,
+            "end": 164.82,
+            "confidence": 0.997
+          },
+          {
+            "text": "colonial.",
+            "start": 164.82,
+            "end": 165.22,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 187.48,
+        "end": 192.34,
+        "text": " No início do século XIX, teve início o ciclo do café em São Paulo.",
+        "tokens": [
+          50365,
+          883,
+          45979,
+          360,
+          7910,
+          25436,
+          1783,
+          21124,
+          11,
+          26628,
+          45979,
+          277,
+          27464,
+          752,
+          360,
+          25118,
+          846,
+          22401,
+          21801,
+          13,
+          51285
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.07579892096312149,
+        "compression_ratio": 1.2421875,
+        "no_speech_prob": 3.3808067022994548e-12,
+        "confidence": 0.942,
+        "words": [
+          {
+            "text": "No",
+            "start": 187.48,
+            "end": 187.5,
+            "confidence": 0.817
+          },
+          {
+            "text": "início",
+            "start": 187.5,
+            "end": 187.9,
+            "confidence": 0.994
+          },
+          {
+            "text": "do",
+            "start": 187.9,
+            "end": 188.12,
+            "confidence": 0.998
+          },
+          {
+            "text": "século",
+            "start": 188.12,
+            "end": 188.58,
+            "confidence": 0.996
+          },
+          {
+            "text": "XIX,",
+            "start": 188.58,
+            "end": 189.16,
+            "confidence": 0.742
+          },
+          {
+            "text": "teve",
+            "start": 189.52,
+            "end": 189.64,
+            "confidence": 0.973
+          },
+          {
+            "text": "início",
+            "start": 189.64,
+            "end": 189.9,
+            "confidence": 0.968
+          },
+          {
+            "text": "o",
+            "start": 189.9,
+            "end": 190.32,
+            "confidence": 0.972
+          },
+          {
+            "text": "ciclo",
+            "start": 190.32,
+            "end": 190.84,
+            "confidence": 0.975
+          },
+          {
+            "text": "do",
+            "start": 190.84,
+            "end": 191.06,
+            "confidence": 0.993
+          },
+          {
+            "text": "café",
+            "start": 191.06,
+            "end": 191.46,
+            "confidence": 0.962
+          },
+          {
+            "text": "em",
+            "start": 191.46,
+            "end": 191.84,
+            "confidence": 0.988
+          },
+          {
+            "text": "São",
+            "start": 191.84,
+            "end": 192.06,
+            "confidence": 0.995
+          },
+          {
+            "text": "Paulo.",
+            "start": 192.06,
+            "end": 192.34,
+            "confidence": 0.995
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 192.8,
+        "end": 198.48,
+        "text": " Durante muito tempo, o café foi a principal base econômica de São Paulo e do Brasil.",
+        "tokens": [
+          51307,
+          13710,
+          2879,
+          4945,
+          8972,
+          11,
+          277,
+          25118,
+          6901,
+          257,
+          9716,
+          3096,
+          23692,
+          25670,
+          2262,
+          368,
+          22401,
+          21801,
+          308,
+          360,
+          14861,
+          13,
+          51593
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.07579892096312149,
+        "compression_ratio": 1.2421875,
+        "no_speech_prob": 3.3808067022994548e-12,
+        "confidence": 0.996,
+        "words": [
+          {
+            "text": "Durante",
+            "start": 192.8,
+            "end": 193.16,
+            "confidence": 1.0
+          },
+          {
+            "text": "muito",
+            "start": 193.16,
+            "end": 193.7,
+            "confidence": 1.0
+          },
+          {
+            "text": "tempo,",
+            "start": 193.7,
+            "end": 194.06,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 194.28,
+            "end": 194.36,
+            "confidence": 0.999
+          },
+          {
+            "text": "café",
+            "start": 194.36,
+            "end": 194.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "foi",
+            "start": 194.56,
+            "end": 194.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 194.82,
+            "end": 194.98,
+            "confidence": 1.0
+          },
+          {
+            "text": "principal",
+            "start": 194.98,
+            "end": 195.46,
+            "confidence": 0.999
+          },
+          {
+            "text": "base",
+            "start": 195.46,
+            "end": 196.02,
+            "confidence": 0.997
+          },
+          {
+            "text": "econômica",
+            "start": 196.02,
+            "end": 196.7,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 196.7,
+            "end": 197.14,
+            "confidence": 0.943
+          },
+          {
+            "text": "São",
+            "start": 197.14,
+            "end": 197.38,
+            "confidence": 1.0
+          },
+          {
+            "text": "Paulo",
+            "start": 197.38,
+            "end": 197.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "e",
+            "start": 197.74,
+            "end": 198.0,
+            "confidence": 0.996
+          },
+          {
+            "text": "do",
+            "start": 198.0,
+            "end": 198.12,
+            "confidence": 1.0
+          },
+          {
+            "text": "Brasil.",
+            "start": 198.12,
+            "end": 198.48,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 2456,
+        "start": 198.88,
+        "end": 203.54,
+        "text": " Para facilitar o transporte do café, em 1867,",
+        "tokens": [
+          50365,
+          11107,
+          10217,
+          3981,
+          277,
+          5495,
+          68,
+          360,
+          25118,
+          11,
+          846,
+          2443,
+          22452,
+          11,
+          50626
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.10061320662498474,
+        "compression_ratio": 0.8518518518518519,
+        "no_speech_prob": 2.7773477961900994e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Para",
+            "start": 198.88,
+            "end": 199.1,
+            "confidence": 0.996
+          },
+          {
+            "text": "facilitar",
+            "start": 199.1,
+            "end": 199.76,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 199.76,
+            "end": 199.96,
+            "confidence": 1.0
+          },
+          {
+            "text": "transporte",
+            "start": 199.96,
+            "end": 200.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "do",
+            "start": 200.72,
+            "end": 200.84,
+            "confidence": 1.0
+          },
+          {
+            "text": "café,",
+            "start": 200.84,
+            "end": 201.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "em",
+            "start": 201.44,
+            "end": 201.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "1867,",
+            "start": 201.74,
+            "end": 203.54,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 203.0,
+        "end": 208.78,
+        "text": " em 1967 foi criada a São Paulo Railway, a primeira ferrovia paulista.",
+        "tokens": [
+          50365,
+          846,
+          33193,
+          6901,
+          12815,
+          1538,
+          257,
+          22401,
+          21801,
+          23494,
+          676,
+          11,
+          257,
+          21158,
+          7202,
+          340,
+          11617,
+          2502,
+          425,
+          5236,
+          13,
+          50657
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11534438482144983,
+        "compression_ratio": 1.3609756097560977,
+        "no_speech_prob": 4.962780620482166e-12,
+        "confidence": 0.856,
+        "words": [
+          {
+            "text": "em",
+            "start": 203.0,
+            "end": 203.02,
+            "confidence": 0.173
+          },
+          {
+            "text": "1967",
+            "start": 203.02,
+            "end": 203.44,
+            "confidence": 0.78
+          },
+          {
+            "text": "foi",
+            "start": 203.44,
+            "end": 204.26,
+            "confidence": 0.504
+          },
+          {
+            "text": "criada",
+            "start": 204.26,
+            "end": 204.78,
+            "confidence": 0.994
+          },
+          {
+            "text": "a",
+            "start": 204.78,
+            "end": 205.02,
+            "confidence": 0.991
+          },
+          {
+            "text": "São",
+            "start": 205.02,
+            "end": 205.26,
+            "confidence": 0.986
+          },
+          {
+            "text": "Paulo",
+            "start": 205.26,
+            "end": 205.64,
+            "confidence": 0.999
+          },
+          {
+            "text": "Railway,",
+            "start": 205.64,
+            "end": 206.42,
+            "confidence": 0.998
+          },
+          {
+            "text": "a",
+            "start": 206.54,
+            "end": 206.62,
+            "confidence": 0.976
+          },
+          {
+            "text": "primeira",
+            "start": 206.62,
+            "end": 207.0,
+            "confidence": 0.994
+          },
+          {
+            "text": "ferrovia",
+            "start": 207.0,
+            "end": 207.96,
+            "confidence": 0.984
+          },
+          {
+            "text": "paulista.",
+            "start": 207.96,
+            "end": 208.78,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 209.4,
+        "end": 215.58,
+        "text": " Agora eu estou em frente à Estação da Luz, uma das principais estações ferroviárias de São Paulo,",
+        "tokens": [
+          50685,
+          16023,
+          2228,
+          17660,
+          846,
+          19873,
+          1531,
+          4410,
+          6670,
+          1120,
+          441,
+          3334,
+          11,
+          2772,
+          1482,
+          6959,
+          1527,
+          5283,
+          8001,
+          7202,
+          340,
+          4917,
+          24952,
+          368,
+          22401,
+          21801,
+          11,
+          50995
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11534438482144983,
+        "compression_ratio": 1.3609756097560977,
+        "no_speech_prob": 4.962780620482166e-12,
+        "confidence": 0.964,
+        "words": [
+          {
+            "text": "Agora",
+            "start": 209.4,
+            "end": 209.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "eu",
+            "start": 209.66,
+            "end": 209.94,
+            "confidence": 0.964
+          },
+          {
+            "text": "estou",
+            "start": 209.94,
+            "end": 210.12,
+            "confidence": 1.0
+          },
+          {
+            "text": "em",
+            "start": 210.12,
+            "end": 210.28,
+            "confidence": 1.0
+          },
+          {
+            "text": "frente",
+            "start": 210.28,
+            "end": 210.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "à",
+            "start": 210.6,
+            "end": 210.78,
+            "confidence": 0.993
+          },
+          {
+            "text": "Estação",
+            "start": 210.78,
+            "end": 211.42,
+            "confidence": 0.914
+          },
+          {
+            "text": "da",
+            "start": 211.42,
+            "end": 211.64,
+            "confidence": 0.999
+          },
+          {
+            "text": "Luz,",
+            "start": 211.64,
+            "end": 211.96,
+            "confidence": 0.995
+          },
+          {
+            "text": "uma",
+            "start": 212.12,
+            "end": 212.42,
+            "confidence": 0.599
+          },
+          {
+            "text": "das",
+            "start": 212.42,
+            "end": 212.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "principais",
+            "start": 212.6,
+            "end": 213.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "estações",
+            "start": 213.34,
+            "end": 213.86,
+            "confidence": 0.997
+          },
+          {
+            "text": "ferroviárias",
+            "start": 213.86,
+            "end": 214.72,
+            "confidence": 0.989
+          },
+          {
+            "text": "de",
+            "start": 214.72,
+            "end": 214.94,
+            "confidence": 0.931
+          },
+          {
+            "text": "São",
+            "start": 214.94,
+            "end": 215.2,
+            "confidence": 0.998
+          },
+          {
+            "text": "Paulo,",
+            "start": 215.2,
+            "end": 215.58,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 215.92,
+        "end": 217.58,
+        "text": " localizada no centro da cidade.",
+        "tokens": [
+          51014,
+          2654,
+          39600,
+          572,
+          24607,
+          1120,
+          27882,
+          13,
+          51106
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11534438482144983,
+        "compression_ratio": 1.3609756097560977,
+        "no_speech_prob": 4.962780620482166e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "localizada",
+            "start": 215.92,
+            "end": 216.56,
+            "confidence": 0.999
+          },
+          {
+            "text": "no",
+            "start": 216.56,
+            "end": 216.76,
+            "confidence": 1.0
+          },
+          {
+            "text": "centro",
+            "start": 216.76,
+            "end": 217.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "da",
+            "start": 217.14,
+            "end": 217.32,
+            "confidence": 1.0
+          },
+          {
+            "text": "cidade.",
+            "start": 217.32,
+            "end": 217.58,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 224.38,
+        "end": 228.64,
+        "text": " Inicialmente, a produção do café era feita com mão de obra escrava.",
+        "tokens": [
+          51440,
+          682,
+          14730,
+          4082,
+          11,
+          257,
+          49147,
+          360,
+          25118,
+          4249,
+          579,
+          2786,
+          395,
+          31639,
+          368,
+          22798,
+          4721,
+          424,
+          2757,
+          13,
+          51647
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11534438482144983,
+        "compression_ratio": 1.3609756097560977,
+        "no_speech_prob": 4.962780620482166e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Inicialmente,",
+            "start": 224.38,
+            "end": 225.06,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 225.22,
+            "end": 225.26,
+            "confidence": 1.0
+          },
+          {
+            "text": "produção",
+            "start": 225.26,
+            "end": 225.57999999999998,
+            "confidence": 1.0
+          },
+          {
+            "text": "do",
+            "start": 225.57999999999998,
+            "end": 226.0,
+            "confidence": 1.0
+          },
+          {
+            "text": "café",
+            "start": 226.0,
+            "end": 226.3,
+            "confidence": 1.0
+          },
+          {
+            "text": "era",
+            "start": 226.3,
+            "end": 226.64,
+            "confidence": 1.0
+          },
+          {
+            "text": "feita",
+            "start": 226.64,
+            "end": 226.98,
+            "confidence": 1.0
+          },
+          {
+            "text": "com",
+            "start": 226.98,
+            "end": 227.2,
+            "confidence": 1.0
+          },
+          {
+            "text": "mão",
+            "start": 227.2,
+            "end": 227.38,
+            "confidence": 0.999
+          },
+          {
+            "text": "de",
+            "start": 227.38,
+            "end": 227.54,
+            "confidence": 0.998
+          },
+          {
+            "text": "obra",
+            "start": 227.54,
+            "end": 227.86,
+            "confidence": 1.0
+          },
+          {
+            "text": "escrava.",
+            "start": 227.86,
+            "end": 228.64,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 2564,
+        "start": 228.94,
+        "end": 232.98,
+        "text": " Com a abolição da escravatura no século XIX, os latifícios...",
+        "tokens": [
+          50365,
+          2432,
+          257,
+          410,
+          9384,
+          2917,
+          1120,
+          4721,
+          13404,
+          19660,
+          572,
+          7910,
+          25436,
+          1783,
+          21124,
+          11,
+          3003,
+          4465,
+          351,
+          49564,
+          485,
+          50615
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1955934192823327,
+        "compression_ratio": 0.8783783783783784,
+        "no_speech_prob": 3.498743612537214e-12,
+        "confidence": 0.925,
+        "words": [
+          {
+            "text": "Com",
+            "start": 228.94,
+            "end": 229.1,
+            "confidence": 0.998
+          },
+          {
+            "text": "a",
+            "start": 229.1,
+            "end": 229.22,
+            "confidence": 1.0
+          },
+          {
+            "text": "abolição",
+            "start": 229.22,
+            "end": 229.8,
+            "confidence": 0.999
+          },
+          {
+            "text": "da",
+            "start": 229.8,
+            "end": 230.0,
+            "confidence": 1.0
+          },
+          {
+            "text": "escravatura",
+            "start": 230.0,
+            "end": 230.72,
+            "confidence": 0.999
+          },
+          {
+            "text": "no",
+            "start": 230.72,
+            "end": 230.92000000000002,
+            "confidence": 0.983
+          },
+          {
+            "text": "século",
+            "start": 230.92000000000002,
+            "end": 231.4,
+            "confidence": 1.0
+          },
+          {
+            "text": "XIX,",
+            "start": 231.4,
+            "end": 232.06,
+            "confidence": 0.991
+          },
+          {
+            "text": "os",
+            "start": 232.34,
+            "end": 232.56,
+            "confidence": 0.998
+          },
+          {
+            "text": "latifícios...",
+            "start": 232.56,
+            "end": 232.98,
+            "confidence": 0.637
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 232.36,
+        "end": 238.5,
+        "text": " os latifundiários começaram a empregar imigrantes, especialmente da Europa e do Japão.",
+        "tokens": [
+          50365,
+          3003,
+          4465,
+          351,
+          997,
+          72,
+          15644,
+          14596,
+          12835,
+          257,
+          43223,
+          2976,
+          566,
+          328,
+          7541,
+          279,
+          11,
+          41546,
+          1120,
+          16642,
+          308,
+          360,
+          35642,
+          1076,
+          13,
+          50693
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09637180964152019,
+        "compression_ratio": 1.2536231884057971,
+        "no_speech_prob": 2.199772699065794e-12,
+        "confidence": 0.991,
+        "words": [
+          {
+            "text": "os",
+            "start": 232.36,
+            "end": 232.56,
+            "confidence": 0.945
+          },
+          {
+            "text": "latifundiários",
+            "start": 232.56,
+            "end": 233.5,
+            "confidence": 0.997
+          },
+          {
+            "text": "começaram",
+            "start": 233.5,
+            "end": 234.18,
+            "confidence": 0.997
+          },
+          {
+            "text": "a",
+            "start": 234.18,
+            "end": 234.3,
+            "confidence": 0.994
+          },
+          {
+            "text": "empregar",
+            "start": 234.3,
+            "end": 234.86,
+            "confidence": 0.992
+          },
+          {
+            "text": "imigrantes,",
+            "start": 234.86,
+            "end": 235.82,
+            "confidence": 0.994
+          },
+          {
+            "text": "especialmente",
+            "start": 235.86,
+            "end": 236.66,
+            "confidence": 0.942
+          },
+          {
+            "text": "da",
+            "start": 236.66,
+            "end": 237.22,
+            "confidence": 0.998
+          },
+          {
+            "text": "Europa",
+            "start": 237.22,
+            "end": 237.5,
+            "confidence": 0.999
+          },
+          {
+            "text": "e",
+            "start": 237.5,
+            "end": 237.94,
+            "confidence": 0.999
+          },
+          {
+            "text": "do",
+            "start": 237.94,
+            "end": 238.08,
+            "confidence": 0.999
+          },
+          {
+            "text": "Japão.",
+            "start": 238.08,
+            "end": 238.5,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 250.98,
+        "end": 255.5,
+        "text": " Agora eu estou na Avenida Paulista, uma das avenidas mais conhecidas de São Paulo.",
+        "tokens": [
+          51290,
+          16023,
+          2228,
+          17660,
+          1667,
+          13573,
+          2887,
+          4552,
+          5236,
+          11,
+          2772,
+          1482,
+          18469,
+          11382,
+          2420,
+          15440,
+          66,
+          11382,
+          368,
+          22401,
+          21801,
+          13,
+          51542
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09637180964152019,
+        "compression_ratio": 1.2536231884057971,
+        "no_speech_prob": 2.199772699065794e-12,
+        "confidence": 0.994,
+        "words": [
+          {
+            "text": "Agora",
+            "start": 250.98,
+            "end": 251.28,
+            "confidence": 0.998
+          },
+          {
+            "text": "eu",
+            "start": 251.28,
+            "end": 251.42000000000002,
+            "confidence": 0.974
+          },
+          {
+            "text": "estou",
+            "start": 251.42000000000002,
+            "end": 251.64,
+            "confidence": 1.0
+          },
+          {
+            "text": "na",
+            "start": 251.64,
+            "end": 251.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "Avenida",
+            "start": 251.82,
+            "end": 252.16,
+            "confidence": 0.976
+          },
+          {
+            "text": "Paulista,",
+            "start": 252.16,
+            "end": 252.94,
+            "confidence": 0.988
+          },
+          {
+            "text": "uma",
+            "start": 253.0,
+            "end": 253.12,
+            "confidence": 0.999
+          },
+          {
+            "text": "das",
+            "start": 253.12,
+            "end": 253.26,
+            "confidence": 1.0
+          },
+          {
+            "text": "avenidas",
+            "start": 253.26,
+            "end": 253.74,
+            "confidence": 0.999
+          },
+          {
+            "text": "mais",
+            "start": 253.74,
+            "end": 254.12,
+            "confidence": 1.0
+          },
+          {
+            "text": "conhecidas",
+            "start": 254.12,
+            "end": 254.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 254.72,
+            "end": 254.9,
+            "confidence": 1.0
+          },
+          {
+            "text": "São",
+            "start": 254.9,
+            "end": 255.12,
+            "confidence": 1.0
+          },
+          {
+            "text": "Paulo.",
+            "start": 255.12,
+            "end": 255.5,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 2354,
+        "start": 255.9,
+        "end": 261.98,
+        "text": " Esta avenida foi inaugurada em 1891 e nesta avenida muitos barões...",
+        "tokens": [
+          50365,
+          20547,
+          18469,
+          2887,
+          6901,
+          23541,
+          374,
+          1538,
+          846,
+          2443,
+          29925,
+          308,
+          297,
+          7841,
+          18469,
+          2887,
+          28918,
+          2159,
+          6036,
+          485,
+          50690
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19122180071744052,
+        "compression_ratio": 1.0454545454545454,
+        "no_speech_prob": 2.6762346679032323e-12,
+        "confidence": 0.898,
+        "words": [
+          {
+            "text": "Esta",
+            "start": 255.9,
+            "end": 256.08,
+            "confidence": 0.822
+          },
+          {
+            "text": "avenida",
+            "start": 256.08,
+            "end": 256.44,
+            "confidence": 0.999
+          },
+          {
+            "text": "foi",
+            "start": 256.44,
+            "end": 256.62,
+            "confidence": 1.0
+          },
+          {
+            "text": "inaugurada",
+            "start": 256.62,
+            "end": 257.3,
+            "confidence": 1.0
+          },
+          {
+            "text": "em",
+            "start": 257.3,
+            "end": 257.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "1891",
+            "start": 257.56,
+            "end": 259.68,
+            "confidence": 0.999
+          },
+          {
+            "text": "e",
+            "start": 259.68,
+            "end": 260.26,
+            "confidence": 0.93
+          },
+          {
+            "text": "nesta",
+            "start": 260.26,
+            "end": 260.58,
+            "confidence": 0.726
+          },
+          {
+            "text": "avenida",
+            "start": 260.58,
+            "end": 261.1,
+            "confidence": 0.999
+          },
+          {
+            "text": "muitos",
+            "start": 261.1,
+            "end": 261.4,
+            "confidence": 0.95
+          },
+          {
+            "text": "barões...",
+            "start": 261.4,
+            "end": 261.98,
+            "confidence": 0.616
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 261.0,
+        "end": 267.36,
+        "text": " muitos barões do café, os grandes produtores de café, construíram as suas mansões.",
+        "tokens": [
+          50365,
+          28918,
+          2159,
+          6036,
+          360,
+          25118,
+          11,
+          3003,
+          16640,
+          15792,
+          325,
+          2706,
+          368,
+          25118,
+          11,
+          12946,
+          870,
+          2356,
+          382,
+          23410,
+          18868,
+          6036,
+          13,
+          50685
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09904889026320124,
+        "compression_ratio": 1.5026178010471205,
+        "no_speech_prob": 5.885588023890609e-12,
+        "confidence": 0.934,
+        "words": [
+          {
+            "text": "muitos",
+            "start": 261.0,
+            "end": 261.38,
+            "confidence": 0.581
+          },
+          {
+            "text": "barões",
+            "start": 261.38,
+            "end": 262.26,
+            "confidence": 0.983
+          },
+          {
+            "text": "do",
+            "start": 262.26,
+            "end": 262.44,
+            "confidence": 0.98
+          },
+          {
+            "text": "café,",
+            "start": 262.44,
+            "end": 262.84,
+            "confidence": 0.995
+          },
+          {
+            "text": "os",
+            "start": 263.2,
+            "end": 263.36,
+            "confidence": 0.786
+          },
+          {
+            "text": "grandes",
+            "start": 263.36,
+            "end": 263.82,
+            "confidence": 0.998
+          },
+          {
+            "text": "produtores",
+            "start": 263.82,
+            "end": 264.78,
+            "confidence": 0.999
+          },
+          {
+            "text": "de",
+            "start": 264.78,
+            "end": 264.96,
+            "confidence": 0.988
+          },
+          {
+            "text": "café,",
+            "start": 264.96,
+            "end": 265.28,
+            "confidence": 0.994
+          },
+          {
+            "text": "construíram",
+            "start": 265.4,
+            "end": 266.2,
+            "confidence": 0.9
+          },
+          {
+            "text": "as",
+            "start": 266.2,
+            "end": 266.36,
+            "confidence": 0.919
+          },
+          {
+            "text": "suas",
+            "start": 266.36,
+            "end": 266.52,
+            "confidence": 0.99
+          },
+          {
+            "text": "mansões.",
+            "start": 266.52,
+            "end": 267.36,
+            "confidence": 0.985
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 267.96,
+        "end": 272.16,
+        "text": " E um exemplo de uma mansão desta época é a Casa das Rosas.",
+        "tokens": [
+          50715,
+          462,
+          1105,
+          16496,
+          368,
+          2772,
+          18868,
+          1076,
+          45943,
+          25024,
+          1136,
+          257,
+          44843,
+          1482,
+          11144,
+          296,
+          13,
+          50925
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09904889026320124,
+        "compression_ratio": 1.5026178010471205,
+        "no_speech_prob": 5.885588023890609e-12,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "E",
+            "start": 267.96,
+            "end": 268.06,
+            "confidence": 0.987
+          },
+          {
+            "text": "um",
+            "start": 268.06,
+            "end": 268.24,
+            "confidence": 1.0
+          },
+          {
+            "text": "exemplo",
+            "start": 268.24,
+            "end": 268.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 268.8,
+            "end": 269.0,
+            "confidence": 1.0
+          },
+          {
+            "text": "uma",
+            "start": 269.0,
+            "end": 269.16,
+            "confidence": 1.0
+          },
+          {
+            "text": "mansão",
+            "start": 269.16,
+            "end": 269.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "desta",
+            "start": 269.66,
+            "end": 269.92,
+            "confidence": 0.994
+          },
+          {
+            "text": "época",
+            "start": 269.92,
+            "end": 270.44,
+            "confidence": 1.0
+          },
+          {
+            "text": "é",
+            "start": 270.44,
+            "end": 270.76,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 270.76,
+            "end": 270.92,
+            "confidence": 1.0
+          },
+          {
+            "text": "Casa",
+            "start": 270.92,
+            "end": 271.18,
+            "confidence": 0.997
+          },
+          {
+            "text": "das",
+            "start": 271.18,
+            "end": 271.56,
+            "confidence": 0.999
+          },
+          {
+            "text": "Rosas.",
+            "start": 271.56,
+            "end": 272.16,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 272.7,
+        "end": 276.16,
+        "text": " A Casa das Rosas foi construída em 1935.",
+        "tokens": [
+          50950,
+          316,
+          44843,
+          1482,
+          11144,
+          296,
+          6901,
+          12946,
+          39080,
+          846,
+          1294,
+          8794,
+          13,
+          51134
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09904889026320124,
+        "compression_ratio": 1.5026178010471205,
+        "no_speech_prob": 5.885588023890609e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "A",
+            "start": 272.7,
+            "end": 272.92,
+            "confidence": 1.0
+          },
+          {
+            "text": "Casa",
+            "start": 272.92,
+            "end": 273.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "das",
+            "start": 273.14,
+            "end": 273.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "Rosas",
+            "start": 273.34,
+            "end": 273.7,
+            "confidence": 1.0
+          },
+          {
+            "text": "foi",
+            "start": 273.7,
+            "end": 273.86,
+            "confidence": 1.0
+          },
+          {
+            "text": "construída",
+            "start": 273.86,
+            "end": 274.4,
+            "confidence": 1.0
+          },
+          {
+            "text": "em",
+            "start": 274.4,
+            "end": 274.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "1935.",
+            "start": 274.56,
+            "end": 276.16,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 277.06,
+        "end": 282.86,
+        "text": " Hoje, a Casa das Rosas é um espaço cultural que recebe muitos eventos e exposições de arte.",
+        "tokens": [
+          51169,
+          34104,
+          11,
+          257,
+          44843,
+          1482,
+          11144,
+          296,
+          1136,
+          1105,
+          34270,
+          6988,
+          631,
+          2268,
+          650,
+          28918,
+          2280,
+          329,
+          308,
+          1278,
+          21521,
+          8001,
+          368,
+          29159,
+          13,
+          51458
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09904889026320124,
+        "compression_ratio": 1.5026178010471205,
+        "no_speech_prob": 5.885588023890609e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Hoje,",
+            "start": 277.06,
+            "end": 277.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 277.48,
+            "end": 277.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "Casa",
+            "start": 277.6,
+            "end": 277.86,
+            "confidence": 1.0
+          },
+          {
+            "text": "das",
+            "start": 277.86,
+            "end": 278.12,
+            "confidence": 1.0
+          },
+          {
+            "text": "Rosas",
+            "start": 278.12,
+            "end": 278.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "é",
+            "start": 278.56,
+            "end": 278.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "um",
+            "start": 278.66,
+            "end": 278.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "espaço",
+            "start": 278.74,
+            "end": 279.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "cultural",
+            "start": 279.04,
+            "end": 279.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "que",
+            "start": 279.6,
+            "end": 280.14,
+            "confidence": 0.985
+          },
+          {
+            "text": "recebe",
+            "start": 280.14,
+            "end": 280.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "muitos",
+            "start": 280.66,
+            "end": 280.92,
+            "confidence": 1.0
+          },
+          {
+            "text": "eventos",
+            "start": 280.92,
+            "end": 281.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "e",
+            "start": 281.66,
+            "end": 281.76,
+            "confidence": 0.999
+          },
+          {
+            "text": "exposições",
+            "start": 281.76,
+            "end": 282.34,
+            "confidence": 0.999
+          },
+          {
+            "text": "de",
+            "start": 282.34,
+            "end": 282.54,
+            "confidence": 1.0
+          },
+          {
+            "text": "arte.",
+            "start": 282.54,
+            "end": 282.86,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 292.86,
+        "end": 303.0,
+        "text": " Além da grande produção de café, em meados do século XX, São Paulo também recebeu muitas indústrias, especialmente automobilísticas,",
+        "tokens": [
+          50365,
+          44457,
+          1120,
+          8883,
+          49147,
+          368,
+          25118,
+          11,
+          846,
+          385,
+          4181,
+          360,
+          7910,
+          25436,
+          27050,
+          11,
+          22401,
+          21801,
+          6274,
+          2268,
+          650,
+          84,
+          25705,
+          1016,
+          2481,
+          372,
+          35051,
+          11,
+          41546,
+          3553,
+          21725,
+          19512,
+          9150,
+          11,
+          51016
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.0893124437880242,
+        "compression_ratio": 1.6118721461187215,
+        "no_speech_prob": 4.169748747673285e-12,
+        "confidence": 0.951,
+        "words": [
+          {
+            "text": "Além",
+            "start": 292.86,
+            "end": 293.14,
+            "confidence": 0.823
+          },
+          {
+            "text": "da",
+            "start": 293.14,
+            "end": 293.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "grande",
+            "start": 293.34,
+            "end": 293.86,
+            "confidence": 0.999
+          },
+          {
+            "text": "produção",
+            "start": 293.86,
+            "end": 294.34,
+            "confidence": 0.997
+          },
+          {
+            "text": "de",
+            "start": 294.34,
+            "end": 294.76,
+            "confidence": 0.997
+          },
+          {
+            "text": "café,",
+            "start": 294.76,
+            "end": 295.32,
+            "confidence": 0.994
+          },
+          {
+            "text": "em",
+            "start": 295.58,
+            "end": 295.9,
+            "confidence": 0.974
+          },
+          {
+            "text": "meados",
+            "start": 295.9,
+            "end": 296.32,
+            "confidence": 0.999
+          },
+          {
+            "text": "do",
+            "start": 296.32,
+            "end": 296.5,
+            "confidence": 0.998
+          },
+          {
+            "text": "século",
+            "start": 296.5,
+            "end": 296.98,
+            "confidence": 0.999
+          },
+          {
+            "text": "XX,",
+            "start": 296.98,
+            "end": 297.42,
+            "confidence": 0.878
+          },
+          {
+            "text": "São",
+            "start": 297.7,
+            "end": 297.9,
+            "confidence": 0.591
+          },
+          {
+            "text": "Paulo",
+            "start": 297.9,
+            "end": 298.18,
+            "confidence": 0.999
+          },
+          {
+            "text": "também",
+            "start": 298.18,
+            "end": 298.46,
+            "confidence": 0.995
+          },
+          {
+            "text": "recebeu",
+            "start": 298.46,
+            "end": 299.12,
+            "confidence": 0.994
+          },
+          {
+            "text": "muitas",
+            "start": 299.12,
+            "end": 299.4,
+            "confidence": 0.909
+          },
+          {
+            "text": "indústrias,",
+            "start": 299.4,
+            "end": 300.46,
+            "confidence": 0.989
+          },
+          {
+            "text": "especialmente",
+            "start": 300.7,
+            "end": 301.4,
+            "confidence": 0.69
+          },
+          {
+            "text": "automobilísticas,",
+            "start": 301.4,
+            "end": 303.0,
+            "confidence": 0.997
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 303.3,
+        "end": 311.1,
+        "text": " o que estimulou a migração de brasileiros de outras regiões a São Paulo, especialmente nordestinos.",
+        "tokens": [
+          51016,
+          277,
+          631,
+          8017,
+          425,
+          263,
+          257,
+          6186,
+          37864,
+          368,
+          28435,
+          21633,
+          368,
+          22221,
+          1121,
+          72,
+          6036,
+          257,
+          22401,
+          21801,
+          11,
+          41546,
+          39284,
+          377,
+          15220,
+          13,
+          51423
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.0893124437880242,
+        "compression_ratio": 1.6118721461187215,
+        "no_speech_prob": 4.169748747673285e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "o",
+            "start": 303.3,
+            "end": 303.46,
+            "confidence": 1.0
+          },
+          {
+            "text": "que",
+            "start": 303.46,
+            "end": 303.62,
+            "confidence": 1.0
+          },
+          {
+            "text": "estimulou",
+            "start": 303.62,
+            "end": 304.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 304.52,
+            "end": 304.7,
+            "confidence": 1.0
+          },
+          {
+            "text": "migração",
+            "start": 304.7,
+            "end": 305.54,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 305.54,
+            "end": 306.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "brasileiros",
+            "start": 306.04,
+            "end": 306.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 306.82,
+            "end": 306.98,
+            "confidence": 1.0
+          },
+          {
+            "text": "outras",
+            "start": 306.98,
+            "end": 307.36,
+            "confidence": 1.0
+          },
+          {
+            "text": "regiões",
+            "start": 307.36,
+            "end": 308.0,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 308.0,
+            "end": 308.28,
+            "confidence": 0.988
+          },
+          {
+            "text": "São",
+            "start": 308.28,
+            "end": 308.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "Paulo,",
+            "start": 308.52,
+            "end": 308.98,
+            "confidence": 1.0
+          },
+          {
+            "text": "especialmente",
+            "start": 309.18,
+            "end": 309.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "nordestinos.",
+            "start": 309.94,
+            "end": 311.1,
+            "confidence": 0.995
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 311.66,
+        "end": 318.94,
+        "text": " Este grande movimento de migração a São Paulo contribuiu para o crescimento e desenvolvimento da cidade.",
+        "tokens": [
+          51449,
+          16105,
+          8883,
+          40798,
+          368,
+          6186,
+          37864,
+          257,
+          22401,
+          21801,
+          4226,
+          3077,
+          84,
+          1690,
+          277,
+          20964,
+          28317,
+          308,
+          47835,
+          10030,
+          1120,
+          27882,
+          13,
+          51824
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.0893124437880242,
+        "compression_ratio": 1.6118721461187215,
+        "no_speech_prob": 4.169748747673285e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Este",
+            "start": 311.66,
+            "end": 311.92,
+            "confidence": 0.998
+          },
+          {
+            "text": "grande",
+            "start": 311.92,
+            "end": 312.44,
+            "confidence": 1.0
+          },
+          {
+            "text": "movimento",
+            "start": 312.44,
+            "end": 312.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 312.82,
+            "end": 313.22,
+            "confidence": 1.0
+          },
+          {
+            "text": "migração",
+            "start": 313.22,
+            "end": 314.1,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 314.1,
+            "end": 314.38,
+            "confidence": 0.996
+          },
+          {
+            "text": "São",
+            "start": 314.38,
+            "end": 314.62,
+            "confidence": 1.0
+          },
+          {
+            "text": "Paulo",
+            "start": 314.62,
+            "end": 315.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "contribuiu",
+            "start": 315.04,
+            "end": 316.06,
+            "confidence": 0.998
+          },
+          {
+            "text": "para",
+            "start": 316.06,
+            "end": 316.26,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 316.26,
+            "end": 316.38,
+            "confidence": 1.0
+          },
+          {
+            "text": "crescimento",
+            "start": 316.38,
+            "end": 317.08,
+            "confidence": 1.0
+          },
+          {
+            "text": "e",
+            "start": 317.08,
+            "end": 317.48,
+            "confidence": 1.0
+          },
+          {
+            "text": "desenvolvimento",
+            "start": 317.48,
+            "end": 318.46,
+            "confidence": 1.0
+          },
+          {
+            "text": "da",
+            "start": 318.46,
+            "end": 318.66,
+            "confidence": 0.999
+          },
+          {
+            "text": "cidade.",
+            "start": 318.66,
+            "end": 318.94,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 319.98,
+        "end": 328.92,
+        "text": " No final do século XX, São Paulo se tornou o maior polo econômico e a maior cidade do Brasil e da América do Sul.",
+        "tokens": [
+          50365,
+          883,
+          2572,
+          360,
+          7910,
+          25436,
+          27050,
+          11,
+          22401,
+          21801,
+          369,
+          10885,
+          263,
+          277,
+          15859,
+          1180,
+          78,
+          23692,
+          25670,
+          2789,
+          308,
+          257,
+          15859,
+          27882,
+          360,
+          14861,
+          308,
+          1120,
+          48053,
+          360,
+          35897,
+          13,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06976610201376456,
+        "compression_ratio": 1.5317460317460319,
+        "no_speech_prob": 4.463221892764269e-12,
+        "confidence": 0.971,
+        "words": [
+          {
+            "text": "No",
+            "start": 319.98,
+            "end": 320.16,
+            "confidence": 0.922
+          },
+          {
+            "text": "final",
+            "start": 320.16,
+            "end": 320.42,
+            "confidence": 0.998
+          },
+          {
+            "text": "do",
+            "start": 320.42,
+            "end": 320.72,
+            "confidence": 0.999
+          },
+          {
+            "text": "século",
+            "start": 320.72,
+            "end": 321.12,
+            "confidence": 0.998
+          },
+          {
+            "text": "XX,",
+            "start": 321.12,
+            "end": 321.52,
+            "confidence": 0.801
+          },
+          {
+            "text": "São",
+            "start": 321.8,
+            "end": 322.02,
+            "confidence": 0.982
+          },
+          {
+            "text": "Paulo",
+            "start": 322.02,
+            "end": 322.34,
+            "confidence": 0.999
+          },
+          {
+            "text": "se",
+            "start": 322.34,
+            "end": 322.52,
+            "confidence": 0.998
+          },
+          {
+            "text": "tornou",
+            "start": 322.52,
+            "end": 323.02,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 323.02,
+            "end": 323.18,
+            "confidence": 0.988
+          },
+          {
+            "text": "maior",
+            "start": 323.18,
+            "end": 323.54,
+            "confidence": 0.996
+          },
+          {
+            "text": "polo",
+            "start": 323.54,
+            "end": 324.24,
+            "confidence": 0.98
+          },
+          {
+            "text": "econômico",
+            "start": 324.24,
+            "end": 324.86,
+            "confidence": 0.997
+          },
+          {
+            "text": "e",
+            "start": 324.86,
+            "end": 325.22,
+            "confidence": 0.75
+          },
+          {
+            "text": "a",
+            "start": 325.22,
+            "end": 325.32,
+            "confidence": 0.994
+          },
+          {
+            "text": "maior",
+            "start": 325.32,
+            "end": 325.86,
+            "confidence": 0.976
+          },
+          {
+            "text": "cidade",
+            "start": 325.86,
+            "end": 326.36,
+            "confidence": 0.926
+          },
+          {
+            "text": "do",
+            "start": 326.36,
+            "end": 327.1,
+            "confidence": 0.976
+          },
+          {
+            "text": "Brasil",
+            "start": 327.1,
+            "end": 327.46,
+            "confidence": 0.984
+          },
+          {
+            "text": "e",
+            "start": 327.46,
+            "end": 327.94,
+            "confidence": 0.981
+          },
+          {
+            "text": "da",
+            "start": 327.94,
+            "end": 328.08,
+            "confidence": 0.996
+          },
+          {
+            "text": "América",
+            "start": 328.08,
+            "end": 328.42,
+            "confidence": 0.999
+          },
+          {
+            "text": "do",
+            "start": 328.42,
+            "end": 328.72,
+            "confidence": 0.999
+          },
+          {
+            "text": "Sul.",
+            "start": 328.72,
+            "end": 328.92,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 329.42,
+        "end": 336.12,
+        "text": " Hoje, São Paulo é uma das maiores cidades do mundo, com mais de 12 milhões de habitantes,",
+        "tokens": [
+          50887,
+          34104,
+          11,
+          22401,
+          21801,
+          1136,
+          2772,
+          1482,
+          12698,
+          2706,
+          269,
+          10284,
+          360,
+          7968,
+          11,
+          395,
+          2420,
+          368,
+          2272,
+          39252,
+          368,
+          7164,
+          9327,
+          11,
+          51221
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06976610201376456,
+        "compression_ratio": 1.5317460317460319,
+        "no_speech_prob": 4.463221892764269e-12,
+        "confidence": 0.996,
+        "words": [
+          {
+            "text": "Hoje,",
+            "start": 329.42,
+            "end": 329.76,
+            "confidence": 1.0
+          },
+          {
+            "text": "São",
+            "start": 329.88,
+            "end": 330.1,
+            "confidence": 1.0
+          },
+          {
+            "text": "Paulo",
+            "start": 330.1,
+            "end": 330.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "é",
+            "start": 330.34,
+            "end": 330.54,
+            "confidence": 1.0
+          },
+          {
+            "text": "uma",
+            "start": 330.54,
+            "end": 330.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "das",
+            "start": 330.72,
+            "end": 330.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "maiores",
+            "start": 330.94,
+            "end": 331.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "cidades",
+            "start": 331.74,
+            "end": 332.3,
+            "confidence": 1.0
+          },
+          {
+            "text": "do",
+            "start": 332.3,
+            "end": 332.64,
+            "confidence": 1.0
+          },
+          {
+            "text": "mundo,",
+            "start": 332.64,
+            "end": 332.98,
+            "confidence": 1.0
+          },
+          {
+            "text": "com",
+            "start": 333.14,
+            "end": 333.46,
+            "confidence": 0.932
+          },
+          {
+            "text": "mais",
+            "start": 333.46,
+            "end": 333.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 333.8,
+            "end": 334.02,
+            "confidence": 1.0
+          },
+          {
+            "text": "12",
+            "start": 334.02,
+            "end": 334.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "milhões",
+            "start": 334.52,
+            "end": 335.06,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 335.06,
+            "end": 335.44,
+            "confidence": 1.0
+          },
+          {
+            "text": "habitantes,",
+            "start": 335.44,
+            "end": 336.12,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 336.44,
+        "end": 341.74,
+        "text": " imigrantes de todos os cantos do mundo e um dos maiores PIBs do planeta.",
+        "tokens": [
+          51241,
+          566,
+          328,
+          7541,
+          279,
+          368,
+          6321,
+          3003,
+          11223,
+          329,
+          360,
+          7968,
+          308,
+          1105,
+          4491,
+          12698,
+          2706,
+          27176,
+          33,
+          82,
+          360,
+          34186,
+          13,
+          51512
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06976610201376456,
+        "compression_ratio": 1.5317460317460319,
+        "no_speech_prob": 4.463221892764269e-12,
+        "confidence": 0.995,
+        "words": [
+          {
+            "text": "imigrantes",
+            "start": 336.44,
+            "end": 337.26,
+            "confidence": 0.997
+          },
+          {
+            "text": "de",
+            "start": 337.26,
+            "end": 337.42,
+            "confidence": 1.0
+          },
+          {
+            "text": "todos",
+            "start": 337.42,
+            "end": 337.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "os",
+            "start": 337.82,
+            "end": 338.18,
+            "confidence": 1.0
+          },
+          {
+            "text": "cantos",
+            "start": 338.18,
+            "end": 338.62,
+            "confidence": 1.0
+          },
+          {
+            "text": "do",
+            "start": 338.62,
+            "end": 338.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "mundo",
+            "start": 338.8,
+            "end": 339.08,
+            "confidence": 1.0
+          },
+          {
+            "text": "e",
+            "start": 339.08,
+            "end": 339.56,
+            "confidence": 0.999
+          },
+          {
+            "text": "um",
+            "start": 339.56,
+            "end": 339.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "dos",
+            "start": 339.72,
+            "end": 339.94,
+            "confidence": 0.999
+          },
+          {
+            "text": "maiores",
+            "start": 339.94,
+            "end": 340.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "PIBs",
+            "start": 340.72,
+            "end": 341.26,
+            "confidence": 0.968
+          },
+          {
+            "text": "do",
+            "start": 341.26,
+            "end": 341.4,
+            "confidence": 1.0
+          },
+          {
+            "text": "planeta.",
+            "start": 341.4,
+            "end": 341.74,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 342.5,
+        "end": 347.5,
+        "text": " É isso, pessoal. Espero que você tenha gostado de aprender um pouco sobre a história de São Paulo.",
+        "tokens": [
+          51540,
+          4922,
+          4616,
+          11,
+          24811,
+          13,
+          41831,
+          631,
+          2723,
+          28834,
+          13188,
+          1573,
+          368,
+          24916,
+          1105,
+          13920,
+          5473,
+          257,
+          20670,
+          368,
+          22401,
+          21801,
+          13,
+          51791
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.06976610201376456,
+        "compression_ratio": 1.5317460317460319,
+        "no_speech_prob": 4.463221892764269e-12,
+        "confidence": 0.993,
+        "words": [
+          {
+            "text": "É",
+            "start": 342.5,
+            "end": 342.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "isso,",
+            "start": 342.66,
+            "end": 342.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "pessoal.",
+            "start": 343.06,
+            "end": 343.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "Espero",
+            "start": 343.52,
+            "end": 343.78,
+            "confidence": 0.883
+          },
+          {
+            "text": "que",
+            "start": 343.78,
+            "end": 344.0,
+            "confidence": 1.0
+          },
+          {
+            "text": "você",
+            "start": 344.0,
+            "end": 344.18,
+            "confidence": 0.998
+          },
+          {
+            "text": "tenha",
+            "start": 344.18,
+            "end": 344.4,
+            "confidence": 1.0
+          },
+          {
+            "text": "gostado",
+            "start": 344.4,
+            "end": 344.94,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 344.94,
+            "end": 345.08,
+            "confidence": 0.997
+          },
+          {
+            "text": "aprender",
+            "start": 345.08,
+            "end": 345.32,
+            "confidence": 0.998
+          },
+          {
+            "text": "um",
+            "start": 345.32,
+            "end": 345.58,
+            "confidence": 1.0
+          },
+          {
+            "text": "pouco",
+            "start": 345.58,
+            "end": 345.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "sobre",
+            "start": 345.82,
+            "end": 346.1,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 346.1,
+            "end": 346.2,
+            "confidence": 1.0
+          },
+          {
+            "text": "história",
+            "start": 346.2,
+            "end": 346.52,
+            "confidence": 0.999
+          },
+          {
+            "text": "de",
+            "start": 346.52,
+            "end": 346.84,
+            "confidence": 1.0
+          },
+          {
+            "text": "São",
+            "start": 346.84,
+            "end": 347.06,
+            "confidence": 1.0
+          },
+          {
+            "text": "Paulo.",
+            "start": 347.06,
+            "end": 347.5,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 2852,
+        "start": 347.88,
+        "end": 348.98,
+        "text": " É importante que você saiba...",
+        "tokens": [
+          50365,
+          4922,
+          9416,
+          631,
+          2723,
+          601,
+          17036,
+          485,
+          50465
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2862109661102295,
+        "compression_ratio": 0.8,
+        "no_speech_prob": 2.7659142337599363e-12,
+        "confidence": 0.989,
+        "words": [
+          {
+            "text": "É",
+            "start": 347.88,
+            "end": 348.0,
+            "confidence": 0.973
+          },
+          {
+            "text": "importante",
+            "start": 348.0,
+            "end": 348.28,
+            "confidence": 1.0
+          },
+          {
+            "text": "que",
+            "start": 348.28,
+            "end": 348.5,
+            "confidence": 1.0
+          },
+          {
+            "text": "você",
+            "start": 348.5,
+            "end": 348.7,
+            "confidence": 0.973
+          },
+          {
+            "text": "saiba...",
+            "start": 348.7,
+            "end": 348.98,
+            "confidence": 0.994
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 348.0,
+        "end": 355.31,
+        "text": " É importante que você saiba que eu não sou professora de história, então tudo que eu falei neste vídeo foi baseado em pesquisas que eu fiz.",
+        "tokens": [
+          50365,
+          4922,
+          9416,
+          631,
+          2723,
+          601,
+          17036,
+          631,
+          2228,
+          2431,
+          6926,
+          2668,
+          3252,
+          368,
+          20670,
+          11,
+          9071,
+          9379,
+          631,
+          2228,
+          29800,
+          34739,
+          8071,
+          6901,
+          3096,
+          1573,
+          846,
+          9262,
+          358,
+          13198,
+          631,
+          2228,
+          21000,
+          13,
+          50740
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09136312658136542,
+        "compression_ratio": 1.6423611111111112,
+        "no_speech_prob": 4.020719954894725e-12,
+        "confidence": 0.923,
+        "words": [
+          {
+            "text": "É",
+            "start": 348.0,
+            "end": 348.06,
+            "confidence": 0.721
+          },
+          {
+            "text": "importante",
+            "start": 348.06,
+            "end": 348.28,
+            "confidence": 0.999
+          },
+          {
+            "text": "que",
+            "start": 348.28,
+            "end": 348.5,
+            "confidence": 0.997
+          },
+          {
+            "text": "você",
+            "start": 348.5,
+            "end": 348.64,
+            "confidence": 0.976
+          },
+          {
+            "text": "saiba",
+            "start": 348.64,
+            "end": 348.98,
+            "confidence": 0.98
+          },
+          {
+            "text": "que",
+            "start": 348.98,
+            "end": 349.12,
+            "confidence": 0.991
+          },
+          {
+            "text": "eu",
+            "start": 349.12,
+            "end": 349.24,
+            "confidence": 0.992
+          },
+          {
+            "text": "não",
+            "start": 349.24,
+            "end": 349.48,
+            "confidence": 0.991
+          },
+          {
+            "text": "sou",
+            "start": 349.48,
+            "end": 349.78,
+            "confidence": 0.995
+          },
+          {
+            "text": "professora",
+            "start": 349.78,
+            "end": 350.56,
+            "confidence": 0.996
+          },
+          {
+            "text": "de",
+            "start": 350.56,
+            "end": 350.7,
+            "confidence": 0.995
+          },
+          {
+            "text": "história,",
+            "start": 350.7,
+            "end": 351.02,
+            "confidence": 0.668
+          },
+          {
+            "text": "então",
+            "start": 351.24,
+            "end": 351.32,
+            "confidence": 0.554
+          },
+          {
+            "text": "tudo",
+            "start": 351.32,
+            "end": 351.64,
+            "confidence": 0.953
+          },
+          {
+            "text": "que",
+            "start": 351.64,
+            "end": 351.76,
+            "confidence": 0.545
+          },
+          {
+            "text": "eu",
+            "start": 351.76,
+            "end": 351.84,
+            "confidence": 0.895
+          },
+          {
+            "text": "falei",
+            "start": 351.84,
+            "end": 352.1,
+            "confidence": 0.973
+          },
+          {
+            "text": "neste",
+            "start": 352.1,
+            "end": 352.32,
+            "confidence": 0.917
+          },
+          {
+            "text": "vídeo",
+            "start": 352.32,
+            "end": 352.7,
+            "confidence": 0.994
+          },
+          {
+            "text": "foi",
+            "start": 352.7,
+            "end": 353.18,
+            "confidence": 0.87
+          },
+          {
+            "text": "baseado",
+            "start": 353.18,
+            "end": 353.82,
+            "confidence": 0.999
+          },
+          {
+            "text": "em",
+            "start": 353.82,
+            "end": 354.04,
+            "confidence": 0.988
+          },
+          {
+            "text": "pesquisas",
+            "start": 354.04,
+            "end": 354.78,
+            "confidence": 0.999
+          },
+          {
+            "text": "que",
+            "start": 354.78,
+            "end": 354.98,
+            "confidence": 0.995
+          },
+          {
+            "text": "eu",
+            "start": 354.98,
+            "end": 355.1,
+            "confidence": 1.0
+          },
+          {
+            "text": "fiz.",
+            "start": 355.1,
+            "end": 355.31,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 355.31,
+        "end": 364.56,
+        "text": " O objetivo deste vídeo não é ensinar história e sim passar algumas informações interessantes sobre essa cidade maravilhosa.",
+        "tokens": [
+          50740,
+          422,
+          29809,
+          38738,
+          8071,
+          2431,
+          1136,
+          3489,
+          6470,
+          20670,
+          308,
+          1034,
+          20630,
+          23207,
+          42542,
+          12478,
+          9327,
+          5473,
+          7208,
+          27882,
+          41009,
+          71,
+          6447,
+          13,
+          51195
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09136312658136542,
+        "compression_ratio": 1.6423611111111112,
+        "no_speech_prob": 4.020719954894725e-12,
+        "confidence": 0.983,
+        "words": [
+          {
+            "text": "O",
+            "start": 355.31,
+            "end": 356.08,
+            "confidence": 0.999
+          },
+          {
+            "text": "objetivo",
+            "start": 356.08,
+            "end": 356.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "deste",
+            "start": 356.52,
+            "end": 356.9,
+            "confidence": 0.999
+          },
+          {
+            "text": "vídeo",
+            "start": 356.9,
+            "end": 357.26,
+            "confidence": 1.0
+          },
+          {
+            "text": "não",
+            "start": 357.26,
+            "end": 357.54,
+            "confidence": 1.0
+          },
+          {
+            "text": "é",
+            "start": 357.54,
+            "end": 357.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "ensinar",
+            "start": 357.72,
+            "end": 358.2,
+            "confidence": 1.0
+          },
+          {
+            "text": "história",
+            "start": 358.2,
+            "end": 358.88,
+            "confidence": 0.994
+          },
+          {
+            "text": "e",
+            "start": 358.88,
+            "end": 359.44,
+            "confidence": 0.783
+          },
+          {
+            "text": "sim",
+            "start": 359.44,
+            "end": 359.6,
+            "confidence": 0.998
+          },
+          {
+            "text": "passar",
+            "start": 359.6,
+            "end": 359.92,
+            "confidence": 0.998
+          },
+          {
+            "text": "algumas",
+            "start": 359.92,
+            "end": 360.18,
+            "confidence": 1.0
+          },
+          {
+            "text": "informações",
+            "start": 360.18,
+            "end": 360.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "interessantes",
+            "start": 360.72,
+            "end": 361.9,
+            "confidence": 1.0
+          },
+          {
+            "text": "sobre",
+            "start": 361.9,
+            "end": 362.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "essa",
+            "start": 362.6,
+            "end": 362.82,
+            "confidence": 0.881
+          },
+          {
+            "text": "cidade",
+            "start": 362.82,
+            "end": 363.18,
+            "confidence": 0.999
+          },
+          {
+            "text": "maravilhosa.",
+            "start": 363.18,
+            "end": 364.56,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 364.98,
+        "end": 369.08,
+        "text": " Eu gostaria de saber se você gostou deste vídeo, o que você mais gostou.",
+        "tokens": [
+          51216,
+          2186,
+          13188,
+          9831,
+          368,
+          12489,
+          369,
+          2723,
+          13188,
+          263,
+          38738,
+          8071,
+          11,
+          277,
+          631,
+          2723,
+          2420,
+          13188,
+          263,
+          13,
+          51421
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09136312658136542,
+        "compression_ratio": 1.6423611111111112,
+        "no_speech_prob": 4.020719954894725e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Eu",
+            "start": 364.98,
+            "end": 365.1,
+            "confidence": 0.997
+          },
+          {
+            "text": "gostaria",
+            "start": 365.1,
+            "end": 365.42,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 365.42,
+            "end": 365.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "saber",
+            "start": 365.56,
+            "end": 365.76,
+            "confidence": 1.0
+          },
+          {
+            "text": "se",
+            "start": 365.76,
+            "end": 366.0,
+            "confidence": 0.999
+          },
+          {
+            "text": "você",
+            "start": 366.0,
+            "end": 366.24,
+            "confidence": 1.0
+          },
+          {
+            "text": "gostou",
+            "start": 366.24,
+            "end": 366.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "deste",
+            "start": 366.74,
+            "end": 366.98,
+            "confidence": 1.0
+          },
+          {
+            "text": "vídeo,",
+            "start": 366.98,
+            "end": 367.42,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 367.6,
+            "end": 367.7,
+            "confidence": 1.0
+          },
+          {
+            "text": "que",
+            "start": 367.7,
+            "end": 367.9,
+            "confidence": 1.0
+          },
+          {
+            "text": "você",
+            "start": 367.9,
+            "end": 368.18,
+            "confidence": 0.999
+          },
+          {
+            "text": "mais",
+            "start": 368.18,
+            "end": 368.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "gostou.",
+            "start": 368.56,
+            "end": 369.08,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 369.52,
+        "end": 372.26,
+        "text": " Deixe um comentário abaixo com a sua resposta.",
+        "tokens": [
+          51445,
+          1346,
+          42369,
+          1105,
+          14541,
+          12657,
+          46981,
+          15617,
+          395,
+          257,
+          8233,
+          42126,
+          13,
+          51583
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09136312658136542,
+        "compression_ratio": 1.6423611111111112,
+        "no_speech_prob": 4.020719954894725e-12,
+        "confidence": 0.998,
+        "words": [
+          {
+            "text": "Deixe",
+            "start": 369.52,
+            "end": 369.84,
+            "confidence": 0.989
+          },
+          {
+            "text": "um",
+            "start": 369.84,
+            "end": 369.96,
+            "confidence": 1.0
+          },
+          {
+            "text": "comentário",
+            "start": 369.96,
+            "end": 370.46,
+            "confidence": 1.0
+          },
+          {
+            "text": "abaixo",
+            "start": 370.46,
+            "end": 371.02,
+            "confidence": 1.0
+          },
+          {
+            "text": "com",
+            "start": 371.02,
+            "end": 371.38,
+            "confidence": 1.0
+          },
+          {
+            "text": "a",
+            "start": 371.38,
+            "end": 371.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "sua",
+            "start": 371.52,
+            "end": 371.68,
+            "confidence": 1.0
+          },
+          {
+            "text": "resposta.",
+            "start": 371.68,
+            "end": 372.26,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 372.7,
+        "end": 377.3,
+        "text": " Se você gostou, lembre-se de dar um like e de se inscrever em meu canal.",
+        "tokens": [
+          51603,
+          1100,
+          2723,
+          13188,
+          263,
+          11,
+          7495,
+          2672,
+          12,
+          405,
+          368,
+          4072,
+          1105,
+          411,
+          308,
+          368,
+          369,
+          27824,
+          331,
+          846,
+          9230,
+          9911,
+          13,
+          51838
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09136312658136542,
+        "compression_ratio": 1.6423611111111112,
+        "no_speech_prob": 4.020719954894725e-12,
+        "confidence": 0.978,
+        "words": [
+          {
+            "text": "Se",
+            "start": 372.7,
+            "end": 372.82,
+            "confidence": 0.638
+          },
+          {
+            "text": "você",
+            "start": 372.82,
+            "end": 373.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "gostou,",
+            "start": 373.04,
+            "end": 373.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "lembre-se",
+            "start": 373.62,
+            "end": 374.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 374.34,
+            "end": 374.58,
+            "confidence": 1.0
+          },
+          {
+            "text": "dar",
+            "start": 374.58,
+            "end": 374.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "um",
+            "start": 374.8,
+            "end": 375.0,
+            "confidence": 1.0
+          },
+          {
+            "text": "like",
+            "start": 375.0,
+            "end": 375.3,
+            "confidence": 1.0
+          },
+          {
+            "text": "e",
+            "start": 375.3,
+            "end": 375.76,
+            "confidence": 1.0
+          },
+          {
+            "text": "de",
+            "start": 375.76,
+            "end": 375.88,
+            "confidence": 1.0
+          },
+          {
+            "text": "se",
+            "start": 375.88,
+            "end": 376.06,
+            "confidence": 1.0
+          },
+          {
+            "text": "inscrever",
+            "start": 376.06,
+            "end": 376.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "em",
+            "start": 376.66,
+            "end": 376.9,
+            "confidence": 0.998
+          },
+          {
+            "text": "meu",
+            "start": 376.9,
+            "end": 377.06,
+            "confidence": 1.0
+          },
+          {
+            "text": "canal.",
+            "start": 377.06,
+            "end": 377.3,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 2946,
+        "start": 377.82,
+        "end": 377.96,
+        "text": " Então...",
+        "tokens": [
+          50365,
+          6469,
+          485,
+          50393
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.6598517417907714,
+        "compression_ratio": 0.5294117647058824,
+        "no_speech_prob": 4.941350280340817e-12,
+        "confidence": 0.744,
+        "words": [
+          {
+            "text": "Então...",
+            "start": 377.82,
+            "end": 377.96,
+            "confidence": 0.744
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 377.0,
+        "end": 383.44,
+        "text": " canal. Todas as semanas eu posto um novo vídeo com dicas de gramática, vocabulário e pronúncia",
+        "tokens": [
+          50365,
+          9911,
+          13,
+          2465,
+          296,
+          382,
+          42507,
+          2228,
+          2183,
+          78,
+          1105,
+          18246,
+          8071,
+          395,
+          274,
+          9150,
+          368,
+          21353,
+          23432,
+          11,
+          2329,
+          14057,
+          12657,
+          308,
+          7569,
+          9453,
+          2755,
+          50690
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16752379281180246,
+        "compression_ratio": 1.128,
+        "no_speech_prob": 3.014133430692678e-12,
+        "confidence": 0.917,
+        "words": [
+          {
+            "text": "canal.",
+            "start": 377.0,
+            "end": 377.26,
+            "confidence": 0.853
+          },
+          {
+            "text": "Todas",
+            "start": 377.6,
+            "end": 378.16,
+            "confidence": 0.983
+          },
+          {
+            "text": "as",
+            "start": 378.16,
+            "end": 378.3,
+            "confidence": 0.985
+          },
+          {
+            "text": "semanas",
+            "start": 378.3,
+            "end": 378.62,
+            "confidence": 0.996
+          },
+          {
+            "text": "eu",
+            "start": 378.62,
+            "end": 378.92,
+            "confidence": 0.922
+          },
+          {
+            "text": "posto",
+            "start": 378.92,
+            "end": 379.3,
+            "confidence": 0.99
+          },
+          {
+            "text": "um",
+            "start": 379.3,
+            "end": 379.38,
+            "confidence": 0.996
+          },
+          {
+            "text": "novo",
+            "start": 379.38,
+            "end": 379.66,
+            "confidence": 0.969
+          },
+          {
+            "text": "vídeo",
+            "start": 379.66,
+            "end": 380.14,
+            "confidence": 0.931
+          },
+          {
+            "text": "com",
+            "start": 380.14,
+            "end": 380.58,
+            "confidence": 0.909
+          },
+          {
+            "text": "dicas",
+            "start": 380.58,
+            "end": 381.0,
+            "confidence": 0.978
+          },
+          {
+            "text": "de",
+            "start": 381.0,
+            "end": 381.16,
+            "confidence": 0.993
+          },
+          {
+            "text": "gramática,",
+            "start": 381.16,
+            "end": 381.7,
+            "confidence": 0.996
+          },
+          {
+            "text": "vocabulário",
+            "start": 381.98,
+            "end": 382.7,
+            "confidence": 0.916
+          },
+          {
+            "text": "e",
+            "start": 382.7,
+            "end": 382.9,
+            "confidence": 0.511
+          },
+          {
+            "text": "pronúncia",
+            "start": 382.9,
+            "end": 383.44,
+            "confidence": 0.83
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 383.44,
+        "end": 385.84,
+        "text": " do português brasileiro. Até a próxima!",
+        "tokens": [
+          50690,
+          360,
+          2436,
+          13705,
+          11987,
+          28435,
+          5182,
+          13,
+          31793,
+          257,
+          24096,
+          0,
+          50810
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16752379281180246,
+        "compression_ratio": 1.128,
+        "no_speech_prob": 3.014133430692678e-12,
+        "confidence": 0.976,
+        "words": [
+          {
+            "text": "do",
+            "start": 383.44,
+            "end": 383.7,
+            "confidence": 0.984
+          },
+          {
+            "text": "português",
+            "start": 383.7,
+            "end": 384.2,
+            "confidence": 0.952
+          },
+          {
+            "text": "brasileiro.",
+            "start": 384.2,
+            "end": 384.76,
+            "confidence": 0.997
+          },
+          {
+            "text": "Até",
+            "start": 384.98,
+            "end": 385.36,
+            "confidence": 0.98
+          },
+          {
+            "text": "a",
+            "start": 385.36,
+            "end": 385.52,
+            "confidence": 0.971
+          },
+          {
+            "text": "próxima!",
+            "start": 385.52,
+            "end": 385.84,
+            "confidence": 0.999
+          }
+        ]
+      }
+    ],
+    "language": "pt",
+    "language_probability": 0.0
+  },
+  "processing_time": "2025-05-22T11:25:18.304317"
+}

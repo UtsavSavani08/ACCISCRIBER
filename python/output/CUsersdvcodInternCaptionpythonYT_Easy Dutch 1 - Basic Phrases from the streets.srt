@@ -1,0 +1,256 @@
+1
+00:00:00,120 --> 00:00:01,280
+Hallo, goedemiddag.
+[Confidence: 93.25%]
+2
+00:00:02,299 --> 00:00:02,680
+Hoi.
+[Confidence: 99.80%]
+3
+00:00:03,899 --> 00:00:04,540
+Goedemorgen.
+[Confidence: 89.20%]
+4
+00:00:05,820 --> 00:00:08,080
+In het Nederlands zeg je ja, ja.
+[Confidence: 99.86%]
+5
+00:00:08,580 --> 00:00:10,240
+En in het Nederlands zeg je nee, nee.
+[Confidence: 99.91%]
+6
+00:00:11,240 --> 00:00:12,380
+Dit is heel goed.
+[Confidence: 99.80%]
+7
+00:00:13,800 --> 00:00:14,660
+Ja, dat is slecht.
+[Confidence: 99.83%]
+8
+00:00:16,000 --> 00:00:16,600
+Ik wil het.
+[Confidence: 100.00%]
+9
+00:00:17,920 --> 00:00:18,620
+Ik wil het niet.
+[Confidence: 100.00%]
+10
+00:00:19,699 --> 00:00:20,739
+Ik hou van het.
+[Confidence: 99.33%]
+11
+00:00:21,079 --> 00:00:21,800
+Ik vind dat leuk.
+[Confidence: 99.78%]
+12
+00:00:23,019 --> 00:00:24,219
+Nee, bedankt.
+[Confidence: 100.00%]
+13
+00:00:25,579 --> 00:00:26,579
+Ja, ik snap het.
+[Confidence: 99.98%]
+14
+00:00:27,660 --> 00:00:28,739
+Het is heel warm.
+[Confidence: 99.90%]
+15
+00:00:29,719 --> 00:00:32,359
+Het is koud. Ik moet daarheen.
+[Confidence: 94.90%]
+16
+00:00:33,899 --> 00:00:34,920
+Wat moeten we nou zeggen dan?
+[Confidence: 91.53%]
+17
+00:00:35,659 --> 00:00:36,039
+Vandaag.
+[Confidence: 99.80%]
+18
+00:00:36,980 --> 00:00:37,719
+Gisteren.
+[Confidence: 99.90%]
+19
+00:00:38,980 --> 00:00:39,460
+Altijd.
+[Confidence: 99.60%]
+20
+00:00:40,420 --> 00:00:41,060
+Tot morgen.
+[Confidence: 100.00%]
+21
+00:00:42,019 --> 00:00:42,880
+Goedenavond.
+[Confidence: 99.90%]
+22
+00:00:43,899 --> 00:00:44,920
+Ik begrijp het niet.
+[Confidence: 100.00%]
+23
+00:00:46,420 --> 00:00:47,719
+Sorry, excuseer mij.
+[Confidence: 99.43%]
+24
+00:00:48,539 --> 00:00:49,579
+Spreekt u Nederlands?
+[Confidence: 99.73%]
+25
+00:00:50,920 --> 00:00:51,780
+Begrijpt u mij?
+[Confidence: 99.93%]
+26
+00:00:53,379 --> 00:00:54,079
+Wie ben jij?
+[Confidence: 99.87%]
+27
+00:00:55,420 --> 00:00:56,260
+Ik ben een toerist.
+[Confidence: 99.75%]
+28
+00:00:58,320 --> 00:00:58,980
+Spreekt u Nederlands?
+[Confidence: 90.00%]
+29
+00:00:58,299 --> 00:00:59,219
+Spreekt u Engels?
+[Confidence: 98.87%]
+30
+00:01:00,579 --> 00:01:01,520
+Welterusten.
+[Confidence: 98.50%]
+31
+00:01:02,500 --> 00:01:03,240
+Ik kom uit Holland.
+[Confidence: 98.52%]
+32
+00:01:04,219 --> 00:01:04,359
+Ja?
+[Confidence: 98.80%]
+33
+00:01:05,420 --> 00:01:06,700
+Ja? Hoe gaat het met jou?
+[Confidence: 96.00%]
+34
+00:01:07,920 --> 00:01:08,420
+Alsjeblieft.
+[Confidence: 98.80%]
+35
+00:01:09,819 --> 00:01:10,799
+Wat is uw naam?
+[Confidence: 99.98%]
+36
+00:01:12,340 --> 00:01:13,340
+Mijn naam is Anneke.
+[Confidence: 99.05%]
+37
+00:01:14,280 --> 00:01:15,060
+Het is mooi weer.
+[Confidence: 99.75%]
+38
+00:01:16,719 --> 00:01:18,180
+Het weer is niet zo mooi vandaag.
+[Confidence: 99.79%]
+39
+00:01:19,180 --> 00:01:19,760
+Wat is dit?
+[Confidence: 100.00%]
+40
+00:01:20,939 --> 00:01:21,719
+Waar is het?
+[Confidence: 99.93%]
+41
+00:01:22,960 --> 00:01:23,180
+Hier?
+[Confidence: 100.00%]
+42
+00:01:23,840 --> 00:01:24,140
+Daar?
+[Confidence: 98.70%]
+43
+00:01:25,640 --> 00:01:26,599
+Dit is een man.
+[Confidence: 99.98%]
+44
+00:01:27,420 --> 00:01:27,980
+Dit is een vrouw.
+[Confidence: 98.72%]
+45
+00:01:28,959 --> 00:01:29,579
+Dit is een kind.
+[Confidence: 99.95%]
+46
+00:01:30,620 --> 00:01:31,400
+Dat zijn de mensen.
+[Confidence: 99.78%]
+47
+00:01:32,299 --> 00:01:33,159
+Dit is een boom.
+[Confidence: 99.90%]
+48
+00:01:34,620 --> 00:01:36,180
+Hoe heet het in Nederlands?
+[Confidence: 93.20%]
+49
+00:01:37,079 --> 00:01:37,579
+Dat bedoel je?
+[Confidence: 97.17%]
+50
+00:01:38,200 --> 00:01:40,560
+Ja, waar is het toilet? Dat is het in het Nederlands.
+[Confidence: 95.11%]
+51
+00:01:41,400 --> 00:01:42,099
+Hoeveel is het?
+[Confidence: 99.93%]
+52
+00:01:43,359 --> 00:01:44,299
+Ik heb hulp nodig.
+[Confidence: 100.00%]
+53
+00:01:45,359 --> 00:01:46,799
+Ik spreek geen Nederlands.
+[Confidence: 98.40%]
+54
+00:01:47,859 --> 00:01:48,840
+Ik kom uit Duitsland.
+[Confidence: 98.25%]
+55
+00:01:49,920 --> 00:01:50,379
+Pas op.
+[Confidence: 99.60%]
+56
+00:01:51,879 --> 00:01:52,539
+Ik wil het.
+[Confidence: 99.93%]
+57
+00:01:53,400 --> 00:01:54,120
+Ik wil het niet.
+[Confidence: 99.98%]
+58
+00:01:55,219 --> 00:01:55,819
+Ik kan het.
+[Confidence: 99.93%]
+59
+00:01:57,000 --> 00:01:57,620
+Natuurlijk.
+[Confidence: 99.90%]
+60
+00:01:58,799 --> 00:01:59,659
+Heel erg bedankt.
+[Confidence: 99.97%]
+61
+00:02:00,700 --> 00:02:01,560
+Ik weet het niet.
+[Confidence: 99.98%]
+62
+00:02:02,620 --> 00:02:03,780
+Ik spreek jullie taal niet.
+[Confidence: 99.94%]
+63
+00:02:04,939 --> 00:02:05,960
+Ik begrijp je niet.
+[Confidence: 99.95%]
+64
+00:02:07,340 --> 00:02:09,139
+Ik zie je later. Tot ziens.
+[Confidence: 95.35%]

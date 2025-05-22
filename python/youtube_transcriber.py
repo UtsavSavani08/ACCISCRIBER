@@ -5,12 +5,12 @@ import tempfile
 from typing import Dict, Optional
 
 class YouTubeTranscriber:
-    def __init__(self, model_name: str = "large"):
+    def __init__(self, model_name: str = "turbo"):
         """
         Initialize the YouTube transcriber with a specified Whisper model.
         
         Args:
-            model_name (str): Name of the Whisper model to use (tiny, base, small, medium, large)
+            model_name (str): Name of the Whisper model to use (tiny, base, small, medium, large, turbo)
         """
         self.video_transcriber = VideoTranscriber(model_name=model_name)
 

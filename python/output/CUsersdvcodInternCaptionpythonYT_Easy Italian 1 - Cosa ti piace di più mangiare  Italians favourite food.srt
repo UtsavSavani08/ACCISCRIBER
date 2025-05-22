@@ -1,0 +1,156 @@
+1
+00:00:00,360 --> 00:00:03,299
+Cari amici di Zitalian, eccoci ad un nuovo episodio.
+[Confidence: 95.29%]
+2
+00:00:03,819 --> 00:00:09,699
+Oggi chiederemo agli italiani cosa amano mangiare di più e cosa non può mancare dal loro frigo.
+[Confidence: 97.76%]
+3
+00:00:10,519 --> 00:00:10,939
+Andiamo!
+[Confidence: 99.90%]
+4
+00:00:18,199 --> 00:00:18,500
+Ciao!
+[Confidence: 99.70%]
+5
+00:00:20,679 --> 00:00:22,219
+Cosa ti piace di più mangiare?
+[Confidence: 100.00%]
+6
+00:00:23,420 --> 00:00:24,219
+Pasta al forno.
+[Confidence: 96.63%]
+7
+00:00:25,320 --> 00:00:27,019
+Con le polpettine o senza?
+[Confidence: 90.24%]
+8
+00:00:27,339 --> 00:00:27,980
+Polpettine.
+[Confidence: 99.40%]
+9
+00:00:28,120 --> 00:00:29,260
+Orecchietto al pomodoro.
+[Confidence: 94.53%]
+10
+00:00:29,660 --> 00:00:29,920
+Grazie.
+[Confidence: 53.40%]
+11
+00:00:29,899 --> 00:00:37,750
+prediligo la pasta al secondo carne diciamo che più mi piace sono pasta e cibi di
+[Confidence: 83.89%]
+12
+00:00:37,750 --> 00:00:46,659
+rapa con un po di sopra e mollica grattugiata fritta spaghetti e frutti di mare
+[Confidence: 89.16%]
+13
+00:00:49,859 --> 00:00:56,390
+orecchiette con il cibi di rapa a me piace molto la pasta con il pesce la pasta alla
+[Confidence: 91.19%]
+14
+00:00:56,390 --> 00:00:58,579
+pizzaiola alla pizzaiola
+[Confidence: 85.23%]
+15
+00:00:58,000 --> 00:00:59,299
+La pizzaiola, com'è questa pasta?
+[Confidence: 92.36%]
+16
+00:01:00,960 --> 00:01:02,200
+È buonissima.
+[Confidence: 91.30%]
+17
+00:01:03,000 --> 00:01:04,719
+E quali sono gli ingredienti?
+[Confidence: 98.86%]
+18
+00:01:06,480 --> 00:01:15,060
+L'olio, il sugo, la mozzarella, l'origano e la pasta.
+[Confidence: 99.33%]
+19
+00:01:15,900 --> 00:01:17,739
+Cosa non deve mai mancare nel suo frigo?
+[Confidence: 99.92%]
+20
+00:01:20,319 --> 00:01:24,180
+L'acqua, sicuramente l'acqua perché non sono un bevitore di alcolici o altro.
+[Confidence: 97.88%]
+21
+00:01:24,780 --> 00:01:27,840
+Il latte per prenderlo la mattina e basta.
+[Confidence: 92.92%]
+22
+00:01:27,400 --> 00:01:35,060
+basta il resto io mangio per vivere fino a qualche mese fa il formaggio ora per questioni
+[Confidence: 90.92%]
+23
+00:01:35,200 --> 00:01:45,359
+di dieta l'abbiamo una e di formaggi frutta verdura il latte il latte non lo
+[Confidence: 82.52%]
+24
+00:01:47,560 --> 00:01:54,659
+so deve essere vuoto direi il formaggio fresco anche yogurt la cioccolata però non sta in frigo
+[Confidence: 92.85%]
+25
+00:01:54,659 --> 00:01:56,739
+però la cioccolata che non può mancare mai
+[Confidence: 91.86%]
+26
+00:01:56,000 --> 00:02:03,299
+mancare mai la nutella e la cioccolata. Nutella non manca mai. E il pesto. Cosa sapete
+[Confidence: 89.92%]
+27
+00:02:03,299 --> 00:02:11,039
+cucinare meglio? La pasta. La pasta. Cucino meglio la lasagna perché la cucino spesso e
+[Confidence: 95.67%]
+28
+00:02:11,039 --> 00:02:20,319
+mi piace cucinarla. Spaghetti al pomodoro. Solo l'uovo fritto. Chi è che cucina a casa?
+[Confidence: 97.34%]
+29
+00:02:20,699 --> 00:02:25,740
+mia voglia. Fondamentalmente non mi piace cucinare. La cosa che faccio...
+[Confidence: 94.59%]
+30
+00:02:25,000 --> 00:02:34,620
+faccio spesso pasta con i legumi quali lenticchie sa cucinare qualcosa qual
+[Confidence: 87.87%]
+31
+00:02:34,620 --> 00:02:42,840
+è il piatto che cucina peggio all'arancia sarà difficilissimo fare
+[Confidence: 83.72%]
+32
+00:02:44,780 --> 00:02:50,449
+diciamo i dolci i dolci fare i dolci vado in crisi non ci
+[Confidence: 88.92%]
+33
+00:02:50,449 --> 00:02:54,979
+ma le cose complicate quelle mi escono male non sarei sarei
+[Confidence: 85.02%]
+34
+00:02:54,000 --> 00:03:01,960
+Non sarei in grado di fare una lasagna o il pesce forse, non mi cimenterei proprio.
+[Confidence: 96.86%]
+35
+00:03:03,199 --> 00:03:06,860
+Qual è il piatto che ti cucina tua mamma che ti piace di più?
+[Confidence: 98.59%]
+36
+00:03:07,400 --> 00:03:08,199
+Pasta al forno.
+[Confidence: 93.93%]
+37
+00:03:08,819 --> 00:03:11,800
+Pasta al forno. Bene, grazie mille.
+[Confidence: 93.17%]
+38
+00:03:12,099 --> 00:03:12,979
+Prego, arrivederci.
+[Confidence: 74.40%]
+39
+00:03:33,419 --> 00:03:38,199
+Grazie a tutti.
+[Confidence: 74.43%]

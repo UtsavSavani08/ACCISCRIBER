@@ -1,0 +1,636 @@
+1
+00:00:00,380 --> 00:00:05,299
+Ich bin Janusz und ich frage jetzt die Leute in Berlin, was sie heute machen wollen.
+[Confidence: 97.41%]
+2
+00:00:05,839 --> 00:00:06,519
+Los geht's!
+[Confidence: 99.75%]
+3
+00:00:12,320 --> 00:00:13,539
+Was haben Sie heute vor?
+[Confidence: 98.62%]
+4
+00:00:14,179 --> 00:00:20,019
+Jetzt im Moment einen guten Wein kaufen, etwas zum Kochen und dann einen schönen Nachmittag verbringen.
+[Confidence: 97.77%]
+5
+00:00:21,739 --> 00:00:22,480
+Was ist das für ein
+[Confidence: 89.00%]
+6
+00:00:23,780 --> 00:00:28,079
+hat meine gute Freundin bei der Oma im Keller gefunden und wir dachten, wir probieren die aus.
+[Confidence: 98.73%]
+7
+00:00:28,339 --> 00:00:28,519
+Genau.
+[Confidence: 56.70%]
+8
+00:00:29,260 --> 00:00:34,500
+Toll, weil gerade das wollte ich euch fragen. Die Frage wäre, was habt ihr heute gemacht?
+[Confidence: 93.03%]
+9
+00:00:34,780 --> 00:00:42,240
+Und das habt ihr gerade erzählt. wie geht's? Also, was für ein Fahrgefühl ist das?
+[Confidence: 93.29%]
+10
+00:00:42,480 --> 00:00:48,480
+Ein sehr unsicheres. Also, so gewöhnungsbedürftig. Ich glaube, das beschreibt es ganz gut.
+[Confidence: 90.16%]
+11
+00:00:48,739 --> 00:00:50,719
+ist auch erst eine Minute oder sowas
+[Confidence: 87.20%]
+12
+00:00:51,179 --> 00:00:53,120
+Wir haben gewechselt, genau. Wir haben gewechselt, deswegen ist es noch...
+[Confidence: 91.37%]
+13
+00:00:53,399 --> 00:00:56,179
+Auf jeden Fall, ich kann bestätigen, dass es sehr gut aussieht.
+[Confidence: 99.04%]
+14
+00:00:56,500 --> 00:00:57,239
+Ja, schön.
+[Confidence: 92.15%]
+15
+00:00:57,659 --> 00:00:58,239
+ist extrem cool.
+[Confidence: 92.03%]
+16
+00:00:58,859 --> 00:00:59,740
+ich auch. Ich glaube, ich muss
+[Confidence: 86.28%]
+17
+00:00:59,979 --> 00:01:00,799
+bin original den 80ern.
+[Confidence: 81.25%]
+18
+00:01:04,480 --> 00:01:04,500
+Ja.
+[Confidence: 81.00%]
+19
+00:01:05,140 --> 00:01:05,280
+Ja,
+[Confidence: 64.00%]
+20
+00:01:05,780 --> 00:01:06,280
+Voll schön.
+[Confidence: 95.45%]
+21
+00:01:10,400 --> 00:01:10,560
+Was hast du heute vor?
+[Confidence: 97.40%]
+22
+00:01:12,400 --> 00:01:12,480
+Einkaufen gehen.
+[Confidence: 98.05%]
+23
+00:01:14,079 --> 00:01:14,280
+Und dann?
+[Confidence: 98.10%]
+24
+00:01:14,280 --> 00:01:15,700
+Spaß mit mir haben.
+[Confidence: 96.75%]
+25
+00:01:16,840 --> 00:01:17,780
+Also ich mit dir.
+[Confidence: 87.92%]
+26
+00:01:17,799 --> 00:01:18,060
+was habt ihr geplant?
+[Confidence: 99.20%]
+27
+00:01:20,460 --> 00:01:21,280
+Was haben wir geplant?
+[Confidence: 93.90%]
+28
+00:01:24,480 --> 00:01:24,519
+Zusammen kochen.
+[Confidence: 95.95%]
+29
+00:01:24,539 --> 00:01:27,560
+empfehlen und dann essen wir etwas.
+[Confidence: 81.90%]
+30
+00:01:27,000 --> 00:01:35,049
+etwas zusammen ein spiel ich möchte gerne das wochenende genießen ich habe frei
+[Confidence: 87.18%]
+31
+00:01:35,049 --> 00:01:39,900
+und bis gestern fleißig gearbeitet und jetzt gehe ich spazieren heute werde ich noch kochen
+[Confidence: 94.72%]
+32
+00:01:39,900 --> 00:01:47,269
+schön essen und die zeit genießen heute eine sehr einfache frage oder sehr komplizierte frage
+[Confidence: 96.01%]
+33
+00:01:47,269 --> 00:01:53,340
+nachdem wie man das nimmt was hast du heute gemacht ich habe heute morgen an meiner bachelor
+[Confidence: 90.61%]
+34
+00:01:53,780 --> 00:01:56,019
+gearbeitet erst und dann
+[Confidence: 94.50%]
+35
+00:01:57,000 --> 00:02:06,319
+Dann habe ich Brot gebacken und dann sind wir rausgegangen und haben Pizza gegessen und Kuchen, Quarkbällchen gegessen und Kaffee getrunken.
+[Confidence: 92.55%]
+36
+00:02:07,480 --> 00:02:16,780
+Ihr habt uns heute den Tee rausgebracht. Also zuerst vielen Dank, das war super lecker und genau zu der richtigen Zeit.
+[Confidence: 97.91%]
+37
+00:02:17,840 --> 00:02:19,819
+Und was habt ihr heute gemacht?
+[Confidence: 99.83%]
+38
+00:02:19,979 --> 00:02:25,979
+Oh, ich war natürlich hier, so ganz tight backen, Leute begrüßen und...
+[Confidence: 91.62%]
+39
+00:02:26,840 --> 00:02:29,099
+und meistens von meiner Seite ich hier.
+[Confidence: 90.74%]
+40
+00:02:29,919 --> 00:02:33,520
+Und was machst du normalerweise in deinem Job?
+[Confidence: 99.70%]
+41
+00:02:34,439 --> 00:02:35,099
+Ich backe.
+[Confidence: 93.75%]
+42
+00:02:36,780 --> 00:02:40,280
+Ich bin aufgestanden und habe leckeres Frühstück gegessen
+[Confidence: 99.81%]
+43
+00:02:41,039 --> 00:02:43,900
+und dann bin ich mit meinem Freund raus an die Natur
+[Confidence: 99.74%]
+44
+00:02:44,039 --> 00:02:45,539
+und habe die schöne Luft genossen.
+[Confidence: 98.50%]
+45
+00:02:46,400 --> 00:02:47,639
+Und was hast du heute gemacht?
+[Confidence: 99.97%]
+46
+00:02:48,199 --> 00:02:51,939
+Ja, ich bin auch aufgestanden, dann habe ich Rüreei für uns gemacht.
+[Confidence: 95.40%]
+47
+00:02:52,060 --> 00:02:53,120
+Wir haben schön gefrühstückt.
+[Confidence: 88.00%]
+48
+00:02:55,099 --> 00:03:04,219
+waren wir noch kurz in meinem Zimmer, haben rausgeguckt aus dem Fenster und jetzt haben wir einen langen Spaziergang durch die Stadt gemacht.
+[Confidence: 94.33%]
+49
+00:03:05,300 --> 00:03:10,659
+Erstmal lang geschlafen, dann so alles mögliche in der Wohnung und jetzt waren wir noch eine Runde spazieren.
+[Confidence: 94.26%]
+50
+00:03:11,240 --> 00:03:12,520
+Was hast du heute gemacht?
+[Confidence: 99.92%]
+51
+00:03:14,079 --> 00:03:23,979
+Ich bin heute Morgen aufgestanden, habe gefrühstückt, habe dann eine Stunde Workout gemacht und habe mich dann...
+[Confidence: 96.04%]
+52
+00:03:23,599 --> 00:03:28,039
+Ich habe mich dann an meinen PC gesetzt. Dann hat mich ein Freund angerufen und ich bin in den Mauerpark gegangen.
+[Confidence: 94.55%]
+53
+00:03:28,539 --> 00:03:30,960
+Wir haben ein Bier getrunken und jetzt bin ich auf dem Heimweg.
+[Confidence: 99.17%]
+54
+00:03:31,699 --> 00:03:36,800
+Ich war heute spazieren und habe einfach die Sonne genossen.
+[Confidence: 91.91%]
+55
+00:03:37,460 --> 00:03:38,699
+Was hast du heute gemacht?
+[Confidence: 99.94%]
+56
+00:03:39,560 --> 00:03:41,900
+Gelernt. Den ganzen Tag gelernt.
+[Confidence: 97.74%]
+57
+00:03:42,420 --> 00:03:42,780
+Was denn?
+[Confidence: 99.90%]
+58
+00:03:45,460 --> 00:03:50,520
+Neue Innovationen und Technologien. Innovations and Technology. Also auf Englisch.
+[Confidence: 97.92%]
+59
+00:03:51,219 --> 00:03:52,960
+Ja, ich habe auch lange.
+[Confidence: 79.64%]
+60
+00:03:52,460 --> 00:03:56,960
+auch lange geschlafen, war dann noch in der Wohnung und bin dann auch spazieren gegangen.
+[Confidence: 87.44%]
+61
+00:03:57,960 --> 00:03:59,460
+Und ja.
+[Confidence: 93.45%]
+62
+00:04:00,860 --> 00:04:02,460
+Was hab ich heute gemacht? Ich war heute spazieren.
+[Confidence: 98.00%]
+63
+00:04:04,280 --> 00:04:07,759
+Ich hab heute Sport gemacht. Ich war einkaufen und dann war ich auch spazieren.
+[Confidence: 99.18%]
+64
+00:04:07,860 --> 00:04:08,819
+Und wir haben Kaffee getrunken.
+[Confidence: 99.94%]
+65
+00:04:10,060 --> 00:04:11,159
+Welche Art von Sport?
+[Confidence: 99.92%]
+66
+00:04:12,579 --> 00:04:17,399
+Homeworkouts. Genau, mehr kann man ja zur Zeit von Corona leider nicht machen.
+[Confidence: 95.28%]
+67
+00:04:18,360 --> 00:04:19,339
+Was hast du heute gemacht?
+[Confidence: 99.96%]
+68
+00:04:20,620 --> 00:04:20,899
+Nix.
+[Confidence: 86.10%]
+69
+00:04:22,899 --> 00:04:24,060
+Das ist eine tolle Anfrage.
+[Confidence: 75.32%]
+70
+00:04:24,399 --> 00:04:29,079
+Nein, ich war halt nur zu Hause und ein bisschen jetzt eingekauft, aber ansonsten
+[Confidence: 88.46%]
+71
+00:04:29,279 --> 00:04:31,339
+Ich warte morgen, morgen soll ganz schön sein.
+[Confidence: 97.89%]
+72
+00:04:46,740 --> 00:04:50,800
+Übrigens, wenn ihr mit dem Material von heute noch intensiver
+[Confidence: 96.76%]
+73
+00:04:50,120 --> 00:04:54,459
+intensiver Deutsch lernen möchtet, dann empfehlen wir euch ein Mitglied zu werden
+[Confidence: 92.33%]
+74
+00:04:54,500 --> 00:04:59,149
+von Easy German. Damit unterstützt ihr unsere Arbeit und ihr unterstützt euer
+[Confidence: 92.42%]
+75
+00:04:59,149 --> 00:05:04,019
+Deutsch und könnt zu diesem Video heute zum Beispiel interaktive Übungen machen.
+[Confidence: 96.96%]
+76
+00:05:05,500 --> 00:05:10,980
+Und was wollen sie heute am Abend machen? Da sind wir im Moment etwas
+[Confidence: 87.77%]
+77
+00:05:11,079 --> 00:05:14,759
+eingeschränkt. Wir müssen uns also mit uns selbst befassen und wir werden uns
+[Confidence: 94.87%]
+78
+00:05:14,759 --> 00:05:19,939
+etwas gemütlich machen. Kochen und essen mit meinem Partner.
+[Confidence: 92.76%]
+79
+00:05:19,040 --> 00:05:24,879
+mit meinem Partner erzählen. Wir haben uns die Woche nicht gesehen und unterhalten uns,
+[Confidence: 89.40%]
+80
+00:05:24,920 --> 00:05:27,980
+erzählen uns, was wir erlebt haben in den vergangenen Tagen.
+[Confidence: 99.10%]
+81
+00:05:30,500 --> 00:05:34,779
+Wein trinken. ziemlich.
+[Confidence: 82.97%]
+82
+00:05:35,740 --> 00:05:39,560
+Also wir wollten eigentlich noch ein bisschen malen oder so Collagen basteln,
+[Confidence: 87.23%]
+83
+00:05:40,879 --> 00:05:42,720
+weil wir Zeug dafür gesammelt haben, aber sonst?
+[Confidence: 98.36%]
+84
+00:05:44,100 --> 00:05:48,879
+Heute Abend sind wir ganz Corona-konform mit einer anderen Person.
+[Confidence: 95.02%]
+85
+00:05:48,000 --> 00:05:52,600
+einer anderen Person verabredet und essen Sushi. Machen Sushi selber heute Abend.
+[Confidence: 88.92%]
+86
+00:05:53,579 --> 00:05:57,579
+Toll! Toll, oder? Absolut! Und ich bin beeindruckt. Ihr wisst zu leben.
+[Confidence: 94.00%]
+87
+00:05:59,000 --> 00:06:02,259
+Wir geben unser Bestes, ne? Ich habe aber keinen Wein dazwischen gehört.
+[Confidence: 90.08%]
+88
+00:06:02,480 --> 00:06:06,240
+Keinen Wein tatsächlich, weil die eine Person, die hat bald noch Operation und
+[Confidence: 87.42%]
+89
+00:06:06,240 --> 00:06:10,959
+deshalb darf sie keinen Wein trinken. Aber ich glaube, ich würde trotzdem Wein trinken.
+[Confidence: 93.69%]
+90
+00:06:12,040 --> 00:06:17,579
+Eventuell zwei Gläschen die Stimmung. Und wir wollen ja gut leben, wie du schon gesagt hast.
+[Confidence: 88.74%]
+91
+00:06:17,000 --> 00:06:23,699
+gesagt hast. Ich habe meinem Freund verabredet. Wir machen Fisch zusammen, bisschen Yoga,
+[Confidence: 84.11%]
+92
+00:06:25,560 --> 00:06:35,009
+Zeit zusammen. Und was habt ihr vor Abend zu machen? Wir schauen eine Serie. Serie
+[Confidence: 89.32%]
+93
+00:06:35,009 --> 00:06:42,699
+ist Modern Family. Es ist so eine Sitcom, Comedy und eine lustige Familiengeschichte. Und was
+[Confidence: 85.93%]
+94
+00:06:42,720 --> 00:06:46,379
+hast du heute Abend vor? Ja, wir wollen dann zusammen essen.
+[Confidence: 92.89%]
+95
+00:06:48,040 --> 00:06:56,199
+ich papa noch beim kochen und ja dann gucken wir noch film oder vielleicht
+[Confidence: 87.02%]
+96
+00:06:56,920 --> 00:07:03,699
+wir anderes was habt ihr heute abend vor noch nichts großartig kochen
+[Confidence: 91.67%]
+97
+00:07:03,699 --> 00:07:10,720
+ich wollte noch einkaufen gehen und wir wollten auch noch mal uns beide an pc setzen und zocken
+[Confidence: 93.39%]
+98
+00:07:10,879 --> 00:07:15,680
+also pc spiele spielen lernen klausur
+[Confidence: 92.62%]
+99
+00:07:15,160 --> 00:07:21,680
+Klausur. Was wirst du werden danach? Mal gucken. Steht alles offen. Aber irgendeine
+[Confidence: 88.97%]
+100
+00:07:21,680 --> 00:07:28,480
+Art Ingenieur, oder? Nee, ist für die Wirtschaft. Eher wirtschaftliche Richtung. Wie verplant ihr
+[Confidence: 85.71%]
+101
+00:07:28,480 --> 00:07:34,459
+euren Abend heute? Ich gehe jetzt nach Hause und dann koche ich mir was Schönes. Ich gehe jetzt
+[Confidence: 90.83%]
+102
+00:07:34,459 --> 00:07:41,800
+auch nach Hause und dann besucht mich noch eine Freundin. Und was hast du vor, heute Abend zu
+[Confidence: 97.52%]
+103
+00:07:43,560 --> 00:07:44,420
+machen? Heute Abend?
+[Confidence: 94.30%]
+104
+00:07:44,019 --> 00:07:44,439
+Abend.
+[Confidence: 99.20%]
+105
+00:07:45,180 --> 00:07:46,180
+Wir haben jetzt den Abend.
+[Confidence: 95.52%]
+106
+00:07:46,500 --> 00:07:47,240
+Ja, nix.
+[Confidence: 67.80%]
+107
+00:07:47,500 --> 00:07:48,019
+Auch nix.
+[Confidence: 96.50%]
+108
+00:07:48,980 --> 00:07:49,860
+Einfach chillen.
+[Confidence: 98.35%]
+109
+00:07:50,779 --> 00:07:51,399
+Das ist toll.
+[Confidence: 99.60%]
+110
+00:07:51,959 --> 00:07:56,959
+Und was würden Sie am liebsten machen, wenn es die Corona nicht gäbe?
+[Confidence: 94.76%]
+111
+00:07:57,199 --> 00:07:58,699
+Was wäre Ihr Wunsch?
+[Confidence: 97.52%]
+112
+00:07:59,480 --> 00:08:01,139
+Ich würde gerne Menschen lächeln sehen.
+[Confidence: 97.82%]
+113
+00:08:01,220 --> 00:08:06,199
+Ich würde gerne mit Menschen zusammen tanzen, sie umarmen, zusammen schwitzen, feiern.
+[Confidence: 97.40%]
+114
+00:08:06,199 --> 00:08:07,779
+Alles, was das Menschsein ausmacht.
+[Confidence: 99.52%]
+115
+00:08:08,800 --> 00:08:09,420
+Feiern gehen?
+[Confidence: 93.25%]
+116
+00:08:09,879 --> 00:08:11,800
+Eigentlich genau das Gleiche zu machen, nur mit mehr Menschen.
+[Confidence: 96.23%]
+117
+00:08:12,560 --> 00:08:13,879
+Ja, voll schön.
+[Confidence: 68.23%]
+118
+00:08:13,319 --> 00:08:15,800
+Voll schön. Was will man mir?
+[Confidence: 89.17%]
+119
+00:08:16,100 --> 00:08:17,500
+Ja, auf jeden Fall.
+[Confidence: 97.75%]
+120
+00:08:18,319 --> 00:08:33,259
+Wenn jetzt Corona nicht wäre, würde gleich tatsächlich einfach alle meine Freunde zusammen zu einem riesengroßen Essen zum gemeinsamen Trinken und Tanzen bei uns zu Hause einladen.
+[Confidence: 96.20%]
+121
+00:08:33,360 --> 00:08:34,860
+Auf dem Balkon und in der Wohnung.
+[Confidence: 99.81%]
+122
+00:08:35,279 --> 00:08:39,539
+Und wenn es Corona nicht gäbe, welchen Wunsch würdet ihr euch erfüllen?
+[Confidence: 99.92%]
+123
+00:08:41,320 --> 00:08:42,659
+Die Abi-Zeit zu genießen.
+[Confidence: 87.55%]
+124
+00:08:42,000 --> 00:08:47,320
+zu genießen. Wir machen Abitur. wir sind gerade Klasse und wir können nicht
+[Confidence: 81.06%]
+125
+00:08:47,320 --> 00:08:51,899
+sehr viel machen Corona. Kein Abiball, keine Abifahrt, das fällt leider alles aus.
+[Confidence: 95.76%]
+126
+00:08:52,200 --> 00:09:00,519
+Das ist traurig, ne? Ja, das ist sehr traurig. Und gäbe es Corona nicht, was würdet ihr dann machen?
+[Confidence: 90.61%]
+127
+00:09:01,799 --> 00:09:06,460
+Samstagabend wahrscheinlich irgendwo in Club gehen oder sowas, aber das ist jetzt nicht möglich.
+[Confidence: 89.42%]
+128
+00:09:10,299 --> 00:09:11,639
+mich das selber, ich bin jetzt
+[Confidence: 90.90%]
+129
+00:09:11,179 --> 00:09:14,399
+bin jetzt seit einem halben Jahr 18 habe noch nicht wirklich was gemacht.
+[Confidence: 92.03%]
+130
+00:09:14,580 --> 00:09:19,059
+Und das ist halt schon ziemlich belastend.
+[Confidence: 94.71%]
+131
+00:09:23,080 --> 00:09:24,960
+Ich glaube, dann würden wir abends ausgehen.
+[Confidence: 99.90%]
+132
+00:09:26,539 --> 00:09:32,820
+Dann würden wir wahrscheinlich irgendwo essen gehen, ein Glas Wein trinken gehen, vielleicht tanzen gehen.
+[Confidence: 97.68%]
+133
+00:09:35,860 --> 00:09:37,820
+Aber ja, das machen wir alles zu Hause.
+[Confidence: 90.78%]
+134
+00:09:39,580 --> 00:09:40,879
+Ausgehen und trinken.
+[Confidence: 93.60%]
+135
+00:09:40,000 --> 00:09:46,360
+und trinken und lecker was essen gehen Restaurant. Das ist ein schöner Traum.
+[Confidence: 89.34%]
+136
+00:09:49,279 --> 00:09:53,029
+genau. Wahrscheinlich das Gleiche. Oder vielleicht wir in eine Bar gehen und
+[Confidence: 89.95%]
+137
+00:09:53,029 --> 00:09:57,960
+was trinken gehen. Wahrscheinlich. in einem Club. Genau, vielleicht dann auch anschließend
+[Confidence: 84.67%]
+138
+00:09:57,960 --> 00:10:05,220
+noch in einem Club. Oder ein Konzert. Wie lange warst du schon auf gar keinem Konzert? Seit sicher
+[Confidence: 87.92%]
+139
+00:10:08,460 --> 00:10:09,980
+zwei Jahren. Und wenn es Corona nicht gibt,
+[Confidence: 90.62%]
+140
+00:10:09,000 --> 00:10:12,159
+Wenn es Corona nicht gäbe, was würdest du dann machen?
+[Confidence: 92.94%]
+141
+00:10:14,120 --> 00:10:17,159
+Ja, also mit Freunden ein bisschen feiern.
+[Confidence: 98.10%]
+142
+00:10:18,120 --> 00:10:19,080
+Also halt wie damals.
+[Confidence: 90.98%]
+143
+00:10:19,740 --> 00:10:20,500
+Fehlt dir das?
+[Confidence: 99.87%]
+144
+00:10:20,679 --> 00:10:21,639
+Ja, schon ein bisschen.
+[Confidence: 99.92%]
+145
+00:10:22,059 --> 00:10:25,139
+Aber ich meine, man hat sich schon ganz schön gewöhnt.
+[Confidence: 98.92%]
+146
+00:10:25,759 --> 00:10:27,620
+Und deshalb ist es halt jetzt die Routine.
+[Confidence: 99.39%]
+147
+00:10:28,299 --> 00:10:30,360
+Aber ich meine, ich treffe mich auch schon ein bisschen mit Freunden.
+[Confidence: 96.14%]
+148
+00:10:30,399 --> 00:10:33,679
+Aber also nur eine kleinere Gruppe.
+[Confidence: 89.65%]
+149
+00:10:33,879 --> 00:10:35,860
+Und dann eher draußen spazieren gehen.
+[Confidence: 97.77%]
+150
+00:10:37,720 --> 00:10:38,779
+Und dann halt nur arbeiten.
+[Confidence: 90.98%]
+151
+00:10:40,700 --> 00:10:45,059
+halt nur arbeiten. Jetzt seid ihr dran, jetzt wollen wir von euch wissen, was macht ihr heute
+[Confidence: 91.11%]
+152
+00:10:45,139 --> 00:10:52,519
+noch, was sind eure Pläne und was wären eure Pläne, wenn es Corona nicht gäbe. Damit könnt
+[Confidence: 98.74%]
+153
+00:10:52,519 --> 00:10:58,460
+ihr auch noch den Konjunktiv 2 lernen. Schreibt uns mal auf Deutsch, das ist eine gute Übung für
+[Confidence: 94.74%]
+154
+00:10:58,460 --> 00:11:04,279
+euch. Wenn ihr mehr üben möchtet mit dem Vokabular von heute, mit den Ausdrücken von heute, dann
+[Confidence: 92.96%]
+155
+00:11:04,360 --> 00:11:07,980
+werdet unbedingt ein Mitglied von Easy German 5 Euro
+[Confidence: 89.88%]
+156
+00:11:07,299 --> 00:11:11,379
+Für 5 Euro im Monat unterstützt ihr unsere Produktion und euer Deutsch.
+[Confidence: 96.17%]
+157
+00:11:11,539 --> 00:11:17,779
+Dann bekommt ihr nämlich zu diesem Video und zu allen anderen Videos Transkripte, Vokabeln und interaktive Übungen.
+[Confidence: 99.41%]
+158
+00:11:18,460 --> 00:11:20,580
+Danke fürs Zusehen und bis bald!
+[Confidence: 99.92%]
+159
+00:11:36,379 --> 00:11:36,399
+Dank.
+[Confidence: 98.90%]

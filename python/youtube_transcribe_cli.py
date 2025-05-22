@@ -8,7 +8,7 @@ def main():
     parser = argparse.ArgumentParser(description="Transcribe YouTube videos with word-level timestamps and confidence scores")
     parser.add_argument("url", help="YouTube video URL")
     parser.add_argument("--output-dir", "-o", default="output", help="Directory to save transcription outputs")
-    parser.add_argument("--model", "-m", default="large", choices=["tiny", "base", "small", "medium", "large"],
+    parser.add_argument("--model", "-m", default="turbo", choices=["tiny", "base", "small", "medium", "large","turbo"],
                       help="Whisper model size to use")
     parser.add_argument("--min-confidence", "-c", type=float, default=0.5,
                       help="Minimum confidence threshold for words in SRT output")

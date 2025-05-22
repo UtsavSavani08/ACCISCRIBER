@@ -7,7 +7,7 @@ def main():
     parser = argparse.ArgumentParser(description="Transcribe audio/video files with word-level timestamps and confidence scores")
     parser.add_argument("input", help="Path to input audio/video file or directory")
     parser.add_argument("--output-dir", "-o", default="output", help="Directory to save transcription outputs")
-    parser.add_argument("--model", "-m", default="medium", choices=["tiny", "base", "small", "medium", "large"],
+    parser.add_argument("--model", "-m", default="turbo", choices=["tiny", "base", "small", "medium", "large","turbo"],
                       help="Whisper model size to use")
     parser.add_argument("--min-confidence", "-c", type=float, default=0.5,
                       help="Minimum confidence threshold for words in SRT output")

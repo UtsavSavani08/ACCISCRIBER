@@ -10,12 +10,12 @@ import numpy as np
 import librosa
 
 class Transcriber:
-    def __init__(self, model_name: str = "large"):
+    def __init__(self, model_name: str = "turbo"):
         """
         Initialize the transcriber with a specified Whisper model.
         
         Args:
-            model_name (str): Name of the Whisper model to use (tiny, base, small, medium, large)
+            model_name (str): Name of the Whisper model to use (tiny, base, small, medium, large, large-v3, turbo)
         """
         try:
             self.model = whisper_ts.load_model(model_name)

@@ -1,0 +1,3632 @@
+{
+  "video_metadata": {
+    "duration": 219.96,
+    "fps": 25.0,
+    "size": [
+      640,
+      360
+    ],
+    "audio_fps": 44100
+  },
+  "transcription_stats": {
+    "total_duration": 219.96,
+    "total_words": 378,
+    "avg_words_per_second": 1.718494271685761,
+    "language": "it",
+    "language_confidence": 0.0
+  },
+  "transcription": {
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.36,
+        "end": 3.3,
+        "text": " Cari amici di Zitalian, eccoci ad un nuovo episodio.",
+        "tokens": [
+          50365,
+          2741,
+          72,
+          669,
+          8787,
+          1026,
+          1176,
+          1686,
+          952,
+          11,
+          11437,
+          1291,
+          537,
+          614,
+          517,
+          49348,
+          39200,
+          1004,
+          13,
+          50531
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17835608550480433,
+        "compression_ratio": 1.489247311827957,
+        "no_speech_prob": 5.704055717342671e-12,
+        "confidence": 0.927,
+        "words": [
+          {
+            "text": "Cari",
+            "start": 0.36,
+            "end": 0.64,
+            "confidence": 0.974
+          },
+          {
+            "text": "amici",
+            "start": 0.64,
+            "end": 0.88,
+            "confidence": 1.0
+          },
+          {
+            "text": "di",
+            "start": 0.88,
+            "end": 1.02,
+            "confidence": 0.98
+          },
+          {
+            "text": "Zitalian,",
+            "start": 1.02,
+            "end": 1.6,
+            "confidence": 0.707
+          },
+          {
+            "text": "eccoci",
+            "start": 1.76,
+            "end": 2.1,
+            "confidence": 0.997
+          },
+          {
+            "text": "ad",
+            "start": 2.1,
+            "end": 2.22,
+            "confidence": 0.918
+          },
+          {
+            "text": "un",
+            "start": 2.22,
+            "end": 2.32,
+            "confidence": 1.0
+          },
+          {
+            "text": "nuovo",
+            "start": 2.32,
+            "end": 2.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "episodio.",
+            "start": 2.52,
+            "end": 3.3,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 3.82,
+        "end": 9.7,
+        "text": " Oggi chiederemo agli italiani cosa amano mangiare di più e cosa non può mancare dal loro frigo.",
+        "tokens": [
+          50558,
+          422,
+          22771,
+          417,
+          1091,
+          323,
+          3280,
+          623,
+          2081,
+          22366,
+          21309,
+          10163,
+          669,
+          3730,
+          587,
+          7834,
+          543,
+          1026,
+          10589,
+          308,
+          10163,
+          2107,
+          26526,
+          587,
+          5685,
+          11702,
+          28810,
+          431,
+          7483,
+          13,
+          50851
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17835608550480433,
+        "compression_ratio": 1.489247311827957,
+        "no_speech_prob": 5.704055717342671e-12,
+        "confidence": 0.984,
+        "words": [
+          {
+            "text": "Oggi",
+            "start": 3.82,
+            "end": 4.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "chiederemo",
+            "start": 4.04,
+            "end": 4.5,
+            "confidence": 0.999
+          },
+          {
+            "text": "agli",
+            "start": 4.5,
+            "end": 4.66,
+            "confidence": 0.997
+          },
+          {
+            "text": "italiani",
+            "start": 4.66,
+            "end": 5.16,
+            "confidence": 1.0
+          },
+          {
+            "text": "cosa",
+            "start": 5.16,
+            "end": 5.92,
+            "confidence": 0.968
+          },
+          {
+            "text": "amano",
+            "start": 5.92,
+            "end": 6.3,
+            "confidence": 0.999
+          },
+          {
+            "text": "mangiare",
+            "start": 6.3,
+            "end": 6.68,
+            "confidence": 1.0
+          },
+          {
+            "text": "di",
+            "start": 6.68,
+            "end": 6.86,
+            "confidence": 1.0
+          },
+          {
+            "text": "più",
+            "start": 6.86,
+            "end": 7.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "e",
+            "start": 7.04,
+            "end": 7.58,
+            "confidence": 0.672
+          },
+          {
+            "text": "cosa",
+            "start": 7.58,
+            "end": 7.9,
+            "confidence": 1.0
+          },
+          {
+            "text": "non",
+            "start": 7.9,
+            "end": 8.1,
+            "confidence": 1.0
+          },
+          {
+            "text": "può",
+            "start": 8.1,
+            "end": 8.34,
+            "confidence": 0.999
+          },
+          {
+            "text": "mancare",
+            "start": 8.34,
+            "end": 8.86,
+            "confidence": 0.999
+          },
+          {
+            "text": "dal",
+            "start": 8.86,
+            "end": 9.06,
+            "confidence": 0.994
+          },
+          {
+            "text": "loro",
+            "start": 9.06,
+            "end": 9.28,
+            "confidence": 0.994
+          },
+          {
+            "text": "frigo.",
+            "start": 9.28,
+            "end": 9.7,
+            "confidence": 0.998
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 10.52,
+        "end": 10.94,
+        "text": " Andiamo!",
+        "tokens": [
+          50893,
+          400,
+          7415,
+          0,
+          50913
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17835608550480433,
+        "compression_ratio": 1.489247311827957,
+        "no_speech_prob": 5.704055717342671e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Andiamo!",
+            "start": 10.52,
+            "end": 10.94,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 18.2,
+        "end": 18.5,
+        "text": " Ciao!",
+        "tokens": [
+          51265,
+          28473,
+          0,
+          51299
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17835608550480433,
+        "compression_ratio": 1.489247311827957,
+        "no_speech_prob": 5.704055717342671e-12,
+        "confidence": 0.997,
+        "words": [
+          {
+            "text": "Ciao!",
+            "start": 18.2,
+            "end": 18.5,
+            "confidence": 0.997
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 20.68,
+        "end": 22.22,
+        "text": " Cosa ti piace di più mangiare?",
+        "tokens": [
+          51381,
+          383,
+          6447,
+          8757,
+          50062,
+          1026,
+          10589,
+          587,
+          7834,
+          543,
+          30,
+          51477
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17835608550480433,
+        "compression_ratio": 1.489247311827957,
+        "no_speech_prob": 5.704055717342671e-12,
+        "confidence": 1.0,
+        "words": [
+          {
+            "text": "Cosa",
+            "start": 20.68,
+            "end": 21.0,
+            "confidence": 1.0
+          },
+          {
+            "text": "ti",
+            "start": 21.0,
+            "end": 21.12,
+            "confidence": 1.0
+          },
+          {
+            "text": "piace",
+            "start": 21.12,
+            "end": 21.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "di",
+            "start": 21.34,
+            "end": 21.52,
+            "confidence": 1.0
+          },
+          {
+            "text": "più",
+            "start": 21.52,
+            "end": 21.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "mangiare?",
+            "start": 21.66,
+            "end": 22.22,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 23.42,
+        "end": 24.22,
+        "text": " Pasta al forno.",
+        "tokens": [
+          51525,
+          430,
+          12468,
+          419,
+          337,
+          1771,
+          13,
+          51577
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17835608550480433,
+        "compression_ratio": 1.489247311827957,
+        "no_speech_prob": 5.704055717342671e-12,
+        "confidence": 0.969,
+        "words": [
+          {
+            "text": "Pasta",
+            "start": 23.42,
+            "end": 23.72,
+            "confidence": 0.967
+          },
+          {
+            "text": "al",
+            "start": 23.72,
+            "end": 23.86,
+            "confidence": 0.951
+          },
+          {
+            "text": "forno.",
+            "start": 23.86,
+            "end": 24.22,
+            "confidence": 0.981
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 25.32,
+        "end": 27.02,
+        "text": " Con le polpettine o senza?",
+        "tokens": [
+          51633,
+          2656,
+          476,
+          1180,
+          79,
+          3093,
+          533,
+          277,
+          36208,
+          30,
+          51718
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17835608550480433,
+        "compression_ratio": 1.489247311827957,
+        "no_speech_prob": 5.704055717342671e-12,
+        "confidence": 0.92,
+        "words": [
+          {
+            "text": "Con",
+            "start": 25.32,
+            "end": 25.76,
+            "confidence": 0.512
+          },
+          {
+            "text": "le",
+            "start": 25.76,
+            "end": 25.92,
+            "confidence": 1.0
+          },
+          {
+            "text": "polpettine",
+            "start": 25.92,
+            "end": 26.54,
+            "confidence": 1.0
+          },
+          {
+            "text": "o",
+            "start": 26.54,
+            "end": 26.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "senza?",
+            "start": 26.74,
+            "end": 27.02,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "seek": 0,
+        "start": 27.34,
+        "end": 27.98,
+        "text": " Polpettine.",
+        "tokens": [
+          51733,
+          3635,
+          79,
+          3093,
+          533,
+          13,
+          51766
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17835608550480433,
+        "compression_ratio": 1.489247311827957,
+        "no_speech_prob": 5.704055717342671e-12,
+        "confidence": 0.994,
+        "words": [
+          {
+            "text": "Polpettine.",
+            "start": 27.34,
+            "end": 27.98,
+            "confidence": 0.994
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "seek": 0,
+        "start": 28.12,
+        "end": 29.26,
+        "text": " Orecchietto al pomodoro.",
+        "tokens": [
+          51766,
+          422,
+          13867,
+          339,
+          1684,
+          1353,
+          419,
+          12991,
+          378,
+          10780,
+          13,
+          51830
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17835608550480433,
+        "compression_ratio": 1.489247311827957,
+        "no_speech_prob": 5.704055717342671e-12,
+        "confidence": 0.906,
+        "words": [
+          {
+            "text": "Orecchietto",
+            "start": 28.12,
+            "end": 28.62,
+            "confidence": 0.837
+          },
+          {
+            "text": "al",
+            "start": 28.62,
+            "end": 28.72,
+            "confidence": 0.999
+          },
+          {
+            "text": "pomodoro.",
+            "start": 28.72,
+            "end": 29.26,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "seek": 2930,
+        "start": 29.66,
+        "end": 29.92,
+        "text": " Grazie.",
+        "tokens": [
+          50365,
+          8985,
+          3283,
+          13,
+          50415
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.45066265265146893,
+        "compression_ratio": 0.4666666666666667,
+        "no_speech_prob": 2.576672555876236e-11,
+        "confidence": 0.534,
+        "words": [
+          {
+            "text": "Grazie.",
+            "start": 29.66,
+            "end": 29.92,
+            "confidence": 0.534
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 29.9,
+        "end": 37.75,
+        "text": " prediligo la pasta al secondo la carne diciamo quella che più mi piace sono pasta e cibi di",
+        "tokens": [
+          50365,
+          3852,
+          388,
+          7483,
+          635,
+          13296,
+          419,
+          41601,
+          635,
+          30089,
+          14285,
+          7415,
+          32234,
+          947,
+          10589,
+          2752,
+          50062,
+          9259,
+          13296,
+          308,
+          269,
+          25515,
+          1026,
+          50803
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.24276232164959574,
+        "compression_ratio": 1.729559748427673,
+        "no_speech_prob": 9.469209270862589e-12,
+        "confidence": 0.735,
+        "words": [
+          {
+            "text": "prediligo",
+            "start": 29.9,
+            "end": 30.42,
+            "confidence": 0.618
+          },
+          {
+            "text": "la",
+            "start": 30.42,
+            "end": 30.6,
+            "confidence": 0.988
+          },
+          {
+            "text": "pasta",
+            "start": 30.6,
+            "end": 30.92,
+            "confidence": 0.994
+          },
+          {
+            "text": "al",
+            "start": 30.92,
+            "end": 31.42,
+            "confidence": 0.798
+          },
+          {
+            "text": "secondo",
+            "start": 31.42,
+            "end": 32.72,
+            "confidence": 0.623
+          },
+          {
+            "text": "la",
+            "start": 32.72,
+            "end": 33.3,
+            "confidence": 0.337
+          },
+          {
+            "text": "carne",
+            "start": 33.3,
+            "end": 34.3,
+            "confidence": 0.979
+          },
+          {
+            "text": "diciamo",
+            "start": 34.3,
+            "end": 35.42,
+            "confidence": 0.957
+          },
+          {
+            "text": "quella",
+            "start": 35.42,
+            "end": 35.68,
+            "confidence": 0.446
+          },
+          {
+            "text": "che",
+            "start": 35.68,
+            "end": 35.84,
+            "confidence": 0.99
+          },
+          {
+            "text": "più",
+            "start": 35.84,
+            "end": 36.019999999999996,
+            "confidence": 0.953
+          },
+          {
+            "text": "mi",
+            "start": 36.019999999999996,
+            "end": 36.2,
+            "confidence": 0.951
+          },
+          {
+            "text": "piace",
+            "start": 36.2,
+            "end": 36.46,
+            "confidence": 0.98
+          },
+          {
+            "text": "sono",
+            "start": 36.46,
+            "end": 36.84,
+            "confidence": 0.927
+          },
+          {
+            "text": "pasta",
+            "start": 36.84,
+            "end": 37.38,
+            "confidence": 0.574
+          },
+          {
+            "text": "e",
+            "start": 37.38,
+            "end": 37.480000000000004,
+            "confidence": 0.802
+          },
+          {
+            "text": "cibi",
+            "start": 37.480000000000004,
+            "end": 37.68,
+            "confidence": 0.502
+          },
+          {
+            "text": "di",
+            "start": 37.68,
+            "end": 37.75,
+            "confidence": 0.787
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 37.75,
+        "end": 46.66,
+        "text": " rapa con con un po di ciucche sopra e la mollica grattugiata fritta spaghetti e frutti di mare",
+        "tokens": [
+          50803,
+          5099,
+          64,
+          416,
+          416,
+          517,
+          714,
+          1026,
+          6983,
+          1311,
+          1876,
+          370,
+          43255,
+          308,
+          635,
+          705,
+          285,
+          2262,
+          677,
+          1591,
+          24780,
+          3274,
+          431,
+          21870,
+          28556,
+          308,
+          431,
+          325,
+          7317,
+          1026,
+          31471,
+          51250
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.24276232164959574,
+        "compression_ratio": 1.729559748427673,
+        "no_speech_prob": 9.469209270862589e-12,
+        "confidence": 0.799,
+        "words": [
+          {
+            "text": "rapa",
+            "start": 37.75,
+            "end": 38.12,
+            "confidence": 0.792
+          },
+          {
+            "text": "con",
+            "start": 38.12,
+            "end": 38.36,
+            "confidence": 0.979
+          },
+          {
+            "text": "un",
+            "start": 39.8,
+            "end": 39.9,
+            "confidence": 0.992
+          },
+          {
+            "text": "po",
+            "start": 39.9,
+            "end": 39.980000000000004,
+            "confidence": 0.958
+          },
+          {
+            "text": "di",
+            "start": 39.980000000000004,
+            "end": 40.08,
+            "confidence": 0.837
+          },
+          {
+            "text": "ciucche",
+            "start": 40.08,
+            "end": 40.42,
+            "confidence": 0.475
+          },
+          {
+            "text": "sopra",
+            "start": 40.42,
+            "end": 40.76,
+            "confidence": 0.991
+          },
+          {
+            "text": "e",
+            "start": 40.76,
+            "end": 41.04,
+            "confidence": 0.741
+          },
+          {
+            "text": "la",
+            "start": 41.04,
+            "end": 42.54,
+            "confidence": 0.348
+          },
+          {
+            "text": "mollica",
+            "start": 42.54,
+            "end": 43.72,
+            "confidence": 0.902
+          },
+          {
+            "text": "grattugiata",
+            "start": 43.72,
+            "end": 44.38,
+            "confidence": 0.975
+          },
+          {
+            "text": "fritta",
+            "start": 44.38,
+            "end": 44.980000000000004,
+            "confidence": 0.661
+          },
+          {
+            "text": "spaghetti",
+            "start": 44.980000000000004,
+            "end": 45.78,
+            "confidence": 0.744
+          },
+          {
+            "text": "e",
+            "start": 45.78,
+            "end": 46.08,
+            "confidence": 0.906
+          },
+          {
+            "text": "frutti",
+            "start": 46.08,
+            "end": 46.379999999999995,
+            "confidence": 0.926
+          },
+          {
+            "text": "di",
+            "start": 46.379999999999995,
+            "end": 46.480000000000004,
+            "confidence": 0.976
+          },
+          {
+            "text": "mare",
+            "start": 46.480000000000004,
+            "end": 46.66,
+            "confidence": 0.994
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 49.84,
+        "end": 56.39,
+        "text": " le orecchiette con il cibi di rapa a me piace molto la pasta con il pesce la pasta alla",
+        "tokens": [
+          51250,
+          476,
+          277,
+          13867,
+          339,
+          1684,
+          975,
+          416,
+          1930,
+          269,
+          25515,
+          1026,
+          5099,
+          64,
+          257,
+          385,
+          50062,
+          16394,
+          635,
+          13296,
+          416,
+          1930,
+          9262,
+          384,
+          635,
+          13296,
+          11591,
+          51733
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.24276232164959574,
+        "compression_ratio": 1.729559748427673,
+        "no_speech_prob": 9.469209270862589e-12,
+        "confidence": 0.889,
+        "words": [
+          {
+            "text": "le",
+            "start": 49.84,
+            "end": 49.86,
+            "confidence": 0.483
+          },
+          {
+            "text": "orecchiette",
+            "start": 49.86,
+            "end": 50.46,
+            "confidence": 0.985
+          },
+          {
+            "text": "con",
+            "start": 50.46,
+            "end": 50.6,
+            "confidence": 0.903
+          },
+          {
+            "text": "il",
+            "start": 50.6,
+            "end": 50.739999999999995,
+            "confidence": 0.511
+          },
+          {
+            "text": "cibi",
+            "start": 50.739999999999995,
+            "end": 50.9,
+            "confidence": 0.839
+          },
+          {
+            "text": "di",
+            "start": 50.9,
+            "end": 51.0,
+            "confidence": 0.936
+          },
+          {
+            "text": "rapa",
+            "start": 51.0,
+            "end": 52.58,
+            "confidence": 0.819
+          },
+          {
+            "text": "a",
+            "start": 52.58,
+            "end": 52.8,
+            "confidence": 0.94
+          },
+          {
+            "text": "me",
+            "start": 52.8,
+            "end": 52.92,
+            "confidence": 0.997
+          },
+          {
+            "text": "piace",
+            "start": 52.92,
+            "end": 53.260000000000005,
+            "confidence": 0.998
+          },
+          {
+            "text": "molto",
+            "start": 53.260000000000005,
+            "end": 53.760000000000005,
+            "confidence": 0.997
+          },
+          {
+            "text": "la",
+            "start": 53.760000000000005,
+            "end": 54.04,
+            "confidence": 0.996
+          },
+          {
+            "text": "pasta",
+            "start": 54.04,
+            "end": 54.44,
+            "confidence": 0.998
+          },
+          {
+            "text": "con",
+            "start": 54.44,
+            "end": 54.66,
+            "confidence": 0.992
+          },
+          {
+            "text": "il",
+            "start": 54.66,
+            "end": 54.8,
+            "confidence": 0.989
+          },
+          {
+            "text": "pesce",
+            "start": 54.8,
+            "end": 55.54,
+            "confidence": 0.981
+          },
+          {
+            "text": "la",
+            "start": 55.54,
+            "end": 55.9,
+            "confidence": 0.869
+          },
+          {
+            "text": "pasta",
+            "start": 55.9,
+            "end": 56.18,
+            "confidence": 0.725
+          },
+          {
+            "text": "alla",
+            "start": 56.18,
+            "end": 56.39,
+            "confidence": 0.939
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 2736,
+        "start": 56.39,
+        "end": 58.980000000000004,
+        "text": " pizzaiola pasta alla pizzaiola come questo",
+        "tokens": [
+          50365,
+          36075,
+          1301,
+          4711,
+          13296,
+          11591,
+          36075,
+          1301,
+          4711,
+          808,
+          10263,
+          50499
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5230897389925443,
+        "compression_ratio": 1.05,
+        "no_speech_prob": 1.1188193600741858e-11,
+        "confidence": 0.664,
+        "words": [
+          {
+            "text": "pizzaiola",
+            "start": 56.39,
+            "end": 57.36,
+            "confidence": 0.793
+          },
+          {
+            "text": "pasta",
+            "start": 57.36,
+            "end": 57.86,
+            "confidence": 0.258
+          },
+          {
+            "text": "alla",
+            "start": 57.86,
+            "end": 58.06,
+            "confidence": 0.792
+          },
+          {
+            "text": "pizzaiola",
+            "start": 58.06,
+            "end": 58.58,
+            "confidence": 0.972
+          },
+          {
+            "text": "come",
+            "start": 58.58,
+            "end": 58.760000000000005,
+            "confidence": 0.45
+          },
+          {
+            "text": "questo",
+            "start": 58.760000000000005,
+            "end": 58.980000000000004,
+            "confidence": 0.395
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 58.0,
+        "end": 59.3,
+        "text": " La pizzaiola, com'è questa pasta?",
+        "tokens": [
+          50365,
+          2369,
+          36075,
+          1301,
+          4711,
+          11,
+          395,
+          6,
+          1462,
+          16540,
+          13296,
+          30,
+          50430
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20421600341796875,
+        "compression_ratio": 1.39010989010989,
+        "no_speech_prob": 8.433426700038549e-12,
+        "confidence": 0.943,
+        "words": [
+          {
+            "text": "La",
+            "start": 58.0,
+            "end": 58.1,
+            "confidence": 0.657
+          },
+          {
+            "text": "pizzaiola,",
+            "start": 58.1,
+            "end": 58.56,
+            "confidence": 0.99
+          },
+          {
+            "text": "com'è",
+            "start": 58.68,
+            "end": 58.84,
+            "confidence": 0.973
+          },
+          {
+            "text": "questa",
+            "start": 58.84,
+            "end": 59.04,
+            "confidence": 0.999
+          },
+          {
+            "text": "pasta?",
+            "start": 59.04,
+            "end": 59.3,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 60.96,
+        "end": 62.2,
+        "text": " È buonissima.",
+        "tokens": [
+          50491,
+          34495,
+          758,
+          266,
+          891,
+          4775,
+          13,
+          50577
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20421600341796875,
+        "compression_ratio": 1.39010989010989,
+        "no_speech_prob": 8.433426700038549e-12,
+        "confidence": 0.959,
+        "words": [
+          {
+            "text": "È",
+            "start": 60.96,
+            "end": 61.16,
+            "confidence": 0.832
+          },
+          {
+            "text": "buonissima.",
+            "start": 61.16,
+            "end": 62.2,
+            "confidence": 0.994
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 63.0,
+        "end": 64.72,
+        "text": " E quali sono gli ingredienti?",
+        "tokens": [
+          50617,
+          462,
+          4101,
+          72,
+          9259,
+          17161,
+          14751,
+          72,
+          30,
+          50702
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20421600341796875,
+        "compression_ratio": 1.39010989010989,
+        "no_speech_prob": 8.433426700038549e-12,
+        "confidence": 0.992,
+        "words": [
+          {
+            "text": "E",
+            "start": 63.0,
+            "end": 63.12,
+            "confidence": 0.945
+          },
+          {
+            "text": "quali",
+            "start": 63.12,
+            "end": 63.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "sono",
+            "start": 63.6,
+            "end": 63.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "gli",
+            "start": 63.72,
+            "end": 63.9,
+            "confidence": 0.999
+          },
+          {
+            "text": "ingredienti?",
+            "start": 63.9,
+            "end": 64.72,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 66.48,
+        "end": 75.06,
+        "text": " L'olio, il sugo, la mozzarella, l'origano e la pasta.",
+        "tokens": [
+          50770,
+          441,
+          6,
+          401,
+          1004,
+          11,
+          1930,
+          459,
+          1571,
+          11,
+          635,
+          44135,
+          11,
+          287,
+          6,
+          20632,
+          3730,
+          308,
+          635,
+          13296,
+          13,
+          51221
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20421600341796875,
+        "compression_ratio": 1.39010989010989,
+        "no_speech_prob": 8.433426700038549e-12,
+        "confidence": 0.995,
+        "words": [
+          {
+            "text": "L'olio,",
+            "start": 66.48,
+            "end": 67.24,
+            "confidence": 0.999
+          },
+          {
+            "text": "il",
+            "start": 67.46000000000001,
+            "end": 67.7,
+            "confidence": 0.996
+          },
+          {
+            "text": "sugo,",
+            "start": 67.7,
+            "end": 68.44,
+            "confidence": 0.994
+          },
+          {
+            "text": "la",
+            "start": 69.16,
+            "end": 70.68,
+            "confidence": 0.963
+          },
+          {
+            "text": "mozzarella,",
+            "start": 70.68,
+            "end": 71.96000000000001,
+            "confidence": 0.993
+          },
+          {
+            "text": "l'origano",
+            "start": 72.66,
+            "end": 73.6,
+            "confidence": 0.995
+          },
+          {
+            "text": "e",
+            "start": 73.6,
+            "end": 74.24,
+            "confidence": 1.0
+          },
+          {
+            "text": "la",
+            "start": 74.24,
+            "end": 74.5,
+            "confidence": 1.0
+          },
+          {
+            "text": "pasta.",
+            "start": 74.5,
+            "end": 75.06,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 75.9,
+        "end": 77.74,
+        "text": " Cosa non deve mai mancare nel suo frigo?",
+        "tokens": [
+          51260,
+          383,
+          6447,
+          2107,
+          17761,
+          12698,
+          587,
+          5685,
+          15373,
+          34197,
+          431,
+          7483,
+          30,
+          51353
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20421600341796875,
+        "compression_ratio": 1.39010989010989,
+        "no_speech_prob": 8.433426700038549e-12,
+        "confidence": 0.999,
+        "words": [
+          {
+            "text": "Cosa",
+            "start": 75.9,
+            "end": 76.16,
+            "confidence": 0.996
+          },
+          {
+            "text": "non",
+            "start": 76.16,
+            "end": 76.28,
+            "confidence": 1.0
+          },
+          {
+            "text": "deve",
+            "start": 76.28,
+            "end": 76.46000000000001,
+            "confidence": 1.0
+          },
+          {
+            "text": "mai",
+            "start": 76.46000000000001,
+            "end": 76.62,
+            "confidence": 1.0
+          },
+          {
+            "text": "mancare",
+            "start": 76.62,
+            "end": 77.02,
+            "confidence": 1.0
+          },
+          {
+            "text": "nel",
+            "start": 77.02,
+            "end": 77.22,
+            "confidence": 1.0
+          },
+          {
+            "text": "suo",
+            "start": 77.22,
+            "end": 77.4,
+            "confidence": 0.999
+          },
+          {
+            "text": "frigo?",
+            "start": 77.4,
+            "end": 77.74,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 0,
+        "start": 80.32,
+        "end": 84.18,
+        "text": " L'acqua, sicuramente l'acqua perché non sono un bevitore di alcolici o altro.",
+        "tokens": [
+          51459,
+          441,
+          6,
+          326,
+          34787,
+          11,
+          33579,
+          374,
+          3439,
+          287,
+          6,
+          326,
+          34787,
+          14303,
+          2107,
+          9259,
+          517,
+          312,
+          10398,
+          418,
+          1026,
+          20005,
+          7940,
+          72,
+          277,
+          40924,
+          13,
+          51677
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20421600341796875,
+        "compression_ratio": 1.39010989010989,
+        "no_speech_prob": 8.433426700038549e-12,
+        "confidence": 0.986,
+        "words": [
+          {
+            "text": "L'acqua,",
+            "start": 80.32,
+            "end": 80.78,
+            "confidence": 1.0
+          },
+          {
+            "text": "sicuramente",
+            "start": 80.84,
+            "end": 81.5,
+            "confidence": 1.0
+          },
+          {
+            "text": "l'acqua",
+            "start": 81.5,
+            "end": 81.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "perché",
+            "start": 81.82,
+            "end": 82.0,
+            "confidence": 0.781
+          },
+          {
+            "text": "non",
+            "start": 82.0,
+            "end": 82.16,
+            "confidence": 1.0
+          },
+          {
+            "text": "sono",
+            "start": 82.16,
+            "end": 82.4,
+            "confidence": 0.997
+          },
+          {
+            "text": "un",
+            "start": 82.4,
+            "end": 82.58,
+            "confidence": 1.0
+          },
+          {
+            "text": "bevitore",
+            "start": 82.58,
+            "end": 83.03999999999999,
+            "confidence": 0.986
+          },
+          {
+            "text": "di",
+            "start": 83.03999999999999,
+            "end": 83.2,
+            "confidence": 0.999
+          },
+          {
+            "text": "alcolici",
+            "start": 83.2,
+            "end": 83.8,
+            "confidence": 0.991
+          },
+          {
+            "text": "o",
+            "start": 83.8,
+            "end": 83.94,
+            "confidence": 0.996
+          },
+          {
+            "text": "altro.",
+            "start": 83.94,
+            "end": 84.18,
+            "confidence": 0.996
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 2624,
+        "start": 84.78,
+        "end": 87.84,
+        "text": " Il latte per prenderlo la mattina e basta.",
+        "tokens": [
+          50365,
+          4416,
+          37854,
+          680,
+          9866,
+          260,
+          752,
+          635,
+          16539,
+          1426,
+          308,
+          45282,
+          13,
+          50546
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.09868923823038737,
+        "compression_ratio": 0.8936170212765957,
+        "no_speech_prob": 4.598048504445007e-12,
+        "confidence": 0.938,
+        "words": [
+          {
+            "text": "Il",
+            "start": 84.78,
+            "end": 84.94,
+            "confidence": 0.992
+          },
+          {
+            "text": "latte",
+            "start": 84.94,
+            "end": 85.36,
+            "confidence": 1.0
+          },
+          {
+            "text": "per",
+            "start": 85.36,
+            "end": 85.98,
+            "confidence": 0.581
+          },
+          {
+            "text": "prenderlo",
+            "start": 85.98,
+            "end": 86.8,
+            "confidence": 0.998
+          },
+          {
+            "text": "la",
+            "start": 86.8,
+            "end": 86.92,
+            "confidence": 0.958
+          },
+          {
+            "text": "mattina",
+            "start": 86.92,
+            "end": 87.38,
+            "confidence": 1.0
+          },
+          {
+            "text": "e",
+            "start": 87.38,
+            "end": 87.53999999999999,
+            "confidence": 0.907
+          },
+          {
+            "text": "basta.",
+            "start": 87.53999999999999,
+            "end": 87.84,
+            "confidence": 0.998
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 87.0,
+        "end": 95.06,
+        "text": " e basta per il resto io mangio per vivere fino a qualche mese fa il formaggio ora per questioni",
+        "tokens": [
+          50365,
+          308,
+          45282,
+          680,
+          1930,
+          28247,
+          19785,
+          587,
+          17862,
+          680,
+          11005,
+          323,
+          42560,
+          257,
+          38737,
+          275,
+          1130,
+          2050,
+          1930,
+          1254,
+          30763,
+          33714,
+          680,
+          1168,
+          72,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29486261412154796,
+        "compression_ratio": 1.6761363636363635,
+        "no_speech_prob": 1.7888589914916153e-11,
+        "confidence": 0.804,
+        "words": [
+          {
+            "text": "e",
+            "start": 87.0,
+            "end": 87.4,
+            "confidence": 0.11
+          },
+          {
+            "text": "basta",
+            "start": 87.4,
+            "end": 87.82,
+            "confidence": 0.936
+          },
+          {
+            "text": "per",
+            "start": 87.82,
+            "end": 88.32,
+            "confidence": 0.412
+          },
+          {
+            "text": "il",
+            "start": 88.32,
+            "end": 88.44,
+            "confidence": 0.994
+          },
+          {
+            "text": "resto",
+            "start": 88.44,
+            "end": 88.74,
+            "confidence": 0.996
+          },
+          {
+            "text": "io",
+            "start": 88.74,
+            "end": 89.32,
+            "confidence": 0.874
+          },
+          {
+            "text": "mangio",
+            "start": 89.32,
+            "end": 89.56,
+            "confidence": 0.973
+          },
+          {
+            "text": "per",
+            "start": 89.56,
+            "end": 89.74,
+            "confidence": 0.995
+          },
+          {
+            "text": "vivere",
+            "start": 89.74,
+            "end": 90.14,
+            "confidence": 0.984
+          },
+          {
+            "text": "fino",
+            "start": 90.14,
+            "end": 91.06,
+            "confidence": 0.768
+          },
+          {
+            "text": "a",
+            "start": 91.06,
+            "end": 91.16,
+            "confidence": 0.991
+          },
+          {
+            "text": "qualche",
+            "start": 91.16,
+            "end": 91.34,
+            "confidence": 0.994
+          },
+          {
+            "text": "mese",
+            "start": 91.34,
+            "end": 91.58,
+            "confidence": 0.991
+          },
+          {
+            "text": "fa",
+            "start": 91.58,
+            "end": 91.74,
+            "confidence": 0.981
+          },
+          {
+            "text": "il",
+            "start": 91.74,
+            "end": 91.88,
+            "confidence": 0.927
+          },
+          {
+            "text": "formaggio",
+            "start": 91.88,
+            "end": 92.42,
+            "confidence": 0.972
+          },
+          {
+            "text": "ora",
+            "start": 92.42,
+            "end": 93.8,
+            "confidence": 0.738
+          },
+          {
+            "text": "per",
+            "start": 93.8,
+            "end": 94.52,
+            "confidence": 0.577
+          },
+          {
+            "text": "questioni",
+            "start": 94.52,
+            "end": 95.06,
+            "confidence": 0.765
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 95.2,
+        "end": 105.36,
+        "text": " di dieta l'abbiamo una di esatto e figo di frutto formaggi frutta verdura il latte il latte non lo",
+        "tokens": [
+          50764,
+          1026,
+          37967,
+          287,
+          6,
+          10797,
+          7415,
+          2002,
+          1026,
+          785,
+          37491,
+          308,
+          2147,
+          78,
+          1026,
+          431,
+          28698,
+          1254,
+          46893,
+          431,
+          27145,
+          6387,
+          2991,
+          1930,
+          37854,
+          1930,
+          37854,
+          2107,
+          450,
+          51281
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29486261412154796,
+        "compression_ratio": 1.6761363636363635,
+        "no_speech_prob": 1.7888589914916153e-11,
+        "confidence": 0.619,
+        "words": [
+          {
+            "text": "di",
+            "start": 95.2,
+            "end": 95.36,
+            "confidence": 0.996
+          },
+          {
+            "text": "dieta",
+            "start": 95.36,
+            "end": 95.78,
+            "confidence": 0.929
+          },
+          {
+            "text": "l'abbiamo",
+            "start": 95.78,
+            "end": 97.16,
+            "confidence": 0.907
+          },
+          {
+            "text": "una",
+            "start": 97.16,
+            "end": 97.36,
+            "confidence": 0.536
+          },
+          {
+            "text": "di",
+            "start": 97.36,
+            "end": 97.53999999999999,
+            "confidence": 0.141
+          },
+          {
+            "text": "esatto",
+            "start": 97.53999999999999,
+            "end": 97.98,
+            "confidence": 0.403
+          },
+          {
+            "text": "e",
+            "start": 97.98,
+            "end": 98.1,
+            "confidence": 0.581
+          },
+          {
+            "text": "figo",
+            "start": 98.1,
+            "end": 98.32,
+            "confidence": 0.335
+          },
+          {
+            "text": "di",
+            "start": 98.32,
+            "end": 98.4,
+            "confidence": 0.752
+          },
+          {
+            "text": "frutto",
+            "start": 98.4,
+            "end": 98.7,
+            "confidence": 0.153
+          },
+          {
+            "text": "formaggi",
+            "start": 98.7,
+            "end": 100.12,
+            "confidence": 0.832
+          },
+          {
+            "text": "frutta",
+            "start": 100.12,
+            "end": 100.88,
+            "confidence": 0.946
+          },
+          {
+            "text": "verdura",
+            "start": 100.88,
+            "end": 101.46000000000001,
+            "confidence": 0.951
+          },
+          {
+            "text": "il",
+            "start": 101.46000000000001,
+            "end": 102.1,
+            "confidence": 0.862
+          },
+          {
+            "text": "latte",
+            "start": 102.1,
+            "end": 102.36,
+            "confidence": 0.985
+          },
+          {
+            "text": "il",
+            "start": 102.36,
+            "end": 103.08,
+            "confidence": 0.619
+          },
+          {
+            "text": "latte",
+            "start": 103.08,
+            "end": 103.34,
+            "confidence": 0.933
+          },
+          {
+            "text": "non",
+            "start": 103.34,
+            "end": 105.16,
+            "confidence": 0.741
+          },
+          {
+            "text": "lo",
+            "start": 105.16,
+            "end": 105.36,
+            "confidence": 0.808
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 107.56,
+        "end": 114.66,
+        "text": " so non deve essere vuoto direi il formaggio fresco anche yogurt la cioccolata però non sta in frigo",
+        "tokens": [
+          51281,
+          370,
+          2107,
+          17761,
+          19799,
+          9732,
+          6738,
+          1264,
+          72,
+          1930,
+          1254,
+          30763,
+          25235,
+          1291,
+          11585,
+          20997,
+          635,
+          6983,
+          905,
+          8768,
+          3274,
+          12673,
+          2107,
+          11135,
+          294,
+          431,
+          7483,
+          51748
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29486261412154796,
+        "compression_ratio": 1.6761363636363635,
+        "no_speech_prob": 1.7888589914916153e-11,
+        "confidence": 0.916,
+        "words": [
+          {
+            "text": "so",
+            "start": 107.56,
+            "end": 107.58,
+            "confidence": 0.982
+          },
+          {
+            "text": "non",
+            "start": 107.58,
+            "end": 107.78,
+            "confidence": 0.467
+          },
+          {
+            "text": "deve",
+            "start": 107.78,
+            "end": 107.96000000000001,
+            "confidence": 0.96
+          },
+          {
+            "text": "essere",
+            "start": 107.96000000000001,
+            "end": 108.24,
+            "confidence": 0.994
+          },
+          {
+            "text": "vuoto",
+            "start": 108.24,
+            "end": 108.78,
+            "confidence": 0.904
+          },
+          {
+            "text": "direi",
+            "start": 108.78,
+            "end": 109.82,
+            "confidence": 0.98
+          },
+          {
+            "text": "il",
+            "start": 109.82,
+            "end": 110.2,
+            "confidence": 0.892
+          },
+          {
+            "text": "formaggio",
+            "start": 110.2,
+            "end": 110.56,
+            "confidence": 0.999
+          },
+          {
+            "text": "fresco",
+            "start": 110.56,
+            "end": 110.98,
+            "confidence": 0.999
+          },
+          {
+            "text": "anche",
+            "start": 110.98,
+            "end": 111.16,
+            "confidence": 0.966
+          },
+          {
+            "text": "yogurt",
+            "start": 111.16,
+            "end": 111.52,
+            "confidence": 0.935
+          },
+          {
+            "text": "la",
+            "start": 111.52,
+            "end": 112.62,
+            "confidence": 0.844
+          },
+          {
+            "text": "cioccolata",
+            "start": 112.62,
+            "end": 113.38,
+            "confidence": 0.995
+          },
+          {
+            "text": "però",
+            "start": 113.38,
+            "end": 113.92,
+            "confidence": 0.963
+          },
+          {
+            "text": "non",
+            "start": 113.92,
+            "end": 114.08,
+            "confidence": 0.884
+          },
+          {
+            "text": "sta",
+            "start": 114.08,
+            "end": 114.22,
+            "confidence": 0.737
+          },
+          {
+            "text": "in",
+            "start": 114.22,
+            "end": 114.36,
+            "confidence": 0.823
+          },
+          {
+            "text": "frigo",
+            "start": 114.36,
+            "end": 114.66,
+            "confidence": 0.928
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 2766,
+        "start": 114.66,
+        "end": 116.74,
+        "text": " però è la cioccolata che non può mancare mai",
+        "tokens": [
+          50365,
+          12673,
+          4873,
+          635,
+          6983,
+          905,
+          8768,
+          3274,
+          947,
+          2107,
+          26526,
+          587,
+          5685,
+          12698,
+          50473
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1977228969335556,
+        "compression_ratio": 0.9215686274509803,
+        "no_speech_prob": 8.144910960961038e-12,
+        "confidence": 0.884,
+        "words": [
+          {
+            "text": "però",
+            "start": 114.66,
+            "end": 114.88,
+            "confidence": 0.557
+          },
+          {
+            "text": "è",
+            "start": 114.88,
+            "end": 114.9,
+            "confidence": 0.467
+          },
+          {
+            "text": "la",
+            "start": 114.9,
+            "end": 115.03999999999999,
+            "confidence": 0.987
+          },
+          {
+            "text": "cioccolata",
+            "start": 115.03999999999999,
+            "end": 115.56,
+            "confidence": 0.992
+          },
+          {
+            "text": "che",
+            "start": 115.56,
+            "end": 115.7,
+            "confidence": 0.98
+          },
+          {
+            "text": "non",
+            "start": 115.7,
+            "end": 115.82,
+            "confidence": 0.996
+          },
+          {
+            "text": "può",
+            "start": 115.82,
+            "end": 115.96000000000001,
+            "confidence": 0.993
+          },
+          {
+            "text": "mancare",
+            "start": 115.96000000000001,
+            "end": 116.44,
+            "confidence": 0.998
+          },
+          {
+            "text": "mai",
+            "start": 116.44,
+            "end": 116.74,
+            "confidence": 0.846
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 116.0,
+        "end": 123.3,
+        "text": " mancare mai la nutella e la cioccolata. Nutella sì, non manca mai. E il pesto. Cosa sapete",
+        "tokens": [
+          50365,
+          587,
+          5685,
+          12698,
+          635,
+          5393,
+          9885,
+          308,
+          635,
+          6983,
+          905,
+          8768,
+          3274,
+          13,
+          19861,
+          9885,
+          49267,
+          11,
+          2107,
+          587,
+          496,
+          12698,
+          13,
+          462,
+          1930,
+          280,
+          18465,
+          13,
+          383,
+          6447,
+          18985,
+          3498,
+          50738
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11153873320548766,
+        "compression_ratio": 1.4944444444444445,
+        "no_speech_prob": 1.515750892855383e-11,
+        "confidence": 0.865,
+        "words": [
+          {
+            "text": "mancare",
+            "start": 116.0,
+            "end": 116.46,
+            "confidence": 0.612
+          },
+          {
+            "text": "mai",
+            "start": 116.46,
+            "end": 116.78,
+            "confidence": 0.855
+          },
+          {
+            "text": "la",
+            "start": 116.78,
+            "end": 117.16,
+            "confidence": 0.703
+          },
+          {
+            "text": "nutella",
+            "start": 117.16,
+            "end": 117.56,
+            "confidence": 0.944
+          },
+          {
+            "text": "e",
+            "start": 117.56,
+            "end": 117.66,
+            "confidence": 0.956
+          },
+          {
+            "text": "la",
+            "start": 117.66,
+            "end": 117.74,
+            "confidence": 0.992
+          },
+          {
+            "text": "cioccolata.",
+            "start": 117.74,
+            "end": 118.32,
+            "confidence": 0.99
+          },
+          {
+            "text": "Nutella",
+            "start": 118.48,
+            "end": 120.26,
+            "confidence": 0.824
+          },
+          {
+            "text": "sì,",
+            "start": 120.26,
+            "end": 120.46,
+            "confidence": 0.41
+          },
+          {
+            "text": "non",
+            "start": 120.68,
+            "end": 120.84,
+            "confidence": 0.99
+          },
+          {
+            "text": "manca",
+            "start": 120.84,
+            "end": 121.12,
+            "confidence": 0.994
+          },
+          {
+            "text": "mai.",
+            "start": 121.12,
+            "end": 121.36,
+            "confidence": 0.995
+          },
+          {
+            "text": "E",
+            "start": 121.5,
+            "end": 121.6,
+            "confidence": 0.947
+          },
+          {
+            "text": "il",
+            "start": 121.6,
+            "end": 121.68,
+            "confidence": 0.907
+          },
+          {
+            "text": "pesto.",
+            "start": 121.68,
+            "end": 122.08,
+            "confidence": 0.996
+          },
+          {
+            "text": "Cosa",
+            "start": 122.66,
+            "end": 123.1,
+            "confidence": 0.709
+          },
+          {
+            "text": "sapete",
+            "start": 123.1,
+            "end": 123.3,
+            "confidence": 0.974
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 123.3,
+        "end": 131.04,
+        "text": " cucinare meglio? La pasta. La pasta. Cucino meglio la lasagna perché la cucino spesso e",
+        "tokens": [
+          50738,
+          18488,
+          259,
+          543,
+          48911,
+          30,
+          2369,
+          13296,
+          13,
+          2369,
+          13296,
+          13,
+          383,
+          1311,
+          2982,
+          48911,
+          635,
+          2439,
+          35697,
+          14303,
+          635,
+          18488,
+          2982,
+          637,
+          5557,
+          308,
+          51130
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11153873320548766,
+        "compression_ratio": 1.4944444444444445,
+        "no_speech_prob": 1.515750892855383e-11,
+        "confidence": 0.963,
+        "words": [
+          {
+            "text": "cucinare",
+            "start": 123.3,
+            "end": 124.0,
+            "confidence": 0.999
+          },
+          {
+            "text": "meglio?",
+            "start": 124.0,
+            "end": 124.34,
+            "confidence": 1.0
+          },
+          {
+            "text": "La",
+            "start": 124.72,
+            "end": 125.14,
+            "confidence": 1.0
+          },
+          {
+            "text": "pasta.",
+            "start": 125.14,
+            "end": 125.48,
+            "confidence": 0.999
+          },
+          {
+            "text": "La",
+            "start": 126.62,
+            "end": 126.9,
+            "confidence": 0.978
+          },
+          {
+            "text": "pasta.",
+            "start": 126.9,
+            "end": 127.28,
+            "confidence": 0.999
+          },
+          {
+            "text": "Cucino",
+            "start": 128.1,
+            "end": 128.8,
+            "confidence": 0.979
+          },
+          {
+            "text": "meglio",
+            "start": 128.8,
+            "end": 128.96,
+            "confidence": 0.826
+          },
+          {
+            "text": "la",
+            "start": 128.96,
+            "end": 129.2,
+            "confidence": 0.999
+          },
+          {
+            "text": "lasagna",
+            "start": 129.2,
+            "end": 129.58,
+            "confidence": 0.994
+          },
+          {
+            "text": "perché",
+            "start": 129.58,
+            "end": 129.78,
+            "confidence": 0.991
+          },
+          {
+            "text": "la",
+            "start": 129.78,
+            "end": 129.96,
+            "confidence": 1.0
+          },
+          {
+            "text": "cucino",
+            "start": 129.96,
+            "end": 130.3,
+            "confidence": 0.996
+          },
+          {
+            "text": "spesso",
+            "start": 130.3,
+            "end": 130.82,
+            "confidence": 0.989
+          },
+          {
+            "text": "e",
+            "start": 130.82,
+            "end": 131.04,
+            "confidence": 0.601
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 131.04,
+        "end": 140.32,
+        "text": " mi piace cucinarla. Spaghetti al pomodoro. Solo l'uovo fritto. Chi è che cucina a casa?",
+        "tokens": [
+          51130,
+          2752,
+          50062,
+          18488,
+          6470,
+          875,
+          13,
+          1738,
+          24402,
+          419,
+          12991,
+          378,
+          10780,
+          13,
+          26452,
+          287,
+          6,
+          18655,
+          3080,
+          431,
+          34924,
+          13,
+          17730,
+          4873,
+          947,
+          18488,
+          1426,
+          257,
+          9022,
+          30,
+          51582
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11153873320548766,
+        "compression_ratio": 1.4944444444444445,
+        "no_speech_prob": 1.515750892855383e-11,
+        "confidence": 0.963,
+        "words": [
+          {
+            "text": "mi",
+            "start": 131.04,
+            "end": 131.44,
+            "confidence": 0.99
+          },
+          {
+            "text": "piace",
+            "start": 131.44,
+            "end": 131.8,
+            "confidence": 1.0
+          },
+          {
+            "text": "cucinarla.",
+            "start": 131.8,
+            "end": 132.8,
+            "confidence": 0.998
+          },
+          {
+            "text": "Spaghetti",
+            "start": 133.4,
+            "end": 135.14,
+            "confidence": 0.903
+          },
+          {
+            "text": "al",
+            "start": 135.14,
+            "end": 135.32,
+            "confidence": 0.999
+          },
+          {
+            "text": "pomodoro.",
+            "start": 135.32,
+            "end": 135.84,
+            "confidence": 0.977
+          },
+          {
+            "text": "Solo",
+            "start": 136.36,
+            "end": 136.98,
+            "confidence": 0.996
+          },
+          {
+            "text": "l'uovo",
+            "start": 136.98,
+            "end": 137.3,
+            "confidence": 0.881
+          },
+          {
+            "text": "fritto.",
+            "start": 137.3,
+            "end": 137.64,
+            "confidence": 0.996
+          },
+          {
+            "text": "Chi",
+            "start": 139.0,
+            "end": 139.48,
+            "confidence": 0.968
+          },
+          {
+            "text": "è",
+            "start": 139.48,
+            "end": 139.5,
+            "confidence": 0.968
+          },
+          {
+            "text": "che",
+            "start": 139.5,
+            "end": 139.62,
+            "confidence": 0.999
+          },
+          {
+            "text": "cucina",
+            "start": 139.62,
+            "end": 139.98,
+            "confidence": 0.999
+          },
+          {
+            "text": "a",
+            "start": 139.98,
+            "end": 140.12,
+            "confidence": 0.997
+          },
+          {
+            "text": "casa?",
+            "start": 140.12,
+            "end": 140.32,
+            "confidence": 0.93
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 2434,
+        "start": 140.42000000000002,
+        "end": 145.74,
+        "text": " E' la mia voglia. Fondamentalmente non mi piace cucinare. La cosa che faccio...",
+        "tokens": [
+          50365,
+          462,
+          6,
+          635,
+          21290,
+          31273,
+          14218,
+          13,
+          479,
+          684,
+          44538,
+          4082,
+          2107,
+          2752,
+          50062,
+          18488,
+          259,
+          543,
+          13,
+          2369,
+          10163,
+          947,
+          1915,
+          8529,
+          485,
+          50665
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.25983640882703996,
+        "compression_ratio": 1.0533333333333332,
+        "no_speech_prob": 5.8752191479938265e-12,
+        "confidence": 0.787,
+        "words": [
+          {
+            "text": "E'",
+            "start": 140.42000000000002,
+            "end": 140.66,
+            "confidence": 0.267
+          },
+          {
+            "text": "la",
+            "start": 140.66,
+            "end": 140.7,
+            "confidence": 0.289
+          },
+          {
+            "text": "mia",
+            "start": 140.7,
+            "end": 140.74,
+            "confidence": 0.971
+          },
+          {
+            "text": "voglia.",
+            "start": 140.74,
+            "end": 141.04,
+            "confidence": 0.646
+          },
+          {
+            "text": "Fondamentalmente",
+            "start": 141.32,
+            "end": 142.42000000000002,
+            "confidence": 0.997
+          },
+          {
+            "text": "non",
+            "start": 142.42000000000002,
+            "end": 142.57999999999998,
+            "confidence": 0.998
+          },
+          {
+            "text": "mi",
+            "start": 142.57999999999998,
+            "end": 142.74,
+            "confidence": 1.0
+          },
+          {
+            "text": "piace",
+            "start": 142.74,
+            "end": 143.0,
+            "confidence": 0.999
+          },
+          {
+            "text": "cucinare.",
+            "start": 143.0,
+            "end": 143.66,
+            "confidence": 1.0
+          },
+          {
+            "text": "La",
+            "start": 143.9,
+            "end": 144.62,
+            "confidence": 0.797
+          },
+          {
+            "text": "cosa",
+            "start": 144.62,
+            "end": 144.9,
+            "confidence": 0.999
+          },
+          {
+            "text": "che",
+            "start": 144.9,
+            "end": 145.04,
+            "confidence": 0.999
+          },
+          {
+            "text": "faccio...",
+            "start": 145.04,
+            "end": 145.74,
+            "confidence": 0.999
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 145.0,
+        "end": 154.62,
+        "text": " faccio spesso pasta con i legumi quali lenticchie e sa cucinare qualcosa si qual",
+        "tokens": [
+          50365,
+          1915,
+          8529,
+          637,
+          5557,
+          13296,
+          416,
+          741,
+          1676,
+          17800,
+          4101,
+          72,
+          23556,
+          299,
+          339,
+          414,
+          308,
+          601,
+          18488,
+          259,
+          543,
+          42400,
+          1511,
+          4101,
+          50848
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.288300625689618,
+        "compression_ratio": 1.54,
+        "no_speech_prob": 1.1845332874294012e-11,
+        "confidence": 0.81,
+        "words": [
+          {
+            "text": "faccio",
+            "start": 145.0,
+            "end": 145.82,
+            "confidence": 0.934
+          },
+          {
+            "text": "spesso",
+            "start": 145.82,
+            "end": 147.08,
+            "confidence": 0.985
+          },
+          {
+            "text": "pasta",
+            "start": 147.08,
+            "end": 147.98,
+            "confidence": 0.655
+          },
+          {
+            "text": "con",
+            "start": 147.98,
+            "end": 148.28,
+            "confidence": 0.995
+          },
+          {
+            "text": "i",
+            "start": 148.28,
+            "end": 148.58,
+            "confidence": 0.901
+          },
+          {
+            "text": "legumi",
+            "start": 148.58,
+            "end": 148.96,
+            "confidence": 0.997
+          },
+          {
+            "text": "quali",
+            "start": 148.96,
+            "end": 150.56,
+            "confidence": 0.925
+          },
+          {
+            "text": "lenticchie",
+            "start": 150.56,
+            "end": 151.66,
+            "confidence": 0.906
+          },
+          {
+            "text": "e",
+            "start": 151.66,
+            "end": 152.22,
+            "confidence": 0.214
+          },
+          {
+            "text": "sa",
+            "start": 152.22,
+            "end": 152.34,
+            "confidence": 0.919
+          },
+          {
+            "text": "cucinare",
+            "start": 152.34,
+            "end": 152.84,
+            "confidence": 0.989
+          },
+          {
+            "text": "qualcosa",
+            "start": 152.84,
+            "end": 153.62,
+            "confidence": 0.832
+          },
+          {
+            "text": "si",
+            "start": 153.62,
+            "end": 154.04,
+            "confidence": 0.345
+          },
+          {
+            "text": "qual",
+            "start": 154.04,
+            "end": 154.62,
+            "confidence": 0.506
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 154.62,
+        "end": 162.84,
+        "text": " è il piatto che cucina peggio l'anatra all'arancia sarà difficilissimo fare",
+        "tokens": [
+          50848,
+          4873,
+          1930,
+          3895,
+          37491,
+          947,
+          18488,
+          1426,
+          520,
+          1615,
+          1004,
+          287,
+          6,
+          282,
+          33593,
+          439,
+          6,
+          17142,
+          2755,
+          41338,
+          2204,
+          388,
+          34966,
+          11994,
+          51325
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.288300625689618,
+        "compression_ratio": 1.54,
+        "no_speech_prob": 1.1845332874294012e-11,
+        "confidence": 0.747,
+        "words": [
+          {
+            "text": "è",
+            "start": 154.62,
+            "end": 154.84,
+            "confidence": 0.982
+          },
+          {
+            "text": "il",
+            "start": 154.84,
+            "end": 154.96,
+            "confidence": 1.0
+          },
+          {
+            "text": "piatto",
+            "start": 154.96,
+            "end": 155.28,
+            "confidence": 0.999
+          },
+          {
+            "text": "che",
+            "start": 155.28,
+            "end": 155.46,
+            "confidence": 0.974
+          },
+          {
+            "text": "cucina",
+            "start": 155.46,
+            "end": 156.26,
+            "confidence": 0.793
+          },
+          {
+            "text": "peggio",
+            "start": 156.26,
+            "end": 158.46,
+            "confidence": 0.778
+          },
+          {
+            "text": "l'anatra",
+            "start": 158.46,
+            "end": 159.54,
+            "confidence": 0.483
+          },
+          {
+            "text": "all'arancia",
+            "start": 159.54,
+            "end": 160.26,
+            "confidence": 0.782
+          },
+          {
+            "text": "sarà",
+            "start": 160.26,
+            "end": 160.66,
+            "confidence": 0.652
+          },
+          {
+            "text": "difficilissimo",
+            "start": 160.66,
+            "end": 161.6,
+            "confidence": 0.82
+          },
+          {
+            "text": "fare",
+            "start": 161.6,
+            "end": 162.84,
+            "confidence": 0.592
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 164.78,
+        "end": 170.45,
+        "text": " diciamo i dolci i dolci doveva fare i dolci vado tutti in crisi e non ci",
+        "tokens": [
+          51325,
+          14285,
+          7415,
+          741,
+          17858,
+          537,
+          741,
+          17858,
+          537,
+          23287,
+          2757,
+          11994,
+          741,
+          17858,
+          537,
+          371,
+          1573,
+          19822,
+          294,
+          4661,
+          72,
+          308,
+          2107,
+          6983,
+          51637
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.288300625689618,
+        "compression_ratio": 1.54,
+        "no_speech_prob": 1.1845332874294012e-11,
+        "confidence": 0.722,
+        "words": [
+          {
+            "text": "diciamo",
+            "start": 164.78,
+            "end": 165.07999999999998,
+            "confidence": 0.936
+          },
+          {
+            "text": "i",
+            "start": 165.07999999999998,
+            "end": 165.18,
+            "confidence": 0.982
+          },
+          {
+            "text": "dolci",
+            "start": 165.18,
+            "end": 165.57999999999998,
+            "confidence": 0.98
+          },
+          {
+            "text": "i",
+            "start": 165.57999999999998,
+            "end": 165.9,
+            "confidence": 0.911
+          },
+          {
+            "text": "dolci",
+            "start": 165.9,
+            "end": 166.16,
+            "confidence": 0.96
+          },
+          {
+            "text": "doveva",
+            "start": 166.16,
+            "end": 166.42000000000002,
+            "confidence": 0.156
+          },
+          {
+            "text": "fare",
+            "start": 166.42000000000002,
+            "end": 166.64,
+            "confidence": 0.885
+          },
+          {
+            "text": "i",
+            "start": 166.64,
+            "end": 167.66,
+            "confidence": 0.797
+          },
+          {
+            "text": "dolci",
+            "start": 167.66,
+            "end": 168.0,
+            "confidence": 0.968
+          },
+          {
+            "text": "vado",
+            "start": 168.0,
+            "end": 168.32,
+            "confidence": 0.631
+          },
+          {
+            "text": "tutti",
+            "start": 168.32,
+            "end": 168.52,
+            "confidence": 0.496
+          },
+          {
+            "text": "in",
+            "start": 168.52,
+            "end": 168.72,
+            "confidence": 0.804
+          },
+          {
+            "text": "crisi",
+            "start": 168.72,
+            "end": 169.98,
+            "confidence": 0.996
+          },
+          {
+            "text": "e",
+            "start": 169.98,
+            "end": 170.24,
+            "confidence": 0.429
+          },
+          {
+            "text": "non",
+            "start": 170.24,
+            "end": 170.36,
+            "confidence": 0.835
+          },
+          {
+            "text": "ci",
+            "start": 170.36,
+            "end": 170.45,
+            "confidence": 0.874
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 2544,
+        "start": 170.45,
+        "end": 174.98,
+        "text": " ma le cose complicate quelle mi escono male non sarei non sarei",
+        "tokens": [
+          50365,
+          463,
+          476,
+          30261,
+          1209,
+          8700,
+          29237,
+          2752,
+          785,
+          45846,
+          7133,
+          2107,
+          38706,
+          72,
+          2107,
+          38706,
+          72,
+          50593
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3156828629343133,
+        "compression_ratio": 1.105263157894737,
+        "no_speech_prob": 7.761316762888715e-12,
+        "confidence": 0.789,
+        "words": [
+          {
+            "text": "ma",
+            "start": 170.45,
+            "end": 171.1,
+            "confidence": 0.568
+          },
+          {
+            "text": "le",
+            "start": 171.1,
+            "end": 171.36,
+            "confidence": 0.987
+          },
+          {
+            "text": "cose",
+            "start": 171.36,
+            "end": 171.56,
+            "confidence": 0.997
+          },
+          {
+            "text": "complicate",
+            "start": 171.56,
+            "end": 172.34,
+            "confidence": 0.991
+          },
+          {
+            "text": "quelle",
+            "start": 172.34,
+            "end": 172.84,
+            "confidence": 0.928
+          },
+          {
+            "text": "mi",
+            "start": 172.84,
+            "end": 173.06,
+            "confidence": 0.798
+          },
+          {
+            "text": "escono",
+            "start": 173.06,
+            "end": 173.6,
+            "confidence": 0.961
+          },
+          {
+            "text": "male",
+            "start": 173.6,
+            "end": 173.96,
+            "confidence": 0.988
+          },
+          {
+            "text": "non",
+            "start": 173.96,
+            "end": 174.16,
+            "confidence": 0.87
+          },
+          {
+            "text": "sarei",
+            "start": 174.16,
+            "end": 174.62,
+            "confidence": 0.532
+          },
+          {
+            "text": "non",
+            "start": 174.62,
+            "end": 174.72,
+            "confidence": 0.458
+          },
+          {
+            "text": "sarei",
+            "start": 174.72,
+            "end": 174.98,
+            "confidence": 0.732
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 174.0,
+        "end": 181.96,
+        "text": " Non sarei in grado di fare una lasagna o il pesce forse, non mi cimenterei proprio.",
+        "tokens": [
+          50365,
+          8774,
+          38706,
+          72,
+          294,
+          677,
+          1573,
+          1026,
+          11994,
+          2002,
+          2439,
+          35697,
+          277,
+          1930,
+          9262,
+          384,
+          337,
+          405,
+          11,
+          2107,
+          2752,
+          269,
+          2328,
+          40256,
+          28203,
+          13,
+          50768
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20359690189361573,
+        "compression_ratio": 1.394904458598726,
+        "no_speech_prob": 6.183247924090862e-12,
+        "confidence": 0.97,
+        "words": [
+          {
+            "text": "Non",
+            "start": 174.0,
+            "end": 174.16,
+            "confidence": 0.957
+          },
+          {
+            "text": "sarei",
+            "start": 174.16,
+            "end": 175.06,
+            "confidence": 0.998
+          },
+          {
+            "text": "in",
+            "start": 175.06,
+            "end": 175.2,
+            "confidence": 0.999
+          },
+          {
+            "text": "grado",
+            "start": 175.2,
+            "end": 175.46,
+            "confidence": 1.0
+          },
+          {
+            "text": "di",
+            "start": 175.46,
+            "end": 175.58,
+            "confidence": 0.997
+          },
+          {
+            "text": "fare",
+            "start": 175.58,
+            "end": 175.82,
+            "confidence": 1.0
+          },
+          {
+            "text": "una",
+            "start": 175.82,
+            "end": 176.16,
+            "confidence": 0.997
+          },
+          {
+            "text": "lasagna",
+            "start": 176.16,
+            "end": 176.86,
+            "confidence": 0.998
+          },
+          {
+            "text": "o",
+            "start": 176.86,
+            "end": 177.56,
+            "confidence": 0.952
+          },
+          {
+            "text": "il",
+            "start": 177.56,
+            "end": 179.36,
+            "confidence": 0.723
+          },
+          {
+            "text": "pesce",
+            "start": 179.36,
+            "end": 179.72,
+            "confidence": 1.0
+          },
+          {
+            "text": "forse,",
+            "start": 179.72,
+            "end": 180.18,
+            "confidence": 0.911
+          },
+          {
+            "text": "non",
+            "start": 180.48,
+            "end": 180.7,
+            "confidence": 0.983
+          },
+          {
+            "text": "mi",
+            "start": 180.7,
+            "end": 181.14,
+            "confidence": 0.999
+          },
+          {
+            "text": "cimenterei",
+            "start": 181.14,
+            "end": 181.64,
+            "confidence": 0.983
+          },
+          {
+            "text": "proprio.",
+            "start": 181.64,
+            "end": 181.96,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 183.2,
+        "end": 186.86,
+        "text": " Qual è il piatto che ti cucina tua mamma che ti piace di più?",
+        "tokens": [
+          50825,
+          13616,
+          4873,
+          1930,
+          3895,
+          37491,
+          947,
+          8757,
+          18488,
+          1426,
+          33578,
+          13524,
+          1696,
+          947,
+          8757,
+          50062,
+          1026,
+          10589,
+          30,
+          51009
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20359690189361573,
+        "compression_ratio": 1.394904458598726,
+        "no_speech_prob": 6.183247924090862e-12,
+        "confidence": 0.987,
+        "words": [
+          {
+            "text": "Qual",
+            "start": 183.2,
+            "end": 183.38,
+            "confidence": 0.999
+          },
+          {
+            "text": "è",
+            "start": 183.38,
+            "end": 183.5,
+            "confidence": 0.999
+          },
+          {
+            "text": "il",
+            "start": 183.5,
+            "end": 183.62,
+            "confidence": 1.0
+          },
+          {
+            "text": "piatto",
+            "start": 183.62,
+            "end": 184.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "che",
+            "start": 184.04,
+            "end": 184.32,
+            "confidence": 1.0
+          },
+          {
+            "text": "ti",
+            "start": 184.32,
+            "end": 184.64,
+            "confidence": 1.0
+          },
+          {
+            "text": "cucina",
+            "start": 184.64,
+            "end": 185.0,
+            "confidence": 0.999
+          },
+          {
+            "text": "tua",
+            "start": 185.0,
+            "end": 185.14,
+            "confidence": 0.99
+          },
+          {
+            "text": "mamma",
+            "start": 185.14,
+            "end": 185.56,
+            "confidence": 1.0
+          },
+          {
+            "text": "che",
+            "start": 185.56,
+            "end": 185.88,
+            "confidence": 0.815
+          },
+          {
+            "text": "ti",
+            "start": 185.88,
+            "end": 186.04,
+            "confidence": 1.0
+          },
+          {
+            "text": "piace",
+            "start": 186.04,
+            "end": 186.38,
+            "confidence": 1.0
+          },
+          {
+            "text": "di",
+            "start": 186.38,
+            "end": 186.7,
+            "confidence": 1.0
+          },
+          {
+            "text": "più?",
+            "start": 186.7,
+            "end": 186.86,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 187.4,
+        "end": 188.2,
+        "text": " Pasta al forno.",
+        "tokens": [
+          51038,
+          430,
+          12468,
+          419,
+          337,
+          1771,
+          13,
+          51076
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20359690189361573,
+        "compression_ratio": 1.394904458598726,
+        "no_speech_prob": 6.183247924090862e-12,
+        "confidence": 0.923,
+        "words": [
+          {
+            "text": "Pasta",
+            "start": 187.4,
+            "end": 187.66,
+            "confidence": 0.82
+          },
+          {
+            "text": "al",
+            "start": 187.66,
+            "end": 187.8,
+            "confidence": 0.998
+          },
+          {
+            "text": "forno.",
+            "start": 187.8,
+            "end": 188.2,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 188.82,
+        "end": 191.8,
+        "text": " Pasta al forno. Bene, grazie mille.",
+        "tokens": [
+          51108,
+          430,
+          12468,
+          419,
+          337,
+          1771,
+          13,
+          27702,
+          11,
+          1295,
+          3283,
+          1728,
+          68,
+          13,
+          51256
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20359690189361573,
+        "compression_ratio": 1.394904458598726,
+        "no_speech_prob": 6.183247924090862e-12,
+        "confidence": 0.948,
+        "words": [
+          {
+            "text": "Pasta",
+            "start": 188.82,
+            "end": 189.1,
+            "confidence": 0.996
+          },
+          {
+            "text": "al",
+            "start": 189.1,
+            "end": 189.22,
+            "confidence": 1.0
+          },
+          {
+            "text": "forno.",
+            "start": 189.22,
+            "end": 189.6,
+            "confidence": 1.0
+          },
+          {
+            "text": "Bene,",
+            "start": 190.2,
+            "end": 190.92000000000002,
+            "confidence": 0.594
+          },
+          {
+            "text": "grazie",
+            "start": 191.14,
+            "end": 191.36,
+            "confidence": 1.0
+          },
+          {
+            "text": "mille.",
+            "start": 191.36,
+            "end": 191.8,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 192.1,
+        "end": 192.98,
+        "text": " Prego, arrivederci.",
+        "tokens": [
+          51256,
+          6001,
+          1571,
+          11,
+          6678,
+          260,
+          537,
+          13,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20359690189361573,
+        "compression_ratio": 1.394904458598726,
+        "no_speech_prob": 6.183247924090862e-12,
+        "confidence": 0.759,
+        "words": [
+          {
+            "text": "Prego,",
+            "start": 192.1,
+            "end": 192.32,
+            "confidence": 0.608
+          },
+          {
+            "text": "arrivederci.",
+            "start": 192.44,
+            "end": 192.98,
+            "confidence": 0.88
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 213.42,
+        "end": 218.2,
+        "text": " Grazie a tutti.",
+        "tokens": [
+          50365,
+          8985,
+          3283,
+          257,
+          19822,
+          13,
+          51864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.44202080368995667,
+        "compression_ratio": 0.6521739130434783,
+        "no_speech_prob": 5.029671817924353e-11,
+        "confidence": 0.686,
+        "words": [
+          {
+            "text": "Grazie",
+            "start": 213.42,
+            "end": 213.5,
+            "confidence": 0.578
+          },
+          {
+            "text": "a",
+            "start": 213.5,
+            "end": 214.48,
+            "confidence": 0.682
+          },
+          {
+            "text": "tutti.",
+            "start": 214.48,
+            "end": 218.2,
+            "confidence": 0.973
+          }
+        ]
+      }
+    ],
+    "language": "it",
+    "language_probability": 0.0
+  },
+  "processing_time": "2025-05-22T12:00:14.135958"
+}

@@ -1,0 +1,612 @@
+1
+00:00:00,960 --> 00:00:03,940
+Hej och välkomna till andra avsnittet av Easy Swedish.
+[Confidence: 88.39%]
+2
+00:00:04,599 --> 00:00:09,080
+Idag ska vi gå runt på Lunds universitet och fråga folk vad de studerar.
+[Confidence: 93.24%]
+3
+00:00:09,580 --> 00:00:10,900
+Här bredvid mig har jag Fredrik.
+[Confidence: 96.42%]
+4
+00:00:12,400 --> 00:00:16,859
+På ett universitet har vi folk från hela landet så idag kommer ni höra många olika dialekter.
+[Confidence: 93.69%]
+5
+00:00:29,519 --> 00:00:29,679
+Hej!
+[Confidence: 92.40%]
+6
+00:00:30,059 --> 00:00:30,440
+Hej, hej!
+[Confidence: 98.00%]
+7
+00:00:30,620 --> 00:00:31,320
+Vad studerar du för något?
+[Confidence: 98.62%]
+8
+00:00:31,699 --> 00:00:32,299
+Psykolog.
+[Confidence: 99.40%]
+9
+00:00:32,640 --> 00:00:33,299
+Var kommer du ifrån?
+[Confidence: 98.42%]
+10
+00:00:33,880 --> 00:00:34,840
+Jag kommer från Stockholm.
+[Confidence: 99.20%]
+11
+00:00:35,740 --> 00:00:36,420
+Vad studerar du?
+[Confidence: 99.60%]
+12
+00:00:36,899 --> 00:00:38,980
+Jag pluggar maskinteknik här på LTH.
+[Confidence: 99.45%]
+13
+00:00:39,359 --> 00:00:40,060
+Vad pluggar du för något?
+[Confidence: 99.64%]
+14
+00:00:40,880 --> 00:00:42,259
+Civilingenjör inom elektroteknik.
+[Confidence: 96.13%]
+15
+00:00:42,820 --> 00:00:43,640
+Pluggar du samma eller?
+[Confidence: 92.70%]
+16
+00:00:43,899 --> 00:00:44,519
+Jajamän, samma.
+[Confidence: 94.65%]
+17
+00:00:44,880 --> 00:00:46,659
+Då antar jag att du pluggar samma också.
+[Confidence: 99.84%]
+18
+00:00:47,239 --> 00:00:47,379
+Ja.
+[Confidence: 98.00%]
+19
+00:00:47,879 --> 00:00:48,640
+Vad studerar du för något?
+[Confidence: 99.96%]
+20
+00:00:49,039 --> 00:00:49,899
+Ekosystemteknik.
+[Confidence: 99.20%]
+21
+00:00:50,439 --> 00:00:52,539
+Och vad innebär det, kort sagt?
+[Confidence: 99.10%]
+22
+00:00:52,879 --> 00:00:55,039
+Ja, det är en civilingenjörsutbildning.
+[Confidence: 98.88%]
+23
+00:00:55,500 --> 00:00:57,840
+Så jag studerar på Tekniska högskolan.
+[Confidence: 93.80%]
+24
+00:00:59,820 --> 00:01:02,500
+är en teknisk utbildning med miljönriktning kan man säga.
+[Confidence: 94.93%]
+25
+00:01:03,100 --> 00:01:04,620
+Psykologi, vad tycker du om det?
+[Confidence: 99.52%]
+26
+00:01:05,260 --> 00:01:09,159
+Det är väldigt intressant. Det inkluderas mycket av människan.
+[Confidence: 91.11%]
+27
+00:01:09,840 --> 00:01:11,420
+Vad blir de flesta som pluggar det?
+[Confidence: 97.79%]
+28
+00:01:12,439 --> 00:01:14,480
+Ja, det är alltid en svår fråga.
+[Confidence: 96.89%]
+29
+00:01:15,439 --> 00:01:24,900
+Men man kan jobba som konsult mycket och hjälpa människor med att lösa olika problem som de vill ha hjälp med.
+[Confidence: 93.10%]
+30
+00:01:25,060 --> 00:01:25,659
+Var kommer du ifrån?
+[Confidence: 94.50%]
+31
+00:01:26,159 --> 00:01:26,560
+Helsingborg.
+[Confidence: 97.70%]
+32
+00:01:27,099 --> 00:01:27,159
+är
+[Confidence: 79.90%]
+33
+00:01:28,120 --> 00:01:28,780
+studerar du
+[Confidence: 97.25%]
+34
+00:01:29,280 --> 00:01:30,579
+Samma sak, maskinteknik.
+[Confidence: 96.00%]
+35
+00:01:30,819 --> 00:01:31,319
+Samma sak?
+[Confidence: 86.15%]
+36
+00:01:31,840 --> 00:01:33,200
+Pluggar du också maskinteknik?
+[Confidence: 86.88%]
+37
+00:01:33,299 --> 00:01:33,480
+Ja.
+[Confidence: 97.80%]
+38
+00:01:33,760 --> 00:01:35,159
+Och du är från?
+[Confidence: 78.85%]
+39
+00:01:35,500 --> 00:01:36,000
+Höganäs.
+[Confidence: 89.90%]
+40
+00:01:37,140 --> 00:01:38,900
+Två skåningar och en från Stockholm.
+[Confidence: 96.28%]
+41
+00:01:40,120 --> 00:01:41,159
+Vad vill du bli?
+[Confidence: 98.60%]
+42
+00:01:42,539 --> 00:01:48,599
+blir psykolog men det är väldigt brett så att man kan jobba i princip inom vilket område som.
+[Confidence: 90.65%]
+43
+00:01:48,939 --> 00:01:49,620
+Inom samhället.
+[Confidence: 98.00%]
+44
+00:01:50,239 --> 00:01:51,099
+Var är du från förresten?
+[Confidence: 95.66%]
+45
+00:01:51,340 --> 00:01:51,840
+Från Lund.
+[Confidence: 96.35%]
+46
+00:01:52,480 --> 00:01:53,519
+Hallå, vad studerar du?
+[Confidence: 87.20%]
+47
+00:01:53,879 --> 00:01:55,579
+Hej, jag studerar maskinteknik.
+[Confidence: 97.17%]
+48
+00:01:56,260 --> 00:01:56,900
+Maskinteknik.
+[Confidence: 92.80%]
+49
+00:01:56,200 --> 00:01:58,040
+Maskinteknik, vad blir man av det?
+[Confidence: 96.50%]
+50
+00:01:58,560 --> 00:01:59,280
+Civilingenjör
+[Confidence: 97.50%]
+51
+00:02:00,060 --> 00:02:02,879
+Vad är ditt drömjobb? Eller vad vill du bli?
+[Confidence: 88.86%]
+52
+00:02:03,459 --> 00:02:07,159
+Det vet jag inte riktigt. Kanske i framtiden egen företagare.
+[Confidence: 92.86%]
+53
+00:02:07,539 --> 00:02:09,419
+Men jag tycker att elektronik är skitfett.
+[Confidence: 93.69%]
+54
+00:02:10,139 --> 00:02:11,460
+Hej, vad studerar du för något?
+[Confidence: 92.78%]
+55
+00:02:12,000 --> 00:02:12,579
+Kriminologi.
+[Confidence: 94.70%]
+56
+00:02:14,479 --> 00:02:14,500
+Hej!
+[Confidence: 70.10%]
+57
+00:02:14,500 --> 00:02:14,560
+Vad pluggar du?
+[Confidence: 81.90%]
+58
+00:02:15,020 --> 00:02:16,020
+Jag pluggar kriminologi.
+[Confidence: 78.90%]
+59
+00:02:16,460 --> 00:02:16,979
+Det är jag också.
+[Confidence: 95.92%]
+60
+00:02:17,460 --> 00:02:17,819
+Ja kul!
+[Confidence: 75.95%]
+61
+00:02:18,520 --> 00:02:19,479
+Vi känner inte varandra alls.
+[Confidence: 97.68%]
+62
+00:02:19,840 --> 00:02:22,900
+Jag tror att jag har fått det någon gång på nollningen.
+[Confidence: 83.22%]
+63
+00:02:23,319 --> 00:02:25,210
+Vad vill du arbeta med när du har studerat färdigt?
+[Confidence: 88.16%]
+64
+00:02:25,250 --> 00:02:25,460
+studerat färdigt.
+[Confidence: 85.40%]
+65
+00:02:25,000 --> 00:02:26,860
+Färdigt. Osäker
+[Confidence: 72.30%]
+66
+00:02:27,020 --> 00:02:28,979
+Immigrationsverket eller någonting liknande.
+[Confidence: 84.35%]
+67
+00:02:29,919 --> 00:02:30,699
+Vad studerar du för något?
+[Confidence: 98.40%]
+68
+00:02:30,939 --> 00:02:33,099
+Kriminologi också. Vad tycker du om linjen?
+[Confidence: 96.76%]
+69
+00:02:33,680 --> 00:02:35,000
+Ja, den är riktigt bra.
+[Confidence: 92.74%]
+70
+00:02:35,280 --> 00:02:36,360
+Bra för framtida karriären.
+[Confidence: 94.30%]
+71
+00:02:37,280 --> 00:02:37,740
+Vad ska det bli?
+[Confidence: 94.03%]
+72
+00:02:38,580 --> 00:02:40,479
+Jag tänkte någonting inom
+[Confidence: 97.65%]
+73
+00:02:40,879 --> 00:02:41,879
+jobba med kriminella.
+[Confidence: 87.87%]
+74
+00:02:43,520 --> 00:02:45,240
+Utredare kanske, underlättsverksamhet.
+[Confidence: 89.63%]
+75
+00:02:45,420 --> 00:02:46,420
+Spionering, vi får se.
+[Confidence: 99.12%]
+76
+00:02:47,180 --> 00:02:49,439
+Det låter häftigt. Och du, studerar du någonting?
+[Confidence: 88.51%]
+77
+00:02:49,939 --> 00:02:50,759
+Jag studerar
+[Confidence: 98.35%]
+78
+00:02:51,199 --> 00:02:52,939
+design i visuell kommunikation.
+[Confidence: 80.83%]
+79
+00:02:53,740 --> 00:02:54,300
+Här i Lund?
+[Confidence: 98.50%]
+80
+00:02:54,719 --> 00:02:54,900
+Nej.
+[Confidence: 81.00%]
+81
+00:02:54,020 --> 00:02:55,479
+i Lund? i Norge.
+[Confidence: 85.65%]
+82
+00:02:56,360 --> 00:02:58,439
+I Norge? Var i Norge?
+[Confidence: 93.72%]
+83
+00:02:58,840 --> 00:02:59,439
+I Bergen.
+[Confidence: 91.30%]
+84
+00:03:00,280 --> 00:03:01,139
+Jag har jobbat i Bergen.
+[Confidence: 99.04%]
+85
+00:03:01,340 --> 00:03:02,860
+Ja, coolt. Det regner mig.
+[Confidence: 93.04%]
+86
+00:03:03,199 --> 00:03:04,060
+Vad studerar du för något?
+[Confidence: 98.68%]
+87
+00:03:05,520 --> 00:03:08,819
+Jag läser normalt industriell ekonomi på LTH.
+[Confidence: 97.89%]
+88
+00:03:09,680 --> 00:03:12,099
+Men nu läser jag en termin praktisk filosofi.
+[Confidence: 98.26%]
+89
+00:03:12,460 --> 00:03:14,259
+Praktisk filosofi, det lär intressant.
+[Confidence: 86.06%]
+90
+00:03:14,300 --> 00:03:15,800
+Kan du förklara mer vad det är för något?
+[Confidence: 98.26%]
+91
+00:03:16,939 --> 00:03:21,060
+Ja, praktisk filosofi är motsats till teoretisk filosofi
+[Confidence: 94.71%]
+92
+00:03:21,579 --> 00:03:23,719
+Frågan ungefär vilken
+[Confidence: 80.87%]
+93
+00:03:23,000 --> 00:03:26,379
+Vilken handling är bra eller dålig?
+[Confidence: 97.90%]
+94
+00:03:27,080 --> 00:03:31,539
+Teoretisk filosofi är mer, man ifrågasätter vad bra innebär.
+[Confidence: 99.04%]
+95
+00:03:31,979 --> 00:03:37,240
+Så det är en ganska handfast etik och vägledning i moraliska frågor.
+[Confidence: 96.15%]
+96
+00:03:38,060 --> 00:03:40,840
+Anledningen till att jag läser det är väl att jag är egentligen ingenjör.
+[Confidence: 95.65%]
+97
+00:03:41,539 --> 00:03:45,520
+Och jag är väl en som tycker att ingenjörer borde alla ha en etisk utbildning.
+[Confidence: 95.33%]
+98
+00:03:45,699 --> 00:03:50,680
+Så att man inte kodar värmesökande algoritmer som sätts i drönare och avrättar människor.
+[Confidence: 99.59%]
+99
+00:03:51,219 --> 00:03:52,020
+Kan man tycka är dåligt.
+[Confidence: 90.30%]
+100
+00:03:52,520 --> 00:03:52,719
+man
+[Confidence: 99.20%]
+101
+00:03:52,319 --> 00:03:53,639
+Det kan man absolut tycka är dåligt.
+[Confidence: 96.23%]
+102
+00:03:53,800 --> 00:03:54,620
+Hej, var är du från?
+[Confidence: 96.88%]
+103
+00:03:55,419 --> 00:03:58,340
+Jag är från Skåne och jag är egentligen från Högernäs.
+[Confidence: 95.81%]
+104
+00:03:59,300 --> 00:04:00,259
+Vad är det du studerar för något?
+[Confidence: 99.63%]
+105
+00:04:01,099 --> 00:04:04,159
+Just nu läser jag musikvetenskap på fortsättningskurs.
+[Confidence: 97.24%]
+106
+00:04:04,419 --> 00:04:04,960
+Var pluggar du?
+[Confidence: 83.50%]
+107
+00:04:05,460 --> 00:04:06,240
+Humanekologi.
+[Confidence: 97.20%]
+108
+00:04:06,520 --> 00:04:06,939
+hör du det?
+[Confidence: 86.47%]
+109
+00:04:07,479 --> 00:04:08,219
+Humanekologi.
+[Confidence: 99.80%]
+110
+00:04:08,340 --> 00:04:09,000
+Och du pluggar?
+[Confidence: 99.37%]
+111
+00:04:09,420 --> 00:04:10,039
+Humanekologi.
+[Confidence: 100.00%]
+112
+00:04:10,479 --> 00:04:12,259
+Och vad pluggar man då, kort sagt?
+[Confidence: 98.66%]
+113
+00:04:14,439 --> 00:04:16,000
+Det är tvärvetenskapligt.
+[Confidence: 99.30%]
+114
+00:04:16,279 --> 00:04:21,980
+Så det är socialantropologi och historia och samhälle, politisk ekologi.
+[Confidence: 92.20%]
+115
+00:04:21,759 --> 00:04:22,360
+ekologi och sånt.
+[Confidence: 91.77%]
+116
+00:04:23,740 --> 00:04:24,279
+Väldigt många.
+[Confidence: 92.55%]
+117
+00:04:24,680 --> 00:04:26,259
+Människans relation till naturen.
+[Confidence: 99.55%]
+118
+00:04:26,819 --> 00:04:28,639
+Det handlar inte om instrument att spela egentligen.
+[Confidence: 93.24%]
+119
+00:04:29,220 --> 00:04:31,279
+Det är mer om musikteorier
+[Confidence: 98.34%]
+120
+00:04:31,279 --> 00:04:32,240
+inom musiken.
+[Confidence: 99.95%]
+121
+00:04:32,839 --> 00:04:33,899
+Sociologi och liknande.
+[Confidence: 99.50%]
+122
+00:04:34,439 --> 00:04:36,879
+Något som många har mycket är om kön
+[Confidence: 90.10%]
+123
+00:04:36,939 --> 00:04:37,500
+inom musiken.
+[Confidence: 99.95%]
+124
+00:04:38,680 --> 00:04:41,079
+Feminism och mannens roll
+[Confidence: 93.52%]
+125
+00:04:41,079 --> 00:04:42,379
+och kvinnans roll inom musiken.
+[Confidence: 90.08%]
+126
+00:04:47,160 --> 00:04:47,360
+Hej!
+[Confidence: 99.40%]
+127
+00:04:48,360 --> 00:04:49,740
+Vad studerar du för något?
+[Confidence: 99.42%]
+128
+00:04:50,920 --> 00:04:52,360
+Strategisk kommunikation
+[Confidence: 86.40%]
+129
+00:04:52,959 --> 00:04:54,540
+Vad innebär det, kort sagt?
+[Confidence: 91.76%]
+130
+00:04:55,360 --> 00:04:59,620
+Att man studerar organisationer och kommunicerar internt och externt
+[Confidence: 96.60%]
+131
+00:05:00,259 --> 00:05:01,120
+Hej, vad pluggar du för något?
+[Confidence: 98.23%]
+132
+00:05:01,540 --> 00:05:02,779
+Jag pluggar litteraturvetenskap
+[Confidence: 90.90%]
+133
+00:05:03,180 --> 00:05:05,779
+Och vad pluggar ni då? Vad är det ni läser om?
+[Confidence: 96.66%]
+134
+00:05:06,699 --> 00:05:08,399
+Det är ganska mycket litteraturhistoria
+[Confidence: 94.28%]
+135
+00:05:08,639 --> 00:05:10,980
+Också många olika teoretiska perspektiv
+[Confidence: 95.46%]
+136
+00:05:11,819 --> 00:05:15,860
+Och att försöka tolka litteratur och granska och tala om litteratur
+[Confidence: 96.49%]
+137
+00:05:16,100 --> 00:05:19,300
+Vad hade du helst velat jobba med när du hade studerat färdigt?
+[Confidence: 92.07%]
+138
+00:05:20,540 --> 00:05:23,779
+hade velat jobba på Melodifestivalen med kommunikation.
+[Confidence: 95.17%]
+139
+00:05:25,800 --> 00:05:27,560
+Hej Fredrik, vad pluggar du för
+[Confidence: 89.28%]
+140
+00:05:27,980 --> 00:05:30,939
+Jag pluggar utvecklingsstudion. Vad innebär det?
+[Confidence: 89.62%]
+141
+00:05:31,519 --> 00:05:36,379
+Det innebär att man arbetar med utveckling i utvecklingsländer på fyra olika sätt.
+[Confidence: 95.77%]
+142
+00:05:36,579 --> 00:05:42,079
+Det är sociologi, ekonomi, geografi och politik.
+[Confidence: 96.90%]
+143
+00:05:43,279 --> 00:05:45,000
+Vi sitter här med vår fotograf Anders.
+[Confidence: 94.27%]
+144
+00:05:45,699 --> 00:05:47,180
+Anders, var kommer du ifrån?
+[Confidence: 94.36%]
+145
+00:05:47,459 --> 00:05:48,980
+Jag kommer från Indonesien.
+[Confidence: 90.18%]
+146
+00:05:50,019 --> 00:05:52,959
+Och du studerar också Lund. Vad studerar du för något?
+[Confidence: 87.12%]
+147
+00:05:53,439 --> 00:05:56,500
+Jag studerar Media och Kommunikation.
+[Confidence: 82.48%]
+148
+00:05:58,439 --> 00:06:01,540
+Vet du något arbete du skulle vilja jobba med efteråt?
+[Confidence: 97.78%]
+149
+00:06:02,560 --> 00:06:03,620
+Mediaindustri.
+[Confidence: 68.10%]
+150
+00:06:04,360 --> 00:06:05,899
+Något jobb kanske?
+[Confidence: 86.83%]
+151
+00:06:06,740 --> 00:06:07,819
+Pluralist.
+[Confidence: 57.40%]
+152
+00:06:08,899 --> 00:06:10,300
+Okej, jättebra. Tack så mycket.
+[Confidence: 92.46%]
+153
+00:06:21,180 --> 00:06:21,319
+Textning.nu
+[Confidence: 74.80%]
