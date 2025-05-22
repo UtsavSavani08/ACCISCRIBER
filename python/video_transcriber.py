@@ -111,15 +111,20 @@ class VideoTranscriber:
     def process_video(self, video_path: str, output_dir: str, min_confidence: float = 0.5) -> Dict:
         try:
             print("Step 1: Checking video file existence")
-            # Add the prefix when checking for the file
+            # First try with the prefix
             dir_path = os.path.dirname(video_path)
             base_name = os.path.basename(video_path)
-            if not base_name.startswith("DInternCappython"):
-                base_name = "DInternCappython" + base_name
-            full_path = os.path.join(dir_path, base_name)
+            prefixed_name = "CUsersdvcodInternCaptionpython" + base_name if not base_name.startswith("CUsersdvcodInternCaptionpython") else base_name
+            full_path = os.path.join(dir_path, prefixed_name)
             
+            # If prefixed file doesn't exist, try the original path
             if not os.path.exists(full_path):
-                raise FileNotFoundError(f"Video file not found: {full_path}")
+                full_path = video_path
+                if not os.path.exists(full_path):
+                    raise FileNotFoundError(f"Video file not found at either {full_path} or {os.path.join(dir_path, prefixed_name)}")
+                print(f"Using original file path: {full_path}")
+            else:
+                print(f"Using prefixed file path: {full_path}")
 
             # Continue with the rest of the processing using the full_path
             print("Step 2: Creating output directory")
@@ -148,13 +153,23 @@ class VideoTranscriber:
 
                 print("Step 6: Transcribing audio")
                 try:
-                    # Process audio in smaller chunks with overlap for better accuracy
-                    chunk_duration = 15  # reduced from 30 to 15 seconds
-                    overlap_duration = 2  # seconds of overlap between chunks
+                    # Process audio in smaller chunks with improved overlap handling
+                    chunk_duration = 30  # reduced from 15 to 10 seconds for better control
+                    overlap_duration = 1  # reduced overlap to minimize duplicates
                     sample_rate = 16000
                     all_segments = []
                     last_text = None
-                    duplicate_threshold = 0.85  # similarity threshold for duplicate detection
+                    duplicate_threshold = 0.6  # reduced threshold for stricter duplicate detection
+                    
+                    # Add text cleaning function
+                    def clean_text(text: str) -> str:
+                        # Remove repeated words
+                        words = text.split()
+                        cleaned_words = []
+                        for i, word in enumerate(words):
+                            if i == 0 or word != words[i-1]:
+                                cleaned_words.append(word)
+                        return ' '.join(cleaned_words)
                     
                     for i in range(0, len(audio), int((chunk_duration - overlap_duration) * sample_rate)):
                         start_sample = i
@@ -168,24 +183,35 @@ class VideoTranscriber:
                         else:
                             chunk_result = whisper_ts.transcribe(self.model, audio_chunk, language=detected_language)
                         
-                        # Process segments and remove duplicates
+                        # Process segments and remove duplicates with improved cleaning
                         for segment in chunk_result["segments"]:
                             # Adjust timestamps
                             segment_start = segment["start"] + (i / sample_rate)
                             segment_end = segment["end"] + (i / sample_rate)
                             
-                            # Skip if this is a duplicate of the last segment
-                            current_text = " ".join(w["text"] for w in segment["words"])
-                            if last_text and self._text_similarity(current_text, last_text) > duplicate_threshold:
+                            # Clean and check the text
+                            current_text = clean_text(" ".join(w["text"] for w in segment["words"]))
+                            
+                            # Skip if this is a duplicate or contains excessive repetition
+                            if last_text and (self._text_similarity(current_text, last_text) > duplicate_threshold 
+                                             or len(set(current_text.split())) < len(current_text.split()) / 2):
                                 continue
                             
-                            # Update segment timestamps
+                            # Update segment timestamps and words
                             segment["start"] = segment_start
                             segment["end"] = segment_end
-                            for word in segment["words"]:
-                                word["start"] += (i / sample_rate)
-                                word["end"] += (i / sample_rate)
                             
+                            # Clean up words to remove immediate repetitions
+                            cleaned_words = []
+                            last_word = None
+                            for word in segment["words"]:
+                                if not last_word or word["text"] != last_word["text"]:
+                                    word["start"] += (i / sample_rate)
+                                    word["end"] += (i / sample_rate)
+                                    cleaned_words.append(word)
+                                    last_word = word
+                            
+                            segment["words"] = cleaned_words
                             all_segments.append(segment)
                             last_text = current_text
                     
@@ -316,3 +342,5 @@ class VideoTranscriber:
         intersection = words1.intersection(words2)
         union = words1.union(words2)
         return len(intersection) / len(union)
+
+

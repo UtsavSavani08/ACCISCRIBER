@@ -75,7 +75,7 @@ class Transcriber:
             audio = self.load_audio(audio_path)
             
             # Process audio in smaller chunks with better overlap handling
-            chunk_duration = 15  # Reduced from 15 to 10 seconds
+            chunk_duration = 30  # Reduced from 15 to 10 seconds
             overlap_duration = 1  # Reduced from 2 to 1 second
             sample_rate = 16000
             all_segments = []

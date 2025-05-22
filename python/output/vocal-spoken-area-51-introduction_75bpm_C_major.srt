@@ -1,36 +1,48 @@
 1
-00:00:00,240 --> 00:00:05,480
-As the stealth bombers rolled off the assembly line, rumors surfaced that the military was
-[Confidence: 92.52%]
+00:00:00,240 --> 00:00:03,120
+As the stealth bombers rolled off the assembly line,
+[Confidence: 95.79%]
 2
-00:00:05,559 --> 00:00:12,039
-test-flying recovered alien craft at a secret government base known as Area 51.
-[Confidence: 96.55%]
+00:00:03,480 --> 00:00:07,929
+rumors surfaced that the military was test flying recovered alien craft
+[Confidence: 88.74%]
 3
-00:00:13,460 --> 00:00:18,589
-If the military was going to test-fly alien craft, Area 51 was the perfect place to do
-[Confidence: 98.86%]
+00:00:07,929 --> 00:00:12,339
+at a secret government base known as Area 51.
+[Confidence: 98.69%]
 4
-00:00:18,589 --> 00:00:18,820
-it.
-[Confidence: 99.90%]
+00:00:13,380 --> 00:00:16,440
+If the military was going to test fly alien craft,
+[Confidence: 99.03%]
 5
-00:00:19,260 --> 00:00:25,640
-Located some 125 miles outside of Las Vegas, it is one of the least populated expanses
-[Confidence: 97.77%]
+00:00:16,460 --> 00:00:18,940
+Area 51 was the perfect place to do it.
+[Confidence: 99.66%]
 6
-00:00:25,679 --> 00:00:26,780
-in the United States.
-[Confidence: 99.12%]
+00:00:19,320 --> 00:00:22,660
+Located some 125 miles outside of Las Vegas,
+[Confidence: 99.38%]
 7
-00:00:28,160 --> 00:00:34,140
-Area 51 is surrounded on three sides by military testing grounds and hidden from public view
-[Confidence: 97.76%]
+00:00:23,039 --> 00:00:26,980
+it is one of the least populated expanses in the United States.
+[Confidence: 99.22%]
 8
-00:00:34,140 --> 00:00:36,060
-behind the Groom Mountain Range.
-[Confidence: 86.12%]
+00:00:27,920 --> 00:00:30,039
+Area 51 is surrounded on three the
+[Confidence: 88.19%]
 9
-00:00:37,179 --> 00:00:41,859
-This Russian satellite photo shows the base as it appeared in the 1960s.
-[Confidence: 98.42%]
+00:00:30,059 --> 00:00:32,560
+surrounded on three sides by military testing grounds
+[Confidence: 94.91%]
+10
+00:00:32,899 --> 00:00:36,200
+and hidden from public view behind the Groom Mountain Range.
+[Confidence: 87.96%]
+11
+00:00:37,219 --> 00:00:39,740
+This Russian satellite photo shows the base
+[Confidence: 98.07%]
+12
+00:00:39,759 --> 00:00:41,899
+as it appeared in the 1960s.
+[Confidence: 99.17%]

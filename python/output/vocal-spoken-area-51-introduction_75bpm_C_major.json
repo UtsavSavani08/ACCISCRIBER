@@ -2,14 +2,13 @@
   "language": "en",
   "language_confidence": 0.0,
   "transcription": {
-    "text": " As the stealth bombers rolled off the assembly line, rumors surfaced that the military was test-flying recovered alien craft at a secret government base known as Area 51. If the military was going to test-fly alien craft, Area 51 was the perfect place to do it. Located some 125 miles outside of Las Vegas, it is one of the least populated expanses in the United States. Area 51 is surrounded on three sides by military testing grounds and hidden from public view behind the Groom Mountain Range. This Russian satellite photo shows the base as it appeared in the 1960s.",
     "segments": [
       {
         "id": 0,
         "seek": 0,
         "start": 0.24,
-        "end": 5.48,
-        "text": " As the stealth bombers rolled off the assembly line, rumors surfaced that the military was",
+        "end": 3.12,
+        "text": " As the stealth bombers rolled off the assembly line,",
         "tokens": [
           50364,
           1018,
@@ -22,6 +21,78 @@
           12103,
           1622,
           11,
+          50526
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1701659130793746,
+        "compression_ratio": 1.608695652173913,
+        "no_speech_prob": 0.10366516560316086,
+        "confidence": 0.955,
+        "words": [
+          {
+            "text": "As",
+            "start": 0.24,
+            "end": 0.52,
+            "confidence": 0.774
+          },
+          {
+            "text": "the",
+            "start": 0.52,
+            "end": 0.78,
+            "confidence": 0.996
+          },
+          {
+            "text": "stealth",
+            "start": 0.78,
+            "end": 1.12,
+            "confidence": 0.977
+          },
+          {
+            "text": "bombers",
+            "start": 1.12,
+            "end": 1.42,
+            "confidence": 0.962
+          },
+          {
+            "text": "rolled",
+            "start": 1.42,
+            "end": 1.8,
+            "confidence": 0.983
+          },
+          {
+            "text": "off",
+            "start": 1.8,
+            "end": 2.06,
+            "confidence": 0.972
+          },
+          {
+            "text": "the",
+            "start": 2.06,
+            "end": 2.3,
+            "confidence": 0.977
+          },
+          {
+            "text": "assembly",
+            "start": 2.3,
+            "end": 2.72,
+            "confidence": 0.99
+          },
+          {
+            "text": "line,",
+            "start": 2.72,
+            "end": 3.12,
+            "confidence": 0.99
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 3.48,
+        "end": 7.93,
+        "text": " rumors surfaced that the military was test flying recovered alien craft",
+        "tokens": [
+          50526,
           21201,
           9684,
           3839,
@@ -29,121 +100,95 @@
           264,
           4632,
           390,
-          50638
+          1500,
+          7137,
+          19542,
+          12319,
+          8448,
+          50776
         ],
         "temperature": 0.0,
-        "avg_logprob": -0.11884146548332052,
-        "compression_ratio": 1.6017316017316017,
-        "no_speech_prob": 0.06765421479940414,
-        "confidence": 0.92,
+        "avg_logprob": -0.1701659130793746,
+        "compression_ratio": 1.608695652173913,
+        "no_speech_prob": 0.10366516560316086,
+        "confidence": 0.884,
         "words": [
           {
-            "text": "As",
-            "start": 0.24,
-            "end": 0.38,
-            "confidence": 0.814
-          },
-          {
-            "text": "the",
-            "start": 0.38,
-            "end": 0.56,
-            "confidence": 0.998
-          },
-          {
-            "text": "stealth",
-            "start": 0.56,
-            "end": 0.86,
-            "confidence": 0.974
-          },
-          {
-            "text": "bombers",
-            "start": 0.86,
-            "end": 1.28,
-            "confidence": 0.988
-          },
-          {
-            "text": "rolled",
-            "start": 1.28,
-            "end": 1.66,
-            "confidence": 0.982
-          },
-          {
-            "text": "off",
-            "start": 1.66,
-            "end": 1.92,
-            "confidence": 0.987
-          },
-          {
-            "text": "the",
-            "start": 1.92,
-            "end": 2.08,
-            "confidence": 0.984
-          },
-          {
-            "text": "assembly",
-            "start": 2.08,
-            "end": 2.54,
-            "confidence": 0.986
-          },
-          {
-            "text": "line,",
-            "start": 2.54,
-            "end": 2.94,
-            "confidence": 0.979
-          },
-          {
             "text": "rumors",
-            "start": 3.12,
-            "end": 3.7,
-            "confidence": 0.548
+            "start": 3.48,
+            "end": 3.9,
+            "confidence": 0.886
           },
           {
             "text": "surfaced",
-            "start": 3.7,
-            "end": 4.38,
-            "confidence": 0.98
+            "start": 3.9,
+            "end": 4.46,
+            "confidence": 0.996
           },
           {
             "text": "that",
-            "start": 4.38,
-            "end": 4.58,
-            "confidence": 0.89
+            "start": 4.46,
+            "end": 4.7,
+            "confidence": 0.991
           },
           {
             "text": "the",
-            "start": 4.58,
-            "end": 4.74,
-            "confidence": 0.948
+            "start": 4.7,
+            "end": 4.94,
+            "confidence": 0.991
           },
           {
             "text": "military",
-            "start": 4.74,
-            "end": 5.16,
-            "confidence": 0.927
+            "start": 4.94,
+            "end": 5.32,
+            "confidence": 0.985
           },
           {
             "text": "was",
-            "start": 5.16,
-            "end": 5.48,
-            "confidence": 0.893
+            "start": 5.32,
+            "end": 5.66,
+            "confidence": 0.902
+          },
+          {
+            "text": "test",
+            "start": 5.66,
+            "end": 6.08,
+            "confidence": 0.974
+          },
+          {
+            "text": "flying",
+            "start": 6.08,
+            "end": 6.46,
+            "confidence": 0.618
+          },
+          {
+            "text": "recovered",
+            "start": 6.46,
+            "end": 7.1,
+            "confidence": 0.583
+          },
+          {
+            "text": "alien",
+            "start": 7.1,
+            "end": 7.66,
+            "confidence": 0.886
+          },
+          {
+            "text": "craft",
+            "start": 7.66,
+            "end": 7.93,
+            "confidence": 0.949
           }
         ]
       },
       {
-        "id": 1,
+        "id": 2,
         "seek": 0,
-        "start": 5.56,
-        "end": 12.04,
-        "text": " test-flying recovered alien craft at a secret government base known as Area 51.",
+        "start": 7.93,
+        "end": 12.34,
+        "text": " at a secret government base known as Area 51.",
         "tokens": [
-          50638,
-          1500,
-          12,
-          69,
-          7310,
-          19542,
-          12319,
-          8448,
+          50776,
           412,
           257,
           4054,
@@ -154,102 +199,78 @@
           19405,
           18485,
           13,
-          51042
+          51026
         ],
         "temperature": 0.0,
-        "avg_logprob": -0.11884146548332052,
-        "compression_ratio": 1.6017316017316017,
-        "no_speech_prob": 0.06765421479940414,
-        "confidence": 0.943,
+        "avg_logprob": -0.1701659130793746,
+        "compression_ratio": 1.608695652173913,
+        "no_speech_prob": 0.10366516560316086,
+        "confidence": 0.987,
         "words": [
           {
-            "text": "test-flying",
-            "start": 5.56,
-            "end": 6.34,
-            "confidence": 0.854
-          },
-          {
-            "text": "recovered",
-            "start": 6.34,
-            "end": 6.9,
-            "confidence": 0.935
-          },
-          {
-            "text": "alien",
-            "start": 6.9,
-            "end": 7.46,
-            "confidence": 0.985
-          },
-          {
-            "text": "craft",
-            "start": 7.46,
-            "end": 7.92,
-            "confidence": 0.978
-          },
-          {
             "text": "at",
-            "start": 7.92,
-            "end": 8.6,
-            "confidence": 0.963
+            "start": 7.93,
+            "end": 8.74,
+            "confidence": 0.994
           },
           {
             "text": "a",
-            "start": 8.6,
-            "end": 8.74,
-            "confidence": 0.995
+            "start": 8.74,
+            "end": 8.94,
+            "confidence": 0.994
           },
           {
             "text": "secret",
-            "start": 8.74,
-            "end": 9.08,
-            "confidence": 0.997
+            "start": 8.94,
+            "end": 9.26,
+            "confidence": 0.998
           },
           {
             "text": "government",
-            "start": 9.08,
-            "end": 9.52,
-            "confidence": 0.989
+            "start": 9.26,
+            "end": 9.82,
+            "confidence": 0.988
           },
           {
             "text": "base",
-            "start": 9.52,
-            "end": 10.0,
-            "confidence": 0.984
+            "start": 9.82,
+            "end": 10.16,
+            "confidence": 0.994
           },
           {
             "text": "known",
-            "start": 10.0,
-            "end": 10.4,
-            "confidence": 0.969
+            "start": 10.16,
+            "end": 10.58,
+            "confidence": 0.977
           },
           {
             "text": "as",
-            "start": 10.4,
-            "end": 10.98,
-            "confidence": 0.995
+            "start": 10.58,
+            "end": 11.14,
+            "confidence": 0.976
           },
           {
             "text": "Area",
-            "start": 10.98,
-            "end": 11.44,
-            "confidence": 0.934
+            "start": 11.14,
+            "end": 11.6,
+            "confidence": 0.973
           },
           {
             "text": "51.",
-            "start": 11.44,
-            "end": 12.04,
-            "confidence": 0.973
+            "start": 11.6,
+            "end": 12.34,
+            "confidence": 0.988
           }
         ]
       },
       {
-        "id": 2,
+        "id": 3,
         "seek": 0,
-        "start": 13.46,
-        "end": 18.59,
-        "text": " If the military was going to test-fly alien craft, Area 51 was the perfect place to do",
+        "start": 13.38,
+        "end": 16.44,
+        "text": " If the military was going to test fly alien craft,",
         "tokens": [
-          51042,
+          51026,
           759,
           264,
           4632,
@@ -257,11 +278,88 @@
           516,
           281,
           1500,
-          12,
-          14061,
+          3603,
           12319,
           8448,
           11,
+          51176
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1701659130793746,
+        "compression_ratio": 1.608695652173913,
+        "no_speech_prob": 0.10366516560316086,
+        "confidence": 0.99,
+        "words": [
+          {
+            "text": "If",
+            "start": 13.38,
+            "end": 13.64,
+            "confidence": 0.993
+          },
+          {
+            "text": "the",
+            "start": 13.64,
+            "end": 13.84,
+            "confidence": 0.999
+          },
+          {
+            "text": "military",
+            "start": 13.84,
+            "end": 14.28,
+            "confidence": 0.998
+          },
+          {
+            "text": "was",
+            "start": 14.28,
+            "end": 14.54,
+            "confidence": 0.991
+          },
+          {
+            "text": "going",
+            "start": 14.54,
+            "end": 14.82,
+            "confidence": 0.997
+          },
+          {
+            "text": "to",
+            "start": 14.82,
+            "end": 15.02,
+            "confidence": 0.999
+          },
+          {
+            "text": "test",
+            "start": 15.02,
+            "end": 15.32,
+            "confidence": 0.997
+          },
+          {
+            "text": "fly",
+            "start": 15.32,
+            "end": 15.54,
+            "confidence": 0.942
+          },
+          {
+            "text": "alien",
+            "start": 15.54,
+            "end": 16.02,
+            "confidence": 0.997
+          },
+          {
+            "text": "craft,",
+            "start": 16.02,
+            "end": 16.44,
+            "confidence": 0.99
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 0,
+        "start": 16.46,
+        "end": 18.94,
+        "text": " Area 51 was the perfect place to do it.",
+        "tokens": [
+          51176,
           19405,
           18485,
           390,
@@ -270,152 +368,80 @@
           1081,
           281,
           360,
-          51302
+          309,
+          13,
+          51318
         ],
         "temperature": 0.0,
-        "avg_logprob": -0.11884146548332052,
-        "compression_ratio": 1.6017316017316017,
-        "no_speech_prob": 0.06765421479940414,
-        "confidence": 0.981,
+        "avg_logprob": -0.1701659130793746,
+        "compression_ratio": 1.608695652173913,
+        "no_speech_prob": 0.10366516560316086,
+        "confidence": 0.997,
         "words": [
-          {
-            "text": "If",
-            "start": 13.46,
-            "end": 13.58,
-            "confidence": 0.997
-          },
-          {
-            "text": "the",
-            "start": 13.58,
-            "end": 13.72,
-            "confidence": 0.999
-          },
-          {
-            "text": "military",
-            "start": 13.72,
-            "end": 14.08,
-            "confidence": 0.999
-          },
-          {
-            "text": "was",
-            "start": 14.08,
-            "end": 14.44,
-            "confidence": 0.989
-          },
-          {
-            "text": "going",
-            "start": 14.44,
-            "end": 14.66,
-            "confidence": 0.997
-          },
-          {
-            "text": "to",
-            "start": 14.66,
-            "end": 14.82,
-            "confidence": 0.998
-          },
-          {
-            "text": "test-fly",
-            "start": 14.82,
-            "end": 15.38,
-            "confidence": 0.919
-          },
-          {
-            "text": "alien",
-            "start": 15.38,
-            "end": 15.86,
-            "confidence": 0.974
-          },
-          {
-            "text": "craft,",
-            "start": 15.86,
-            "end": 16.28,
-            "confidence": 0.99
-          },
           {
             "text": "Area",
             "start": 16.46,
-            "end": 16.7,
-            "confidence": 0.959
+            "end": 16.82,
+            "confidence": 0.981
           },
           {
             "text": "51",
-            "start": 16.7,
-            "end": 17.18,
+            "start": 16.82,
+            "end": 17.3,
             "confidence": 0.999
           },
           {
             "text": "was",
-            "start": 17.18,
-            "end": 17.5,
-            "confidence": 0.998
+            "start": 17.3,
+            "end": 17.6,
+            "confidence": 0.997
           },
           {
             "text": "the",
-            "start": 17.5,
-            "end": 17.64,
-            "confidence": 0.997
+            "start": 17.6,
+            "end": 17.86,
+            "confidence": 0.998
           },
           {
             "text": "perfect",
-            "start": 17.64,
-            "end": 17.94,
-            "confidence": 0.998
+            "start": 17.86,
+            "end": 18.06,
+            "confidence": 0.999
           },
           {
             "text": "place",
-            "start": 17.94,
-            "end": 18.22,
-            "confidence": 0.998
+            "start": 18.06,
+            "end": 18.36,
+            "confidence": 0.999
           },
           {
             "text": "to",
-            "start": 18.22,
-            "end": 18.46,
-            "confidence": 0.998
+            "start": 18.36,
+            "end": 18.56,
+            "confidence": 0.999
           },
           {
             "text": "do",
-            "start": 18.46,
-            "end": 18.59,
-            "confidence": 0.997
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "seek": 0,
-        "start": 18.59,
-        "end": 18.82,
-        "text": " it.",
-        "tokens": [
-          51302,
-          309,
-          13,
-          51352
-        ],
-        "temperature": 0.0,
-        "avg_logprob": -0.11884146548332052,
-        "compression_ratio": 1.6017316017316017,
-        "no_speech_prob": 0.06765421479940414,
-        "confidence": 0.999,
-        "words": [
+            "start": 18.56,
+            "end": 18.7,
+            "confidence": 0.999
+          },
           {
             "text": "it.",
-            "start": 18.59,
-            "end": 18.82,
-            "confidence": 0.999
+            "start": 18.7,
+            "end": 18.94,
+            "confidence": 0.998
           }
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "seek": 0,
-        "start": 19.26,
-        "end": 25.64,
-        "text": " Located some 125 miles outside of Las Vegas, it is one of the least populated expanses",
+        "start": 19.32,
+        "end": 22.66,
+        "text": " Located some 125 miles outside of Las Vegas,",
         "tokens": [
-          51352,
+          51318,
           12859,
           770,
           512,
@@ -426,6 +452,72 @@
           10663,
           15841,
           11,
+          51506
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1701659130793746,
+        "compression_ratio": 1.608695652173913,
+        "no_speech_prob": 0.10366516560316086,
+        "confidence": 0.994,
+        "words": [
+          {
+            "text": "Located",
+            "start": 19.32,
+            "end": 19.88,
+            "confidence": 0.999
+          },
+          {
+            "text": "some",
+            "start": 19.88,
+            "end": 20.18,
+            "confidence": 0.987
+          },
+          {
+            "text": "125",
+            "start": 20.18,
+            "end": 20.94,
+            "confidence": 0.986
+          },
+          {
+            "text": "miles",
+            "start": 20.94,
+            "end": 21.38,
+            "confidence": 0.996
+          },
+          {
+            "text": "outside",
+            "start": 21.38,
+            "end": 21.8,
+            "confidence": 0.996
+          },
+          {
+            "text": "of",
+            "start": 21.8,
+            "end": 22.04,
+            "confidence": 0.989
+          },
+          {
+            "text": "Las",
+            "start": 22.04,
+            "end": 22.34,
+            "confidence": 0.997
+          },
+          {
+            "text": "Vegas,",
+            "start": 22.34,
+            "end": 22.66,
+            "confidence": 1.0
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 0,
+        "start": 23.04,
+        "end": 26.98,
+        "text": " it is one of the least populated expanses in the United States.",
+        "tokens": [
+          51506,
           309,
           307,
           472,
@@ -435,165 +527,99 @@
           32998,
           9672,
           279,
-          51648
-        ],
-        "temperature": 0.0,
-        "avg_logprob": -0.11884146548332052,
-        "compression_ratio": 1.6017316017316017,
-        "no_speech_prob": 0.06765421479940414,
-        "confidence": 0.977,
-        "words": [
-          {
-            "text": "Located",
-            "start": 19.26,
-            "end": 19.72,
-            "confidence": 0.998
-          },
-          {
-            "text": "some",
-            "start": 19.72,
-            "end": 19.98,
-            "confidence": 0.974
-          },
-          {
-            "text": "125",
-            "start": 19.98,
-            "end": 20.62,
-            "confidence": 0.987
-          },
-          {
-            "text": "miles",
-            "start": 20.62,
-            "end": 21.2,
-            "confidence": 0.994
-          },
-          {
-            "text": "outside",
-            "start": 21.2,
-            "end": 21.6,
-            "confidence": 0.986
-          },
-          {
-            "text": "of",
-            "start": 21.6,
-            "end": 21.88,
-            "confidence": 0.997
-          },
-          {
-            "text": "Las",
-            "start": 21.88,
-            "end": 22.06,
-            "confidence": 0.993
-          },
-          {
-            "text": "Vegas,",
-            "start": 22.06,
-            "end": 22.5,
-            "confidence": 0.999
-          },
-          {
-            "text": "it",
-            "start": 23.06,
-            "end": 23.16,
-            "confidence": 0.996
-          },
-          {
-            "text": "is",
-            "start": 23.16,
-            "end": 23.32,
-            "confidence": 0.992
-          },
-          {
-            "text": "one",
-            "start": 23.32,
-            "end": 23.5,
-            "confidence": 0.998
-          },
-          {
-            "text": "of",
-            "start": 23.5,
-            "end": 23.66,
-            "confidence": 0.997
-          },
-          {
-            "text": "the",
-            "start": 23.66,
-            "end": 23.82,
-            "confidence": 0.997
-          },
-          {
-            "text": "least",
-            "start": 23.82,
-            "end": 24.1,
-            "confidence": 0.994
-          },
-          {
-            "text": "populated",
-            "start": 24.1,
-            "end": 24.84,
-            "confidence": 0.776
-          },
-          {
-            "text": "expanses",
-            "start": 24.84,
-            "end": 25.64,
-            "confidence": 0.965
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "seek": 0,
-        "start": 25.68,
-        "end": 26.78,
-        "text": " in the United States.",
-        "tokens": [
-          51648,
           294,
           264,
           2824,
           3040,
           13,
-          51772
+          51748
         ],
         "temperature": 0.0,
-        "avg_logprob": -0.11884146548332052,
-        "compression_ratio": 1.6017316017316017,
-        "no_speech_prob": 0.06765421479940414,
-        "confidence": 0.991,
+        "avg_logprob": -0.1701659130793746,
+        "compression_ratio": 1.608695652173913,
+        "no_speech_prob": 0.10366516560316086,
+        "confidence": 0.992,
         "words": [
           {
-            "text": "in",
-            "start": 25.68,
-            "end": 25.88,
-            "confidence": 0.976
+            "text": "it",
+            "start": 23.04,
+            "end": 23.24,
+            "confidence": 0.985
+          },
+          {
+            "text": "is",
+            "start": 23.24,
+            "end": 23.4,
+            "confidence": 0.982
+          },
+          {
+            "text": "one",
+            "start": 23.4,
+            "end": 23.62,
+            "confidence": 0.998
+          },
+          {
+            "text": "of",
+            "start": 23.62,
+            "end": 23.78,
+            "confidence": 0.997
           },
           {
             "text": "the",
-            "start": 25.88,
-            "end": 25.98,
-            "confidence": 0.999
+            "start": 23.78,
+            "end": 23.98,
+            "confidence": 0.998
+          },
+          {
+            "text": "least",
+            "start": 23.98,
+            "end": 24.38,
+            "confidence": 0.997
+          },
+          {
+            "text": "populated",
+            "start": 24.38,
+            "end": 25.12,
+            "confidence": 0.982
+          },
+          {
+            "text": "expanses",
+            "start": 25.12,
+            "end": 25.78,
+            "confidence": 0.992
+          },
+          {
+            "text": "in",
+            "start": 25.78,
+            "end": 25.96,
+            "confidence": 0.988
+          },
+          {
+            "text": "the",
+            "start": 25.96,
+            "end": 26.16,
+            "confidence": 0.998
           },
           {
             "text": "United",
-            "start": 25.98,
-            "end": 26.24,
-            "confidence": 0.991
+            "start": 26.16,
+            "end": 26.48,
+            "confidence": 0.994
           },
           {
             "text": "States.",
-            "start": 26.24,
-            "end": 26.78,
-            "confidence": 0.999
+            "start": 26.48,
+            "end": 26.98,
+            "confidence": 0.996
           }
         ]
       },
       {
-        "id": 6,
-        "seek": 2816,
-        "start": 28.16,
-        "end": 34.14,
-        "text": " Area 51 is surrounded on three sides by military testing grounds and hidden from public view",
+        "id": 7,
+        "seek": 2768,
+        "start": 27.92,
+        "end": 30.06,
+        "text": " Area 51 is surrounded on three sides of the road.",
         "tokens": [
           50364,
           19405,
@@ -603,129 +629,167 @@
           322,
           1045,
           4881,
+          295,
+          264,
+          3060,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.7039860316685268,
+        "compression_ratio": 0.8909090909090909,
+        "no_speech_prob": 0.7500697374343872,
+        "confidence": 0.545,
+        "words": [
+          {
+            "text": "Area",
+            "start": 27.92,
+            "end": 28.26,
+            "confidence": 0.852
+          },
+          {
+            "text": "51",
+            "start": 28.26,
+            "end": 28.76,
+            "confidence": 0.979
+          },
+          {
+            "text": "is",
+            "start": 28.76,
+            "end": 29.12,
+            "confidence": 0.973
+          },
+          {
+            "text": "surrounded",
+            "start": 29.12,
+            "end": 29.48,
+            "confidence": 0.974
+          },
+          {
+            "text": "on",
+            "start": 29.48,
+            "end": 29.8,
+            "confidence": 0.92
+          },
+          {
+            "text": "three",
+            "start": 29.8,
+            "end": 29.98,
+            "confidence": 0.818
+          },
+          {
+            "text": "sides",
+            "start": 29.98,
+            "end": 30.0,
+            "confidence": 0.108
+          },
+          {
+            "text": "of",
+            "start": 30.0,
+            "end": 30.02,
+            "confidence": 0.324
+          },
+          {
+            "text": "the",
+            "start": 30.02,
+            "end": 30.04,
+            "confidence": 0.657
+          },
+          {
+            "text": "road.",
+            "start": 30.04,
+            "end": 30.06,
+            "confidence": 0.169
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 30.06,
+        "end": 32.56,
+        "text": " surrounded on three sides by military testing grounds",
+        "tokens": [
+          50364,
+          13221,
+          322,
+          1045,
+          4881,
           538,
           4632,
           4997,
           19196,
+          50554
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23762744123285467,
+        "compression_ratio": 1.3076923076923077,
+        "no_speech_prob": 0.39299076795578003,
+        "confidence": 0.947,
+        "words": [
+          {
+            "text": "surrounded",
+            "start": 30.06,
+            "end": 29.48,
+            "confidence": 0.786
+          },
+          {
+            "text": "on",
+            "start": 30.06,
+            "end": 29.74,
+            "confidence": 0.992
+          },
+          {
+            "text": "three",
+            "start": 30.06,
+            "end": 30.02,
+            "confidence": 0.954
+          },
+          {
+            "text": "sides",
+            "start": 30.06,
+            "end": 30.4,
+            "confidence": 0.996
+          },
+          {
+            "text": "by",
+            "start": 30.4,
+            "end": 30.8,
+            "confidence": 0.971
+          },
+          {
+            "text": "military",
+            "start": 30.8,
+            "end": 31.6,
+            "confidence": 0.965
+          },
+          {
+            "text": "testing",
+            "start": 31.6,
+            "end": 32.12,
+            "confidence": 0.964
+          },
+          {
+            "text": "grounds",
+            "start": 32.12,
+            "end": 32.56,
+            "confidence": 0.965
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 32.9,
+        "end": 36.2,
+        "text": " and hidden from public view behind the Groom Mountain Range.",
+        "tokens": [
+          50554,
           293,
           7633,
           490,
           1908,
           1910,
-          50664
-        ],
-        "temperature": 0.0,
-        "avg_logprob": -0.15098287794325088,
-        "compression_ratio": 1.32,
-        "no_speech_prob": 0.024461429566144943,
-        "confidence": 0.977,
-        "words": [
-          {
-            "text": "Area",
-            "start": 28.16,
-            "end": 28.22,
-            "confidence": 0.972
-          },
-          {
-            "text": "51",
-            "start": 28.22,
-            "end": 28.62,
-            "confidence": 0.999
-          },
-          {
-            "text": "is",
-            "start": 28.62,
-            "end": 28.94,
-            "confidence": 0.997
-          },
-          {
-            "text": "surrounded",
-            "start": 28.94,
-            "end": 29.34,
-            "confidence": 0.997
-          },
-          {
-            "text": "on",
-            "start": 29.34,
-            "end": 29.62,
-            "confidence": 0.994
-          },
-          {
-            "text": "three",
-            "start": 29.62,
-            "end": 29.84,
-            "confidence": 0.961
-          },
-          {
-            "text": "sides",
-            "start": 29.84,
-            "end": 30.26,
-            "confidence": 0.993
-          },
-          {
-            "text": "by",
-            "start": 30.26,
-            "end": 30.58,
-            "confidence": 0.991
-          },
-          {
-            "text": "military",
-            "start": 30.58,
-            "end": 31.22,
-            "confidence": 0.992
-          },
-          {
-            "text": "testing",
-            "start": 31.22,
-            "end": 31.9,
-            "confidence": 0.971
-          },
-          {
-            "text": "grounds",
-            "start": 31.9,
-            "end": 32.36,
-            "confidence": 0.972
-          },
-          {
-            "text": "and",
-            "start": 32.36,
-            "end": 32.94,
-            "confidence": 0.868
-          },
-          {
-            "text": "hidden",
-            "start": 32.94,
-            "end": 33.16,
-            "confidence": 0.995
-          },
-          {
-            "text": "from",
-            "start": 33.16,
-            "end": 33.42,
-            "confidence": 0.992
-          },
-          {
-            "text": "public",
-            "start": 33.42,
-            "end": 33.84,
-            "confidence": 0.959
-          },
-          {
-            "text": "view",
-            "start": 33.84,
-            "end": 34.14,
-            "confidence": 0.989
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "seek": 2816,
-        "start": 34.14,
-        "end": 36.06,
-        "text": " behind the Groom Mountain Range.",
-        "tokens": [
-          50664,
           2261,
           264,
           460,
@@ -733,54 +797,84 @@
           15586,
           33778,
           13,
-          50822
+          50776
         ],
         "temperature": 0.0,
-        "avg_logprob": -0.15098287794325088,
-        "compression_ratio": 1.32,
-        "no_speech_prob": 0.024461429566144943,
-        "confidence": 0.845,
+        "avg_logprob": -0.23762744123285467,
+        "compression_ratio": 1.3076923076923077,
+        "no_speech_prob": 0.39299076795578003,
+        "confidence": 0.861,
         "words": [
           {
-            "text": "behind",
-            "start": 34.14,
-            "end": 34.64,
+            "text": "and",
+            "start": 32.9,
+            "end": 33.08,
+            "confidence": 0.999
+          },
+          {
+            "text": "hidden",
+            "start": 33.08,
+            "end": 33.3,
+            "confidence": 0.998
+          },
+          {
+            "text": "from",
+            "start": 33.3,
+            "end": 33.6,
+            "confidence": 0.998
+          },
+          {
+            "text": "public",
+            "start": 33.6,
+            "end": 34.06,
+            "confidence": 0.999
+          },
+          {
+            "text": "view",
+            "start": 34.06,
+            "end": 34.34,
             "confidence": 0.997
+          },
+          {
+            "text": "behind",
+            "start": 34.34,
+            "end": 34.8,
+            "confidence": 0.609
           },
           {
             "text": "the",
-            "start": 34.64,
-            "end": 34.88,
-            "confidence": 0.997
+            "start": 34.8,
+            "end": 35.04,
+            "confidence": 0.857
           },
           {
             "text": "Groom",
-            "start": 34.88,
-            "end": 35.18,
-            "confidence": 0.802
+            "start": 35.04,
+            "end": 35.32,
+            "confidence": 0.807
           },
           {
             "text": "Mountain",
-            "start": 35.18,
-            "end": 35.56,
-            "confidence": 0.726
+            "start": 35.32,
+            "end": 35.8,
+            "confidence": 0.882
           },
           {
             "text": "Range.",
-            "start": 35.56,
-            "end": 36.06,
-            "confidence": 0.784
+            "start": 35.8,
+            "end": 36.2,
+            "confidence": 0.65
           }
         ]
       },
       {
-        "id": 8,
-        "seek": 2816,
-        "start": 37.18,
-        "end": 41.86,
-        "text": " This Russian satellite photo shows the base as it appeared in the 1960s.",
+        "id": 2,
+        "seek": 0,
+        "start": 37.22,
+        "end": 39.74,
+        "text": " This Russian satellite photo shows the base",
         "tokens": [
-          50822,
+          50776,
           639,
           7220,
           16016,
@@ -788,6 +882,66 @@
           3110,
           264,
           3096,
+          50904
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23762744123285467,
+        "compression_ratio": 1.3076923076923077,
+        "no_speech_prob": 0.39299076795578003,
+        "confidence": 0.981,
+        "words": [
+          {
+            "text": "This",
+            "start": 37.22,
+            "end": 37.480000000000004,
+            "confidence": 0.997
+          },
+          {
+            "text": "Russian",
+            "start": 37.480000000000004,
+            "end": 37.88,
+            "confidence": 0.987
+          },
+          {
+            "text": "satellite",
+            "start": 37.88,
+            "end": 38.46,
+            "confidence": 0.994
+          },
+          {
+            "text": "photo",
+            "start": 38.46,
+            "end": 38.9,
+            "confidence": 0.981
+          },
+          {
+            "text": "shows",
+            "start": 38.9,
+            "end": 39.24,
+            "confidence": 0.972
+          },
+          {
+            "text": "the",
+            "start": 39.24,
+            "end": 39.44,
+            "confidence": 0.94
+          },
+          {
+            "text": "base",
+            "start": 39.44,
+            "end": 39.74,
+            "confidence": 0.994
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 0,
+        "start": 39.76,
+        "end": 41.9,
+        "text": " as it appeared in the 1960s.",
+        "tokens": [
+          50904,
           382,
           309,
           8516,
@@ -796,197 +950,55 @@
           16157,
           82,
           13,
-          51052
+          51018
         ],
         "temperature": 0.0,
-        "avg_logprob": -0.15098287794325088,
-        "compression_ratio": 1.32,
-        "no_speech_prob": 0.024461429566144943,
-        "confidence": 0.979,
+        "avg_logprob": -0.23762744123285467,
+        "compression_ratio": 1.3076923076923077,
+        "no_speech_prob": 0.39299076795578003,
+        "confidence": 0.987,
         "words": [
           {
-            "text": "This",
-            "start": 37.18,
-            "end": 37.38,
-            "confidence": 0.999
-          },
-          {
-            "text": "Russian",
-            "start": 37.38,
-            "end": 37.68,
-            "confidence": 0.989
-          },
-          {
-            "text": "satellite",
-            "start": 37.68,
-            "end": 38.2,
-            "confidence": 0.995
-          },
-          {
-            "text": "photo",
-            "start": 38.2,
-            "end": 38.7,
-            "confidence": 0.992
-          },
-          {
-            "text": "shows",
-            "start": 38.7,
-            "end": 39.1,
-            "confidence": 0.998
-          },
-          {
-            "text": "the",
-            "start": 39.1,
-            "end": 39.36,
-            "confidence": 0.998
-          },
-          {
-            "text": "base",
-            "start": 39.36,
-            "end": 39.62,
-            "confidence": 0.997
-          },
-          {
             "text": "as",
-            "start": 39.62,
-            "end": 39.92,
-            "confidence": 0.932
+            "start": 39.76,
+            "end": 40.0,
+            "confidence": 0.998
           },
           {
             "text": "it",
-            "start": 39.92,
-            "end": 40.1,
-            "confidence": 0.999
+            "start": 40.0,
+            "end": 40.24,
+            "confidence": 0.996
           },
           {
             "text": "appeared",
-            "start": 40.1,
-            "end": 40.42,
-            "confidence": 0.995
+            "start": 40.24,
+            "end": 40.54,
+            "confidence": 0.998
           },
           {
             "text": "in",
-            "start": 40.42,
-            "end": 40.68,
-            "confidence": 0.997
+            "start": 40.54,
+            "end": 40.78,
+            "confidence": 0.999
           },
           {
             "text": "the",
-            "start": 40.68,
-            "end": 40.78,
-            "confidence": 0.988
+            "start": 40.78,
+            "end": 40.94,
+            "confidence": 0.998
           },
           {
             "text": "1960s.",
-            "start": 40.78,
-            "end": 41.86,
-            "confidence": 0.915
+            "start": 40.94,
+            "end": 41.9,
+            "confidence": 0.961
           }
         ]
       }
     ],
     "language": "en",
-    "language_probs": {
-      "en": 0.9969358444213867,
-      "zh": 7.848955283407122e-05,
-      "de": 0.00025471390108577907,
-      "es": 0.00048049233737401664,
-      "ru": 0.00019929485279135406,
-      "ko": 3.8743546610930935e-05,
-      "fr": 0.000428154191467911,
-      "ja": 0.0001525344414403662,
-      "pt": 0.0002562962763477117,
-      "tr": 5.078047979623079e-05,
-      "pl": 4.428273314260878e-05,
-      "ca": 1.4180059224599972e-06,
-      "nl": 5.741519635193981e-05,
-      "ar": 0.00016003714699763805,
-      "sv": 1.9485380107653327e-05,
-      "it": 0.00010273368388880044,
-      "id": 5.282260644889902e-06,
-      "hi": 3.0270098250184674e-06,
-      "fi": 1.6600928574916907e-05,
-      "vi": 4.63927754026372e-05,
-      "he": 6.783656772313407e-06,
-      "uk": 4.364255801192485e-06,
-      "el": 4.3692009057849646e-05,
-      "ms": 7.041734988888493e-06,
-      "cs": 1.6270686273855972e-06,
-      "ro": 3.328193315610406e-06,
-      "da": 1.2565717952384148e-05,
-      "hu": 2.54056831181515e-05,
-      "ta": 3.764003622563905e-06,
-      "no": 3.2222353638644563e-06,
-      "th": 1.2114519449824002e-05,
-      "ur": 1.7171369108837098e-05,
-      "hr": 8.067481189755199e-07,
-      "bg": 3.964393897604168e-07,
-      "lt": 1.3176584445773187e-07,
-      "la": 0.0001856304006651044,
-      "mi": 1.4968882169341668e-05,
-      "ml": 8.193896974262316e-06,
-      "cy": 0.00014240625023376197,
-      "sk": 3.330900142373139e-07,
-      "te": 1.300952476412931e-06,
-      "fa": 1.8957091469928855e-06,
-      "lv": 3.727323303337471e-07,
-      "bn": 9.197690928886004e-07,
-      "sr": 3.539498436566646e-07,
-      "az": 8.914788907077309e-08,
-      "sl": 1.4851252672087867e-06,
-      "kn": 2.3221398137707183e-08,
-      "et": 1.21689183174567e-07,
-      "mk": 9.638412024060017e-08,
-      "br": 1.2129386050219182e-05,
-      "eu": 2.2104708818915242e-07,
-      "is": 9.147767627837311e-07,
-      "hy": 8.921524141669579e-08,
-      "ne": 4.8703505228786526e-08,
-      "mn": 2.723721763686626e-07,
-      "bs": 1.363792193842528e-06,
-      "kk": 1.1822881340606273e-08,
-      "sq": 3.160235735322203e-07,
-      "sw": 3.199917046003975e-06,
-      "gl": 7.275414191099117e-06,
-      "mr": 2.9281117974733206e-08,
-      "pa": 2.0270718437132018e-08,
-      "si": 1.1970703326369403e-06,
-      "km": 1.1855473530886229e-05,
-      "sn": 6.49302410238306e-06,
-      "yo": 8.909514690458309e-07,
-      "so": 5.23672394336927e-09,
-      "af": 8.953850851867173e-07,
-      "oc": 2.981992111017462e-07,
-      "ka": 1.1633991547910227e-08,
-      "be": 3.5541549436857167e-07,
-      "tg": 4.335709846703395e-10,
-      "sd": 1.407254615060083e-07,
-      "gu": 1.6628464161172474e-09,
-      "am": 1.957675799246772e-09,
-      "yi": 4.8403694563603494e-06,
-      "lo": 5.288541160552995e-08,
-      "uz": 6.215042803320303e-12,
-      "fo": 3.646539994406339e-07,
-      "ht": 5.472492148328456e-07,
-      "ps": 5.374672440439099e-08,
-      "tk": 9.778983178776457e-11,
-      "nn": 8.195768896257505e-05,
-      "mt": 6.806142494042433e-08,
-      "sa": 1.31658407553914e-06,
-      "lb": 5.803990066333142e-10,
-      "my": 3.760948175113299e-07,
-      "bo": 4.897068492937251e-07,
-      "tl": 6.549024874402676e-06,
-      "mg": 2.9441910714966824e-11,
-      "as": 2.032336965385184e-08,
-      "tt": 2.562319800780699e-10,
-      "haw": 1.8233944501844235e-05,
-      "ln": 6.222809822986619e-09,
-      "ha": 1.204453897729607e-10,
-      "ba": 1.314009873132349e-10,
-      "jw": 4.402702870720532e-06,
-      "su": 2.489840833508339e-10
-    }
+    "language_probability": 0.0
   },
-  "processing_time": "2025-05-15T17:01:07.908555"
+  "processing_time": "2025-05-21T17:34:51.567540"
 }
