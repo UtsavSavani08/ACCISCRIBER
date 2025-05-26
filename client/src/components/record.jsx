@@ -1,8 +1,72 @@
-import React from 'react'
+import React, { useState, useRef } from 'react';
+import { FiMic, FiStopCircle, FiUploadCloud, FiFile, FiHardDrive } from 'react-icons/fi';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Record() {
-  return (
-    <div className="fixed inset-0 flex items-center justify-center bg-white">
+    const [isRecording, setIsRecording] = useState(false);
+    const [recordedBlob, setRecordedBlob] = useState(null);
+    const [recordingTime, setRecordingTime] = useState(0);
+    const mediaRecorderRef = useRef(null);
+    const timerRef = useRef(null);
+
+    const startRecording = async () => {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            const mediaRecorder = new MediaRecorder(stream);
+            const chunks = [];
+
+            mediaRecorder.ondataavailable = (e) => {
+                if (e.data.size > 0) {
+                    chunks.push(e.data);
+                }
+            };
+
+            mediaRecorder.onstop = () => {
+                const blob = new Blob(chunks, { type: 'audio/wav' });
+                setRecordedBlob(blob);
+                stream.getTracks().forEach(track => track.stop());
+            };
+
+            mediaRecorderRef.current = mediaRecorder;
+            mediaRecorder.start();
+            setIsRecording(true);
+
+            // Start timer
+            setRecordingTime(0);
+            timerRef.current = setInterval(() => {
+                setRecordingTime(prev => prev + 1);
+            }, 1000);
+
+        } catch (err) {
+            console.error('Error accessing microphone:', err);
+            alert('Unable to access microphone. Please check permissions.');
+        }
+    };
+
+    const stopRecording = () => {
+        if (mediaRecorderRef.current && isRecording) {
+            mediaRecorderRef.current.stop();
+            setIsRecording(false);
+            clearInterval(timerRef.current);
+        }
+    };
+
+    const formatTime = (seconds) => {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    };
+
+    const formatFileSize = (bytes) => {
+        if (bytes === 0) return '0 B';
+        const k = 1024;
+        const sizes = ['B', 'KB', 'MB', 'GB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return `${parseFloat((bytes / Math.pow(k, i)).toFixed(1))} ${sizes[i]}`;
+    };
+
+    return (
+        <div className="fixed inset-0 flex items-center justify-center bg-white">
             <div className="w-full max-w-2xl p-6 space-y-8">
                 <motion.h1 
                     initial={{ opacity: 0, y: -20 }}
@@ -105,5 +169,5 @@ export default function Record() {
                 </AnimatePresence>
             </div>
         </div>
-  )
+    );
 }

@@ -8,7 +8,8 @@ import Navbar from './components/navbar.jsx'
 // import Contact from './components/contact.jsx'
 // import BottomBar from './components/bottombar.jsx'
 // import Upload from './components/upload.jsx'
-import Record from './components/record.jsx'
+// import Record from './components/record.jsx'
+import Download from './components/download.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,7 +19,8 @@ createRoot(document.getElementById('root')).render(
     <div id="features" className="pt-16"><Features /></div>
     <div id="contact" className="pt-16"><Contact /></div>
     <BottomBar /> */}
-    {/* <Upload /> */}
-    <Record />
+    {/* <Upload />
+    <Record /> */}
+    <Download />
   </StrictMode>,
 )

@@ -1,14 +1,13 @@
-import React, { useState } from 'react'
-import logo from '../assets/logo.png' 
+import React, { useState } from "react";
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
-  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
       setIsMenuOpen(false); // Close mobile menu after clicking
     }
   };
@@ -16,15 +15,17 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-blue-400 to-white shadow-md z-50">
       <div className="container mx-auto px-4">
-       <div className="flex items-top justify-between h-16">
+        <div className="flex items-top justify-between h-16">
           {/* Logo and site name */}
           <div className="flex items-center space-x-2">
-            <a href="/"><img
-              src={logo}
-              alt="LogoCaption"
-              className="h-20 w-auto"
-            /></a>
-            <a href="/" ><span className="text-4xl text-gray-800 font-semibold">ACCISCRIBE</span></a>
+            <a href="/">
+              <img src={logo} alt="LogoCaption" className="h-20 w-auto" />
+            </a>
+            <a href="/">
+              <span className="text-4xl text-gray-800 font-semibold">
+                ACCISCRIBE
+              </span>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -64,7 +65,7 @@ export default function Navbar() {
               href="/"
               onClick={(e) => {
                 e.preventDefault();
-                scrollToSection('hero');
+                scrollToSection("hero");
               }}
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
@@ -74,7 +75,7 @@ export default function Navbar() {
               href="/upload"
               onClick={(e) => {
                 e.preventDefault();
-                scrollToSection('upload');
+                scrollToSection("upload");
               }}
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
@@ -84,7 +85,7 @@ export default function Navbar() {
               href="/record"
               onClick={(e) => {
                 e.preventDefault();
-                scrollToSection('record');
+                scrollToSection("record");
               }}
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
@@ -94,7 +95,7 @@ export default function Navbar() {
               href="/contact"
               onClick={(e) => {
                 e.preventDefault();
-                scrollToSection('contact');
+                scrollToSection("contact");
               }}
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
@@ -104,19 +105,26 @@ export default function Navbar() {
               href="/about"
               onClick={(e) => {
                 e.preventDefault();
-                scrollToSection('about');
+                scrollToSection("about");
               }}
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
               About
             </a>
+            <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2">
+              Log In
+            </button>
+            <button className="block border-indigo-700 bg-white text-indigo-700 hover:bg-indigo-600 hover:text-white transition-colors py-2">
+              Sign Up
+            </button>
+          
           </div>
         </div>
 
         {/* Mobile Navigation Menu */}
         <div
           className={`${
-            isMenuOpen ? 'block' : 'hidden'
+            isMenuOpen ? "block" : "hidden"
           } md:hidden py-2 space-y-2`}
         >
           <a
@@ -149,8 +157,14 @@ export default function Navbar() {
           >
             About
           </a>
+          <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2">
+            Log In
+          </button>
+          <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2">
+            Sign Up
+          </button>
         </div>
       </div>
     </nav>
-  )
+  );
 }
