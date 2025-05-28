@@ -1,5 +1,6 @@
 import React from 'react'
 import { FileText, Mic, Globe,UploadCloud } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -14,12 +15,12 @@ export default function Hero() {
                 Professional transcription with AI-powered accuracy. Get precise SRT files in minutes.
                 </p>
                 <div className="flex justify-center gap-4 mb-16">
-                <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
+                <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700  transition-colors"><Link to="/upload " className='text-white hover:text-white'>
                     Upload File
-                </button>
-                <button className="bg-white text-indigo-700 hover:text-white border border-blue-600 px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
+                </Link></button>
+                <button className="bg-white text-indigo-700 hover:text-white border border-blue-600 px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors"><Link to="/record" className='text-indigo-700 hover:text-white'>
                     Try Live Recording
-                </button>
+                </Link></button>
                 </div>
 
                 {/* Features Grid */}

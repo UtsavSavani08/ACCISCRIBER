@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@fontsource/montserrat": "^5.2.5",
     "dotenv": "^16.5.0",
     "framer-motion": "^12.12.2",
     "lucide-react": "^0.511.0",

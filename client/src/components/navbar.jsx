@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -11,6 +14,24 @@ export default function Navbar() {
       setIsMenuOpen(false); // Close mobile menu after clicking
     }
   };
+   const handleContactClick = (e) => {
+    e.preventDefault();
+    if (location.pathname === '/') {
+      scrollToSection('contact');
+    } else {
+      navigate('/', { state: { scrollTo: 'contact' } });
+    }
+  };
+
+   const handleAboutClick = (e) => {
+    e.preventDefault();
+    if (location.pathname === '/') {
+      scrollToSection('about');
+    } else {
+      navigate('/', { state: { scrollTo: 'about' } });
+    }
+  };
+  
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-blue-400 to-white shadow-md z-50">
@@ -18,14 +39,14 @@ export default function Navbar() {
         <div className="flex items-top justify-between h-16">
           {/* Logo and site name */}
           <div className="flex items-center space-x-2">
-            <a href="/">
+            <Link to="/">
               <img src={logo} alt="LogoCaption" className="h-20 w-auto" />
-            </a>
-            <a href="/">
-              <span className="text-4xl text-gray-800 font-semibold">
+            </Link>
+            <Link to="/" className="mt-2">
+              <span className="text-4xl text-gray-800 font-semibold" style={{ fontFamily: 'Deserta, cursive' }}>
                 ACCISCRIBE
               </span>
-            </a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -61,63 +82,43 @@ export default function Navbar() {
 
           {/* Desktop Navigation links */}
           <div className="hidden md:flex items-center space-x-6">
-            <a
-              href="/"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection("hero");
-              }}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
-            >
-              Home
-            </a>
-            <a
-              href="/upload"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection("upload");
-              }}
+            <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors">Home</Link>
+            <Link
+              to="/upload"
+              
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
               Upload
-            </a>
-            <a
-              href="/record"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection("record");
-              }}
+            </Link>
+            <Link
+              to="/record"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
               Record
-            </a>
-            <a
-              href="/contact"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection("contact");
-              }}
+            </Link>
+            <Link
+              to="/contact"
+               onClick={handleContactClick}
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
               Contact
-            </a>
-            <a
-              href="/about"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection("about");
-              }}
+            </Link>
+            <Link
+              to="/about"
+              onClick={handleAboutClick}
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
               About
-            </a>
-            <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2">
+            </Link>
+            <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2"><Link to="/login" className='text-white '>
               Log In
+            </Link>
             </button>
-            <button className="block border-indigo-700 bg-white text-indigo-700 hover:bg-indigo-600 hover:text-white transition-colors py-2">
+            <button className="block border-indigo-700 bg-white text-indigo-700 hover:bg-indigo-600 hover:text-white transition-colors py-2"><Link to="/signup" className='text-indigo-700'>
               Sign Up
+            </Link>
             </button>
-          
+
           </div>
         </div>
 
@@ -127,41 +128,43 @@ export default function Navbar() {
             isMenuOpen ? "block" : "hidden"
           } md:hidden py-2 space-y-2`}
         >
-          <a
-            href="/"
+          <Link
+            to="/"
             className="block text-gray-700 hover:text-blue-600 transition-colors py-2"
           >
             Home
-          </a>
-          <a
-            href="/upload"
+          </Link>
+          <Link
+            to="/upload"
             className="block text-gray-700 hover:text-blue-600 transition-colors py-2"
           >
             Upload
-          </a>
-          <a
-            href="/record"
+          </Link>
+          <Link
+            to="/record"
             className="block text-gray-700 hover:text-blue-600 transition-colors py-2"
           >
             Record
-          </a>
-          <a
-            href="/contact"
+          </Link>
+          <Link
+            to="/contact"
             className="block text-gray-700 hover:text-blue-600 transition-colors py-2"
           >
             Contact
-          </a>
-          <a
-            href="/about"
+          </Link>
+          <Link
+            to="/about"
             className="block text-gray-700 hover:text-blue-600 transition-colors py-2"
           >
             About
-          </a>
-          <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2">
+          </Link>
+          <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2"><Link to="/login" className='text-white'>
             Log In
+          </Link>
           </button>
-          <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2">
+          <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2"><Link to="/signup" className='text-white'>
             Sign Up
+          </Link>
           </button>
         </div>
       </div>

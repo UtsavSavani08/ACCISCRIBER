@@ -15,7 +15,7 @@ export default function BottomBar() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Section */}
           <div>
-            <h2 className="text-xl font-bold mb-4">ACCISCRIBE</h2>
+            <h2 className="text-xl font-bold mb-4" style={{ fontFamily: 'Deserta, cursive' }}>ACCISCRIBE</h2>
             <p className="text-gray-600 text-sm">
               Transforming audio and video content into accessible text with AI-powered transcription.
             </p>
