@@ -18,9 +18,9 @@ export default function Hero() {
                 <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700  transition-colors"><Link to="/upload " className='text-white hover:text-white'>
                     Upload File
                 </Link></button>
-                <button className="bg-white text-indigo-700 hover:text-white border border-blue-600 px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors"><Link to="/record" className='text-indigo-700 hover:text-white'>
+                <Link to="/record" className='text-indigo-700 hover:text-white'><button className="bg-white text-indigo-700 hover:text-white border border-blue-600 px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
                     Try Live Recording
-                </Link></button>
+                </button></Link>
                 </div>
 
                 {/* Features Grid */}

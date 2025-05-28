@@ -110,14 +110,12 @@ export default function Navbar() {
             >
               About
             </Link>
-            <button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2"><Link to="/login" className='text-white '>
+            <Link to="/login" className='text-white '><button className="block bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 transition-colors py-2">
               Log In
-            </Link>
-            </button>
-            <button className="block border-indigo-700 bg-white text-indigo-700 hover:bg-indigo-600 hover:text-white transition-colors py-2"><Link to="/signup" className='text-indigo-700'>
+            </button></Link>
+            <Link to="/signup" className='text-indigo-700 '><button className="block border-indigo-700 bg-white text-indigo-700 hover:bg-indigo-600 hover:text-white transition-colors py-2">
               Sign Up
-            </Link>
-            </button>
+            </button></Link>
 
           </div>
         </div>
