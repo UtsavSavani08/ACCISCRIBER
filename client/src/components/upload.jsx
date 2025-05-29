@@ -1,13 +1,17 @@
 import React, { useState, useRef } from 'react';
 import { FiUploadCloud, FiFile, FiClock, FiHardDrive, FiVideo } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
+import Navbar from "./navbar.jsx";
 
 export default function Upload() {
     const [file, setFile] = useState(null);
     const [duration, setDuration] = useState(null);
     const [isDragging, setIsDragging] = useState(false);
+    const [isProcessing, setIsProcessing] = useState(false);
     const fileInputRef = useRef(null);
     const mediaRef = useRef(null);
+    const navigate = useNavigate();
 
     const supportedFormats = ['MP3', 'WAV', 'MP4', 'MOV', 'AVI','M4A'];
 
@@ -87,11 +91,67 @@ export default function Upload() {
         return `${parseFloat((bytes / Math.pow(k, i)).toFixed(1))} ${sizes[i]}`;
     };
 
-    const handleStartTranscription = () => {
+    const handleStartTranscription = async () => {
         if (!file) return;
-        // Add your transcription logic here
-        console.log('Starting transcription for:', file.name);
+    
+        setIsProcessing(true);
+
+        try {
+            const formData = new FormData();
+            formData.append('file', file);
+
+            // Determine endpoint based on file type
+            const fileType = file.type.startsWith('video/') ? 'video' : 'audio';
+            const response = await fetch(`http://localhost:8000/analyze/${fileType}/transcribe`, {
+                method: 'POST',
+                body: formData,
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const result = await response.json();
+            console.log('Transcription response:', result); // Add logging
+
+            // Format duration as MM:SS
+            const durationInSeconds = duration || 0;
+            const minutes = Math.floor(durationInSeconds / 60);
+            const seconds = Math.floor(durationInSeconds % 60);
+            const formattedDuration = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+
+            // Navigate to download page with all required data
+            navigate('/download', {
+                state: {
+                    transcriptionData: {
+                        duration: formattedDuration,
+                        wordCount: result.data.word_count,
+                        detectedLanguage: result.data.detected_language,
+                        srtFile: result.data.srt_filename,
+                        originalFileName: file.name
+                    }
+                }
+            });
+        } catch (error) {
+            console.error('Transcription error:', error);
+            alert('Error during transcription. Please try again.');
+        } finally {
+            setIsProcessing(false);
+        }
     };
+    if (isProcessing) {
+        return (
+        <>
+            <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
+            <Navbar />
+                <div className="text-center">
+                    <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500 border-solid mx-auto mb-6" />
+                    <p className="text-xl font-semibold text-gray-700">Processing your file...</p>
+                </div>
+            </div>
+        </>
+        );
+    }
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-white">
             <div className="w-full max-w-2xl p-6 space-y-8">
@@ -139,7 +199,7 @@ export default function Upload() {
                             ref={fileInputRef}
                             className="hidden"
                             onChange={handleFileSelect}
-                            accept=".mp3,.wav,.mp4,.mov,.avi"
+                            accept=".mp3,.wav,.mp4,.mov,.avi,.m4a"
                         />
                         <div className="mt-6 flex items-center justify-center space-x-2 text-sm text-gray-500">
                             <span>Supported formats:</span>
@@ -223,6 +283,7 @@ export default function Upload() {
                     )}
                 </AnimatePresence>
             </div>
+            
             </div>
         )
 }

@@ -63,7 +63,7 @@ export default function BottomBar() {
 
         {/* Copyright Section */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-600 text-sm">
-          <p>© 2025 TranscribeAI. All rights reserved.</p>
+          <p>© 2025 ACCISCRIBE. All rights reserved.</p>
         </div>
       </div>
     </footer>

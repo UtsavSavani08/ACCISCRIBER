@@ -7,6 +7,7 @@ import Navbar from "./components/navbar.jsx";
 import Record from "./components/record.jsx"; 
 import Login from "./components/login.jsx";
 import SignUp from "./components/signup.jsx";
+import Download from "./components/download.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
         <Route path="/record" element={<Record />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/download" element={<Download />} />
       </Routes>
     </>
   );
