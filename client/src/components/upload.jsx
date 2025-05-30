@@ -110,62 +110,69 @@ export default function Upload() {
   };
 
   const handleStartTranscription = async () => {
-    if (!file) return;
+  if (!file) return;
 
-    setIsProcessing(true);
+  setIsProcessing(true);
 
-    try {
-      const formData = new FormData();
-      formData.append("file", file);
+  try {
+    // Get current session
+    const { data, error } = await supabase.auth.getSession();
+    const token = data?.session?.access_token;
 
-
-      // Determine endpoint based on file type
-      const fileType = file.type.startsWith("video/") ? "video" : "audio";
-      const response = await fetch(
-        `http://localhost:8000/analyze/${fileType}/transcribe`,
-        {
-          method: "POST",
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-          body: formData,
-        }
-      );
-
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-
-      const result = await response.json();
-      console.log("Transcription response:", result); // Add logging
-
-      // Format duration as MM:SS
-      const durationInSeconds = result.data.duration || 0;
-      const minutes = Math.floor(durationInSeconds / 60);
-      const seconds = Math.floor(durationInSeconds % 60);
-      const formattedDuration = `${minutes}:${seconds
-        .toString()
-        .padStart(2, "0")}`;
-
-      // Navigate to download page with all required data
-      navigate("/download", {
-        state: {
-          transcriptionData: {
-            duration: formattedDuration,
-            wordCount: result.data.word_count,
-            detectedLanguage: result.data.detected_language,
-            srtFile: result.data.srt_filename,
-            originalFileName: file.name,
-          },
-        },
-      });
-    } catch (error) {
-      console.error("Transcription error:", error);
-      alert("Error during transcription. Please try again.");
-    } finally {
+    if (!token) {
+      alert("You need to be logged in to transcribe.");
       setIsProcessing(false);
+      return;
     }
-  };
+
+    const formData = new FormData();
+    formData.append("file", file);
+
+    const fileType = file.type.startsWith("video/") ? "video" : "audio";
+
+    const response = await fetch(
+      `http://localhost:8000/analyze/${fileType}/transcribe`,
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+        body: formData,
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const result = await response.json();
+    console.log("Transcription response:", result);
+
+    const durationInSeconds = result.data.duration || 0;
+    const minutes = Math.floor(durationInSeconds / 60);
+    const seconds = Math.floor(durationInSeconds % 60);
+    const formattedDuration = `${minutes}:${seconds
+      .toString()
+      .padStart(2, "0")}`;
+
+    navigate("/download", {
+      state: {
+        transcriptionData: {
+          duration: formattedDuration,
+          wordCount: result.data.word_count,
+          detectedLanguage: result.data.detected_language,
+          srtFile: result.data.srt_filename,
+          originalFileName: file.name,
+        },
+      },
+    });
+  } catch (error) {
+    console.error("Transcription error:", error);
+    alert("Error during transcription. Please try again.");
+  } finally {
+    setIsProcessing(false);
+  }
+};
   if (isProcessing) {
     return (
       <>
