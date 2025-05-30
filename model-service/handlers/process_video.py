@@ -28,13 +28,16 @@ class VideoProcessor:
             print(f"Transcription result: {result}") # Add logging
             
             # Extract word count from segments
-            word_count = sum(len(segment.get('text', '').split()) for segment in result.get('segments', []))
-            
+            # word_count = sum(len(segment.get('text', '').split()) for segment in result.get('segments', []))
+            transcription_stats = result.get('transcription_stats', {}) 
+            print(f"Transcription stats: {transcription_stats}") # Add logging
+
             return {
                 "status": "success",
                 "data": {
-                    "word_count": word_count,
-                    "detected_language": result.get('language', 'unknown'),
+                    "word_count": transcription_stats.get('total_words', 0),
+                    "duration": transcription_stats.get('total_duration', 0),
+                    "detected_language": transcription_stats.get('language', 'unknown'),
                     "srt_filename": os.path.basename(result.get('srt_path', '')),
                     "srt_path": result.get('srt_path', '')
                 },

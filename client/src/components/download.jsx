@@ -72,6 +72,7 @@ export default function Download() {
                     <h2 className="text-lg font-semibold text-gray-800 mb-4">
                         Transcription Details
                     </h2>
+                    <h4 className="font-semibold truncate mb-4">Name : {transcriptionData.srtFile}</h4>
                     <div className="grid grid-cols-3 gap-6">
                         <div className="flex items-center space-x-3">
                             <FiClock className="text-blue-500 w-5 h-5" />

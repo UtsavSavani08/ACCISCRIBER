@@ -115,7 +115,7 @@ export default function Upload() {
             console.log('Transcription response:', result); // Add logging
 
             // Format duration as MM:SS
-            const durationInSeconds = duration || 0;
+            const durationInSeconds = result.data.duration || 0;
             const minutes = Math.floor(durationInSeconds / 60);
             const seconds = Math.floor(durationInSeconds % 60);
             const formattedDuration = `${minutes}:${seconds.toString().padStart(2, '0')}`;
