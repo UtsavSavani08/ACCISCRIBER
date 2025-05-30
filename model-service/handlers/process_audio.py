@@ -18,32 +18,27 @@ class AudioProcessor:
 
     async def process_file(self, file_path: str, output_dir: str) -> Dict:
         try:
-            print(f"Processing audio file: {file_path}") # Add logging
+            print(f"Processing audio file: {file_path}") 
             result = self.transcriber.process_media(
                 file_path,
                 output_dir,
                 min_confidence=0.5
             )
-            print(f"Transcription result: {result}") # Add logging
-            
-            # Extract word count from segments
-            # word_count = sum(len(segment.get('text', '').split()) for segment in result.get('segments', []))
-            transcription_stats = result.get('transcription_stats', {})
-            print(f"Transcription stats: {transcription_stats}") # Add logging
+            print(f"Transcription result: {result}") 
             
             return {
                 "status": "success",
                 "data": {
-                    "duration": transcription_stats.get('total_duration', 0),
-                    "word_count": transcription_stats.get('total_words', 0),
-                    "detected_language": transcription_stats.get('language', 'unknown'),
-                    "srt_filename": os.path.basename(result.get('srt_path', '')),
-                    "srt_path": result.get('srt_path', '')
+                    "duration": result["duration"],
+                    "word_count": result["word_count"],
+                    "detected_language": result["language"],
+                    "srt_filename": os.path.basename(result["srt_path"]),
+                    "srt_path": result["srt_path"]
                 },
                 "error": None
             }
         except Exception as e:
-            print(f"Error processing audio: {str(e)}") # Add logging
+            print(f"Error processing audio: {str(e)}") 
             return {
                 "status": "error",
                 "data": None,

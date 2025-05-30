@@ -8,8 +8,10 @@ from datetime import datetime
 import soundfile as sf
 import numpy as np
 import librosa
+from pydub import AudioSegment
 
 class Transcriber:
+    
     def __init__(self, model_name: str = "turbo"):
         """
         Initialize the transcriber with a specified Whisper model.
@@ -74,6 +76,7 @@ class Transcriber:
                 
             audio = self.load_audio(audio_path)
             
+
             # Process audio in smaller chunks with better overlap handling
             chunk_duration = 30  # Reduced from 15 to 10 seconds
             overlap_duration = 1  # Reduced from 2 to 1 second
@@ -162,17 +165,8 @@ class Transcriber:
         return False
 
     def generate_srt(self, transcription: Dict, output_path: str, min_confidence: float = 0.5) -> None:
-        """
-        Generate SRT subtitle file from transcription results with confidence scores.
-        
-        Args:
-            transcription (Dict): Transcription result from transcribe()
-            output_path (str): Path to save SRT file
-            min_confidence (float): Minimum confidence threshold for words
-        """
         try:
             def format_time(seconds: float) -> str:
-                """Convert seconds to SRT timestamp format."""
                 ms = int((seconds - int(seconds)) * 1000)
                 h = int(seconds // 3600)
                 m = int((seconds % 3600) // 60)
@@ -190,10 +184,7 @@ class Transcriber:
                 start_time = format_time(words[0]["start"])
                 end_time = format_time(words[-1]["end"])
                 
-                # Calculate average confidence for the segment
                 avg_confidence = sum(w["confidence"] for w in words) / len(words)
-                
-                # Format text with confidence score
                 text = " ".join(w["text"] for w in words)
                 confidence_text = f"[Confidence: {avg_confidence:.2%}]"
                 
@@ -214,23 +205,19 @@ class Transcriber:
                 print(f"Average confidence: {avg_confidence:.2%}")
                 print(f"Minimum confidence: {min_confidence:.2%}")
                 print(f"Maximum confidence: {max_confidence:.2%}")
+
+                # Calculate duration from segments
+                duration = max(segment["end"] for segment in transcription["segments"])
+                print(f"Total duration: {duration:.2f} seconds")
+
+               # Print word count
                 print(f"Total words: {len(all_confidences)}")
-                
+                total_words = len(all_confidences)
+
         except Exception as e:
             raise RuntimeError(f"Failed to generate SRT file: {str(e)}")
 
     def process_media(self, input_path: str, output_dir: str, min_confidence: float = 0.5) -> Dict:
-        """
-        Process a media file (audio or video) and generate transcription outputs.
-        
-        Args:
-            input_path (str): Path to input media file
-            output_dir (str): Directory to save outputs
-            min_confidence (float): Minimum confidence threshold for words
-            
-        Returns:
-            Dict: Processing results including paths to generated files
-        """
         try:
             if not os.path.exists(input_path):
                 raise FileNotFoundError(f"Input file not found: {input_path}")
@@ -247,7 +234,11 @@ class Transcriber:
 
             # Transcribe (includes language detection)
             result = self.transcribe(audio_path)
-            
+            duration = len(AudioSegment.from_file(audio_path)) / 1000.0
+
+            # Calculate total words from transcription result
+            total_words = sum(len(segment["words"]) for segment in result["transcription"]["segments"])
+
             # Generate outputs
             srt_path = os.path.join(output_dir, f"{base_name}.srt")
             json_path = os.path.join(output_dir, f"{base_name}.json")
@@ -264,6 +255,9 @@ class Transcriber:
                 }, f, indent=2, ensure_ascii=False)
             
             return {
+                "status": "success",
+                "duration": duration,
+                "word_count": total_words,
                 "audio_path": audio_path,
                 "srt_path": srt_path,
                 "json_path": json_path,
