@@ -1,71 +1,102 @@
-import React from 'react'
-
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 
 export default function BottomBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false); // Close mobile menu after clicking
+      setIsMenuOpen(false);
     }
   };
+
+  const footerLinks = {
+    product: [
+      { name: 'Features', href: '/features', onClick: () => scrollToSection('features') },
+      { name: 'Pricing', href: '/pricing' },
+      { name: 'Documentation', href: '/documentation' }
+    ],
+    company: [
+      { name: 'About', href: '/', onClick: () => scrollToSection('about') },
+      { name: 'Blog', href: '/blog' },
+      { name: 'Contact', href: '/', onClick: () => scrollToSection('contact') }
+    ],
+    legal: [
+      { name: 'Privacy Policy', href: '/privacy' },
+      { name: 'Terms of Service', href: '/terms' },
+      { name: 'Cookie Policy', href: '/cookie-policy' }
+    ]
+  };
+
+  const FooterSection = ({ title, links }) => (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+      className="space-y-4"
+    >
+      <h3 className="text-lg font-semibold tracking-wide text-gray-800">{title}</h3>
+      <ul className="space-y-3">
+        {links.map((link, index) => (
+          <li key={index}>
+            <a
+              href={link.href}
+              onClick={(e) => {
+                e.preventDefault();
+                link.onClick?.();
+              }}
+              className="text-gray-600 hover:text-indigo-600 transition-colors duration-200 text-sm flex items-center gap-1"
+            >
+              {link.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </motion.div>
+  );
+
   return (
-    <footer className="bg-gray-200 text-black py-12">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Company Section */}
-          <div>
-            <h2 className="text-xl font-bold mb-4" style={{ fontFamily: 'Deserta, cursive' }}>ACCISCRIBE</h2>
-            <p className="text-gray-600 text-sm">
+    <footer className="bg-gradient-to-b from-gray-50 to-gray-100 py-16">
+      <div className="container mx-auto px-4 max-w-7xl">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="space-y-4"
+          >
+            <h2 
+              className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-indigo-800 bg-clip-text text-transparent" 
+              style={{ fontFamily: 'Deserta, cursive' }}
+            >
+              ACCISCRIBE
+            </h2>
+            <p className="text-gray-600 text-sm leading-relaxed max-w-sm">
               Transforming audio and video content into accessible text with AI-powered transcription.
             </p>
-          </div>
+          </motion.div>
 
-          {/* Product Section */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Product</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="/features"onClick={(e) => {
-                e.preventDefault();
-                scrollToSection('features');
-              }} className="hover:text-gray-600 text-indigo-600 transition-colors">Features</a></li>
-              <li><a href="/pricing" className="hover:text-gray-600 text-indigo-600 transition-colors">Pricing</a></li>
-              <li><a href="/documentation" className="hover:text-gray-600 text-indigo-600 transition-colors">Documentation</a></li>
-            </ul>
-          </div>
-
-          {/* Company Links Section */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="/"onClick={(e) => {
-                e.preventDefault();
-                scrollToSection('about');
-              }} className="hover:text-gray-600 text-indigo-600 transition-colors">About</a></li>
-              <li><a href="/blog" className="hover:text-gray-600 text-indigo-600 transition-colors">Blog</a></li>
-              <li><a href="/" onClick={(e) => {
-                e.preventDefault();
-                scrollToSection('contact');
-              }} className="hover:text-gray-600 text-indigo-600 transition-colors">Contact</a></li>
-            </ul>
-          </div>
-
-          {/* Legal Section */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Legal</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="/privacy" className="hover:text-gray-600 text-indigo-600 transition-colors">Privacy Policy</a></li>
-              <li><a href="/terms" className="hover:text-gray-600 text-indigo-600 transition-colors">Terms of Service</a></li>
-              <li><a href="/cookie-policy" className="hover:text-gray-600 text-indigo-600 transition-colors">Cookie Policy</a></li>
-            </ul>
-          </div>
+          <FooterSection title="Product" links={footerLinks.product} />
+          <FooterSection title="Company" links={footerLinks.company} />
+          <FooterSection title="Legal" links={footerLinks.legal} />
         </div>
 
-        {/* Copyright Section */}
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-600 text-sm">
-          <p>© 2025 ACCISCRIBE. All rights reserved.</p>
-        </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="border-t border-gray-200 mt-12 pt-8 text-center"
+        >
+          <p className="text-gray-600 text-sm">
+            © {new Date().getFullYear()} ACCISCRIBE. All rights reserved.
+          </p>
+        </motion.div>
       </div>
     </footer>
-  )
+  );
 }

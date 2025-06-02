@@ -26,7 +26,7 @@ export default function Contact() {
     setIsSubmitting(true);
 
     try {
-     const templateParams = {
+      const templateParams = {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
@@ -52,16 +52,22 @@ export default function Contact() {
       setIsSubmitting(false);
     }
   };
+
   return (
-    <section className="py-16 bg-white">
+    <section className="py-24 bg-gradient-to-t from-indigo-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-gray-900 tracking-tight mb-4">Contact Us</h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">We're here to help with your transcription needs</p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white rounded-lg shadow-sm p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
+          <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 border border-gray-100">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-8">Send us a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
                 <input
                   type="text"
                   id="name"
@@ -69,12 +75,12 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Your name"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors duration-200"
+                  placeholder="Enter your name"
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
                 <input
                   type="email"
                   id="email"
@@ -82,27 +88,27 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Your email"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors duration-200"
+                  placeholder="Enter your email"
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">Your Message</label>
                 <textarea
                   id="message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  rows="4"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Your message"
+                  rows="5"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors duration-200"
+                  placeholder="How can we help you?"
                 ></textarea>
               </div>
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-indigo-700 text-white py-2 px-4 rounded-md hover:bg-indigo-500  transition-colors duration-300 disabled:bg-indigo-400"
+                className="w-full bg-indigo-600 text-white py-3 px-6 rounded-lg hover:bg-indigo-700 transition-colors duration-200 disabled:bg-indigo-400 disabled:cursor-not-allowed font-medium text-base shadow-sm hover:shadow-md"
               >
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
@@ -110,51 +116,68 @@ export default function Contact() {
           </div>
 
           {/* Contact Information */}
-          <div className="bg-white rounded-lg shadow-sm p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <FaEnvelope className="w-5 h-5 text-indigo-700" />
-                <a href="mailto:contact@transcribeai.com" className="text-indigo-700 hover:text-indigo-500 ">
-                  contact@transcribeai.com
-                </a>
+          <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 border border-gray-100">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-8">Get in Touch</h3>
+            <div className="space-y-6">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 bg-indigo-100 p-3 rounded-lg">
+                  <FaEnvelope className="w-6 h-6 text-indigo-600" />
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-gray-500">Email</p>
+                  <a href="mailto:contact@transcribeai.com" className="text-base text-indigo-600 hover:text-indigo-700 transition-colors duration-200">
+                    contact@transcribeai.com
+                  </a>
+                </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <FaPhone className="w-5 h-5 text-indigo-700" />
-                <span className="text-gray-600">+1 (555) 123-4567</span>
+
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 bg-indigo-100 p-3 rounded-lg">
+                  <FaPhone className="w-6 h-6 text-indigo-600" />
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-gray-500">Phone</p>
+                  <p className="text-base text-gray-900">+1 (555) 123-4567</p>
+                </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <FaMapMarkerAlt className="w-5 h-5 text-indigo-700" />
-                <span className="text-gray-600">123 Tech Street, San Francisco, CA 94105</span>
+
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 bg-indigo-100 p-3 rounded-lg">
+                  <FaMapMarkerAlt className="w-6 h-6 text-indigo-600" />
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-gray-500">Address</p>
+                  <p className="text-base text-gray-900">123 Tech Street, San Francisco, CA 94105</p>
+                </div>
               </div>
             </div>
 
-            <div className="mt-8">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
-              <div className="flex space-x-4">
+            <div className="mt-12">
+              <h4 className="text-lg font-semibold text-gray-900 mb-6">Connect With Us</h4>
+              <div className="flex space-x-6">
                 <a 
                   href="https://twitter.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-gray-600 hover:text-indigo-700 transition-colors duration-300"
+                  className="bg-gray-100 p-3 rounded-lg hover:bg-indigo-100 transition-colors duration-200 group"
                 >
-                  <FaTwitter className="w-6 h-6" />
+                  <FaTwitter className="w-6 h-6 text-gray-600 group-hover:text-indigo-600" />
                 </a>
                 <a 
                   href="https://linkedin.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-gray-600 hover:text-indigo-700 transition-colors duration-300"
+                  className="bg-gray-100 p-3 rounded-lg hover:bg-indigo-100 transition-colors duration-200 group"
                 >
-                  <FaLinkedin className="w-6 h-6" />
+                  <FaLinkedin className="w-6 h-6 text-gray-600 group-hover:text-indigo-600" />
                 </a>
                 <a 
                   href="https://github.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-gray-600 hover:text-indigo-700 transition-colors duration-300"
+                  className="bg-gray-100 p-3 rounded-lg hover:bg-indigo-100 transition-colors duration-200 group"
                 >
-                  <FaGithub className="w-6 h-6" />
+                  <FaGithub className="w-6 h-6 text-gray-600 group-hover:text-indigo-600" />
                 </a>
               </div>
             </div>
@@ -162,5 +185,5 @@ export default function Contact() {
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -188,7 +188,7 @@ class Transcriber:
                 text = " ".join(w["text"] for w in words)
                 confidence_text = f"[Confidence: {avg_confidence:.2%}]"
                 
-                srt_entries.append(f"{entry_num}\n{start_time} --> {end_time}\n{text}\n{confidence_text}\n")
+                srt_entries.append(f"{entry_num}\n{start_time} --> {end_time}\n{text}\n")
                 entry_num += 1
 
             with open(output_path, "w", encoding="utf-8") as f:
