@@ -1,36 +1,58 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from api.audio_api import router as audio_router
 from api.video_api import router as video_router
-from fastapi.responses import FileResponse
-from fastapi import HTTPException
+from api.stats_api import router as stats_router
 import os
 
-app = FastAPI()
+app = FastAPI(
+    title="Media Transcription Service",
+    description="Handles audio/video upload, transcription, and SRT download.",
+    version="1.0.0"
+)
 
+# Allow CORS from any frontend (adjust as needed for security)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow Express server
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+# Register routers
 app.include_router(audio_router, prefix="/analyze/audio", tags=["Audio"])
 app.include_router(video_router, prefix="/analyze/video", tags=["Video"])
+app.include_router(stats_router, prefix="/api", tags=["Stats"])
 
-@app.get("/download/srt/{filename}")
-def download_srt(filename: str):
-    audio_srt = os.path.join("output/audio", filename)
-    video_srt = os.path.join("output/video", filename)
 
-    if os.path.exists(audio_srt):
-        return FileResponse(path=audio_srt, media_type="application/x-subrip", filename=filename)
+from fastapi.responses import StreamingResponse
+import requests
+from fastapi import Request, Query
 
-    if os.path.exists(video_srt):
-        return FileResponse(path=video_srt, media_type="application/x-subrip", filename=filename)
+@app.get("/download/srt")
+def proxy_srt_download(srt_url: str = Query(...)):
+    """
+    Downloads an SRT file from a Supabase public URL and serves it to the user.
+    """
+    try:
+        response = requests.get(srt_url, stream=True)
+        if response.status_code != 200:
+            raise HTTPException(status_code=404, detail="SRT not found at URL")
+        
+        filename = srt_url.split("/")[-1]
 
-    raise HTTPException(status_code=404, detail="SRT file not found")
+        return StreamingResponse(
+            response.iter_content(chunk_size=1024),
+            media_type="application/x-subrip",
+            headers={
+                "Content-Disposition": f'attachment; filename="{filename}"',
+                "Content-Type": "application/octet-stream"
+            }
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error downloading SRT: {str(e)}")
 
 # main.py
 # from fastapi import FastAPI

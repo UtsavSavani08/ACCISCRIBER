@@ -121,7 +121,7 @@ export default function History() {
         <div className="bg-white rounded-xl shadow-md p-6 mb-8">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div className="flex space-x-4">
-                {['all', 'audio', 'video'].map(type => (
+                {['all' ].map(type => (
                 <button
                     key={type}
                     onClick={() => setFilter(type)}

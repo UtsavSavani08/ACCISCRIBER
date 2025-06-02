@@ -15,8 +15,7 @@ const supabase = createClient(
   import.meta.env.VITE_SUPABASE_URL,
   import.meta.env.VITE_SUPABASE_ANON_KEY
 );
-const { data } = await supabase.auth.getSession();
-// const token = data.session.access_token;
+
 
 
 export default function Upload() {
@@ -109,24 +108,28 @@ export default function Upload() {
     return `${parseFloat((bytes / Math.pow(k, i)).toFixed(1))} ${sizes[i]}`;
   };
 
-  const handleStartTranscription = async () => {
+const handleStartTranscription = async () => {
   if (!file) return;
 
   setIsProcessing(true);
 
   try {
-    // Get current session
+    // ✅ Fetch session inside the async function
     const { data, error } = await supabase.auth.getSession();
-    const token = data?.session?.access_token;
+    const session = data?.session;
 
-    if (!token) {
+    if (!session) {
       alert("You need to be logged in to transcribe.");
       setIsProcessing(false);
       return;
     }
 
+    const token = session.access_token;
+    const userId = session.user.id;
+
     const formData = new FormData();
     formData.append("file", file);
+    formData.append("user_id", userId);
 
     const fileType = file.type.startsWith("video/") ? "video" : "audio";
 
@@ -146,28 +149,26 @@ export default function Upload() {
     }
 
     const result = await response.json();
-    console.log("Transcription response:", result);
 
     const durationInSeconds = result.data.duration || 0;
     const minutes = Math.floor(durationInSeconds / 60);
     const seconds = Math.floor(durationInSeconds % 60);
-    const formattedDuration = `${minutes}:${seconds
-      .toString()
-      .padStart(2, "0")}`;
+    const formattedDuration = `${minutes}:${seconds.toString().padStart(2, "0")}`;
 
     navigate("/download", {
       state: {
         transcriptionData: {
           duration: formattedDuration,
           wordCount: result.data.word_count,
-          detectedLanguage: result.data.detected_language,
-          srtFile: result.data.srt_filename,
+          detectedLanguage: result.data.language,
+          srtFile: result.data.srt_url,
+          srt_url: result.data.srt_url,
           originalFileName: file.name,
         },
       },
     });
-  } catch (error) {
-    console.error("Transcription error:", error);
+  } catch (err) {
+    console.error("Transcription error:", err);
     alert("Error during transcription. Please try again.");
   } finally {
     setIsProcessing(false);

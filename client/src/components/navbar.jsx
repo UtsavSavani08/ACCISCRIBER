@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import logo from "../assets/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import { createClient } from "@supabase/supabase-js";
@@ -13,6 +13,40 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [user, setUser] = useState(null);
   const [showProfileMenu, setShowProfileMenu] = useState(false);
+  const menuTimeoutRef = useRef(null);
+  const menuRef = useRef(null);
+
+  // Handle menu auto-hide
+  useEffect(() => {
+    const handleAutoHide = () => {
+      if (showProfileMenu) {
+        menuTimeoutRef.current = setTimeout(() => {
+          setShowProfileMenu(false);
+        }, 3000); // Hide after 3 seconds
+      }
+    };
+
+    handleAutoHide();
+
+    return () => {
+      if (menuTimeoutRef.current) {
+        clearTimeout(menuTimeoutRef.current);
+      }
+    };
+  }, [showProfileMenu]);
+
+  // Handle mouse interactions
+  const handleMouseEnter = () => {
+    if (menuTimeoutRef.current) {
+      clearTimeout(menuTimeoutRef.current);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    menuTimeoutRef.current = setTimeout(() => {
+      setShowProfileMenu(false);
+    }, 3000);
+  };
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data: { user } }) => {
@@ -173,30 +207,42 @@ export default function Navbar() {
                 </Link>
               </>
             ) : (
-              <div className="relative">
-                <button
-                  onClick={() => setShowProfileMenu(!showProfileMenu)}
-                  className="w-10 h-10 rounded-full bg-blue-700 text-white flex items-center justify-center"
-                >
-                  {user.email[0].toUpperCase()}
-                </button>
-                {showProfileMenu && (
-                  <div className="absolute right-0 mt-2 w-48 bg-white border rounded shadow-lg">
-                    <Link
-                      to="/history"
-                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                    >
-                      History
-                    </Link>
-                    <button
-                      onClick={handleLogout}
-                      className="w-full text-left px-4 py-2 text-gray-800 hover:bg-gray-100"
-                    >
-                      Logout
-                    </button>
-                  </div>
-                )}
-              </div>
+              <div className="relative group">
+    <button
+      onClick={() => setShowProfileMenu(!showProfileMenu)}
+      className="w-11 h-11 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white flex items-center justify-center text-lg font-semibold transform transition-all duration-200 hover:scale-105 hover:shadow-lg hover:from-blue-600 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+    >
+      {user.email[0].toUpperCase()}
+    </button>
+    {showProfileMenu && (
+      <div className="absolute right-0 mt-3 w-56 bg-white rounded-lg shadow-xl border border-gray-100 transform transition-all duration-200 origin-top-right">
+        <div className="p-3 border-b border-gray-100">
+          <p className="text-sm font-medium text-gray-700">{user.email}</p>
+          <p className="text-xs text-gray-500 mt-1">Logged in user</p>
+        </div>
+        <div className="py-1">
+          <Link
+            to="/history"
+            className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors group"
+          >
+            <svg className="w-4 h-4 mr-3 text-gray-400 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            History
+          </Link>
+          <button
+            onClick={handleLogout}
+            className="flex w-full items-center px-4 py-2 text-sm text-red-600 hover:bg-red-50 transition-colors group"
+          >
+            <svg className="w-4 h-4 mr-3 text-red-400 group-hover:text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+            </svg>
+            Logout
+          </button>
+        </div>
+      </div>
+    )}
+  </div>
             )}
           </div>
         </div>
@@ -253,27 +299,64 @@ export default function Navbar() {
               </Link>
             </>
           ) : (
-            <div className="relative">
+            <div className="relative group" 
+                 ref={menuRef}
+                 onMouseEnter={handleMouseEnter}
+                 onMouseLeave={handleMouseLeave}>
               <button
                 onClick={() => setShowProfileMenu(!showProfileMenu)}
-                className="w-10 h-10 rounded-full bg-blue-700 text-white flex items-center justify-center"
+                className="w-11 h-11 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white flex items-center justify-center text-lg font-semibold transform transition-all duration-200 hover:scale-105 hover:shadow-lg hover:from-blue-600 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               >
                 {user.email[0].toUpperCase()}
               </button>
               {showProfileMenu && (
-                <div className="absolute right-0 mt-2 w-48 bg-white border rounded shadow-lg">
-                  <Link
-                    to="/history"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
-                    History
-                  </Link>
-                  <button
-                    onClick={handleLogout}
-                    className="w-full text-left px-4 py-2 text-gray-800 hover:bg-gray-100"
-                  >
-                    Logout
-                  </button>
+                <div className="absolute right-0 mt-3 w-56 bg-white rounded-lg shadow-xl border border-gray-100 transform transition-all duration-200 origin-top-right">
+                  <div className="p-3 border-b border-gray-100">
+                    <p className="text-sm font-medium text-gray-700">
+                      {user.email}
+                    </p>
+                    <p className="text-xs text-gray-500 mt-1">Logged in user</p>
+                  </div>
+                  <div className="py-1">
+                    <Link
+                      to="/history"
+                      className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors group"
+                    >
+                      <svg
+                        className="w-4 h-4 mr-3 text-gray-400 group-hover:text-blue-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                      History
+                    </Link>
+                    <button
+                      onClick={handleLogout}
+                      className="flex w-full items-center px-4 py-2 text-sm text-red-600 hover:bg-red-50 transition-colors group"
+                    >
+                      <svg
+                        className="w-4 h-4 mr-3 text-red-400 group-hover:text-red-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+                        />
+                      </svg>
+                      Logout
+                    </button>
+                  </div>
                 </div>
               )}
             </div>

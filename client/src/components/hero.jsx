@@ -1,8 +1,24 @@
 import React from 'react'
-import { FileText, Mic, Globe,UploadCloud } from 'lucide-react';
+import { FileText, Mic, UploadCloud } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 export default function Hero() {
+    const [stats, setStats] = useState({ files: 0, users: 0 });
+
+  useEffect(() => {
+    axios.get("http://localhost:8000/api/stats")
+      .then(res => {
+        setStats({
+          files: res.data.files_transcribed,
+          users: res.data.active_users
+        });
+      })
+      .catch(err => {
+        console.error("Failed to fetch stats", err);
+      });
+  }, []);
   return (
     <>
         <div className=" bg-gradient-to-b from-indigo-100 to-white ">
@@ -61,22 +77,21 @@ export default function Hero() {
 
                 {/* Stats Section */}
                 <div className="bg-indigo-700 text-white py-12 px-4 rounded-xl shadow-lg">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div className="grid grid-cols-3 md:grid-cols-3 gap-8">
                     <div>
-                    <div className="text-4xl font-bold mb-2">1M+</div>
+                    <div className="text-5xl font-bold mb-1">{stats.files.toLocaleString()}</div>
                     <div className="text-base">Files Transcribed</div>
                     </div>
                     <div>
-                    <div className="text-4xl font-bold mb-2">50K+</div>
+                    <div className="text-5xl font-bold mb-1">{stats.users.toLocaleString()}</div>
                     <div className="text-base">Active Users</div>
                     </div>
                     <div>
-                    <div className="text-4xl font-bold mb-2">50+</div>
-                    <div className="text-base">Languages</div>
+                    <div className="text-5xl font-bold mb-1">20+</div>
+                    <div className="text-base">Languages Support</div>
                     </div>
                     <div>
-                    <div className="text-4xl font-bold mb-2">1M+</div>
-                    <div className="text-base">Hours Saved</div>
+                    
                     </div>
                 </div>
                 </div>

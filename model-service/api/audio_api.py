@@ -1,81 +1,123 @@
-# from fastapi import APIRouter, UploadFile, File, BackgroundTasks
-# from handlers.process_audio import AudioProcessor
-# import os
-# from typing import Dict
-# import shutil
-
-# router = APIRouter()
-# processor = AudioProcessor()
-
-# @router.post("/transcribe")
-# async def transcribe_audio(
-#     file: UploadFile = File(...),
-#     background_tasks: BackgroundTasks = None
-# ) -> Dict:
-#     # Create temporary directories for processing
-#     temp_dir = "temp_uploads"
-#     output_dir = "output"
-#     os.makedirs(temp_dir, exist_ok=True)
-#     os.makedirs(output_dir, exist_ok=True)
-
-#     # Save uploaded file
-#     file_path = os.path.join(temp_dir, file.filename)
-#     with open(file_path, "wb") as buffer:
-#         shutil.copyfileobj(file.file, buffer)
-
-#     # Process the file
-#     result = await processor.process_file(file_path, output_dir)
-
-#     # Clean up temporary file
-#     background_tasks.add_task(os.remove, file_path)
-
-#     return result
-
-from fastapi import APIRouter, UploadFile, File, BackgroundTasks
-from handlers.process_audio import AudioProcessor
-from fastapi.responses import JSONResponse
 import os
+import logging
+from fastapi import APIRouter, UploadFile, File, Form, HTTPException, BackgroundTasks
+from fastapi.responses import JSONResponse
+from supabase import create_client, Client
+from uuid import uuid4
+from handlers.process_audio import AudioProcessor
 from typing import Dict
-import shutil
+from dotenv import load_dotenv
+from fastapi import BackgroundTasks
+
+load_dotenv()
 
 router = APIRouter()
 processor = AudioProcessor()
 
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler("transcription.log"),  # logs to a file
+        logging.StreamHandler()  # logs to console
+    ]
+)
+logger = logging.getLogger(__name__)
+
+# Supabase config
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_BUCKET = "transcriptions"
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
 @router.post("/transcribe")
 async def transcribe_audio(
     file: UploadFile = File(...),
-    background_tasks: BackgroundTasks = None
+    user_id: str = Form(...),
+    background_tasks: BackgroundTasks = BackgroundTasks()
 ) -> Dict:
-    print(f"Received audio file: {file.filename}") # Add logging
-    temp_dir = "temp_uploads"
-    output_dir = "output/audio"
-    os.makedirs(temp_dir, exist_ok=True)
-    os.makedirs(output_dir, exist_ok=True)
-
-    file_path = os.path.join(temp_dir, file.filename)
-    with open(file_path, "wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
-
-    result = await processor.process_file(file_path, output_dir)
-    print(f"Processing result: {result}") # Add logging
-
-    background_tasks.add_task(os.remove, file_path)
-
-    if result["status"] == "error":
-        return JSONResponse(status_code=500, content={"message": result["error"]})
-
-    return result
-    srt_path = result["data"]["srt_path"]
+    file_path = None  # define here for cleanup in except block
     try:
-        with open(srt_path, "r", encoding="utf-8") as f:
-            srt_content = f.read()
-    except Exception as e:
-        srt_content = ""
+        logger.info(f"Received transcription request from user: {user_id} with file: {file.filename}")
 
-    return {
-        "message": "Audio processed successfully",
-        "data": {
-            **result["data"],
-            "srt_content": srt_content
+        # 1. Save uploaded file locally
+        file_ext = file.filename.split(".")[-1].lower()
+        file_id = str(uuid4())
+        local_filename = f"{file_id}.{file_ext}"
+        upload_dir = "temp_uploads"
+        os.makedirs(upload_dir, exist_ok=True)
+        file_path = os.path.join(upload_dir, local_filename)
+
+        with open(file_path, "wb") as f:
+            content = await file.read()
+            f.write(content)
+        logger.info(f"File saved locally at {file_path}")
+
+        # 2. Process the file (transcribe + generate SRT)
+        result = await processor.process_file(file_path, upload_dir)
+        logger.info(f"Processing result: {result}")
+
+        if result["status"] == "error":
+            logger.error(f"Processing error: {result['error']}")
+            raise Exception(result["error"])
+
+        # 3. Upload files to Supabase Storage
+        storage_path = f"{user_id}/{file_id}"
+        audio_storage_path = f"{storage_path}.{file_ext}"
+        srt_storage_path = f"{storage_path}.srt"
+
+        with open(file_path, "rb") as f:
+            upload_resp_audio = supabase.storage.from_(SUPABASE_BUCKET).upload(audio_storage_path, f)
+        logger.info(f"Audio file uploaded to Supabase at {audio_storage_path}")
+
+        with open(result["data"]["srt_path"], "rb") as f:
+            upload_resp_srt = supabase.storage.from_(SUPABASE_BUCKET).upload(srt_storage_path, f)
+        logger.info(f"SRT file uploaded to Supabase at {srt_storage_path}")
+
+        # 4. Get public URLs
+        audio_url = supabase.storage.from_(SUPABASE_BUCKET).get_public_url(audio_storage_path)
+        srt_url = supabase.storage.from_(SUPABASE_BUCKET).get_public_url(srt_storage_path)
+        logger.info(f"Obtained public URLs - Audio: {audio_url}, SRT: {srt_url}")
+
+        # 5. Store metadata in Supabase DB
+        upload_record = {
+            "user_id": user_id,
+            "file_id": file_id,
+            "filename": file.filename,
+            "type": "audio",
+            "audio_url": audio_url,
+            "srt_url": srt_url,
+            "duration": result["data"]["duration"],
+            "word_count": result["data"]["word_count"],
+            "language": result["data"].get("language", "unknown")
         }
-    }
+
+        db_resp = supabase.table("uploads").insert(upload_record).execute()
+        logger.info(f"Metadata inserted in DB: {db_resp}")
+
+        # 6. Clean up temporary files
+        def cleanup_files(paths):
+            for p in paths:
+                try:
+                    if os.path.exists(p):
+                        os.remove(p)
+                except Exception as e:
+                    # Log error but don't raise to avoid breaking flow
+                    print(f"Error deleting file {p}: {e}")
+
+        cleanup_paths = [file_path, result["data"]["audio_path"], result["data"]["srt_path"]]
+        background_tasks.add_task(cleanup_files, cleanup_paths)
+
+        return JSONResponse(status_code=200, content={
+            "status": "success",
+            "message": "File processed and uploaded successfully",
+            "data": upload_record
+        })
+
+    except Exception as e:
+        # If exception occurs, delete temp files immediately
+        for p in [file_path, result.get("data", {}).get("audio_path"), result.get("data", {}).get("srt_path")]:
+            if p and os.path.exists(p):
+                os.remove(p)
+        raise HTTPException(status_code=500, detail=str(e))

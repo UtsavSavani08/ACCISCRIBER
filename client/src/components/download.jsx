@@ -14,14 +14,16 @@ export default function Download() {
     const { transcriptionData } = location.state || {};
     
     const downloadSRT = () => {
-        if (!transcriptionData?.srtFile) return;
-        
-        const link = document.createElement('a');
-        link.href = `http://localhost:8000/download/srt/${transcriptionData.srtFile}`;
-        // Use original filename but with .srt extension
-        const srtFileName = transcriptionData.originalFileName.replace(/\.[^/.]+$/, ".srt");
-        link.download = srtFileName;
-        link.click();
+         if (!transcriptionData?.srt_url) return;
+
+ if (!transcriptionData?.srt_url) return;
+
+    const encodedUrl = encodeURIComponent(transcriptionData.srt_url);
+    const downloadUrl = `http://localhost:8000/download/srt?srt_url=${encodedUrl}`;
+
+    // Open download in a new tab (works better for streaming responses)
+    window.open(downloadUrl, '_blank');
+    link.click();
     };
 
     return (
