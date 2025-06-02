@@ -84,6 +84,7 @@ async def transcribe_audio(
             "filename": file.filename,
             "type": "video",
             "audio_url": audio_url,
+            "video_url": video_url,
             "srt_url": srt_url,
             "duration": result["data"].get("duration"),
             "word_count": result["data"].get("word_count"),

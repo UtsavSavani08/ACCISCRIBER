@@ -28,9 +28,9 @@ export default function BottomBar() {
               <li><a href="/features"onClick={(e) => {
                 e.preventDefault();
                 scrollToSection('features');
-              }} className="hover:text-gray-600 transition-colors">Features</a></li>
-              <li><a href="/pricing" className="hover:text-gray-600 transition-colors">Pricing</a></li>
-              <li><a href="/documentation" className="hover:text-gray-600 transition-colors">Documentation</a></li>
+              }} className="hover:text-gray-600 text-indigo-600 transition-colors">Features</a></li>
+              <li><a href="/pricing" className="hover:text-gray-600 text-indigo-600 transition-colors">Pricing</a></li>
+              <li><a href="/documentation" className="hover:text-gray-600 text-indigo-600 transition-colors">Documentation</a></li>
             </ul>
           </div>
 
@@ -41,12 +41,12 @@ export default function BottomBar() {
               <li><a href="/"onClick={(e) => {
                 e.preventDefault();
                 scrollToSection('about');
-              }} className="hover:text-gray-600 transition-colors">About</a></li>
-              <li><a href="/blog" className="hover:text-gray-600 transition-colors">Blog</a></li>
+              }} className="hover:text-gray-600 text-indigo-600 transition-colors">About</a></li>
+              <li><a href="/blog" className="hover:text-gray-600 text-indigo-600 transition-colors">Blog</a></li>
               <li><a href="/" onClick={(e) => {
                 e.preventDefault();
                 scrollToSection('contact');
-              }} className="hover:text-gray-600 transition-colors">Contact</a></li>
+              }} className="hover:text-gray-600 text-indigo-600 transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -54,9 +54,9 @@ export default function BottomBar() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="/privacy" className="hover:text-gray-600 transition-colors">Privacy Policy</a></li>
-              <li><a href="/terms" className="hover:text-gray-600 transition-colors">Terms of Service</a></li>
-              <li><a href="/cookie-policy" className="hover:text-gray-600 transition-colors">Cookie Policy</a></li>
+              <li><a href="/privacy" className="hover:text-gray-600 text-indigo-600 transition-colors">Privacy Policy</a></li>
+              <li><a href="/terms" className="hover:text-gray-600 text-indigo-600 transition-colors">Terms of Service</a></li>
+              <li><a href="/cookie-policy" className="hover:text-gray-600 text-indigo-600 transition-colors">Cookie Policy</a></li>
             </ul>
           </div>
         </div>

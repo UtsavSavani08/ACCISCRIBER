@@ -90,24 +90,16 @@ async def transcribe_audio(
             "srt_url": srt_url,
             "duration": result["data"]["duration"],
             "word_count": result["data"]["word_count"],
-            "language": result["data"].get("language", "unknown")
+            "language": result["data"].get("language")
         }
 
         db_resp = supabase.table("uploads").insert(upload_record).execute()
         logger.info(f"Metadata inserted in DB: {db_resp}")
 
         # 6. Clean up temporary files
-        def cleanup_files(paths):
-            for p in paths:
-                try:
-                    if os.path.exists(p):
-                        os.remove(p)
-                except Exception as e:
-                    # Log error but don't raise to avoid breaking flow
-                    print(f"Error deleting file {p}: {e}")
-
-        cleanup_paths = [file_path, result["data"]["audio_path"], result["data"]["srt_path"]]
-        background_tasks.add_task(cleanup_files, cleanup_paths)
+        background_tasks.add_task(os.remove, file_path)
+        background_tasks.add_task(os.remove, result["data"]["srt_path"])
+        logger.info(f"Scheduled cleanup for {file_path} and {result['data']['srt_path']}")
 
         return JSONResponse(status_code=200, content={
             "status": "success",
@@ -116,8 +108,8 @@ async def transcribe_audio(
         })
 
     except Exception as e:
-        # If exception occurs, delete temp files immediately
-        for p in [file_path, result.get("data", {}).get("audio_path"), result.get("data", {}).get("srt_path")]:
-            if p and os.path.exists(p):
-                os.remove(p)
+        logger.exception(f"Exception during transcription: {e}")
+        if file_path and os.path.exists(file_path):
+            os.remove(file_path)
+            logger.info(f"Cleaned up file after exception: {file_path}")
         raise HTTPException(status_code=500, detail=str(e))

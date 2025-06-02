@@ -108,7 +108,7 @@ export default function Navbar() {
   // };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-blue-400 to-white shadow-md z-50">
+    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-indigo-400 to-white shadow-md z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-top justify-between h-16">
           {/* Logo and site name */}
