@@ -66,6 +66,21 @@ const ProfileMenu = ({ user, onLogout }) => (
   </motion.div>
 );
 
+const MobileNavLink = ({ to, onClick, children }) => (
+  <motion.div
+    whileHover={{ x: 10 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    <Link
+      to={to}
+      onClick={onClick}
+      className="block text-gray-700 hover:text-blue-600 transition-colors duration-200 py-3 border-b border-gray-100 last:border-0"
+    >
+      {children}
+    </Link>
+  </motion.div>
+);
+
 export default function Navbar() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -143,16 +158,16 @@ export default function Navbar() {
       className="fixed top-0 left-0 w-full bg-white bg-opacity-95 backdrop-blur-sm shadow-lg z-50"
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center space-x-2 group">
+        <div className="flex items-center justify-between h-20">
+          <Link to="/" className="flex items-center space-x-2 group py-2">
             <motion.img
               whileHover={{ scale: 1.05 }}
               src={logo}
               alt="LogoCaption"
-              className="h-20 w-auto"
+              className="h-16 w-auto"
             />
             <motion.span
-              className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 font-semibold"
+              className="text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 font-semibold"
               style={{ fontFamily: "Deserta, cursive" }}
               whileHover={{ scale: 1.05 }}
             >
@@ -229,56 +244,63 @@ export default function Navbar() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              transition={{ duration: 0.2 }}
-              className="md:hidden py-4 space-y-4"
+              transition={{ duration: 0.3 }}
+              className="fixed inset-0 top-20 bg-white z-40 md:hidden overflow-y-auto"
             >
-              <NavLink to="/">Home</NavLink>
-              <NavLink to="/upload">Upload</NavLink>
-              <NavLink to="/record">Record</NavLink>
-              <NavLink to="/contact" onClick={(e) => handleSectionNavigation(e, "contact")}>Contact</NavLink>
-              <NavLink to="/about" onClick={(e) => handleSectionNavigation(e, "about")}>About</NavLink>
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1 }}
+                className="px-4 py-6 space-y-1"
+              >
+                <MobileNavLink to="/">Home</MobileNavLink>
+                <MobileNavLink to="/upload">Upload</MobileNavLink>
+                <MobileNavLink to="/record">Record</MobileNavLink>
+                <MobileNavLink to="/contact" onClick={(e) => handleSectionNavigation(e, "contact")}>Contact</MobileNavLink>
+                <MobileNavLink to="/about" onClick={(e) => handleSectionNavigation(e, "about")}>About</MobileNavLink>
 
-              {!user ? (
-                <div className="flex flex-col space-y-2">
-                  <Link to="/login">
-                    <motion.button
-                      whileTap={{ scale: 0.95 }}
-                      className="w-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-2 rounded-lg font-medium transition-all duration-200"
+                {!user ? (
+                  <div className="flex flex-col space-y-3 pt-6">
+                    <Link to="/login" className="w-full">
+                      <motion.button
+                        whileTap={{ scale: 0.95 }}
+                        className="w-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-3 rounded-xl font-medium transition-all duration-200 hover:shadow-lg"
+                      >
+                        Log In
+                      </motion.button>
+                    </Link>
+                    <Link to="/signup" className="w-full">
+                      <motion.button
+                        whileTap={{ scale: 0.95 }}
+                        className="w-full border-2 border-indigo-600 text-indigo-600 py-3 rounded-xl font-medium transition-all duration-200 hover:bg-indigo-50"
+                      >
+                        Sign Up
+                      </motion.button>
+                    </Link>
+                  </div>
+                ) : (
+                  <div className="space-y-4 pt-6 border-t border-gray-100 mt-6">
+                    <Link
+                      to="/history"
+                      className="flex items-center space-x-3 text-gray-700 hover:text-blue-600 transition-colors py-3"
                     >
-                      Log In
-                    </motion.button>
-                  </Link>
-                  <Link to="/signup">
-                    <motion.button
-                      whileTap={{ scale: 0.95 }}
-                      className="w-full border-2 border-indigo-600 text-indigo-600 py-2 rounded-lg font-medium transition-all duration-200"
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span className="font-medium">History</span>
+                    </Link>
+                    <button
+                      onClick={handleLogout}
+                      className="flex items-center space-x-3 text-red-600 hover:text-red-700 transition-colors w-full py-3"
                     >
-                      Sign Up
-                    </motion.button>
-                  </Link>
-                </div>
-              ) : (
-                <div className="space-y-2">
-                  <Link
-                    to="/history"
-                    className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors"
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <span>History</span>
-                  </Link>
-                  <button
-                    onClick={handleLogout}
-                    className="flex items-center space-x-2 text-red-600 hover:text-red-700 transition-colors"
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-                    </svg>
-                    <span>Logout</span>
-                  </button>
-                </div>
-              )}
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                      </svg>
+                      <span className="font-medium">Logout</span>
+                    </button>
+                  </div>
+                )}
+              </motion.div>
             </motion.div>
           )}
         </AnimatePresence>
