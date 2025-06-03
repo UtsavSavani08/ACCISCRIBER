@@ -1,6 +1,13 @@
 import React, { useState, useRef } from 'react';
 import { FiMic, FiStopCircle, FiUploadCloud, FiFile, FiHardDrive } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
+import { createClient } from "@supabase/supabase-js";
+
+const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_ANON_KEY
+);
 
 export default function Record() {
     const [isRecording, setIsRecording] = useState(false);
@@ -8,8 +15,16 @@ export default function Record() {
     const [recordingTime, setRecordingTime] = useState(0);
     const mediaRecorderRef = useRef(null);
     const timerRef = useRef(null);
+    const navigate = useNavigate();
 
     const startRecording = async () => {
+        // Check if user is logged in
+        const { data } = await supabase.auth.getSession();
+        const session = data?.session;
+        if (!session) {
+            navigate("/login", { state: { from: "/record" } });
+            return;
+        }
         try {
             const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
             const mediaRecorder = new MediaRecorder(stream);

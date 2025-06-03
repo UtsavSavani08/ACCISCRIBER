@@ -3,6 +3,7 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "../assets/logo.png";
 import { createClient } from "@supabase/supabase-js";
+import { FiMusic, FiVideo, FiMic } from "react-icons/fi";
 
 const supabase = createClient(
   import.meta.env.VITE_SUPABASE_URL,
@@ -87,27 +88,33 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [user, setUser] = useState(null);
   const [showProfileMenu, setShowProfileMenu] = useState(false);
+  const [showToolsMenu, setShowToolsMenu] = useState(false);
+  const [showMobileTools, setShowMobileTools] = useState(false);
   const menuTimeoutRef = useRef(null);
   const menuRef = useRef(null);
+  const toolsMenuRef = useRef(null);
 
+  // Profile menu outside click
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
         setShowProfileMenu(false);
       }
+      if (toolsMenuRef.current && !toolsMenuRef.current.contains(event.target)) {
+        setShowToolsMenu(false);
+      }
     };
-
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // Profile menu auto-hide
   useEffect(() => {
     const handleAutoHide = () => {
       if (showProfileMenu) {
         menuTimeoutRef.current = setTimeout(() => setShowProfileMenu(false), 3000);
       }
     };
-
     handleAutoHide();
     return () => clearTimeout(menuTimeoutRef.current);
   }, [showProfileMenu]);
@@ -117,13 +124,16 @@ export default function Navbar() {
     menuTimeoutRef.current = setTimeout(() => setShowProfileMenu(false), 3000);
   };
 
+  // Tools menu click handler (desktop)
+  const handleToolsClick = () => {
+    setShowToolsMenu((prev) => !prev);
+  };
+
   useEffect(() => {
     supabase.auth.getUser().then(({ data: { user } }) => setUser(user));
-
     const { data: authListener } = supabase.auth.onAuthStateChange(
       async (_event, session) => setUser(session?.user || null)
     );
-
     return () => authListener?.subscription.unsubscribe();
   }, []);
 
@@ -152,17 +162,17 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      initial={{ y: -100 }}
+      initial={{ y: 0 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 w-full bg-white bg-opacity-95 backdrop-blur-sm shadow-lg z-50"
+      className="fixed top-0 left-0 w-full bg-white bg-opacity-100 backdrop-blur-sm shadow-lg z-50"
     >
-      <div className="container mx-auto px-4">
+      <div className="max-w-full md:container mx-auto px-2 md:px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-2 group py-2">
             <motion.img
               whileHover={{ scale: 1.05 }}
-              src={logo}
+              src={logo} 
               alt="LogoCaption"
               className="h-16 w-auto"
             />
@@ -175,12 +185,51 @@ export default function Navbar() {
             </motion.span>
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/upload">Upload</NavLink>
-            <NavLink to="/record">Record</NavLink>
+          {/* Desktop Nav */}
+          <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
+            <div
+              className="relative"
+              ref={toolsMenuRef}
+              tabIndex={0}
+            >
+              <button
+                className="flex items-center bg-white text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium focus:outline-none"
+                tabIndex={-1}
+                type="button"
+                onClick={handleToolsClick}
+              >
+                Tools
+                <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {showToolsMenu && (
+                <div className="absolute left-0 mt-2 w-52 bg-white rounded-lg shadow-lg border border-gray-100 z-50">
+                  <Link
+                    to="/audio-to-text"
+                    className="flex items-center gap-2 px-5 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors rounded-t-lg"
+                  >
+                    <FiMusic className="text-blue-500" /> Audio to Text
+                  </Link>
+                  <Link
+                    to="/video-to-text"
+                    className="flex items-center gap-2 px-5 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                  >
+                    <FiVideo className="text-indigo-500" /> Video to Text
+                  </Link>
+                  <Link
+                    to="/record"
+                    className="flex items-center gap-2 px-5 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors rounded-b-lg"
+                  >
+                    <FiMic className="text-red-500" /> Recording to Text
+                  </Link>
+                </div>
+              )}
+            </div>
             <NavLink to="/contact" onClick={(e) => handleSectionNavigation(e, "contact")}>Contact</NavLink>
-            <NavLink to="/about" onClick={(e) => handleSectionNavigation(e, "about")}>About</NavLink>
+            <NavLink to="/Documents">Docs</NavLink>
+            <NavLink to="/languages-supported">Languages</NavLink>
+            <NavLink to="/pricing">Pricing</NavLink>
 
             {!user ? (
               <div className="flex items-center space-x-4">
@@ -217,6 +266,7 @@ export default function Navbar() {
             )}
           </div>
 
+          {/* Mobile Nav Toggle */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -238,6 +288,7 @@ export default function Navbar() {
           </button>
         </div>
 
+        {/* Mobile Nav */}
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
@@ -247,17 +298,55 @@ export default function Navbar() {
               transition={{ duration: 0.3 }}
               className="fixed inset-0 top-20 bg-white z-40 md:hidden overflow-y-auto"
             >
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
                 className="px-4 py-6 space-y-1"
               >
-                <MobileNavLink to="/">Home</MobileNavLink>
-                <MobileNavLink to="/upload">Upload</MobileNavLink>
-                <MobileNavLink to="/record">Record</MobileNavLink>
+                {/* Tools Dropdown for Mobile */}
+                <div className="mb-2">
+                  <button
+                    className="flex items-center w-full text-gray-700 hover:text-blue-600 font-medium py-3 border-b border-gray-100"
+                    onClick={() => setShowMobileTools((prev) => !prev)}
+                  >
+                    Tools
+                    <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  <AnimatePresence>
+                    {showMobileTools && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: "auto" }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="pl-4"
+                      >
+                        <MobileNavLink to="/audio-to-text">
+                          <span className="flex items-center gap-2">
+                            <FiMusic className="text-blue-500" /> Audio to Text
+                          </span>
+                        </MobileNavLink>
+                        <MobileNavLink to="/video-to-text">
+                          <span className="flex items-center gap-2">
+                            <FiVideo className="text-indigo-500" /> Video to Text
+                          </span>
+                        </MobileNavLink>
+                        <MobileNavLink to="/record">
+                          <span className="flex items-center gap-2">
+                            <FiMic className="text-red-500" /> Recording to Text
+                          </span>
+                        </MobileNavLink>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
                 <MobileNavLink to="/contact" onClick={(e) => handleSectionNavigation(e, "contact")}>Contact</MobileNavLink>
-                <MobileNavLink to="/about" onClick={(e) => handleSectionNavigation(e, "about")}>About</MobileNavLink>
+                <MobileNavLink to="/Documents" onClick={(e) => handleSectionNavigation(e, "about")}>Docs</MobileNavLink>
+                <MobileNavLink to="/languages-supported">Languages</MobileNavLink>
+                <MobileNavLink to="/pricing">Pricing</MobileNavLink>
 
                 {!user ? (
                   <div className="flex flex-col space-y-3 pt-6">

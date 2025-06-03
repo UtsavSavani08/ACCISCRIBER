@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import Hero from '../components/Hero';
-import About from '../components/About';
+// import About from '../components/About';
 import Features from '../components/Features';
 import Contact from '../components/Contact';
 import Bottombar from '../components/Bottombar';
@@ -27,7 +27,7 @@ export default function Landing() {
   return (
     <>
       <div id="hero" className="pt-16"><Hero /></div>
-      <div id="about" className="pt-16"><About /></div>
+      {/* <div id="about" className="pt-16"><About /></div> */}
       <div id="features" className="pt-16"><Features /></div>
       <div id="contact" className="pt-16"><Contact /></div>
       <Bottombar />

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom'; // <-- Add this import
 
 export default function BottomBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,19 +15,20 @@ export default function BottomBar() {
 
   const footerLinks = {
     product: [
-      { name: 'Features', href: '/features', onClick: () => scrollToSection('features') },
-      { name: 'Pricing', href: '/pricing' },
-      { name: 'Documentation', href: '/documentation' }
+      { name: 'Features', to: '/features', onClick: () => scrollToSection('features') },
+      { name: 'Pricing', to: '/pricing' },
+      { name: 'Documentation', to: '/documentation' },
+      { name: 'Languages Supported', to: '/languages-supported' }, // <-- Remove onClick
     ],
     company: [
-      { name: 'About', href: '/', onClick: () => scrollToSection('about') },
-      { name: 'Blog', href: '/blog' },
-      { name: 'Contact', href: '/', onClick: () => scrollToSection('contact') }
+      { name: 'About', to: '/', onClick: () => scrollToSection('about') },
+      { name: 'Blog', to: '/blog' },
+      { name: 'Contact', to: '/', onClick: () => scrollToSection('contact') }
     ],
     legal: [
-      { name: 'Privacy Policy', href: '/privacy' },
-      { name: 'Terms of Service', href: '/terms' },
-      { name: 'Cookie Policy', href: '/cookie-policy' }
+      { name: 'Privacy Policy', to: '/privacy' },
+      { name: 'Terms of Service', to: '/terms' },
+      { name: 'Cookie Policy', to: '/cookie-policy' }
     ]
   };
 
@@ -42,16 +44,13 @@ export default function BottomBar() {
       <ul className="space-y-3">
         {links.map((link, index) => (
           <li key={index}>
-            <a
-              href={link.href}
-              onClick={(e) => {
-                e.preventDefault();
-                link.onClick?.();
-              }}
+            <Link
+              to={link.to}
+              onClick={link.onClick ? (e => { e.preventDefault(); link.onClick(); }) : undefined}
               className="text-gray-600 hover:text-indigo-600 transition-colors duration-200 text-sm flex items-center gap-1"
             >
               {link.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

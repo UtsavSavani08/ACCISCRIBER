@@ -16,7 +16,7 @@ const supabase = createClient(
   import.meta.env.VITE_SUPABASE_ANON_KEY
 );
 
-export default function Upload() {
+export default function AudioToText() {
   const [file, setFile] = useState(null);
   const [duration, setDuration] = useState(null);
   const [isDragging, setIsDragging] = useState(false);
@@ -25,7 +25,7 @@ export default function Upload() {
   const mediaRef = useRef(null);
   const navigate = useNavigate();
 
-  const supportedFormats = [ "MP4", "MOV", "AVI", "M4A"];
+  const supportedFormats = ["MP3", "WAV"];
 
   const handleDragEnter = (e) => {
     e.preventDefault();
@@ -84,7 +84,7 @@ export default function Upload() {
     const extension = file.name.split(".").pop().toUpperCase();
     if (!supportedFormats.includes(extension)) {
       alert(
-        "Unsupported file format. Please upload  MP4, MOV, M4A, or AVI files."
+        "Unsupported file format. Please upload MP3, WAVfiles."
       );
       return false;
     }
@@ -128,10 +128,10 @@ export default function Upload() {
       formData.append("file", file);
       formData.append("user_id", userId);
 
-      const fileType = file.type.startsWith("video/") ? "video" : "audio";
+      // const fileType = file.type.startsWith("video/") ? "video" : "audio";
 
       const response = await fetch(
-        `http://localhost:8000/analyze/video/transcribe`,
+        `http://localhost:8000/analyze/audio/transcribe`,
         {
           method: "POST",
           headers: {
@@ -175,7 +175,7 @@ export default function Upload() {
     const { data } = await supabase.auth.getSession();
     const session = data?.session;
     if (!session) {
-      navigate("/login", { state: { from: "/video-to-text" } });
+      navigate("/login", { state: { from: "/audio-to-text" } });
       return;
     }
     fileInputRef.current?.click();
