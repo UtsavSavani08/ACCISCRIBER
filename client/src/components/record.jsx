@@ -3,6 +3,7 @@ import { FiMic, FiStopCircle, FiUploadCloud, FiFile, FiHardDrive } from 'react-i
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { createClient } from "@supabase/supabase-js";
+import Navbar from './navbar.jsx';
 
 const supabase = createClient(
   import.meta.env.VITE_SUPABASE_URL,
@@ -13,6 +14,7 @@ export default function Record() {
     const [isRecording, setIsRecording] = useState(false);
     const [recordedBlob, setRecordedBlob] = useState(null);
     const [recordingTime, setRecordingTime] = useState(0);
+    const [isProcessing, setIsProcessing] = useState(false);
     const mediaRecorderRef = useRef(null);
     const timerRef = useRef(null);
     const navigate = useNavigate();
@@ -79,6 +81,89 @@ export default function Record() {
         const i = Math.floor(Math.log(bytes) / Math.log(k));
         return `${parseFloat((bytes / Math.pow(k, i)).toFixed(1))} ${sizes[i]}`;
     };
+    const handleStartTranscription = async (blob) => {
+        // Add your transcription logic here
+        if (!blob) return;
+
+    setIsProcessing(true);
+
+    try {
+      // ✅ Fetch session inside the async function
+      const { data, error } = await supabase.auth.getSession();
+      const session = data?.session;
+
+      if (!session) {
+        alert("You need to be logged in to transcribe.");
+        setIsProcessing(false);
+        return;
+      }
+
+      const token = session.access_token;
+      const userId = session.user.id;
+
+      const formData = new FormData();
+        formData.append("file", blob, "recording.wav");
+        formData.append("user_id", userId);
+
+
+      // const fileType = file.type.startsWith("video/") ? "video" : "audio";
+
+      const response = await fetch(
+        `http://localhost:8000/analyze/audio/transcribe`,
+        {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+            body: formData,
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const result = await response.json();
+
+      const durationInSeconds = result.data.duration || 0;
+      const minutes = Math.floor(durationInSeconds / 60);
+      const seconds = Math.floor(durationInSeconds % 60);
+      const formattedDuration = `${minutes}:${seconds.toString().padStart(2, "0")}`;
+
+      navigate("/download", {
+        state: {
+          transcriptionData: {
+            duration: formattedDuration,
+            wordCount: result.data.word_count,
+            detectedLanguage: result.data.language,
+            srtFile: result.data.srt_url,
+            srt_url: result.data.srt_url,
+            originalFileName: file.name,
+          },
+        },
+      });
+    } catch (err) {
+      console.error("Transcription error:", err);
+      alert("Error during transcription. Please try again.");
+    } finally {
+      setIsProcessing(false);
+    }
+  };
+  if (isProcessing) {
+      return (
+        <>
+          <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
+            <Navbar />
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500 border-solid mx-auto mb-6" />
+              <p className="text-xl font-semibold text-gray-700">
+                Processing your file...
+              </p>
+            </div>
+          </div>
+        </>
+      );
+    }
 
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-white">
@@ -86,7 +171,7 @@ export default function Record() {
                 <motion.h1 
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="text-3xl font-bold text-gray-800 text-center"
+                    className="text-3xl font-bold text-indigo-700 text-center"
                 >
                     Live Recording
                 </motion.h1>
@@ -106,7 +191,7 @@ export default function Record() {
                             }
                         }}
                         className={`w-32 h-32 rounded-full flex items-center justify-center
-                            ${isRecording ? 'bg-red-100' : 'bg-blue-100'}`}
+                            ${isRecording ? 'bg-red-100' : 'bg-indigo-100'}`}
                     >
                         {isRecording ? (
                             <FiStopCircle 
@@ -114,8 +199,8 @@ export default function Record() {
                                 onClick={stopRecording}
                             />
                         ) : (
-                            <FiMic 
-                                className="w-16 h-16 text-blue-500 cursor-pointer" 
+                            <FiMic
+                                className="w-16 h-16 text-indigo-500 cursor-pointer"
                                 onClick={startRecording}
                             />
                         )}
@@ -173,7 +258,9 @@ export default function Record() {
                                          shadow-md hover:shadow-lg flex items-center justify-center"
                                 onClick={() => {
                                     // Add your transcription logic here
-                                    console.log('Starting transcription for recorded audio');
+                                    handleStartTranscription(recordedBlob);
+                                    setRecordedBlob(null);
+
                                 }}
                             >
                                 <FiUploadCloud className="mr-2" />

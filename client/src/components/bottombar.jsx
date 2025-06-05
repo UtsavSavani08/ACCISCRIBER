@@ -12,13 +12,16 @@ export default function BottomBar() {
       setIsMenuOpen(false);
     }
   };
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   const footerLinks = {
     product: [
       { name: 'Features', to: '/features', onClick: () => scrollToSection('features') },
-      { name: 'Pricing', to: '/pricing' },
-      { name: 'Documentation', to: '/documentation' },
-      { name: 'Languages Supported', to: '/languages-supported' }, // <-- Remove onClick
+      { name: 'Pricing', to: '/pricing'},
+      { name: 'Documentation', to: '/documents'  },
+      { name: 'Languages Supported', to: '/languages-supported' },
     ],
     company: [
       { name: 'About', to: '/', onClick: () => scrollToSection('about') },
@@ -46,7 +49,7 @@ export default function BottomBar() {
           <li key={index}>
             <Link
               to={link.to}
-              onClick={link.onClick ? (e => { e.preventDefault(); link.onClick(); }) : undefined}
+              onClick={() => setTimeout(scrollToTop, 0)}
               className="text-gray-600 hover:text-indigo-600 transition-colors duration-200 text-sm flex items-center gap-1"
             >
               {link.name}

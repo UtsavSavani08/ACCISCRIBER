@@ -230,7 +230,7 @@ export default function Upload() {
             animate={{ scale: isDragging ? 1.1 : 1 }}
             transition={{ duration: 0.2 }}
           >
-            <FiUploadCloud className="w-16 h-16 mx-auto text-blue-500 mb-4" />
+            <FiUploadCloud className="w-16 h-16 mx-auto text-indigo-500 mb-4" />
             <p className="text-xl font-medium text-gray-700 mb-2">
               Drag and drop your file here
             </p>
@@ -239,7 +239,7 @@ export default function Upload() {
             </p>
             <button
               onClick={handleSelectFileClick}
-              className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 
+              className="bg-indigo-500 text-white px-6 py-3 rounded-lg hover:bg-indigo-600 
                                                  transition-all duration-300 ease-in-out transform hover:scale-105
                                                  shadow-md hover:shadow-lg"
             >

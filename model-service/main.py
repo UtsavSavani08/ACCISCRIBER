@@ -4,6 +4,7 @@ from fastapi.responses import FileResponse
 from api.audio_api import router as audio_router
 from api.video_api import router as video_router
 from api.stats_api import router as stats_router
+from api.livetranscribe_api import router as livetranscribe_router
 import os
 
 app = FastAPI(
@@ -25,7 +26,7 @@ app.add_middleware(
 app.include_router(audio_router, prefix="/analyze/audio", tags=["Audio"])
 app.include_router(video_router, prefix="/analyze/video", tags=["Video"])
 app.include_router(stats_router, prefix="/api", tags=["Stats"])
-
+app.include_router(livetranscribe_router, prefix="/analyze", tags=["Live Transcription"])
 
 from fastapi.responses import StreamingResponse
 import requests
@@ -53,6 +54,8 @@ def proxy_srt_download(srt_url: str = Query(...)):
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error downloading SRT: {str(e)}")
+
+
 
 # main.py
 # from fastapi import FastAPI

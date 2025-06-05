@@ -13,6 +13,8 @@ import History from "./components/history.jsx";
 import Languages from "./components/languages.jsx";
 import Pricing from "./components/Pricing.jsx";
 import AudioToText from "./components/audiototext.jsx";
+import Documents from "./components/Documents.jsx";
+import LiveTranscribe from "./components/LiveTranscribe.jsx";
 
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
         <Route path="/history" element={<History />} />
         <Route path="/languages-supported" element={<Languages />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/documents" element={<Documents />} />
+        <Route path="/live-transcribe" element={<LiveTranscribe />} />
       </Routes>
     </>
   );

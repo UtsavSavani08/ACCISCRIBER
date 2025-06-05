@@ -37,7 +37,7 @@ export default function Hero() {
                     </p>
                     
                     <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <Link to="/upload">
+                        <Link to="/audio-to-text">
                             <button className="w-full sm:w-auto px-8 py-4 text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
                                 Start Transcribing
                             </button>

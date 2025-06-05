@@ -123,6 +123,9 @@ export default function Navbar() {
   const handleMouseLeave = () => {
     menuTimeoutRef.current = setTimeout(() => setShowProfileMenu(false), 3000);
   };
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   // Tools menu click handler (desktop)
   const handleToolsClick = () => {
@@ -167,7 +170,7 @@ export default function Navbar() {
       transition={{ duration: 0.5 }}
       className="fixed top-0 left-0 w-full bg-white bg-opacity-100 backdrop-blur-sm shadow-lg z-50"
     >
-      <div className="max-w-full md:container mx-auto px-2 md:px-4">
+      <div className="max-w-full md:container mx-auto px-2 md:px-4" onClick={scrollToTop}>
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-2 group py-2">
             <motion.img
@@ -223,13 +226,19 @@ export default function Navbar() {
                   >
                     <FiMic className="text-red-500" /> Recording to Text
                   </Link>
+                  <Link
+                    to="/live-transcribe"
+                    className="flex items-center gap-2 px-5 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors rounded-b-lg"
+                  >
+                    <FiMic className="text-red-500" /> Live transcribe
+                  </Link>
                 </div>
               )}
             </div>
             <NavLink to="/contact" onClick={(e) => handleSectionNavigation(e, "contact")}>Contact</NavLink>
-            <NavLink to="/Documents">Docs</NavLink>
-            <NavLink to="/languages-supported">Languages</NavLink>
-            <NavLink to="/pricing">Pricing</NavLink>
+            <NavLink to="/Documents" onClick={scrollToTop}>Docs</NavLink>
+            {/* <NavLink to="/languages-supported">Languages</NavLink> */}
+            <NavLink to="/pricing" onClick={scrollToTop}>Pricing</NavLink>
 
             {!user ? (
               <div className="flex items-center space-x-4">
@@ -343,10 +352,10 @@ export default function Navbar() {
                     )}
                   </AnimatePresence>
                 </div>
+                <MobileNavLink to="/documents" onClick={scrollToTop}>Docs</MobileNavLink>
+                <MobileNavLink to="/pricing" onClick={scrollToTop}>Pricing</MobileNavLink>
                 <MobileNavLink to="/contact" onClick={(e) => handleSectionNavigation(e, "contact")}>Contact</MobileNavLink>
-                <MobileNavLink to="/Documents" onClick={(e) => handleSectionNavigation(e, "about")}>Docs</MobileNavLink>
-                <MobileNavLink to="/languages-supported">Languages</MobileNavLink>
-                <MobileNavLink to="/pricing">Pricing</MobileNavLink>
+                {/* <MobileNavLink to="/languages-supported">Languages</MobileNavLink> */}
 
                 {!user ? (
                   <div className="flex flex-col space-y-3 pt-6">
