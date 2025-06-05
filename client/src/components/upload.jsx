@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { createClient } from "@supabase/supabase-js";
 import {
   FiUploadCloud,
@@ -19,13 +19,29 @@ const supabase = createClient(
 export default function Upload() {
   const [file, setFile] = useState(null);
   const [duration, setDuration] = useState(null);
+  const [currentMinutes, setCurrentMinutes] = useState(0); // <-- Add this line
   const [isDragging, setIsDragging] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
+  const [fileURL, setFileURL] = useState(null);
   const fileInputRef = useRef(null);
   const mediaRef = useRef(null);
   const navigate = useNavigate();
 
-  const supportedFormats = [ "MP4", "MOV", "AVI", "M4A"];
+  const supportedFormats = ["MP4", "MOV", "AVI", "M4A"];
+
+  // Clean up object URL when file changes or component unmounts
+  useEffect(() => {
+    return () => {
+      if (fileURL) URL.revokeObjectURL(fileURL);
+    };
+  }, [fileURL]);
+
+  // Set the file URL as src of the media element when fileURL changes
+  useEffect(() => {
+    if (mediaRef.current && fileURL) {
+      mediaRef.current.src = fileURL;
+    }
+  }, [fileURL]);
 
   const handleDragEnter = (e) => {
     e.preventDefault();
@@ -50,9 +66,7 @@ export default function Upload() {
       setFile(selectedFile);
       setDuration(null); // Reset duration when new file is selected
       const url = URL.createObjectURL(selectedFile);
-      if (mediaRef.current) {
-        mediaRef.current.src = url;
-      }
+      setFileURL(url);
     }
   };
 
@@ -66,16 +80,22 @@ export default function Upload() {
       setFile(droppedFile);
       setDuration(null); // Reset duration when new file is dropped
       const url = URL.createObjectURL(droppedFile);
-      if (mediaRef.current) {
-        mediaRef.current.src = url;
-      }
+      setFileURL(url);
     }
   };
 
   const handleLoadedMetadata = () => {
     if (mediaRef.current) {
-      setDuration(mediaRef.current.duration);
-      URL.revokeObjectURL(mediaRef.current.src); // Clean up the URL
+      const dur = mediaRef.current.duration;
+      setDuration(dur);
+
+      // Calculate minutes and update currentMinutes
+      let minutes = Math.floor(dur / 60);
+      let seconds = Math.floor(dur % 60);
+      if (seconds > 40) {
+        minutes += 1;
+      }
+      setCurrentMinutes(minutes);
     }
   };
 
@@ -91,11 +111,12 @@ export default function Upload() {
     return true;
   };
 
-  // const formatDuration = (seconds) => {
-  //     const minutes = Math.floor(seconds / 60);
-  //     const remainingSeconds = Math.floor(seconds % 60);
-  //     return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
-  // };
+  const formatDuration = (seconds) => {
+    if (!seconds) return "0:00";
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = Math.floor(seconds % 60);
+    return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+  };
 
   const formatFileSize = (bytes) => {
     if (bytes === 0) return "0 B";
@@ -126,6 +147,7 @@ export default function Upload() {
 
       const formData = new FormData();
       formData.append("file", file);
+      formData.append("duration", currentMinutes);
       formData.append("user_id", userId);
 
       const fileType = file.type.startsWith("video/") ? "video" : "audio";
@@ -299,15 +321,18 @@ export default function Upload() {
                     onLoadedMetadata={handleLoadedMetadata}
                   />
                 )}
-                {/* <div className="flex items-center space-x-3">
-                                    <FiClock className="text-green-500 w-5 h-5" />
-                                    <div>
-                                        <p className="text-sm text-gray-500">Duration</p>
-                                        <p className="font-medium text-gray-800">
-                                            {duration ? formatDuration(duration) : 'Processing...'}
-                                        </p>
-                                    </div>
-                                </div> */}
+                <div className="flex items-center space-x-3">
+                  <FiClock className="text-green-500 w-5 h-5" />
+                  <div>
+                    <p className="text-sm text-gray-500">Duration</p>
+                    <p className="font-medium text-gray-800">
+                      {duration !== null ? formatDuration(duration) : 'Processing...'}
+                    </p>
+                    {/* <p className="text-xs text-gray-400">
+                      Minutes (rounded): {currentMinutes}
+                    </p> */}
+                  </div>
+                </div>
                 <div className="flex items-center space-x-3">
                   <FiHardDrive className="text-purple-500 w-5 h-5" />
                   <div>

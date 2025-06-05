@@ -96,6 +96,17 @@ async def transcribe_audio(
         db_resp = supabase.table("uploads").insert(upload_record).execute()
         logger.info(f"Metadata inserted in DB: {db_resp}")
 
+        user_data = supabase.table("user_credits").select("*").eq("id", user_id).single().execute()
+        current_credits = user_data.data["credits_remaining"]
+
+        new_credits = current_credits - duration
+        supabase.table("user_credits").update({"credits_remaining": new_credits}).eq("id", user_id).execute()
+
+        supabase.table("usage_logs").insert({
+        "user_id": user_id,
+        "description": f"Processed {duration} min file"
+        }).execute()
+
         # 6. Clean up temporary files
         background_tasks.add_task(os.remove, file_path)
         background_tasks.add_task(os.remove, result["data"]["srt_path"])

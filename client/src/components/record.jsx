@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { FiMic, FiStopCircle, FiUploadCloud, FiFile, FiHardDrive } from 'react-icons/fi';
+import { FiMic, FiStopCircle, FiUploadCloud, FiFile, FiHardDrive, FiClock } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { createClient } from "@supabase/supabase-js";
@@ -15,6 +15,7 @@ export default function Record() {
     const [recordedBlob, setRecordedBlob] = useState(null);
     const [recordingTime, setRecordingTime] = useState(0);
     const [isProcessing, setIsProcessing] = useState(false);
+    const [recordedMinutes, setRecordedMinutes] = useState(0); // <-- Store minutes
     const mediaRecorderRef = useRef(null);
     const timerRef = useRef(null);
     const navigate = useNavigate();
@@ -42,6 +43,14 @@ export default function Record() {
                 const blob = new Blob(chunks, { type: 'audio/wav' });
                 setRecordedBlob(blob);
                 stream.getTracks().forEach(track => track.stop());
+
+                // Calculate minutes and increment if seconds > 40
+                let minutes = Math.floor(recordingTime / 60);
+                let seconds = recordingTime % 60;
+                if (seconds > 40) {
+                  minutes += 1;
+                }
+                setRecordedMinutes(minutes);
             };
 
             mediaRecorderRef.current = mediaRecorder;
@@ -104,7 +113,7 @@ export default function Record() {
       const formData = new FormData();
         formData.append("file", blob, "recording.wav");
         formData.append("user_id", userId);
-
+        formData.append("minutes", recordedMinutes); // <-- Send minutes to backend
 
       // const fileType = file.type.startsWith("video/") ? "video" : "audio";
 
@@ -138,7 +147,7 @@ export default function Record() {
             detectedLanguage: result.data.language,
             srtFile: result.data.srt_url,
             srt_url: result.data.srt_url,
-            originalFileName: file.name,
+            originalFileName: "recording.wav",
           },
         },
       });
@@ -241,6 +250,15 @@ export default function Record() {
                                         <p className="text-sm text-gray-500">Size</p>
                                         <p className="font-medium text-gray-800">
                                             {formatFileSize(recordedBlob.size)}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="flex items-center space-x-3">
+                                    <FiClock className="text-green-500 w-5 h-5" />
+                                    <div>
+                                        <p className="text-sm text-gray-500">Minutes (rounded)</p>
+                                        <p className="font-medium text-gray-800">
+                                            {recordedMinutes}
                                         </p>
                                     </div>
                                 </div>

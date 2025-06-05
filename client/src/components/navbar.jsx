@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import logo from "../assets/logo.png";
 import { createClient } from "@supabase/supabase-js";
 import { FiMusic, FiVideo, FiMic } from "react-icons/fi";
+import Credit from "./credit";
 
 const supabase = createClient(
   import.meta.env.VITE_SUPABASE_URL,
@@ -187,14 +188,16 @@ export default function Navbar() {
               ACCISCRIBE
             </motion.span>
           </Link>
-
+          
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
+            {!user ?  null : <Credit />}
             <div
               className="relative"
               ref={toolsMenuRef}
               tabIndex={0}
             >
+              
               <button
                 className="flex items-center bg-white text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium focus:outline-none"
                 tabIndex={-1}
