@@ -18,7 +18,6 @@ export default function BottomBar() {
 
   const footerLinks = {
     product: [
-      { name: 'Features', to: '/features', onClick: () => scrollToSection('features') },
       { name: 'Pricing', to: '/pricing'},
       { name: 'Documentation', to: '/documents'  },
       { name: 'Languages Supported', to: '/languages-supported' },
@@ -29,8 +28,8 @@ export default function BottomBar() {
       { name: 'Contact', to: '/', onClick: () => scrollToSection('contact') }
     ],
     legal: [
-      { name: 'Privacy Policy', to: '/privacy' },
-      { name: 'Terms of Service', to: '/terms' },
+      { name: 'Privacy Policy', to: '/privacypolicy' },
+      { name: 'Terms of Service', to: '/terms-of-service' },
       { name: 'Cookie Policy', to: '/cookie-policy' }
     ]
   };

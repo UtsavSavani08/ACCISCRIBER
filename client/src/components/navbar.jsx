@@ -191,7 +191,15 @@ export default function Navbar() {
           
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
-            {!user ?  null : <Credit />}
+            {!user ?  null : (
+                <div className="relative group">
+                  <Credit />
+                  <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-56 bg-gray-500 text-white text-xs rounded-lg px-3 py-2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50 pointer-events-none">
+                    1 min = 1 credit<br />
+                    If seconds &gt; 40, it will count as 1 min
+                  </div>
+                </div>
+              )}
             <div
               className="relative"
               ref={toolsMenuRef}
