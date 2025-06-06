@@ -15,7 +15,8 @@ import Pricing from "./components/Pricing.jsx";
 import AudioToText from "./components/audiototext.jsx";
 import Documents from "./components/Documents.jsx";
 import LiveTranscribe from "./components/LiveTranscribe.jsx";
-
+import Success from "./components/Success.jsx";
+import Canceled from "./components/Canceled.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -37,6 +38,9 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/documents" element={<Documents />} />
         <Route path="/live-transcribe" element={<LiveTranscribe />} />
+        <Route path="/pricing/pay/checkout/success" element={<Success />} />
+        <Route path="/pricing/pay/checkout/cancel" element={<Canceled />} />
+
       </Routes>
     </>
   );

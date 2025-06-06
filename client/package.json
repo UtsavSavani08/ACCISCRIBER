@@ -12,6 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fontsource/montserrat": "^5.2.5",
+    "@stripe/stripe-js": "^7.3.1",
     "@supabase/supabase-js": "^2.49.8",
     "axios": "^1.9.0",
     "data-fns": "^1.1.0",

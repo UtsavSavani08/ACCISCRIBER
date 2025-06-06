@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 // import About from '../components/About';
 import Features from '../components/Features';
 import Contact from '../components/Contact';
-import Bottombar from '../components/Bottombar';
+import Bottombar from '../components/BottomBar';
 
 export default function Landing() {
   const location = useLocation();

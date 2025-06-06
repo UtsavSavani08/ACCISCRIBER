@@ -125,7 +125,19 @@ export default function LiveTranscribe() {
     wsRef.current.onclose = () => setRecording(false);
 
     wsRef.current.onopen = async () => {
-      wsRef.current.send(language); // Send language code as first message!
+      wsRef.current.send(language); // 1. Send language code as first message!
+
+      // 2. Fetch user ID from Supabase and send as second message
+      const { data } = await supabase.auth.getSession();
+      const session = data?.session;
+      if (!session) {
+        setError("You must be logged in to use live transcription.");
+        wsRef.current.close();
+        setRecording(false);
+        return;
+      }
+      wsRef.current.send(session.user.id); // 2. Send user ID
+
       try {
         const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
         setMediaStream(stream);
@@ -174,8 +186,8 @@ export default function LiveTranscribe() {
   };
 
   return (
-    <div className="inset-0 fixed flex justify-center items-center min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto">
+    <div className="flex mt-20 inset-0 fixed justify-center items-start min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl w-full mx-auto">
         <div className="bg-white rounded-2xl shadow-lg p-8">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -253,7 +265,8 @@ export default function LiveTranscribe() {
                     whileTap={{ scale: 0.98 }}
                     onClick={pauseRecording}
                     disabled={!recording || paused}
-                    className="flex items-center gap-2 px-6 py-2 rounded-lg font-medium shadow-sm bg-yellow-100 text-yellow-700 hover:bg-yellow-200 transition-all duration-200"
+                    className={`flex items-center gap-2 px-6 py-2 rounded-lg font-medium shadow-sm transition-all duration-200
+                    ${!recording || paused ? "bg-gray-100 text-gray-400" : "bg-yellow-100 text-yellow-700 hover:bg-yellow-200"}`}
                   >
                     <FiPause className="text-lg" /> Pause
                   </motion.button>
@@ -262,7 +275,8 @@ export default function LiveTranscribe() {
                     whileTap={{ scale: 0.98 }}
                     onClick={resumeRecording}
                     disabled={!recording || !paused}
-                    className="flex items-center gap-2 px-6 py-2 rounded-lg font-medium shadow-sm bg-green-100 text-green-700 hover:bg-green-200 transition-all duration-200"
+                    className={`flex items-center gap-2 px-6 py-2 rounded-lg font-medium shadow-sm transition-all duration-200
+                    ${!pauseRecording || !paused ? "bg-gray-100 text-gray-400" : "bg-green-100 text-green-700 hover:bg-green-200"}`}
                   >
                     <FiPlay className="text-lg" /> Resume
                   </motion.button>
@@ -271,7 +285,8 @@ export default function LiveTranscribe() {
                     whileTap={{ scale: 0.98 }}
                     onClick={stopRecording}
                     disabled={!recording}
-                    className="flex items-center gap-2 px-6 py-2 rounded-lg font-medium shadow-sm bg-red-500 text-white hover:bg-red-600 transition-all duration-200"
+                   className={`flex items-center gap-2 px-6 py-2 rounded-lg font-medium shadow-sm transition-all duration-200
+                    ${!recording ? "bg-gray-100 text-gray-400" : "bg-red-500 text-white hover:bg-red-600"}`}
                   >
                     <FiStopCircle className="text-lg" /> Stop
                   </motion.button>
@@ -303,7 +318,17 @@ export default function LiveTranscribe() {
               <div className="p-4 border-b border-gray-200 bg-gray-50">
                 <h2 className="text-sm font-medium text-gray-700">Transcription Output</h2>
               </div>
-              <div className="p-6 h-[300px] overflow-y-auto font-mono text-sm whitespace-pre-line">
+              <div
+                className="p-6"
+                style={{
+                  minHeight: 300,
+                  maxHeight: 400,
+                  overflowY: "auto",
+                  fontFamily: "monospace",
+                  fontSize: "0.95rem",
+                  whiteSpace: "pre-line",
+                }}
+              >
                 {transcripts.length === 0 ? (
                   <div className="flex items-center justify-center h-full text-gray-400">
                     <p>Start recording to see transcription...</p>

@@ -5,6 +5,9 @@ from api.audio_api import router as audio_router
 from api.video_api import router as video_router
 from api.stats_api import router as stats_router
 from api.livetranscribe_api import router as livetranscribe_router
+from api.stripe_checkout_api import router as stripe_checkout_router
+from api.stripe_webhook_api import router as stripe_webhook_router
+
 
 import os
 
@@ -28,6 +31,8 @@ app.include_router(audio_router, prefix="/analyze/audio", tags=["Audio"])
 app.include_router(video_router, prefix="/analyze/video", tags=["Video"])
 app.include_router(stats_router, prefix="/api", tags=["Stats"])
 app.include_router(livetranscribe_router, prefix="/analyze", tags=["Live Transcription"])
+app.include_router(stripe_checkout_router)
+app.include_router(stripe_webhook_router)
 
 from fastapi.responses import StreamingResponse
 import requests

@@ -1,9 +1,12 @@
 import { motion } from 'framer-motion';
+import { Link } from "react-router-dom";
+import { loadStripe } from "@stripe/stripe-js";
 
 const plans = [
   {
     name: 'Starter',
     price: 0,
+    priceId: '',
     credits: 20,
     description: 'Perfect for trying out our service. No credit card required.',
     features: [
@@ -14,10 +17,12 @@ const plans = [
     ],
     cta: 'Get Started',
     highlight: false,
+    link: '/', // Add your desired route
   },
   {
     name: 'Pro',
     price: 9,
+    priceId:'price_1RWw07P8RkSepureHFCrNwwx',
     credits: 100,
     description: 'For regular users who need more transcription time.',
     features: [
@@ -28,10 +33,12 @@ const plans = [
     ],
     cta: 'Buy Now',
     highlight: true,
+    link: '', // Add your desired route
   },
   {
     name: 'Business',
     price: 29,
+    priceId: 'price_1RWw1FP8RkSepureKFkg4mN6',
     credits: 500,
     description: 'Best for teams and businesses with high volume needs.',
     features: [
@@ -39,14 +46,33 @@ const plans = [
       'Premium support',
       'Access to all languages',
       'Highest AI accuracy',
-      'Team management tools',
     ],
-    cta: 'Contact Sales',
+    cta: 'Buy Now',
     highlight: false,
+    link: '/buy/business', // Add your desired route
   },
 ];
 
 export default function Pricing() {
+
+  const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_API_KEY);
+
+  async function handleCheckout(priceId) {
+    const stripe = await stripePromise;
+    // Use HTTP, not HTTPS for localhost backend
+    const res = await fetch("http://localhost:8000/api/create-checkout-session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ priceId }),
+    });
+    if (!res.ok) {
+      alert("Failed to create Stripe checkout session.");
+      return;
+    }
+    const { sessionId } = await res.json();
+    await stripe.redirectToCheckout({ sessionId });
+  }
+
   return (
     <div className="fixed min-h-screen w-screen inset-0 mt-8 bg-gray-50 pt-24 pb-16 px-4">
       <motion.div
@@ -73,6 +99,7 @@ export default function Pricing() {
             className={`rounded-2xl shadow-lg border bg-white p-8 flex flex-col items-center ${
               plan.highlight ? 'border-blue-600 shadow-blue-100 scale-105' : 'border-gray-200'
             }`}
+            style={{ minHeight: 500 }} // Optional: set a minHeight for even cards
           >
             <h2 className="text-2xl font-bold mb-2 text-gray-900">{plan.name}</h2>
             <p className="text-gray-500 mb-4">{plan.description}</p>
@@ -95,15 +122,32 @@ export default function Pricing() {
                 </li>
               ))}
             </ul>
-            <button
-              className={`w-full py-2 rounded-lg font-semibold transition ${
-                plan.highlight
-                  ? 'bg-blue-600 text-white hover:bg-blue-700'
-                  : 'bg-gray-100 text-blue-700 hover:bg-blue-100'
-              }`}
-            >
-              {plan.cta}
-            </button>
+            <div className="w-full mt-auto flex">
+                {plan.price === 0 ? (
+                  <Link to={plan.link} className="w-full">
+                    <button
+                      className={`w-full py-2 rounded-lg font-semibold transition ${
+                        plan.highlight
+                          ? 'bg-blue-600 text-white hover:bg-blue-700'
+                          : 'bg-gray-100 text-blue-700 hover:bg-blue-100'
+                      }`}
+                    >
+                      {plan.cta}
+                    </button>
+                  </Link>
+                ) : (
+                  <button
+                    className={`w-full py-2 rounded-lg font-semibold transition ${
+                      plan.highlight
+                        ? 'bg-blue-600 text-white hover:bg-blue-700'
+                        : 'bg-gray-100 text-blue-700 hover:bg-blue-100'
+                    }`}
+                    onClick={() => handleCheckout(plan.priceId)}
+                  >
+                    {plan.cta}
+                  </button>
+                )}
+            </div>
           </motion.div>
         ))}
       </div>

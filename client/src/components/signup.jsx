@@ -19,15 +19,42 @@ export default function Signup() {
   const navigate = useNavigate();
 
   const handleSignup = async (e) => {
-    e.preventDefault();
-    if (password !== confirm) return setError("Passwords don't match");
+  e.preventDefault();
+  // console.log("email:::::", email)
+  // console.log("password:::::", password)
+  // console.log("confirm:::::", confirm)
 
-    const { data, error } = await supabase.auth.signUp({ email, password });
-    if (error) return setError(error.message);
+  if (password !== confirm) {
+    setError("Passwords don't match");
+    return;
+  }
+
+  try {
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password
+    });
+
+    console.log("Signup response:", { data, error });
+
+    if (error) {
+      setError(error.message);
+      return;
+    }
+
+    if (!data.user) {
+      setError("Signup failed..");
+      return;
+    }
 
     alert("Signup successful. Please check your email to confirm.");
     navigate('/login');
-  };
+  } catch (err) {
+    console.error("Unexpected error during signup:", err);
+    setError("Unexpected error occurred. Please try again.");
+  }
+};
+
 
   return (
     <>

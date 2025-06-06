@@ -35,11 +35,26 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 async def transcribe_audio(
     file: UploadFile = File(...),
     user_id: str = Form(...),
+    duration: int = Form(...),  # duration in minutes
     background_tasks: BackgroundTasks = BackgroundTasks()
 ) -> Dict:
     file_path = None  # define here for cleanup in except block
     try:
         logger.info(f"Received transcription request from user: {user_id} with file: {file.filename}")
+        
+        # --- Check user credits before processing ---
+        user_data = supabase.table("user_credits").select("*").eq("id", user_id).single().execute()
+        current_credits = user_data.data["credits_remaining"]
+
+        if duration > current_credits:
+            logger.warning(f"User {user_id} has insufficient credits: {current_credits} needed: {duration}")
+            return JSONResponse(
+                status_code=402,
+                content={
+                    "status": "error",
+                    "message": f"Insufficient credits. You have {current_credits}, but {duration} are required."
+                }
+            )
 
         # 1. Save uploaded file locally
         file_ext = file.filename.split(".")[-1].lower()
