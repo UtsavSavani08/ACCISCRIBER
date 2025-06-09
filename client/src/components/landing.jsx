@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import Hero from '../components/hero';
 // import About from '../components/About';
-import Features from '../components/Features';
+import Features from '../components/features';
 import Contact from '../components/contact';
 import Bottombar from '../components/bottombar';
 
