@@ -125,6 +125,7 @@ async def transcribe_audio(
         # 6. Clean up temporary files
         background_tasks.add_task(os.remove, file_path)
         background_tasks.add_task(os.remove, result["data"]["srt_path"])
+        background_tasks.add_task(os.remove, result["data"]["json_path"])
         logger.info(f"Scheduled cleanup for {file_path} and {result['data']['srt_path']}")
 
         return JSONResponse(status_code=200, content={
