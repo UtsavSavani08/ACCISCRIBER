@@ -125,8 +125,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-500">Email</p>
-                  <a href="mailto:contact@transcribeai.com" className="text-base text-indigo-600 hover:text-indigo-700 transition-colors duration-200">
-                    contact@transcribeai.com
+                  <a href="mailto:hello@dobodo.com" className="text-base text-indigo-600 hover:text-indigo-700 transition-colors duration-200">
+                    Click here
                   </a>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-500">Phone</p>
-                  <p className="text-base text-gray-900">+1 (555) 123-4567</p>
+                  <p className="text-base text-gray-900">+91 9726181166</p>
                 </div>
               </div>
 
@@ -147,7 +147,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-500">Address</p>
-                  <p className="text-base text-gray-900">123 Tech Street, San Francisco, CA 94105</p>
+                  <p className="text-base text-gray-900">DOBODO soft, MOTA VARACHA, Surat, India </p>
                 </div>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function Contact() {
                   <FaTwitter className="w-6 h-6 text-gray-600 group-hover:text-indigo-600" />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/company/dobedo-soft/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-gray-100 p-3 rounded-lg hover:bg-indigo-100 transition-colors duration-200 group"
@@ -172,7 +172,7 @@ export default function Contact() {
                   <FaLinkedin className="w-6 h-6 text-gray-600 group-hover:text-indigo-600" />
                 </a>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/UtsavSavani08" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-gray-100 p-3 rounded-lg hover:bg-indigo-100 transition-colors duration-200 group"

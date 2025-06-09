@@ -1,6 +1,9 @@
 import React from "react";
 
 export default function Documents() {
+  const handlecontact = () => {
+    window.location.href = "mailto:hello@dobodo.com";
+  };
   return (
     <section className="mt-10 min-h-screen w-screen bg-slate-50 pt-24 pb-16 px-4">
       <div className="max-w-4xl mx-auto">
@@ -70,23 +73,23 @@ export default function Documents() {
             <div>
               <h3 className="text-lg font-medium text-gray-900 mb-2">Supported Formats</h3>
               <ul className="text-gray-600 space-y-2">
-                <li>• Audio: MP3, WAV, M4A (max 2GB)</li>
-                <li>• Video: MP4, MOV, AVI (max 2GB)</li>
+                <li>• Audio: MP3, WAV, M4A (max 200MB)</li>
+                <li>• Video: MP4, MOV, AVI (max 200MB)</li>
               </ul>
             </div>
             <div>
               <h3 className="text-lg font-medium text-gray-900 mb-2">Language Support</h3>
-              <p className="text-gray-600">20+ languages including English, Spanish, French, German, Chinese, Japanese, and more. 95%+ accuracy for clear audio.</p>
+              <p className="text-gray-600">20+ languages including English, Dutch, Portuguese, Korean, Italian, Swedish, Russian, Japanese, Spanish, French, German, Chinese, and more. 95%+ accuracy for clear audio.</p>
             </div>
             <div>
               <h3 className="text-lg font-medium text-gray-900 mb-2">Processing Time</h3>
-              <p className="text-gray-600">Most files are processed within minutes, depending on file length and server load.</p>
+              <p className="text-gray-600">Most files are processed within appropriate time, depending on file length and server load.</p>
             </div>
           </div>
         </div>
 
         {/* Enterprise Features */}
-        <div className="mb-12 bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+        {/* <div className="mb-12 bg-white rounded-lg shadow-sm border border-gray-200 p-8">
           <h2 className="text-2xl font-semibold text-gray-900 mb-6">Enterprise Solutions</h2>
           <div className="space-y-4">
             <div className="flex items-start gap-3">
@@ -117,13 +120,13 @@ export default function Documents() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Contact Section */}
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Need Help?</h2>
           <p className="text-gray-600 mb-6">Our support team is available to assist you with any questions.</p>
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
+          <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors" onClick={handlecontact}>
             Contact Support
           </button>
         </div>

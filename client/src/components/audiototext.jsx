@@ -355,7 +355,7 @@ export default function AudioToText() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={handleStartTranscription}
-                className="w-full mt-6 bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 
+                className="w-full mt-6 bg-indigo-500 text-white py-3 rounded-lg hover:bg-indigo-600 
                                                  transition-all duration-300 flex items-center justify-center space-x-2
                                                  shadow-md hover:shadow-lg"
               >

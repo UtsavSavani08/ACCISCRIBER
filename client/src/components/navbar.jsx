@@ -324,8 +324,10 @@ export default function Navbar() {
                 transition={{ delay: 0.1 }}
                 className="px-4 py-6 space-y-1"
               >
+                <Credit />
                 {/* Tools Dropdown for Mobile */}
                 <div className="mb-2">
+                  
                   <button
                     className="flex items-center w-full text-gray-700 hover:text-blue-600 font-medium py-3 border-b border-gray-100"
                     onClick={() => setShowMobileTools((prev) => !prev)}

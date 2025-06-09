@@ -271,8 +271,8 @@ export default function Record() {
                             <motion.button
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
-                                className="mt-6 w-full bg-blue-500 text-white px-6 py-3 rounded-lg
-                                         hover:bg-blue-600 transition-all duration-300 ease-in-out
+                                className="mt-6 w-full bg-indigo-500 text-white px-6 py-3 rounded-lg
+                                         hover:bg-indigo-600 transition-all duration-300 ease-in-out
                                          shadow-md hover:shadow-lg flex items-center justify-center"
                                 onClick={() => {
                                     // Add your transcription logic here
