@@ -96,7 +96,7 @@ export default function History() {
     );
 
   return (
-    <div className="inset-0 mt-16 fixed flex justify-center min-h-screen w-full">
+    <div className="inset-0 mt-16  flex justify-center min-h-screen w-screen">
         <motion.div
         initial="hidden"
         animate="visible"
