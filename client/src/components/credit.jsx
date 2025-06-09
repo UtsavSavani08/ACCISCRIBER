@@ -34,8 +34,7 @@ export default function Credit() {
 
     fetchCredits();
 
-    const interval = setInterval(fetchCredits, 30000);
-    return () => clearInterval(interval);
+    // Removed interval fetching, now only fetches on mount/page load
   }, []);
 
   if (credits === null) return null;
