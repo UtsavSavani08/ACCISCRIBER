@@ -11,6 +11,7 @@ stripe.api_key = os.getenv("STRIPE_SECRET_KEY")  # Set your Stripe secret key in
 async def create_checkout_session(request: Request):
     data = await request.json()
     price_id = data.get("priceId")
+    user_id = data.get("userId")
     if not price_id:
         return JSONResponse({"error": "Missing priceId"}, status_code=400)
     try:
@@ -20,6 +21,7 @@ async def create_checkout_session(request: Request):
             mode="payment",
             success_url="http://localhost:5173/pricing/pay/checkout/success",
             cancel_url="http://localhost:5173/pricing/pay/checkout/cancel",
+            metadata={"user_id": user_id}
         )
         return JSONResponse({"sessionId": session.id})
     except Exception as e:

@@ -4,6 +4,7 @@ from fastapi.responses import JSONResponse
 from supabase import create_client, Client
 from uuid import uuid4
 from handlers.process_audio import AudioProcessor
+from handlers.process_video import VideoProcessor
 from dotenv import load_dotenv
 from typing import Dict
 import logging
@@ -18,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 # Initialize router and processor
 router = APIRouter()
-processor = AudioProcessor()
+processor = VideoProcessor()
 
 # Supabase configuration
 SUPABASE_URL = os.getenv("SUPABASE_URL")
@@ -74,11 +75,12 @@ async def transcribe_audio(
 
         # 3. Upload files to Supabase Storage
         storage_path = f"{user_id}/{file_id}"
-        audio_storage_path = f"{storage_path}.{file_ext}"
+        audio_ext = result["data"]["audio_path"].split('.')[-1]
+        audio_storage_path = f"{storage_path}.{audio_ext}"
         srt_storage_path = f"{storage_path}.srt"
 
         # Upload audio
-        with open(file_path, "rb") as f:
+        with open(result["data"]["audio_path"], "rb") as f:
             supabase.storage.from_(SUPABASE_BUCKET).upload(audio_storage_path, f)
         logger.info(f"[AudioAPI] Uploaded audio to {audio_storage_path}")
 
@@ -98,11 +100,11 @@ async def transcribe_audio(
             "filename": file.filename,
             "type": "video",
             "audio_url": audio_url,
-            "video_url": video_url,
+            "video_url": None,
             "srt_url": srt_url,
             "duration": result["data"].get("duration"),
             "word_count": result["data"].get("word_count"),
-            "language": result["data"].get("language")
+            "language": result["data"].get("detected_language"),
         }
        
         logger.info(f"[AudioAPI] Inserting metadata into DB: {upload_record}")  
@@ -124,6 +126,8 @@ async def transcribe_audio(
         # 6. Schedule cleanup
         background_tasks.add_task(os.remove, file_path)
         background_tasks.add_task(os.remove, result["data"]["srt_path"])
+        background_tasks.add_task(os.remove, result["data"]["audio_path"])
+        background_tasks.add_task(os.remove, result["data"]["json_path"])
         logger.info(f"[AudioAPI] Scheduled cleanup for temp files")
 
         return JSONResponse(status_code=200, content={

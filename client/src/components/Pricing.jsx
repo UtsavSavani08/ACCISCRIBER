@@ -1,6 +1,13 @@
 import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
 import { loadStripe } from "@stripe/stripe-js";
+import { createClient } from "@supabase/supabase-js";
+
+// Initialize Supabase client
+const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_ANON_KEY
+);
 
 const plans = [
   {
@@ -59,11 +66,17 @@ export default function Pricing() {
 
   async function handleCheckout(priceId) {
     const stripe = await stripePromise;
+    // Get the current user from Supabase
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) {
+      alert("Please log in to purchase credits.");
+      return;
+    }
     // Use HTTP, not HTTPS for localhost backend
     const res = await fetch("http://localhost:8000/api/create-checkout-session", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ priceId }),
+      body: JSON.stringify({ priceId, userId: user.id }),
     });
     if (!res.ok) {
       alert("Failed to create Stripe checkout session.");

@@ -58,7 +58,7 @@ export default function Hero() {
                         </div>
                         <h3 className="text-xl font-semibold text-gray-900">Enterprise-Grade Upload</h3>
                         <p className="mt-4 text-gray-600 leading-relaxed">
-                            Secure file handling with support for high-quality audio and video formats. Process files up to 2GB.
+                            Secure file handling with support for high-quality audio and video formats. Process files up to 0.2GB.
                         </p>
                     </div>
 
