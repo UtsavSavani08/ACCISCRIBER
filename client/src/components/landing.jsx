@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import Hero from '../components/Hero';
+import Hero from '../components/hero';
 // import About from '../components/About';
 import Features from '../components/Features';
-import Contact from '../components/Contact';
-import Bottombar from '../components/BottomBar';
+import Contact from '../components/contact';
+import Bottombar from '../components/bottombar';
 
 export default function Landing() {
   const location = useLocation();
