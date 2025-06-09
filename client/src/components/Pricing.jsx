@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
 import { loadStripe } from "@stripe/stripe-js";
 import { createClient } from "@supabase/supabase-js";
+import react from 'react';
 
 // Initialize Supabase client
 const supabase = createClient(
