@@ -105,7 +105,7 @@ async def transcribe_audio(
             "srt_url": srt_url,
             "duration": result["data"]["duration"],
             "word_count": result["data"]["word_count"],
-            "language": result["data"].get("language")
+            "language": result["data"].get("detected_language")
         }
 
         db_resp = supabase.table("uploads").insert(upload_record).execute()

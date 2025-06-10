@@ -33,7 +33,8 @@ class AudioProcessor:
                     "word_count": result["word_count"],
                     "detected_language": result["language"],
                     "srt_filename": os.path.basename(result["srt_path"]),
-                    "srt_path": result["srt_path"]
+                    "srt_path": result["srt_path"],
+                    "json_path": result["json_path"]
                 },
                 "error": None
             }
