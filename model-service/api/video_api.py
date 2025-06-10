@@ -124,11 +124,15 @@ async def transcribe_audio(
         }).execute()
 
         # 6. Schedule cleanup
-        background_tasks.add_task(os.remove, file_path)
-        background_tasks.add_task(os.remove, result["data"]["srt_path"])
-        background_tasks.add_task(os.remove, result["data"]["audio_path"])
-        background_tasks.add_task(os.remove, result["data"]["json_path"])
-        logger.info(f"[AudioAPI] Scheduled cleanup for temp files")
+        def cleanup_temp_uploads():
+            temp_dir = "temp_uploads"
+            if os.path.exists(temp_dir):
+                shutil.rmtree(temp_dir)
+                os.makedirs(temp_dir, exist_ok=True)
+                logger.info("[VideoAPI] Cleaned up all files in temp_uploads.")
+
+        background_tasks.add_task(cleanup_temp_uploads)
+        logger.info(f"[VideoAPI] Scheduled cleanup for entire temp_uploads folder")
 
         return JSONResponse(status_code=200, content={
             "status": "success",
