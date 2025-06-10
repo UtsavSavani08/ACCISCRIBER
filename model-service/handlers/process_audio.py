@@ -13,33 +13,31 @@ from typing import Dict
 import os
 
 class AudioProcessor:
-    def __init__(self):
-        self.transcriber = Transcriber(model_name="turbo")
-
     async def process_file(self, file_path: str, output_dir: str) -> Dict:
         try:
-            print(f"Processing audio file: {file_path}") 
-            result = self.transcriber.process_media(
+            print(f"Processing audio file: {file_path}")
+            transcriber = Transcriber(model_name="turbo")  # Instantiate per request
+            result = transcriber.process_media(
                 file_path,
                 output_dir,
                 min_confidence=0.5
             )
-            print(f"Transcription result: {result}") 
-            
+            print(f"Transcription result: {result}")
+
             return {
                 "status": "success",
                 "data": {
                     "duration": result["duration"],
                     "word_count": result["word_count"],
                     "detected_language": result["language"],
-                    "srt_filename": os.path.basename(result["srt_path"]),
+                    "srt_filename": os.path.basename(file_path),
                     "srt_path": result["srt_path"],
                     "json_path": result["json_path"]
                 },
                 "error": None
             }
         except Exception as e:
-            print(f"Error processing audio: {str(e)}") 
+            print(f"Error processing audio: {str(e)}")
             return {
                 "status": "error",
                 "data": None,

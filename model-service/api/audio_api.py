@@ -12,7 +12,12 @@ from fastapi import BackgroundTasks
 load_dotenv()
 
 router = APIRouter()
-processor = AudioProcessor()
+
+# Supabase config
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_BUCKET = "transcriptions"
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Configure logging
 logging.basicConfig(
@@ -25,11 +30,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Supabase config
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-SUPABASE_BUCKET = "transcriptions"
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
 
 @router.post("/transcribe")
 async def transcribe_audio(
@@ -70,6 +71,7 @@ async def transcribe_audio(
         logger.info(f"File saved locally at {file_path}")
 
         # 2. Process the file (transcribe + generate SRT)
+        processor = AudioProcessor()  # Instantiate per request
         result = await processor.process_file(file_path, upload_dir)
         logger.info(f"Processing result: {result}")
 

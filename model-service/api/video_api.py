@@ -19,7 +19,6 @@ logger = logging.getLogger(__name__)
 
 # Initialize router and processor
 router = APIRouter()
-processor = VideoProcessor()
 
 # Supabase configuration
 SUPABASE_URL = os.getenv("SUPABASE_URL")
@@ -68,6 +67,7 @@ async def transcribe_audio(
         logger.info(f"[AudioAPI] Saved uploaded file at {file_path}")
 
         # 2. Process file (transcription and SRT generation)
+        processor = VideoProcessor()
         result = await processor.process_file(file_path, upload_dir)
         if result["status"] == "error":
             raise Exception(result["error"])

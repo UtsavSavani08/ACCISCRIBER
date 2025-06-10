@@ -14,13 +14,11 @@ from typing import Dict
 import os
 
 class VideoProcessor:
-    def __init__(self):
-        self.transcriber = VideoTranscriber(model_name="turbo")
-
     async def process_file(self, file_path: str, output_dir: str) -> Dict:
         try:
             print(f"Processing video file: {file_path}") # Add logging
-            result = self.transcriber.process_video(
+            transcriber = VideoTranscriber(model_name="turbo")  # Instantiate per request
+            result = transcriber.process_video(
                 file_path,
                 output_dir,
                 min_confidence=0.5

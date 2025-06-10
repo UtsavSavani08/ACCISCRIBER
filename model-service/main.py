@@ -7,9 +7,17 @@ from api.stats_api import router as stats_router
 from api.livetranscribe_api import router as livetranscribe_router
 from api.stripe_checkout_api import router as stripe_checkout_router
 from api.stripe_webhook_api import router as stripe_webhook_router
+from supabase import create_client, Client
+
+from dotenv import load_dotenv
+load_dotenv()
 
 
 import os
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_BUCKET = "transcriptions"
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 app = FastAPI(
     title="Media Transcription Service",
