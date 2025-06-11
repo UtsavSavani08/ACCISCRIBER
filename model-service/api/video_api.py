@@ -1,4 +1,5 @@
 import os
+import shutil
 from fastapi import APIRouter, UploadFile, File, Form, HTTPException, BackgroundTasks
 from fastapi.responses import JSONResponse
 from supabase import create_client, Client

@@ -37,5 +37,6 @@ pytest==8.3.5
 pytest-mock==3.14.1
 python-dateutil==2.9.0.post0
 pyreadline3==3.5.4
+faster-whisper==1.1.1
 moviepy==1.0.3
 pydub==0.25.1
