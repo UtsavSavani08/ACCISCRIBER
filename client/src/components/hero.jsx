@@ -96,7 +96,7 @@ export default function Hero() {
                             <div className="text-5xl font-bold text-white mb-3">
                                 {stats.users.toLocaleString()}
                             </div>
-                            <div className="text-indigo-200 font-medium">Enterprise Clients</div>
+                            <div className="text-indigo-200 font-medium">Active Users</div>
                         </div>
                         <div className="px-8 py-12 text-center">
                             <div className="text-5xl font-bold text-white mb-3">20+</div>
