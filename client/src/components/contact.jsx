@@ -126,7 +126,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm font-medium text-gray-500">Email</p>
                   <a href="mailto:hello@dobodo.com" className="text-base text-indigo-600 hover:text-indigo-700 transition-colors duration-200">
-                    Click here
+                    hello@dobedosoft.com
                   </a>
                 </div>
               </div>

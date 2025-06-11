@@ -113,7 +113,7 @@ export default function Record() {
       const formData = new FormData();
         formData.append("file", blob, "recording.wav");
         formData.append("user_id", userId);
-        formData.append("minutes", recordedMinutes); // <-- Send minutes to backend
+        formData.append("duration", recordedMinutes); // <-- Send minutes to backend
 
       // const fileType = file.type.startsWith("video/") ? "video" : "audio";
 
