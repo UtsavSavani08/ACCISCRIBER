@@ -27,4 +27,4 @@ COPY . .
 EXPOSE 8000
 
 # Command to run the app
-CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8000 --workers $(python -c 'import os; print(max(1, (os.cpu_count() or 1) - 1))')"]
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8000 --workers $(python -c 'import os; print(max(1, (os.cpu_count() or 1)))')"]
