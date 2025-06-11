@@ -147,7 +147,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-500">Address</p>
-                  <p className="text-base text-gray-900">DOBODO soft, MOTA VARACHA, Surat, India </p>
+                  <p className="text-base text-gray-900">DOBODO soft, Mota varacha, Surat, India </p>
                 </div>
               </div>
             </div>
