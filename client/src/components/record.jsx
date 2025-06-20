@@ -47,7 +47,10 @@ export default function Record() {
                 // Calculate minutes and increment if seconds > 40
                 let minutes = Math.floor(recordingTime / 60);
                 let seconds = recordingTime % 60;
-                if (seconds > 40) {
+                if(minutes==0 && seconds > 10) {
+                  minutes += 1;
+                }
+                else if (seconds > 40) {
                   minutes += 1;
                 }
                 setRecordedMinutes(minutes);
