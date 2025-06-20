@@ -175,7 +175,7 @@ export default function Record() {
     }
 
     return (
-        <div className="w-screen flex items-center justify-center bg-white">
+        <div className="flex items-center justify-center bg-white">
             <div className="w-full max-w-2xl p-6 space-y-8">
                 <motion.h1 
                     initial={{ opacity: 0, y: -20 }}
