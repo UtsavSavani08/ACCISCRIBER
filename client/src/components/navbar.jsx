@@ -158,7 +158,7 @@ export default function Navbar() {
   const handleSectionNavigation = (e, sectionId) => {
     e.preventDefault();
     if (location.pathname === "/") {
-      scrollToSection(sectionId);
+      navigate("/", { state: { scrollTo: sectionId } });
     } else {
       navigate("/", { state: { scrollTo: sectionId } });
     }
